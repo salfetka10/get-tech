@@ -165,13 +165,16 @@ def fetch_posts() -> list[dict]:
         for m in found:
             body = m.select_one(".tgme_widget_message_text")
             when = m.select_one("time[datetime]")
+            photos = [re.search(r"url\('([^']+)'\)", ph.get("style", "")) for ph in m.select(".tgme_widget_message_photo_wrap")]
+            photos = [x.group(1) for x in photos if x]
+            text = ""
             if body:
                 for br in body.find_all("br"):
                     br.replace_with("\n")
+                text = body.get_text()
+            if text or photos:
                 posts.append({"id": m.get("data-post", ""), "time": when["datetime"] if when else None,
-                              "text": body.get_text()})
-            elif m.select_one(".tgme_widget_message_photo_wrap, .tgme_widget_message_document"):
-                posts.append({"id": m.get("data-post", ""), "time": None, "text": "", "media": True})
+                              "text": text, "photos": photos})
         ids = [int(m.get("data-post", "0").split("/")[-1] or 0) for m in found]
         before = min(ids) if ids else None
         if not before:
@@ -192,8 +195,11 @@ def build(posts: list[dict]) -> dict:
             it["updated"] = p["time"]
             items.append(it)
     items.sort(key=lambda x: CATEGORY_ORDER.index(x["category"]))
-    stats = {"posts": len(posts), "media_only": sum(1 for p in posts if p.get("media")),
-             "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"]))}
+    stats = {"posts": len(posts),
+             "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"])),
+             "photo_posts": sum(1 for p in posts if p.get("photos")),
+             "photos": sum(len(p.get("photos", [])) for p in posts),
+             "photo_captions": [p["text"].strip().splitlines()[0][:40] if p["text"].strip() else "" for p in posts if p.get("photos")][:40]}
     return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "stats": stats, "items": items}
 
 
