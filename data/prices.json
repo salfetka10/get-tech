@@ -1,10 +1,14 @@
 {
- "updated": "2026-11-08T13:14+00:00",
+ "updated": "2026-11-08T13:16+00:00",
  "count": 2742,
  "stats": {
   "posts": 80,
-  "media_only": 0,
-  "with_prices": 48
+  "with_prices": 48,
+  "photo_posts": 1,
+  "photos": 1,
+  "photo_captions": [
+   "Друзья! В честь 13-летия мы приготовили "
+  ]
  },
  "items": [
   {
