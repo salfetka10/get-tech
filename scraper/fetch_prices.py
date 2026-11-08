@@ -183,6 +183,7 @@ def fetch_posts() -> list[dict]:
 
 
 MEDIA: list[str] = []
+DIAG: dict = {}
 
 
 def fetch_posts_api() -> list[dict]:
@@ -202,6 +203,12 @@ def fetch_posts_api() -> list[dict]:
                 if msg.message:
                     when = (msg.edit_date or msg.date)
                     posts.append({"id": f"{CHANNEL}/{msg.id}", "time": when.isoformat(), "text": msg.message, "photos": []})
+            one = await client.get_messages(CHANNEL, ids=12970)
+            if one:
+                d = one.to_dict()
+                DIAG.update({k: (type(v).__name__ if not isinstance(v, dict) else "dict:" + str(v.get("_"))) for k, v in d.items() if v not in (None, False, [], "")})
+                DIAG["message_len"] = len(one.message or "")
+                DIAG["raw_text_len"] = len(one.raw_text or "")
         return posts
 
     return asyncio.run(run())
@@ -261,6 +268,7 @@ def main() -> int:
         data = build(posts)
         data["stats"]["source"] = "api"
         data["stats"]["media_without_text"] = MEDIA[:60]
+        data["stats"]["diag_12970"] = DIAG
         return save(data)
     posts = fetch_posts()
     seen = {int(p["id"].split("/")[-1] or 0) for p in posts}
