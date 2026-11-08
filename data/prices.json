@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T17:55+00:00",
- "count": 3962,
+ "updated": "2026-11-08T17:57+00:00",
+ "count": 3956,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -1535,14 +1535,6 @@
    "note": "",
    "price": 11900,
    "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Magic Keyboard",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T12:52:23+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -5018,14 +5010,6 @@
   },
   {
    "category": "Mac",
-   "name": "MacMini M6",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T11:24:29+00:00"
-  },
-  {
-   "category": "Mac",
    "name": "MHQK4 Mac Mini Silver (M6, 12 CPU, 12 GPU, 16GB, 256GB)",
    "region": "US",
    "note": "",
@@ -6450,14 +6434,6 @@
   },
   {
    "category": "iPad",
-   "name": "iPad Air M2",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T12:52:23+00:00"
-  },
-  {
-   "category": "iPad",
    "name": "iPad Air 11 (M4) 2026 128 Wi-Fi Grey",
    "region": "US",
    "note": "",
@@ -7250,15 +7226,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad Pro 11\" (M5)",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T11:24:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad iPro 11 M5 256 Black Wi-Fi",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 256 Black Wi-Fi",
    "region": "US",
    "note": "",
    "price": 100500,
@@ -7266,7 +7234,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 256 Silver Wi-Fi",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 256 Silver Wi-Fi",
    "region": "US",
    "note": "",
    "price": 101300,
@@ -7274,7 +7242,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 256 Black LTE",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 256 Black LTE",
    "region": "US",
    "note": "",
    "price": 121600,
@@ -7282,7 +7250,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 256 Silver LTE",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 256 Silver LTE",
    "region": "US",
    "note": "",
    "price": 125700,
@@ -7290,7 +7258,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 512 Black Wi-Fi",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 512 Black Wi-Fi",
    "region": "US",
    "note": "",
    "price": 130900,
@@ -7298,7 +7266,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 512 Silver Wi-Fi",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 512 Silver Wi-Fi",
    "region": "US",
    "note": "",
    "price": 135000,
@@ -7306,7 +7274,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 512 Black LTE",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 512 Black LTE",
    "region": "US",
    "note": "",
    "price": 154500,
@@ -7314,7 +7282,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 11 M5 512 Silver LTE",
+   "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 512 Silver LTE",
    "region": "US",
    "note": "",
    "price": 154500,
@@ -7322,15 +7290,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad Pro 13 M5",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T11:24:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad iPro 13 M5 256 Black Wi-Fi",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Black Wi-Fi",
    "region": "US",
    "note": "",
    "price": 115900,
@@ -7338,7 +7298,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 256 Silver Wi-Fi",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Silver Wi-Fi",
    "region": "US",
    "note": "",
    "price": 119500,
@@ -7346,7 +7306,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 256 Black LTE",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Black LTE",
    "region": "US",
    "note": "",
    "price": 121100,
@@ -7354,7 +7314,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 256 Silver LTE",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Silver LTE",
    "region": "US",
    "note": "",
    "price": 126200,
@@ -7362,7 +7322,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 512 Black Wi-Fi",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 512 Black Wi-Fi",
    "region": "US",
    "note": "",
    "price": 139100,
@@ -7370,7 +7330,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 512 Silver Wi-Fi",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 512 Silver Wi-Fi",
    "region": "US",
    "note": "",
    "price": 145300,
@@ -7378,7 +7338,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 512 Black LTE",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 512 Black LTE",
    "region": "US",
    "note": "",
    "price": 145300,
@@ -7386,7 +7346,7 @@
   },
   {
    "category": "iPad",
-   "name": "iPad iPro 13 M5 512 Silver LTE",
+   "name": "iPad Pro 13 M5 2025 iPro 13 M5 512 Silver LTE",
    "region": "US",
    "note": "",
    "price": 150400,
@@ -8606,14 +8566,6 @@
    "region": "",
    "note": "",
    "price": 18600,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods Max",
-   "region": "",
-   "note": "",
-   "price": 2100,
    "updated": "2026-11-08T12:52:50+00:00"
   },
   {
