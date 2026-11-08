@@ -182,6 +182,9 @@ def fetch_posts() -> list[dict]:
     return posts
 
 
+MEDIA: list[str] = []
+
+
 def fetch_posts_api() -> list[dict]:
     """Чтение канала от имени технического аккаунта: видит все посты, включая те,
     что веб-версия не показывает («Please open Telegram to view this post»)."""
@@ -194,6 +197,8 @@ def fetch_posts_api() -> list[dict]:
         async with TelegramClient(StringSession(os.environ["TG_SESSION"]), int(os.environ["TG_API_ID"]),
                                   os.environ["TG_API_HASH"]) as client:
             async for msg in client.iter_messages(CHANNEL, limit=POSTS_TO_READ):
+                if not msg.message and msg.media:
+                    MEDIA.append(f"{msg.id}:{type(msg.media).__name__}")
                 if msg.message:
                     when = (msg.edit_date or msg.date)
                     posts.append({"id": f"{CHANNEL}/{msg.id}", "time": when.isoformat(), "text": msg.message, "photos": []})
@@ -255,6 +260,7 @@ def main() -> int:
         posts = fetch_posts_api()
         data = build(posts)
         data["stats"]["source"] = "api"
+        data["stats"]["media_without_text"] = MEDIA[:60]
         return save(data)
     posts = fetch_posts()
     seen = {int(p["id"].split("/")[-1] or 0) for p in posts}
