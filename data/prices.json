@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T13:43+00:00",
- "count": 3930,
+ "updated": "2026-11-08T13:44+00:00",
+ "count": 3926,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -9,12 +9,1204 @@
  },
  "items": [
   {
-   "category": "iPhone",
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Silver",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-08T13:26:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Starlight",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-08T13:26:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Sky Blue",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T13:26:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Midnight",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-08T13:26:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Space Black",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-08T13:26:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Установка защитной пленки на Mac",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-08T13:26:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 45W Type-C with cable Black/White",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-08T13:08:08+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Redmi Pad 2 11\" Wi-Fi 4/128 Gray (чехол в комплекте)",
+   "region": "EU",
+   "note": "",
+   "price": 18800,
+   "updated": "2026-11-08T13:07:08+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Pad 7 Wi-Fi 12/256 Blue (чехол в комплекте)",
+   "region": "EU",
+   "note": "",
+   "price": 36500,
+   "updated": "2026-11-08T13:07:08+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Kanzan Pink (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 44300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Apricot Topaz (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 37100,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Red Velvet(Case)",
+   "region": "HK",
+   "note": "",
+   "price": 43300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Amber Silk(Case)",
+   "region": "HK",
+   "note": "",
+   "price": 38200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Ceramic Pink (Case)",
+   "region": "KR",
+   "note": "",
+   "price": 43800,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Blue Copper (Case)",
+   "region": "KR",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Apricot Topaz (Case)",
+   "region": "KR",
+   "note": "",
+   "price": 44300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HT01 Amber Silk (Case)",
+   "region": "KR",
+   "note": "",
+   "price": 45900,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD07 Blue Copper (Case)",
+   "region": "EU",
+   "note": "",
+   "price": 41800,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD15 Prussian Copper (Case)",
+   "region": "KR",
+   "note": "",
+   "price": 39700,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD15 Blue/Blush (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 39200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Blue Topaz (Case)",
+   "region": "EU",
+   "note": "",
+   "price": 56200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Ceramic Pink (Case)",
+   "region": "EU",
+   "note": "",
+   "price": 45400,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Blue Copper (Case)",
+   "region": "EU",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Apricot Topaz (Case)",
+   "region": "EU",
+   "note": "",
+   "price": 44300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Ceramic Pink (diffuse)",
+   "region": "EU",
+   "note": "",
+   "price": 43300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Red Velvet (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 49500,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Ceramic Pink (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 38700,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Apricot Topaz (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 37100,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Strawberry Bronze (Diffuse + Case)",
+   "region": "HK",
+   "note": "",
+   "price": 49500,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Blue Copper (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 32000,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Jasper Plum (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 43300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Amber Silk (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 45400,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Ceramic Pink",
+   "region": "HK",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Ceramic Patina",
+   "region": "HK",
+   "note": "",
+   "price": 39700,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Blue Copper",
+   "region": "HK",
+   "note": "",
+   "price": 32500,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Ceramic Patina Topaz",
+   "region": "IN",
+   "note": "",
+   "price": 37600,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD16 Plum Copper",
+   "region": "GB",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD17 Jasper Plum (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 40700,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD17 Ceramiс Pink (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 38200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD17 Kanzan Pink (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 43300,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD17 Apricot Topaz (Case)",
+   "region": "HK",
+   "note": "",
+   "price": 36600,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "HD17 Ceramic Pink (Case)",
+   "region": "EU",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-08T12:54:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "S10 42 Slate Titanium (без ремешка)",
+   "region": "QA",
+   "note": "",
+   "price": 45900,
+   "updated": "2026-11-08T12:53:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "S10 42 Natural Titanium (без ремешка)",
+   "region": "QA",
+   "note": "",
+   "price": 51000,
+   "updated": "2026-11-08T12:53:16+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Apple 20 w",
+   "region": "EU",
+   "note": "",
+   "price": 1900,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Apple 35W",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter MacBook Apple USB-C 35W",
+   "region": "",
+   "note": "",
+   "price": 4500,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Dynamic Power 40–60W (2026)",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple Power Adapter 35W Dual USB-C Port MW2K3",
+   "region": "RU",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple Power Adapter 35W Dual USB-C Port MNWM3",
+   "region": "US",
+   "note": "",
+   "price": 4700,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple Power Adapter 96W USB-C MX0J2",
+   "region": "US",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple Power Adapter 140W USB-C MLYU3",
+   "region": "US",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "MagSafe Charger 1m 2025г MGD74",
+   "region": "",
+   "note": "",
+   "price": 4700,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "MagSafe Charger 2m 2025г MGDM4",
+   "region": "",
+   "note": "",
+   "price": 5700,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Кабель Apple (плетёный) USB-C / USB-C, 1м, 60W белый",
+   "region": "",
+   "note": "",
+   "price": 2100,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Кабель Apple (плетёный) USB-C / USB-C, 2м, 160W белый",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple кабель USB-C to MagSafe 3 Silver 2m MLYV3",
+   "region": "",
+   "note": "",
+   "price": 4200,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple кабель USB-C to MagSafe 3 Midnight 2m MPL43",
+   "region": "",
+   "note": "",
+   "price": 5700,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple кабель USB-C to MagSafe 3 Space Gray 2m MPL23",
+   "region": "",
+   "note": "",
+   "price": 5700,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple Watch Magnetic Charger USB C",
+   "region": "",
+   "note": "",
+   "price": 4200,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
    "name": "MagSafe Battery Case iPhone Air",
    "region": "",
    "note": "",
    "price": 10000,
    "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple MagSafe Duo MHXF3",
+   "region": "",
+   "note": "",
+   "price": 10900,
+   "updated": "2026-11-08T12:52:50+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Зарядка Apple MagSafe (1м) 25w",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T12:38:06+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Зарядка Apple MagSafe (2м) 25w",
+   "region": "",
+   "note": "",
+   "price": 5100,
+   "updated": "2026-11-08T12:38:06+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "V15 SV47 Detect Absolute Yellow/Nickel с подставкой",
+   "region": "EU",
+   "note": "",
+   "price": 72100,
+   "updated": "2026-11-08T12:35:41+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Dyson V16 DS60 Piston Animal SV53-A(с подставкой)",
+   "region": "EU",
+   "note": "",
+   "price": 93800,
+   "updated": "2026-11-08T12:35:41+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "V15s Detect Submarine Yellow/Nickel SV47 с подставкой",
+   "region": "EU",
+   "note": "",
+   "price": 71600,
+   "updated": "2026-11-08T12:35:41+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "V15s SV47 Detect Submarine Yellow/Nickel с подставкой",
+   "region": "GB",
+   "note": "",
+   "price": 70600,
+   "updated": "2026-11-08T12:35:41+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "V16s DS60 SV53A Piston Animal Submarine Wash с подставкой",
+   "region": "EU",
+   "note": "",
+   "price": 105100,
+   "updated": "2026-11-08T12:35:41+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Внешний твердотельный накопитель MagSafe SanDisk Creator Phone SSD (1 ТБ)",
+   "region": "",
+   "note": "",
+   "price": 26800,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Внешний твердотельный накопитель MagSafe SanDisk Creator Phone SSD (2 ТБ)",
+   "region": "",
+   "note": "",
+   "price": 33000,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Карта памяти SanDisk Extreme Pro microSDXC UHS-I 128 ГБ (U3, V30, A2) с адаптером",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Карта памяти SanDisk Extreme Pro microSDXC UHS-I 256 ГБ (U3, V30, A2) с адаптером",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Карта памяти SanDisk Extreme Pro microSDXC UHS-I 512 ГБ (U3, V30, A2) с адаптером",
+   "region": "",
+   "note": "",
+   "price": 15700,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Подставка для PS5 Slim/ Pro",
+   "region": "",
+   "note": "",
+   "price": 2900,
+   "updated": "2026-11-08T12:32:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Case",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T12:32:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Nintendo Switch 2 Carrying Case and Screen Protector",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T12:32:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7200,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 12400,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Black",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Magenta",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Taupe",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T11:43:59+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI Mic 3 (2TX + 1RX + Charging Case)",
+   "region": "",
+   "note": "",
+   "price": 22700,
+   "updated": "2026-11-08T11:25:57+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI Mic Mini 2 (2TX + 1 RX + Charging Case)",
+   "region": "",
+   "note": "",
+   "price": 9300,
+   "updated": "2026-11-08T11:25:57+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI Mic Mini (2TX + 1 RX + Charging Case)",
+   "region": "",
+   "note": "",
+   "price": 7800,
+   "updated": "2026-11-08T11:25:57+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI 65W Car Charger",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T11:25:57+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Alientech Deimox Cable 20M (2x)",
+   "region": "",
+   "note": "",
+   "price": 28900,
+   "updated": "2026-11-08T11:25:57+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Watch 5 Black Strap",
+   "region": "",
+   "note": "",
+   "price": 21000,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Watch 5 Juniper Green Strap",
+   "region": "",
+   "note": "",
+   "price": 21000,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Watch S4 41mm RU Fluororubber Strap Black",
+   "region": "",
+   "note": "",
+   "price": 12300,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Watch S4 41mm RU Fluororubber Strap Green",
+   "region": "",
+   "note": "",
+   "price": 12300,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Watch S4 41mm RU Leather Strap White",
+   "region": "",
+   "note": "",
+   "price": 13700,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Xiaomi Watch S4 41mm RU Milanese Strap Sunset Gold",
+   "region": "",
+   "note": "",
+   "price": 17000,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Studio Display Nano Glass VESA Mount Adapter MYJL3",
+   "region": "RU",
+   "note": "",
+   "price": 214300,
+   "updated": "2026-11-08T11:24:29+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Studio Display Standart Glass VESA Mount Adapter | MYJH3",
+   "region": "RU",
+   "note": "",
+   "price": 206000,
+   "updated": "2026-11-08T11:24:29+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Apple VESA Mount Adapter | MX5M3",
+   "region": "RU",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-08T11:24:29+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Case Blue",
+   "region": "",
+   "note": "",
+   "price": 20100,
+   "updated": "2026-11-08T09:52:12+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Case Sand",
+   "region": "",
+   "note": "",
+   "price": 20100,
+   "updated": "2026-11-08T09:52:12+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Opera de Paris(2 шт) +Tree(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 865200,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Opera de Paris(2 шт)+Treepod(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 915700,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Light Pearl(2 шт)+Tree(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 788000,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Light Pearl(2 шт)+Treepod(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 746800,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Deep Forest(2 шт)+Tree(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 782800,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Deep Forest(2 шт)+Treepod(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 746800,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Opera de Paris +Tree",
+   "region": "",
+   "note": "",
+   "price": 468700,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Opera de Paris+Treepod",
+   "region": "",
+   "note": "",
+   "price": 453200,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Deep Forest+Tree",
+   "region": "",
+   "note": "",
+   "price": 411000,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Deep Forest+Treepod",
+   "region": "",
+   "note": "",
+   "price": 390400,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Deep Forest+Gecko",
+   "region": "",
+   "note": "",
+   "price": 390400,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Light Pearl+Tree",
+   "region": "",
+   "note": "",
+   "price": 411900,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Light Pearl+Treepod",
+   "region": "",
+   "note": "",
+   "price": 390400,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Light Pearl+Gecko",
+   "region": "",
+   "note": "",
+   "price": 390400,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom I 108 dB Gold(2 шт)+Tree(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 710700,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom I 108 dB Gold(2 шт)+Treepod(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 674700,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom I 108 dB Gold+Tree",
+   "region": "",
+   "note": "",
+   "price": 375000,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom I 108 dB Gold+Treepod",
+   "region": "",
+   "note": "",
+   "price": 355400,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom I 108 dB Gold+Gecko",
+   "region": "",
+   "note": "",
+   "price": 355400,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 98 dB+ 2 Подставки Devialet Phantom Ultimate 98 dB Opera de Paris(2 шт)+Tree(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 468700,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Стерео комплект: 2 колонки 98 dB+ 2 Подставки Devialet Phantom Ultimate 98 dB Light Pearl(2 шт)+Tree(2 шт)",
+   "region": "",
+   "note": "",
+   "price": 437800,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Opera de Paris+Tree",
+   "region": "",
+   "note": "",
+   "price": 242100,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Opera de Paris+Gecko",
+   "region": "",
+   "note": "",
+   "price": 242100,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Deep Forest+Tree",
+   "region": "",
+   "note": "",
+   "price": 216300,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Deep Forest+Gecko",
+   "region": "",
+   "note": "",
+   "price": 216300,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Light Pearl+Tree",
+   "region": "",
+   "note": "",
+   "price": 213300,
+   "updated": "2026-11-05T15:30:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Light Pearl+Gecko",
+   "region": "",
+   "note": "",
+   "price": 213300,
+   "updated": "2026-11-05T15:30:20+00:00"
   },
   {
    "category": "iPhone",
@@ -58,7 +1250,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 Black",
+   "name": "iPhone 17e 256 Black",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 66500,
@@ -66,7 +1258,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 black",
+   "name": "iPhone 17e 256 black",
    "region": "US",
    "note": "eSIM активирован",
    "price": 58200,
@@ -74,7 +1266,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 White",
+   "name": "iPhone 17e 256 White",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 66500,
@@ -82,7 +1274,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 White",
+   "name": "iPhone 17e 256 White",
    "region": "US",
    "note": "eSIM",
    "price": 60300,
@@ -90,7 +1282,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 Pink",
+   "name": "iPhone 17e 256 Pink",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 63900,
@@ -98,7 +1290,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 Pink",
+   "name": "iPhone 17e 256 Pink",
    "region": "CN",
    "note": "2sim",
    "price": 61300,
@@ -106,7 +1298,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 256 Pink",
+   "name": "iPhone 17e 256 Pink",
    "region": "US",
    "note": "eSIM активирован",
    "price": 58200,
@@ -114,7 +1306,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 Black",
+   "name": "iPhone 17e 512 Black",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 81400,
@@ -122,7 +1314,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 Black",
+   "name": "iPhone 17e 512 Black",
    "region": "US",
    "note": "eSIM",
    "price": 71100,
@@ -130,7 +1322,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 Black",
+   "name": "iPhone 17e 512 Black",
    "region": "US",
    "note": "eSIM активирован",
    "price": 60800,
@@ -138,7 +1330,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 White",
+   "name": "iPhone 17e 512 White",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 79900,
@@ -146,7 +1338,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 White",
+   "name": "iPhone 17e 512 White",
    "region": "JP",
    "note": "eSIM",
    "price": 70600,
@@ -154,7 +1346,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 Pink",
+   "name": "iPhone 17e 512 Pink",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 79900,
@@ -162,7 +1354,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17e 512 Pink",
+   "name": "iPhone 17e 512 Pink",
    "region": "US",
    "note": "eSIM",
    "price": 67500,
@@ -170,7 +1362,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 Black",
+   "name": "iPhone 17 256 Black",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 76800,
@@ -178,7 +1370,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 Blue",
+   "name": "iPhone 17 256 Blue",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 76300,
@@ -186,7 +1378,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 Blue",
+   "name": "iPhone 17 256 Blue",
    "region": "IN",
    "note": "SIM + eSIM активирован",
    "price": 71800,
@@ -194,7 +1386,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 White",
+   "name": "iPhone 17 256 White",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 76800,
@@ -202,7 +1394,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 White",
+   "name": "iPhone 17 256 White",
    "region": "IN",
    "note": "SIM + eSIM активирован",
    "price": 72400,
@@ -210,7 +1402,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 Sage",
+   "name": "iPhone 17 256 Sage",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 76800,
@@ -218,7 +1410,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 Lavender",
+   "name": "iPhone 17 256 Lavender",
    "region": "IN",
    "note": "SIM + eSIM",
    "price": 76600,
@@ -226,7 +1418,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 17 256 Lavender",
+   "name": "iPhone 17 256 Lavender",
    "region": "IN",
    "note": "SIM + eSIM активирован",
    "price": 75200,
@@ -234,7 +1426,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE",
+   "name": "iPhone",
    "region": "",
    "note": "",
    "price": 18100,
@@ -242,7 +1434,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 256 Blue",
+   "name": "iPhone Air 256 Blue",
    "region": "US, JP",
    "note": "eSIM",
    "price": 76800,
@@ -250,7 +1442,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 256 Gold",
+   "name": "iPhone Air 256 Gold",
    "region": "US, JP",
    "note": "eSIM",
    "price": 76800,
@@ -258,7 +1450,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 256 White",
+   "name": "iPhone Air 256 White",
    "region": "US, JP",
    "note": "eSIM",
    "price": 78300,
@@ -266,7 +1458,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 256 Black",
+   "name": "iPhone Air 256 Black",
    "region": "US, JP",
    "note": "eSIM",
    "price": 77800,
@@ -274,7 +1466,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 512 Bluе",
+   "name": "iPhone Air 512 Bluе",
    "region": "JP",
    "note": "eSIM",
    "price": 83200,
@@ -282,7 +1474,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 512 Gold",
+   "name": "iPhone Air 512 Gold",
    "region": "JP",
    "note": "eSIM",
    "price": 83200,
@@ -290,7 +1482,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 512 Black",
+   "name": "iPhone Air 512 Black",
    "region": "JP",
    "note": "eSIM",
    "price": 90200,
@@ -298,7 +1490,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 512 White",
+   "name": "iPhone Air 512 White",
    "region": "JP",
    "note": "eSIM",
    "price": 96400,
@@ -306,7 +1498,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 1TB Blue",
+   "name": "iPhone Air 1TB Blue",
    "region": "JP",
    "note": "eSIM",
    "price": 91700,
@@ -314,7 +1506,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 1TB Gold",
+   "name": "iPhone Air 1TB Gold",
    "region": "JP",
    "note": "eSIM",
    "price": 94500,
@@ -322,7 +1514,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 1TB White",
+   "name": "iPhone Air 1TB White",
    "region": "JP",
    "note": "eSIM",
    "price": 98400,
@@ -330,7 +1522,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE Air 1TB Black",
+   "name": "iPhone Air 1TB Black",
    "region": "JP",
    "note": "eSIM",
    "price": 94500,
@@ -866,246 +2058,6 @@
   },
   {
    "category": "iPhone",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Wrist Strap - Black",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Wrist Strap - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Wrist Strap - Magenta",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Wrist Strap - Taupe",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
    "name": "iPhone Duo 256 Star White",
    "region": "JP, HK",
    "note": "",
@@ -1170,22 +2122,6 @@
   },
   {
    "category": "iPhone",
-   "name": "iPhone Duo Case Blue",
-   "region": "",
-   "note": "",
-   "price": 20100,
-   "updated": "2026-11-08T09:52:12+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo Case Sand",
-   "region": "",
-   "note": "",
-   "price": 20100,
-   "updated": "2026-11-08T09:52:12+00:00"
-  },
-  {
-   "category": "iPhone",
    "name": "iPhone Duo Folio Blue",
    "region": "",
    "note": "",
@@ -1202,7 +2138,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 16E 128 Black",
+   "name": "iPhone 16 16E 128 Black",
    "region": "US",
    "note": "",
    "price": 46400,
@@ -1210,7 +2146,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 16E 128 Black",
+   "name": "iPhone 16 16E 128 Black",
    "region": "US",
    "note": "активирован",
    "price": 40200,
@@ -1218,7 +2154,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 16E 256 Black",
+   "name": "iPhone 16 16E 256 Black",
    "region": "CN",
    "note": "",
    "price": 50000,
@@ -1226,7 +2162,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 16E 256 White",
+   "name": "iPhone 16 16E 256 White",
    "region": "CN",
    "note": "",
    "price": 49000,
@@ -1234,7 +2170,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 16E 512 Black",
+   "name": "iPhone 16 16E 512 Black",
    "region": "IN",
    "note": "",
    "price": 58200,
@@ -1242,7 +2178,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 16E 512 White",
+   "name": "iPhone 16 16E 512 White",
    "region": "IN",
    "note": "",
    "price": 57700,
@@ -1250,7 +2186,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 Teal",
+   "name": "iPhone 16 128 Teal",
    "region": "IN",
    "note": "",
    "price": 63400,
@@ -1258,7 +2194,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 Teal",
+   "name": "iPhone 16 128 Teal",
    "region": "IN",
    "note": "активирован",
    "price": 61800,
@@ -1266,7 +2202,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 Black",
+   "name": "iPhone 16 128 Black",
    "region": "IN",
    "note": "",
    "price": 62900,
@@ -1274,7 +2210,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 Black",
+   "name": "iPhone 16 128 Black",
    "region": "US",
    "note": "",
    "price": 61300,
@@ -1282,7 +2218,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 Pink",
+   "name": "iPhone 16 128 Pink",
    "region": "IN",
    "note": "",
    "price": 62900,
@@ -1290,7 +2226,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 White",
+   "name": "iPhone 16 128 White",
    "region": "IN",
    "note": "",
    "price": 62900,
@@ -1298,7 +2234,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 128 Ultramarine",
+   "name": "iPhone 16 128 Ultramarine",
    "region": "IN",
    "note": "",
    "price": 62900,
@@ -1306,7 +2242,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Plus 128 Black",
+   "name": "iPhone 16 Plus 128 Black",
    "region": "IN",
    "note": "",
    "price": 70600,
@@ -1314,7 +2250,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Plus 128 Pink",
+   "name": "iPhone 16 Plus 128 Pink",
    "region": "IN",
    "note": "",
    "price": 71900,
@@ -1322,7 +2258,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Prо Maх 256 Desert",
+   "name": "iPhone 16 Prо Maх 256 Desert",
    "region": "KW",
    "note": "",
    "price": 99400,
@@ -1330,7 +2266,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Prо Maх 256 Desert",
+   "name": "iPhone 16 Prо Maх 256 Desert",
    "region": "US",
    "note": "",
    "price": 96400,
@@ -1338,7 +2274,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Pro Max 256 White",
+   "name": "iPhone 16 Pro Max 256 White",
    "region": "AE",
    "note": "",
    "price": 115900,
@@ -1346,7 +2282,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Pro Max 256 White",
+   "name": "iPhone 16 Pro Max 256 White",
    "region": "US",
    "note": "",
    "price": 97400,
@@ -1354,7 +2290,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Pro Max 256 Natural",
+   "name": "iPhone 16 Pro Max 256 Natural",
    "region": "IN",
    "note": "активирован",
    "price": 101000,
@@ -1362,7 +2298,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Pro Max 256 Natural",
+   "name": "iPhone 16 Pro Max 256 Natural",
    "region": "US",
    "note": "",
    "price": 97400,
@@ -1370,7 +2306,7 @@
   },
   {
    "category": "iPhone",
-   "name": "IPHONE 16 Pro Max 256 Black",
+   "name": "iPhone 16 Pro Max 256 Black",
    "region": "US",
    "note": "",
    "price": 96400,
@@ -1607,14 +2543,6 @@
    "note": "",
    "price": 175500,
    "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "Adapter MacBook Apple USB-C 35W",
-   "region": "",
-   "note": "",
-   "price": 4500,
-   "updated": "2026-11-08T12:52:50+00:00"
   },
   {
    "category": "Mac",
@@ -2506,7 +3434,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 16/512) Black",
+   "name": "MacBook Pro 14 (M5 16/512) Black",
    "region": "IN, US",
    "note": "",
    "price": 172100,
@@ -2514,7 +3442,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 24/512) Black",
+   "name": "MacBook Pro 14 (M5 24/512) Black",
    "region": "IN, US",
    "note": "",
    "price": 176200,
@@ -2522,7 +3450,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Pro 24/ 1TB) Black",
+   "name": "MacBook Pro 14 (M5 Pro 24/ 1TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 215300,
@@ -2530,7 +3458,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Pro 24/ 1TB) Black",
+   "name": "MacBook Pro 14 (M5 Pro 24/ 1TB) Black",
    "region": "IN, US",
    "note": "активирован",
    "price": 214300,
@@ -2538,7 +3466,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Pro 24/1TB) Silver",
+   "name": "MacBook Pro 14 (M5 Pro 24/1TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 222000,
@@ -2546,7 +3474,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Pro 24/1TB) Silver",
+   "name": "MacBook Pro 14 (M5 Pro 24/1TB) Silver",
    "region": "IN, US",
    "note": "С пленкой/ гравировкой",
    "price": 221500,
@@ -2554,7 +3482,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Pro 24/2TB) Black",
+   "name": "MacBook Pro 14 (M5 Pro 24/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 232800,
@@ -2562,7 +3490,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Pro 24/2TB) Silver",
+   "name": "MacBook Pro 14 (M5 Pro 24/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 234900,
@@ -2570,7 +3498,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M4 Max 36/1TB) Black",
+   "name": "MacBook Pro 14 (M4 Max 36/1TB) Black",
    "region": "US",
    "note": "",
    "price": 266800,
@@ -2578,7 +3506,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Max 36/2TB) Black",
+   "name": "MacBook Pro 14 (M5 Max 36/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 330700,
@@ -2586,7 +3514,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 (M5 Max 36/2TB) Silver",
+   "name": "MacBook Pro 14 (M5 Max 36/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 330700,
@@ -2594,7 +3522,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Pro (18c CPU/20c GPU/48/1Tb) Silver Рус",
+   "name": "MacBook Pro 14 M5 Pro (18c CPU/20c GPU/48/1Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 367800,
@@ -2602,7 +3530,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 518100,
@@ -2610,7 +3538,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 518100,
@@ -2618,7 +3546,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Black Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 597400,
@@ -2626,7 +3554,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Silver Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 597400,
@@ -2634,7 +3562,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Black Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 723100,
@@ -2642,7 +3570,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Silver Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 723100,
@@ -2650,7 +3578,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 860100,
@@ -2658,7 +3586,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 14 M5 Pro Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
+   "name": "MacBook Pro 14 M5 Pro Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 860100,
@@ -2666,7 +3594,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Pro 24/1TB) Black",
+   "name": "MacBook Pro 16 (M5 Pro 24/1TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 242100,
@@ -2674,7 +3602,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Pro 24/1TB) Silver",
+   "name": "MacBook Pro 16 (M5 Pro 24/1TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 249300,
@@ -2682,7 +3610,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Pro 48/1TB) Black",
+   "name": "MacBook Pro 16 (M5 Pro 48/1TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 319300,
@@ -2690,7 +3618,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Pro 48/1TB) Silver",
+   "name": "MacBook Pro 16 (M5 Pro 48/1TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 329600,
@@ -2698,7 +3626,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Max 36/2TB) Black",
+   "name": "MacBook Pro 16 (M5 Max 36/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 321400,
@@ -2706,7 +3634,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Max 36/2TB) Silver",
+   "name": "MacBook Pro 16 (M5 Max 36/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 321400,
@@ -2714,7 +3642,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max 48/2TB) Black",
+   "name": "MacBook Pro 16 M5 Max 48/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 394500,
@@ -2722,7 +3650,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 (M5 Max 48/2TB) Silver",
+   "name": "MacBook Pro 16 (M5 Max 48/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 399700,
@@ -2730,7 +3658,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Pro (18c CPU/20c GPU/64/1Tb) Black Рус",
+   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/1Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 437800,
@@ -2738,7 +3666,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Black Рус",
+   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 479000,
@@ -2746,7 +3674,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Silver Рус",
+   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 479000,
@@ -2754,7 +3682,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 551100,
@@ -2762,7 +3690,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 551100,
@@ -2770,7 +3698,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black",
    "region": "US",
    "note": "",
    "price": 736500,
@@ -2778,7 +3706,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black NANO",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black NANO",
    "region": "US",
    "note": "",
    "price": 746800,
@@ -2786,7 +3714,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver",
    "region": "US",
    "note": "",
    "price": 736500,
@@ -2794,7 +3722,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver NANO",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver NANO",
    "region": "US",
    "note": "",
    "price": 746800,
@@ -2802,7 +3730,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black",
    "region": "US",
    "note": "",
    "price": 896100,
@@ -2810,7 +3738,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 916700,
@@ -2818,7 +3746,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black NANO",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black NANO",
    "region": "US",
    "note": "",
    "price": 909500,
@@ -2826,7 +3754,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver",
    "region": "US",
    "note": "",
    "price": 896100,
@@ -2834,7 +3762,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 916700,
@@ -2842,7 +3770,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver NANO",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver NANO",
    "region": "US",
    "note": "",
    "price": 909500,
@@ -2850,7 +3778,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK Pro 16 Space Black (M5 Max, 128GB, 8TB, 18 CPU, 40 GPU) Z1N2001RW Nano Glass",
+   "name": "MacBook Pro 16 Space Black (M5 Max, 128GB, 8TB, 18 CPU, 40 GPU) Z1N2001RW Nano Glass",
    "region": "IN",
    "note": "",
    "price": 1029000,
@@ -3834,7 +4762,7 @@
   },
   {
    "category": "iPad",
-   "name": "IPad 11 512 Blue WIFI 2025",
+   "name": "iPad 11 512 Blue WIFI 2025",
    "region": "US",
    "note": "",
    "price": 67000,
@@ -4801,14 +5729,6 @@
    "updated": "2026-11-08T12:53:16+00:00"
   },
   {
-   "category": "Apple Watch",
-   "name": "Apple Watch Magnetic Charger USB C",
-   "region": "",
-   "note": "",
-   "price": 4200,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
    "category": "AirPods",
    "name": "AirPods 09/11/",
    "region": "",
@@ -4970,7 +5890,7 @@
   },
   {
    "category": "AirPods",
-   "name": "AirPods STEREO MAX DEPPO",
+   "name": "AirPods STEREO Max DEPPO",
    "region": "",
    "note": "",
    "price": 4700,
@@ -4990,46 +5910,6 @@
    "region": "US",
    "note": "",
    "price": 8100,
-   "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Silver",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Starlight",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Sky Blue",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Midnight",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Space Black",
-   "region": "",
-   "note": "",
-   "price": 5200,
    "updated": "2026-11-08T13:26:16+00:00"
   },
   {
@@ -5114,54 +5994,6 @@
   },
   {
    "category": "Аксессуары Apple",
-   "name": "MagSafe Charger 1m 2025г MGD74",
-   "region": "",
-   "note": "",
-   "price": 4700,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "MagSafe Charger 2m 2025г MGDM4",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Apple кабель USB-C to MagSafe 3 Silver 2m MLYV3",
-   "region": "",
-   "note": "",
-   "price": 4200,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Apple кабель USB-C to MagSafe 3 Midnight 2m MPL43",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Apple кабель USB-C to MagSafe 3 Space Gray 2m MPL23",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Apple MagSafe Duo MHXF3",
-   "region": "",
-   "note": "",
-   "price": 10900,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
    "name": "Magic Mouse Black USB-C",
    "region": "",
    "note": "",
@@ -5231,38 +6063,6 @@
    "note": "",
    "price": 11900,
    "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Зарядка Apple MagSafe (1м) 25w",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Зарядка Apple MagSafe (2м) 25w",
-   "region": "",
-   "note": "",
-   "price": 5100,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Внешний твердотельный накопитель MagSafe SanDisk Creator Phone SSD (1 ТБ)",
-   "region": "",
-   "note": "",
-   "price": 26800,
-   "updated": "2026-11-08T12:32:58+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Внешний твердотельный накопитель MagSafe SanDisk Creator Phone SSD (2 ТБ)",
-   "region": "",
-   "note": "",
-   "price": 33000,
-   "updated": "2026-11-08T12:32:58+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -5982,14 +6782,6 @@
    "region": "EU",
    "note": "",
    "price": 32400,
-   "updated": "2026-11-08T13:07:08+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Redmi Pad 2 11\" Wi-Fi 4/128 Gray (чехол в комплекте)",
-   "region": "EU",
-   "note": "",
-   "price": 18800,
    "updated": "2026-11-08T13:07:08+00:00"
   },
   {
@@ -8978,14 +9770,6 @@
   },
   {
    "category": "Планшеты",
-   "name": "Xiaomi Pad 7 Wi-Fi 12/256 Blue (чехол в комплекте)",
-   "region": "EU",
-   "note": "",
-   "price": 36500,
-   "updated": "2026-11-08T13:07:08+00:00"
-  },
-  {
-   "category": "Планшеты",
    "name": "Xiaomi Pad 8 11.2\" Wi-Fi 8/128 Blue",
    "region": "EU",
    "note": "",
@@ -9650,7 +10434,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "HP Omen 16 MAX 16z-ak000",
+   "name": "HP Omen 16 Max 16z-ak000",
    "region": "",
    "note": "",
    "price": 169000,
@@ -10570,7 +11354,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "50\" Hisense 50E7S PRO 2026",
+   "name": "50\" Hisense 50E7S Pro 2026",
    "region": "",
    "note": "",
    "price": 43700,
@@ -10586,7 +11370,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "55\" Hisense 55E7S PRO 2026",
+   "name": "55\" Hisense 55E7S Pro 2026",
    "region": "",
    "note": "",
    "price": 47200,
@@ -10602,7 +11386,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "55\" Hisense 55U7S PRO 2026",
+   "name": "55\" Hisense 55U7S Pro 2026",
    "region": "",
    "note": "",
    "price": 70600,
@@ -10650,7 +11434,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "65\" Hisense 65U7S PRO 2026",
+   "name": "65\" Hisense 65U7S Pro 2026",
    "region": "",
    "note": "",
    "price": 95600,
@@ -10690,7 +11474,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "75\" Hisense 75E7S PRO 2026",
+   "name": "75\" Hisense 75E7S Pro 2026",
    "region": "",
    "note": "",
    "price": 85800,
@@ -10722,7 +11506,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "85\" Hisense 85E7S PRO 2026",
+   "name": "85\" Hisense 85E7S Pro 2026",
    "region": "",
    "note": "",
    "price": 104900,
@@ -10738,7 +11522,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "85\" Hisense 85U7S PRO 2026",
+   "name": "85\" Hisense 85U7S Pro 2026",
    "region": "",
    "note": "",
    "price": 156900,
@@ -10762,7 +11546,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "100\" Hisense 100E7Q PRO 2025",
+   "name": "100\" Hisense 100E7Q Pro 2025",
    "region": "",
    "note": "",
    "price": 152300,
@@ -10778,7 +11562,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "100\" Hisense 100U7Q PRO 2025",
+   "name": "100\" Hisense 100U7Q Pro 2025",
    "region": "",
    "note": "",
    "price": 240300,
@@ -11066,7 +11850,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "24\" Hisense 24N3Q-PRO",
+   "name": "24\" Hisense 24N3Q-Pro",
    "region": "",
    "note": "",
    "price": 10800,
@@ -11226,7 +12010,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "27\" Hisense 27G6Q-PRO",
+   "name": "27\" Hisense 27G6Q-Pro",
    "region": "",
    "note": "",
    "price": 21000,
@@ -11234,7 +12018,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "27\" Hisense 27G7Q-PRO",
+   "name": "27\" Hisense 27G7Q-Pro",
    "region": "",
    "note": "",
    "price": 37500,
@@ -11250,7 +12034,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "27\" Hisense 27N3Q-PRO",
+   "name": "27\" Hisense 27N3Q-Pro",
    "region": "",
    "note": "",
    "price": 12300,
@@ -11354,7 +12138,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "27\" MSI PRO MP272L IPS 1920x1080 4ms HDMI, DisplayPort",
+   "name": "27\" MSI Pro MP272L IPS 1920x1080 4ms HDMI, DisplayPort",
    "region": "",
    "note": "",
    "price": 11900,
@@ -11474,7 +12258,7 @@
   },
   {
    "category": "Телевизоры",
-   "name": "34\" Hisense 34G6Q-PRO",
+   "name": "34\" Hisense 34G6Q-Pro",
    "region": "",
    "note": "",
    "price": 25100,
@@ -12914,14 +13698,6 @@
   },
   {
    "category": "Игровые приставки",
-   "name": "Подставка для PS5 Slim/ Pro",
-   "region": "",
-   "note": "",
-   "price": 2900,
-   "updated": "2026-11-08T12:32:42+00:00"
-  },
-  {
-   "category": "Игровые приставки",
    "name": "Дисковод PS5 Pro",
    "region": "",
    "note": "",
@@ -13118,22 +13894,6 @@
    "region": "",
    "note": "",
    "price": 8100,
-   "updated": "2026-11-08T12:32:42+00:00"
-  },
-  {
-   "category": "Игровые приставки",
-   "name": "Nintendo Switch 2 Deluxe System Case",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T12:32:42+00:00"
-  },
-  {
-   "category": "Игровые приставки",
-   "name": "Nintendo Switch 2 Carrying Case and Screen Protector",
-   "region": "",
-   "note": "",
-   "price": 6200,
    "updated": "2026-11-08T12:32:42+00:00"
   },
   {
@@ -15178,162 +15938,10 @@
   },
   {
    "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Opera de Paris(2 шт) +Tree(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 865200,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Opera de Paris(2 шт)+Treepod(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 915700,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Light Pearl(2 шт)+Tree(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 788000,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Light Pearl(2 шт)+Treepod(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 746800,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Deep Forest(2 шт)+Tree(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 782800,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom Ultimate 108 dB Deep Forest(2 шт)+Treepod(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 746800,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Opera de Paris +Tree",
-   "region": "",
-   "note": "",
-   "price": 468700,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Opera de Paris+Treepod",
-   "region": "",
-   "note": "",
-   "price": 453200,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Deep Forest+Tree",
-   "region": "",
-   "note": "",
-   "price": 411000,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Deep Forest+Treepod",
-   "region": "",
-   "note": "",
-   "price": 390400,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Deep Forest+Gecko",
-   "region": "",
-   "note": "",
-   "price": 390400,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Light Pearl+Tree",
-   "region": "",
-   "note": "",
-   "price": 411900,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Light Pearl+Treepod",
-   "region": "",
-   "note": "",
-   "price": 390400,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom Ultimate 108 dB Light Pearl+Gecko",
-   "region": "",
-   "note": "",
-   "price": 390400,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
    "name": "Колонки Devialet Phantom I 108 dB Gold",
    "region": "",
    "note": "",
    "price": 303900,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom I 108 dB Gold(2 шт)+Tree(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 710700,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 108 dB+2 подставки Devialet Phantom I 108 dB Gold(2 шт)+Treepod(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 674700,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom I 108 dB Gold+Tree",
-   "region": "",
-   "note": "",
-   "price": 375000,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom I 108 dB Gold+Treepod",
-   "region": "",
-   "note": "",
-   "price": 355400,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 108 dB+подставка Devialet Phantom I 108 dB Gold+Gecko",
-   "region": "",
-   "note": "",
-   "price": 355400,
    "updated": "2026-11-05T15:30:20+00:00"
   },
   {
@@ -15358,70 +15966,6 @@
    "region": "",
    "note": "",
    "price": 170000,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 98 dB+ 2 Подставки Devialet Phantom Ultimate 98 dB Opera de Paris(2 шт)+Tree(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 468700,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Стерео комплект: 2 колонки 98 dB+ 2 Подставки Devialet Phantom Ultimate 98 dB Light Pearl(2 шт)+Tree(2 шт)",
-   "region": "",
-   "note": "",
-   "price": 437800,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Opera de Paris+Tree",
-   "region": "",
-   "note": "",
-   "price": 242100,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Opera de Paris+Gecko",
-   "region": "",
-   "note": "",
-   "price": 242100,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Deep Forest+Tree",
-   "region": "",
-   "note": "",
-   "price": 216300,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Deep Forest+Gecko",
-   "region": "",
-   "note": "",
-   "price": 216300,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Light Pearl+Tree",
-   "region": "",
-   "note": "",
-   "price": 213300,
-   "updated": "2026-11-05T15:30:20+00:00"
-  },
-  {
-   "category": "Наушники и колонки",
-   "name": "Моно комплект:колонка 98 dB+Подставка Devialet Phantom Ultimate 98 dB Light Pearl+Gecko",
-   "region": "",
-   "note": "",
-   "price": 213300,
    "updated": "2026-11-05T15:30:20+00:00"
   },
   {
@@ -15658,26 +16202,10 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Watch 10 (2024) S10 42 Slate Titanium (без ремешка)",
-   "region": "QA",
-   "note": "",
-   "price": 45900,
-   "updated": "2026-11-08T12:53:16+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
    "name": "Watch 10 (2024) S10 42 Slate Titanium Sport Band Black M/L + Slate Milanese Loop",
    "region": "QA",
    "note": "",
    "price": 57200,
-   "updated": "2026-11-08T12:53:16+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
-   "name": "Watch 10 (2024) S10 42 Natural Titanium (без ремешка)",
-   "region": "QA",
-   "note": "",
-   "price": 51000,
    "updated": "2026-11-08T12:53:16+00:00"
   },
   {
@@ -16394,54 +16922,6 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Xiaomi Watch 5 Black Strap",
-   "region": "",
-   "note": "",
-   "price": 21000,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
-   "name": "Xiaomi Watch 5 Juniper Green Strap",
-   "region": "",
-   "note": "",
-   "price": 21000,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
-   "name": "Xiaomi Watch S4 41mm RU Fluororubber Strap Black",
-   "region": "",
-   "note": "",
-   "price": 12300,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
-   "name": "Xiaomi Watch S4 41mm RU Fluororubber Strap Green",
-   "region": "",
-   "note": "",
-   "price": 12300,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
-   "name": "Xiaomi Watch S4 41mm RU Leather Strap White",
-   "region": "",
-   "note": "",
-   "price": 13700,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
-   "name": "Xiaomi Watch S4 41mm RU Milanese Strap Sunset Gold",
-   "region": "",
-   "note": "",
-   "price": 17000,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Часы и браслеты",
    "name": "Смарт часы 09/11/",
    "region": "",
    "note": "",
@@ -16842,7 +17322,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "name": "Fenix 8 Pro 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
    "region": "",
    "note": "",
    "price": 87300,
@@ -16850,7 +17330,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 47 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
+   "name": "Fenix 8 Pro 47 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
    "region": "",
    "note": "",
    "price": 85800,
@@ -16858,7 +17338,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "name": "Fenix 8 Pro 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
    "region": "",
    "note": "",
    "price": 93500,
@@ -16866,7 +17346,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 51 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
+   "name": "Fenix 8 Pro 51 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
    "region": "",
    "note": "",
    "price": 90400,
@@ -16874,7 +17354,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
+   "name": "Fenix 8 Pro 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
    "region": "",
    "note": "",
    "price": 97600,
@@ -16882,7 +17362,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
+   "name": "Fenix 8 Pro 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
    "region": "",
    "note": "",
    "price": 102300,
@@ -16890,7 +17370,7 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "Fenix 8 PRO 51 MicroLED Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "name": "Fenix 8 Pro 51 MicroLED Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
    "region": "",
    "note": "",
    "price": 162500,
@@ -17370,7 +17850,7 @@
   },
   {
    "category": "Фото и видео",
-   "name": "GoPro MAX 2",
+   "name": "GoPro Max 2",
    "region": "",
    "note": "",
    "price": 34000,
@@ -17722,34 +18202,10 @@
   },
   {
    "category": "Фото и видео",
-   "name": "DJI Mic 3 (2TX + 1RX + Charging Case)",
-   "region": "",
-   "note": "",
-   "price": 22700,
-   "updated": "2026-11-08T11:25:57+00:00"
-  },
-  {
-   "category": "Фото и видео",
    "name": "DJI Mic 3 (1 TX + 1 RX)",
    "region": "",
    "note": "",
    "price": 17600,
-   "updated": "2026-11-08T11:25:57+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Mic Mini 2 (2TX + 1 RX + Charging Case)",
-   "region": "",
-   "note": "",
-   "price": 9300,
-   "updated": "2026-11-08T11:25:57+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Mic Mini (2TX + 1 RX + Charging Case)",
-   "region": "",
-   "note": "",
-   "price": 7800,
    "updated": "2026-11-08T11:25:57+00:00"
   },
   {
@@ -18162,14 +18618,6 @@
   },
   {
    "category": "Фото и видео",
-   "name": "DJI 65W Car Charger",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:25:57+00:00"
-  },
-  {
-   "category": "Фото и видео",
    "name": "DJI Battery TB30",
    "region": "",
    "note": "",
@@ -18206,14 +18654,6 @@
    "region": "",
    "note": "",
    "price": 72100,
-   "updated": "2026-11-08T11:25:57+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo — компактная камера с профессиональной стабилизацией Alientech Deimox Cable 20M (2x)",
-   "region": "",
-   "note": "",
-   "price": 28900,
    "updated": "2026-11-08T11:25:57+00:00"
   },
   {
@@ -18466,38 +18906,6 @@
   },
   {
    "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Kanzan Pink (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 44300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Apricot Topaz (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 37100,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Red Velvet(Case)",
-   "region": "HK",
-   "note": "",
-   "price": 43300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Amber Silk(Case)",
-   "region": "HK",
-   "note": "",
-   "price": 38200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
    "name": "Dyson Пылесос HT01 Blue Copper",
    "region": "HK",
    "note": "",
@@ -18518,38 +18926,6 @@
    "region": "HK",
    "note": "",
    "price": 33500,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Ceramic Pink (Case)",
-   "region": "KR",
-   "note": "",
-   "price": 43800,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Blue Copper (Case)",
-   "region": "KR",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Apricot Topaz (Case)",
-   "region": "KR",
-   "note": "",
-   "price": 44300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson Пылесос HT01 Amber Silk (Case)",
-   "region": "KR",
-   "note": "",
-   "price": 45900,
    "updated": "2026-11-08T12:54:03+00:00"
   },
   {
@@ -18590,14 +18966,6 @@
    "region": "EU",
    "note": "",
    "price": 31800,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD07 Blue Copper (Case)",
-   "region": "EU",
-   "note": "",
-   "price": 41800,
    "updated": "2026-11-08T12:54:03+00:00"
   },
   {
@@ -18650,22 +19018,6 @@
   },
   {
    "category": "Красота и дом",
-   "name": "Фен HD15 Prussian Copper (Case)",
-   "region": "KR",
-   "note": "",
-   "price": 39700,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD15 Blue/Blush (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 39200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
    "name": "Фен HD15 Gold Onyx (Сase)",
    "region": "HK",
    "note": "",
@@ -18686,46 +19038,6 @@
    "region": "EU",
    "note": "",
    "price": 38200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD17 Jasper Plum (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 40700,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD17 Ceramiс Pink (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 38200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD17 Kanzan Pink (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 43300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD17 Apricot Topaz (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 36600,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Фен HD17 Ceramic Pink (Case)",
-   "region": "EU",
-   "note": "",
-   "price": 40200,
    "updated": "2026-11-08T12:54:03+00:00"
   },
   {
@@ -19058,14 +19370,6 @@
   },
   {
    "category": "Красота и дом",
-   "name": "Dyson Увлажнитель V15 SV47 Detect Absolute Yellow/Nickel с подставкой",
-   "region": "EU",
-   "note": "",
-   "price": 72100,
-   "updated": "2026-11-08T12:35:41+00:00"
-  },
-  {
-   "category": "Красота и дом",
    "name": "Dyson Увлажнитель V15 SV51 Detect Fluffy Iron Red",
    "region": "KR",
    "note": "",
@@ -19094,14 +19398,6 @@
    "region": "EU",
    "note": "",
    "price": 89700,
-   "updated": "2026-11-08T12:35:41+00:00"
-  },
-  {
-   "category": "Красота и дом",
-   "name": "Dyson V16 DS60 Piston Animal SV53-A(с подставкой)",
-   "region": "EU",
-   "note": "",
-   "price": 93800,
    "updated": "2026-11-08T12:35:41+00:00"
   },
   {
@@ -20146,7 +20442,7 @@
   },
   {
    "category": "Красота и дом",
-   "name": "Xiaomi Smart Pet Care AIR Purifier BHR9969EU",
+   "name": "Xiaomi Smart Pet Care Air Purifier BHR9969EU",
    "region": "",
    "note": "",
    "price": 10700,
@@ -20999,22 +21295,6 @@
    "note": "",
    "price": 161800,
    "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "Apple Power Adapter 140W USB-C MLYU3",
-   "region": "US",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "Кабель Apple (плетёный) USB-C / USB-C, 2м, 160W белый",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-08T12:52:50+00:00"
   },
   {
    "category": "Комплектующие",
@@ -22842,7 +23122,7 @@
   },
   {
    "category": "Комплектующие",
-   "name": "Rikor PRO Core i3 1220P",
+   "name": "Rikor Pro Core i3 1220P",
    "region": "",
    "note": "",
    "price": 56900,
@@ -22850,7 +23130,7 @@
   },
   {
    "category": "Комплектующие",
-   "name": "Rikor PRO Core i5 1235U",
+   "name": "Rikor Pro Core i5 1235U",
    "region": "",
    "note": "",
    "price": 55600,
@@ -23118,30 +23398,6 @@
    "region": "",
    "note": "",
    "price": 19100,
-   "updated": "2026-11-08T12:32:58+00:00"
-  },
-  {
-   "category": "Накопители",
-   "name": "Карта памяти SanDisk Extreme PRO microSDXC UHS-I 128 ГБ (U3, V30, A2) с адаптером",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T12:32:58+00:00"
-  },
-  {
-   "category": "Накопители",
-   "name": "Карта памяти SanDisk Extreme PRO microSDXC UHS-I 256 ГБ (U3, V30, A2) с адаптером",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T12:32:58+00:00"
-  },
-  {
-   "category": "Накопители",
-   "name": "Карта памяти SanDisk Extreme PRO microSDXC UHS-I 512 ГБ (U3, V30, A2) с адаптером",
-   "region": "",
-   "note": "",
-   "price": 15700,
    "updated": "2026-11-08T12:32:58+00:00"
   },
   {
@@ -24082,7 +24338,7 @@
   },
   {
    "category": "Мониторы и сеть",
-   "name": "Ubiquiti UniFi U6+ Wi-Fi 6 802.11ax 1xGbE RJ45 port U6-PLUS Точка доступа Ubiquiti Networks",
+   "name": "Ubiquiti UniFi U6+ Wi-Fi 6 802.11ax 1xGbE RJ45 port U6-Plus Точка доступа Ubiquiti Networks",
    "region": "",
    "note": "",
    "price": 11400,
@@ -24134,14 +24390,6 @@
    "region": "",
    "note": "",
    "price": 11400,
-   "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Гравировка - 1000₽ (нанесение русской раскладки на клавиатуру) Установка защитной пленки на Mac",
-   "region": "",
-   "note": "",
-   "price": 2600,
    "updated": "2026-11-08T13:26:16+00:00"
   },
   {
@@ -24670,14 +24918,6 @@
    "region": "",
    "note": "",
    "price": 1900,
-   "updated": "2026-11-08T13:08:08+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Получите дополнительную гарантию от ! Блок Samsung 45W Type-C with cable Black/White",
-   "region": "",
-   "note": "",
-   "price": 2600,
    "updated": "2026-11-08T13:08:08+00:00"
   },
   {
@@ -26042,142 +26282,6 @@
   },
   {
    "category": "Другое",
-   "name": "HD16 Blue Topaz (Case)",
-   "region": "EU",
-   "note": "",
-   "price": 56200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Ceramic Pink (Case)",
-   "region": "EU",
-   "note": "",
-   "price": 45400,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Blue Copper (Case)",
-   "region": "EU",
-   "note": "",
-   "price": 49000,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Apricot Topaz (Case)",
-   "region": "EU",
-   "note": "",
-   "price": 44300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Ceramic Pink (diffuse)",
-   "region": "EU",
-   "note": "",
-   "price": 43300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Red Velvet (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 49500,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Ceramic Pink (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 38700,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Apricot Topaz (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 37100,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Strawberry Bronze (Diffuse + Case)",
-   "region": "HK",
-   "note": "",
-   "price": 49500,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Blue Copper (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 32000,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Jasper Plum (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 43300,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Amber Silk (Case)",
-   "region": "HK",
-   "note": "",
-   "price": 45400,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Ceramic Pink",
-   "region": "HK",
-   "note": "",
-   "price": 30800,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Ceramic Patina",
-   "region": "HK",
-   "note": "",
-   "price": 39700,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Blue Copper",
-   "region": "HK",
-   "note": "",
-   "price": 32500,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Ceramic Patina Topaz",
-   "region": "IN",
-   "note": "",
-   "price": 37600,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "HD16 Plum Copper",
-   "region": "GB",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-08T12:54:03+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "(HS01, HS05, HS08, HS09) HS01 Blue Copper",
    "region": "CN",
    "note": "",
@@ -26706,14 +26810,6 @@
   },
   {
    "category": "Другое",
-   "name": "Оригинальные блоки Adapter Apple 20 w",
-   "region": "EU",
-   "note": "",
-   "price": 1900,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Оригинальные блоки От 10шт",
    "region": "",
    "note": "",
@@ -26746,26 +26842,10 @@
   },
   {
    "category": "Другое",
-   "name": "Оригинальные блоки Adapter Apple 35W",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Оригинальные блоки От 10",
    "region": "",
    "note": "",
    "price": 2100,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Оригинальные блоки Adapter Dynamic Power 40–60W (2026)",
-   "region": "",
-   "note": "",
-   "price": 6200,
    "updated": "2026-11-08T12:52:50+00:00"
   },
   {
@@ -26810,38 +26890,6 @@
   },
   {
    "category": "Другое",
-   "name": "Pencil Apple Power Adapter 35W Dual USB-C Port MW2K3",
-   "region": "RU",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Pencil Apple Power Adapter 35W Dual USB-C Port MNWM3",
-   "region": "US",
-   "note": "",
-   "price": 4700,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Pencil Apple Power Adapter 96W USB-C MX0J2",
-   "region": "US",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Зарядка Apple Кабель Apple (плетёный) USB-C / USB-C, 1м, 60W белый",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Зарядка Apple Мультипорт USB-C to Digital MUF82",
    "region": "",
    "note": "",
@@ -26871,14 +26919,6 @@
    "note": "USB-C",
    "price": 7300,
    "updated": "2026-11-08T12:52:23+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Оригинальный блок Adapter Apple 20 w",
-   "region": "EU",
-   "note": "",
-   "price": 1900,
-   "updated": "2026-11-08T12:38:06+00:00"
   },
   {
    "category": "Другое",
@@ -26914,26 +26954,10 @@
   },
   {
    "category": "Другое",
-   "name": "Оригинальный блок Adapter Apple 35W",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Оригинальный блок От 10",
    "region": "",
    "note": "",
    "price": 2100,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Оригинальный блок Adapter Dynamic Power 40–60W (2026)",
-   "region": "",
-   "note": "",
-   "price": 5500,
    "updated": "2026-11-08T12:38:06+00:00"
   },
   {
@@ -27570,34 +27594,10 @@
   },
   {
    "category": "Другое",
-   "name": "Gen5 SV23 Absolute V15s Detect Submarine Yellow/Nickel SV47 с подставкой",
-   "region": "EU",
-   "note": "",
-   "price": 71600,
-   "updated": "2026-11-08T12:35:41+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "V15s SV47 Detect Submarine Yellow/Nickel с подставкой",
-   "region": "GB",
-   "note": "",
-   "price": 70600,
-   "updated": "2026-11-08T12:35:41+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "V15s SV47 Detect Submarine V16s DS60 SV53A Piston Animal Submarine Copper Black",
    "region": "EU",
    "note": "",
    "price": 72100,
-   "updated": "2026-11-08T12:35:41+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "V15s SV47 Detect Submarine V16s DS60 SV53A Piston Animal Submarine Wash с подставкой",
-   "region": "EU",
-   "note": "",
-   "price": 105100,
    "updated": "2026-11-08T12:35:41+00:00"
   },
   {
@@ -27650,7 +27650,7 @@
   },
   {
    "category": "Другое",
-   "name": "Проекторы Hisense M2 PRO",
+   "name": "Проекторы Hisense M2 Pro",
    "region": "",
    "note": "",
    "price": 76800,
@@ -27666,7 +27666,7 @@
   },
   {
    "category": "Другое",
-   "name": "Проекторы Hisense PX3SE-PRO",
+   "name": "Проекторы Hisense PX3SE-Pro",
    "region": "",
    "note": "",
    "price": 153000,
@@ -28962,22 +28962,6 @@
   },
   {
    "category": "Другое",
-   "name": "без ножки, с креплением VESA Studio Display Nano Glass VESA Mount Adapter MYJL3",
-   "region": "RU",
-   "note": "",
-   "price": 214300,
-   "updated": "2026-11-08T11:24:29+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "без ножки, с креплением VESA Studio Display Standart Glass VESA Mount Adapter | MYJH3",
-   "region": "RU",
-   "note": "",
-   "price": 206000,
-   "updated": "2026-11-08T11:24:29+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "без ножки, с креплением VESA Apple Pro Display XDR 32 Standard Glass | MYLH3",
    "region": "RU",
    "note": "",
@@ -28991,22 +28975,6 @@
    "note": "",
    "price": 131900,
    "updated": "2026-11-08T11:24:29+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "без ножки, с креплением VESA Apple VESA Mount Adapter | MX5M3",
-   "region": "RU",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-08T11:24:29+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Гравировка - 1000₽ (нанесение русской раскладки на клавиатуре) Установка защитной пленки на Mac",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-08T11:24:16+00:00"
   },
   {
    "category": "Другое",
@@ -29058,7 +29026,7 @@
   },
   {
    "category": "Другое",
-   "name": "[MR7K3] Pro 14 M3 (8c Silver — 119000* MX2K3 Space Black Pro 14 2024 M4 MAX /14C CPU/ 32C GPU/ 36gb/ 1 Tb",
+   "name": "[MR7K3] Pro 14 M3 (8c Silver — 119000* MX2K3 Space Black Pro 14 2024 M4 Max /14C CPU/ 32C GPU/ 36gb/ 1 Tb",
    "region": "US",
    "note": "",
    "price": 266800,
