@@ -486,8 +486,9 @@ img{display:block;max-width:100%}
   /* ---------- экраны ---------- */
   const app = $('#app');
   function route() {
-    const h = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
-    const [kind, arg, q] = h.split('/');
+    /* параметры (после второго «/») не раскодируем: в них «+» из «SIM + eSIM» */
+    const [kind, a = '', q = ''] = location.hash.replace(/^#\/?/, '').split('/');
+    const arg = decodeURIComponent(a);
     closeSugg();
     if (kind === 'c' && CATSLUG.has(arg)) shop({cat: CATSLUG.get(arg)}, q);
     else if (kind === 's') shop({q: arg || ''}, q);
@@ -595,26 +596,25 @@ img{display:block;max-width:100%}
       return [k, label, vals];
     });
     /* выбор: по очереди измерений; если желаемое значение недоступно с предыдущими, берём самое дешёвое доступное */
-    const s = {};
-    let cand = m.items;
-    for (const [k, , vals] of dims) {
-      const avail = vals.filter((v) => cand.some((p) => (p.opts[k] || '') === v));
-      let v = want[k] && avail.includes(want[k]) ? want[k] : null;
-      if (!v) v = avail.sort((a, b) => Math.min(...cand.filter((p) => (p.opts[k] || '') === a).map((p) => p.price)) - Math.min(...cand.filter((p) => (p.opts[k] || '') === b).map((p) => p.price)))[0];
-      s[k] = v;
-      cand = cand.filter((p) => (p.opts[k] || '') === v);
-    }
-    const cur = cand.sort((a, b) => a.price - b.price)[0];
-    const link = (k, v) => `#/p/${m.slug}/${new URLSearchParams({...s, [k]: v})}`;
-    const okWith = (k, v) => { const i = dims.findIndex(([d]) => d === k); return m.items.some((p) => dims.slice(0, i).every(([d]) => (p.opts[d] || '') === s[d]) && (p.opts[k] || '') === v); };
+    /* Выбор варианта: последний нажатый параметр (f) соблюдаем всегда, остальные по возможности
+       в порядке важности, при равенстве берём дешевле. */
+    const f = want.f;
+    const score = (p) => (f && (p.opts[f] || '') === want[f] ? 1e6 : 0)
+      + dims.reduce((acc, [k], i) => acc + ((want[k] !== undefined && (p.opts[k] || '') === want[k]) ? 2 ** (dims.length - i) * 10 : 0), 0)
+      + (!want.cond && p.opts.cond === 'Новый' ? 5 : 0);
+    const cur = [...m.items].sort((x, y) => score(y) - score(x) || x.price - y.price)[0];
+    const s = Object.fromEntries(dims.map(([k]) => [k, cur.opts[k] || '']));
+    const link = (k, v) => `#/p/${m.slug}/${new URLSearchParams({...s, [k]: v, f: k})}`;
+    /* значение доступно, если есть позиция с ним и со всеми остальными выбранными параметрами */
+    const okWith = (k, v) => m.items.some((p) => (p.opts[k] || '') === v && dims.every(([d]) => d === k || (p.opts[d] || '') === s[d]));
     const opt = ([k, label, vals]) => {
       if (vals.length < 2 && !(k === 'color' && vals[0])) return '';
       const chips = vals.map((v) => {
         const off = !okWith(k, v);
         if (k === 'color') return `<a class="swb${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}" title="${esc(v)}${off ? ', нет с выбранными параметрами' : ''}" aria-label="${esc(v)}"><i class="sw" style="--c:${swc(v)}"></i></a>`;
-        return `<a class="chip${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}"${off ? ' title="Нет с выбранными параметрами, остальное подберём заново"' : ''}>${esc(v || 'Без пометки')}</a>`;
+        return `<a class="chip${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}"${off ? ' title="Нет с выбранными параметрами, остальное подберём заново"' : ''}>${esc(v || 'Не указано')}</a>`;
       }).join('');
-      return `<fieldset class="opt"><legend>${label}: <b>${esc(s[k] || 'без пометки')}</b></legend><div class="chips">${chips}</div></fieldset>`;
+      return `<fieldset class="opt"><legend>${label}: <b>${esc(s[k] || 'не указано')}</b></legend><div class="chips">${chips}</div></fieldset>`;
     };
     const vrows = [...m.items].sort((a, b) => a.price - b.price);
     app.innerHTML = `
