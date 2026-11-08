@@ -286,6 +286,14 @@ def build(posts: list[dict]) -> dict:
             items.append(it)
     items.sort(key=lambda x: CATEGORY_ORDER.index(x["category"]))
     stats = {"posts": len(posts), "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"]))}
+    miss = []
+    for p in posts:
+        for ln in (p["text"] or "").splitlines():
+            if re.search(r"\d{1,3}[ .,]\d{3}\b|\b\d{4,6}\b", ln) and not parse_post(ln) and not SKIP_RE.search(ln):
+                miss.append(ln.strip()[:90])
+    stats["unparsed_count"] = len(miss)
+    stats["unparsed_sample"] = miss[:80]
+    stats["other_sample"] = [i["name"][:70] for i in items if i["category"] == "Другое"][::8][:110]
     return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "stats": stats, "items": items}
 
 
