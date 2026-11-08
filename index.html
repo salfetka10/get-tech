@@ -184,6 +184,8 @@ img{display:block;max-width:100%}
 .pd-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin-top:16px}
 .pd-price b{font-weight:300;font-size:clamp(34px,3.4vw,48px);letter-spacing:-0.02em}
 .pd-price span{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--stone)}
+.flags{font-family:'Twemoji Country Flags',system-ui,sans-serif;font-size:28px;line-height:1;letter-spacing:.06em;color:var(--ink)!important;cursor:help}
+.vt .flags{font-size:18px}
 .opt{padding-top:22px}
 .opt legend{float:left;width:100%;display:flex;gap:8px;font-size:15px;color:var(--stone);padding:0 0 10px}
 .opt .chips,.fg .chips{clear:both}
@@ -282,6 +284,7 @@ img{display:block;max-width:100%}
 @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){.drawer,.scrim,.toast,.ph img{transition:none}}
 </style>
+<script type="module">import { polyfillCountryFlagEmojis } from "https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1.8/dist/index.mjs"; polyfillCountryFlagEmojis();</script>
 </head>
 <body>
 
@@ -480,7 +483,7 @@ img{display:block;max-width:100%}
   const photo = (src, label, cls = '') => src
     ? `<div class="ph ${cls}"><img src="${esc(src)}" alt="${esc(label)}" loading="lazy" decoding="async"></div>`
     : `<div class="ph dots ${cls}"><span class="nm">${esc(label)}</span></div>`;
-  const describe = (p) => p.opts.mem ? [p.opts.color, p.opts.mem, p.opts.sim, p.opts.cond !== 'Новый' ? p.opts.cond : '', p.region ? 'регион ' + p.region : ''].filter(Boolean).join(', ')
+  const describe = (p) => p.opts.mem ? [p.opts.color, p.opts.mem, p.opts.sim, p.opts.cond !== 'Новый' ? p.opts.cond : '', p.region ? 'регион ' + regionList(p.region).map(flag).join(' ') : ''].filter(Boolean).join(', ')
     : [p.region ? 'регион ' + p.region : '', p.opts.other].filter(Boolean).join(', ');
 
   /* ---------- экраны ---------- */
@@ -530,7 +533,7 @@ img{display:block;max-width:100%}
   }
 
   /* фильтры витрины: какие есть у позиций категории */
-  const FDIMS = [['mem', 'Память'], ['color', 'Цвет'], ['sim', 'SIM'], ['cond', 'Состояние'], ['region', 'Регион']];
+  const FDIMS = [['mem', 'Память'], ['color', 'Цвет'], ['sim', 'SIM'], ['cond', 'Состояние']];
   const regionList = (r) => r.split(/,\s*/).filter(Boolean);
 
   function shop(scope, qs) {
@@ -584,7 +587,10 @@ img{display:block;max-width:100%}
   }
 
   /* карточка модели: выбор цвета, памяти, SIM, состояния, региона; недоступные сочетания приглушены */
-  const PDIMS = [['color', 'Цвет'], ['mem', 'Память'], ['sim', 'SIM'], ['cond', 'Состояние'], ['region', 'Регион'], ['variant', 'Вариант']];
+  const PDIMS = [['color', 'Цвет'], ['mem', 'Память'], ['sim', 'SIM'], ['cond', 'Состояние'], ['variant', 'Вариант']];
+  /* регион не выбирают, а показывают флагом у цены: для какой страны выпущено устройство */
+  const flag = (code) => /^[A-Z]{2}$/.test(code) ? String.fromCodePoint(...[...code].map((c) => 0x1F1A5 + c.charCodeAt(0))) : code;
+  const flags = (r) => r ? `<span class="flags" title="Регион: ${esc(r)}. Для какой страны выпущено устройство" aria-label="Регион ${esc(r)}">${regionList(r).map(flag).join(' ')}</span>` : '';
   function product(m, qs) {
     document.title = m.model + ' · get.tech';
     const want = Object.fromEntries(new URLSearchParams(qs || ''));
@@ -623,7 +629,7 @@ img{display:block;max-width:100%}
         <div class="pd-img">${photo(imgFor(m.model, s.color), m.model + (s.color ? ', ' + s.color : ''))}</div>
         <div>
           <h1>${esc(m.model)}</h1>
-          <div class="pd-price"><b class="num">${rub(cur.price)}</b><span><i class="dot"></i>В наличии</span></div>
+          <div class="pd-price"><b class="num">${rub(cur.price)}</b>${flags(cur.region)}<span><i class="dot"></i>В наличии</span></div>
           ${dims.map(opt).join('')}
           ${cur.opts.other ? `<p class="pd-note">Пометка поставщика: ${esc(cur.opts.other)}</p>` : ''}
           <div class="pd-buy">
@@ -638,8 +644,8 @@ img{display:block;max-width:100%}
         </div>
       </article>
       <details class="vars"><summary>Все варианты<small class="num">${m.items.length}</small></summary>
-        <table class="vt"><thead><tr><th>Вариант</th><th class="hm">Регион</th><th class="hm">Пометка</th><th>Цена</th></tr></thead><tbody>
-        ${vrows.map((p) => `<tr data-href="#/p/${m.slug}/${new URLSearchParams(Object.fromEntries(dims.map(([k]) => [k, p.opts[k] || ''])))}"${p === cur ? ' class="cur"' : ''}><td>${esc(p.opts.mem ? [p.opts.color, p.opts.mem, p.opts.sim, p.opts.cond].filter(Boolean).join(', ') : (p.opts.variant || p.name))}</td><td class="hm">${esc(p.region)}</td><td class="hm">${esc(p.opts.other || '')}</td><td class="num">${rub(p.price)}</td></tr>`).join('')}
+        <table class="vt"><thead><tr><th>Вариант</th><th>Регион</th><th class="hm">Пометка</th><th>Цена</th></tr></thead><tbody>
+        ${vrows.map((p) => `<tr data-href="#/p/${m.slug}/${new URLSearchParams(Object.fromEntries(dims.map(([k]) => [k, p.opts[k] || ''])))}"${p === cur ? ' class="cur"' : ''}><td>${esc(p.opts.mem ? [p.opts.color, p.opts.mem, p.opts.sim, p.opts.cond].filter(Boolean).join(', ') : (p.opts.variant || p.name))}</td><td>${flags(p.region)}</td><td class="hm">${esc(p.opts.other || '')}</td><td class="num">${rub(p.price)}</td></tr>`).join('')}
         </tbody></table></details>`;
     $('#buy').addEventListener('click', (e) => {
       const id = e.currentTarget.dataset.id;
