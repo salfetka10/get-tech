@@ -29,7 +29,7 @@ OUT = ROOT / "data" / "prices.json"
 
 # Категории: первое совпадение по строке позиции вместе с заголовком блока. Порядок важен.
 CATEGORIES = [
-    ("Чехлы и аксессуары", r"\bcase\b|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател|travel bag|\bблок\b"),
+    ("Чехлы и аксессуары", r"\bcase\b|folio|sleeve|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател|travel bag|\bблок\b"),
     ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|apple pencil|airtag|magsafe|apple tv|homepod|vision pro"),
     ("iPhone", r"iphone|^1[1-9](e| ?pro max| ?pro| ?plus| ?mini| ?air)? \d{1,4} ?(gb|tb)?\b|^air (1|2)?\d{2,3}gb|^iphone"),
     ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro|^(air|pro) 1[3-6]\b|studio display|pro display|pro stand"),
@@ -165,7 +165,9 @@ def parse_post(text: str) -> list[dict]:
             return
         own = category(head) != "Другое"
         name = pretty(head if own else join_name(header, head))
-        cat = category(name) if own else category(name + " " + header)
+        cat = category(name)
+        if cat == "Другое" and not own:
+            cat = category(name + " " + header)
         if cat == "iPhone" and "iphone" not in name.lower():
             name = "iPhone " + name
         if cat == "Mac" and re.match(r"(air|pro) 1[3-6]\b", name, re.I):

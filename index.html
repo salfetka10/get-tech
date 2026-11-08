@@ -10,23 +10,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap">
 <style>
-/* Layout: лист бумаги с разметкой. Слева крупный тонкий текст, справа растр с синим свечением.
-   Прайс — главное на странице: строка = позиция, точка = наличие (закрашена — есть, контур — под заказ).
-   Новый стиль get.: Jost Light, зерно 16%, прямые углы, цвет поинта только в точках и свечении. */
+/* Прайс — главное на странице. Шапка с поиском всегда наверху, слева категории, справа модели:
+   заголовок модели и строки вариантов (память, цвет, регион, цена). Синяя точка = в наличии.
+   Стиль get.: Jost Light, зерно 16%, прямые углы, цвет поинта только в точках и свечении. */
 :root{
   --paper:#F5F5F5; --white:#FFFFFF; --ink:#302F2C; --stone:#6B6A66; --line:#C8C7C3; --mark:#8D8C88;
   --tech:#6381AF;
   --font:'Jost','Futura','Century Gothic',system-ui,sans-serif;
-  --gutter:clamp(16px,4vw,64px); --wrap:1440px; --hd:64px;
+  --gutter:clamp(16px,3.4vw,56px); --wrap:1440px; --hd:72px;
   --ease:cubic-bezier(.16,1,.3,1);
   color-scheme:light;
 }
+@media (max-width:860px){:root{--hd:124px}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hd) + 12px)}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:18px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:clip}
 body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.16;mix-blend-mode:multiply;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E")}
-h1,h2,h3,p,ul,ol,dl,dd{margin:0}
+h1,h2,h3,h4,p,ul,ol,dl,dd{margin:0}
 ul,ol{padding:0;list-style:none}
 a{color:inherit;text-decoration:none}
 button,input{font:inherit;color:inherit;border-radius:0}
@@ -47,91 +48,115 @@ button,input{font:inherit;color:inherit;border-radius:0}
 .btn.line:hover{background:var(--ink);color:var(--paper)}
 .todo{border-bottom:1px dashed var(--mark)}
 
-/* шапка */
-.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .2s}
-.hd.scrolled{border-bottom-color:var(--line)}
-.hd-in{height:var(--hd);display:flex;align-items:center;justify-content:space-between;gap:20px}
-.logo{display:inline-flex;align-items:baseline;gap:2px;font-size:26px;letter-spacing:-0.012em;min-height:44px;align-items:center}
+/* шапка: логотип, поиск по всему прайсу, корзина */
+.hd{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 90%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.hd-in{height:var(--hd);display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:12px clamp(16px,2.4vw,36px)}
+.logo{display:inline-flex;align-items:center;font-size:26px;letter-spacing:-0.012em;min-height:44px}
 .logo b{font-weight:500}
-.hd nav ul{display:flex;gap:28px;font-size:16px}
+.search{display:flex;align-items:center;gap:10px;min-height:46px;padding:0 14px;background:var(--white);box-shadow:inset 0 0 0 1px var(--line);max-width:620px;width:100%}
+.search:focus-within{box-shadow:inset 0 0 0 1px var(--ink)}
+.search input{flex:1;min-width:0;border:0;background:transparent;font-size:17px;outline:none;min-height:44px}
+.search svg{flex:0 0 auto}
+.hd nav ul{display:flex;gap:24px;font-size:16px}
 .hd nav a{color:var(--stone);display:inline-flex;align-items:center;min-height:44px;transition:color .2s}
 .hd nav a:hover{color:var(--ink)}
-.cart-btn{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--ink);cursor:pointer;font-size:16px}
+.cart-btn{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 16px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--ink);cursor:pointer;font-size:16px}
 .cart-btn .n{min-width:1.4em;text-align:center}
 .cart-btn.has{background:var(--ink);color:var(--paper)}
-@media (max-width:860px){.hd nav{display:none}}
+@media (max-width:1180px){.hd nav{display:none}}
+@media (max-width:860px){
+  .hd-in{grid-template-columns:minmax(0,1fr) auto;align-content:center;gap:10px 16px}
+  .hd .search{grid-column:1/-1;grid-row:2;max-width:none}
+}
 
-/* первый экран */
-.hero{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,4vw,64px);padding-block:clamp(28px,5vh,64px) clamp(40px,7vh,88px);align-items:end}
-.hero h1{font-weight:300;font-size:clamp(50px,8.2vw,128px);line-height:.92;letter-spacing:-0.045em}
+/* первый экран: короткий, чтобы прайс начинался сразу под ним */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,4vw,64px);padding-block:clamp(32px,6vh,72px) clamp(32px,5vh,56px);align-items:end}
+.hero h1{font-weight:300;font-size:clamp(46px,6.8vw,112px);line-height:.92;letter-spacing:-0.045em}
 .hero h1 span{display:block}
-.hero-sub{margin-top:clamp(20px,3vh,32px);max-width:30em;font-size:clamp(18px,1.5vw,21px);color:var(--stone)}
-.hero-cta{margin-top:clamp(24px,4vh,40px);display:flex;flex-wrap:wrap;gap:12px}
-.art{position:relative;aspect-ratio:4/5;max-width:100%;border:1px solid var(--line);overflow:hidden;background:var(--paper)}
+.hero-sub{margin-top:clamp(18px,2.6vh,28px);max-width:30em;font-size:clamp(18px,1.4vw,20px);color:var(--stone)}
+.hero-cta{margin-top:clamp(22px,3.4vh,36px);display:flex;flex-wrap:wrap;gap:12px}
+.art{position:relative;aspect-ratio:5/4;max-width:100%;border:1px solid var(--line);overflow:hidden;background:var(--paper)}
 .art canvas{position:absolute;inset:0;width:100%;height:100%}
-.glow{position:absolute;left:58%;top:42%;width:62%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:var(--tech);filter:blur(64px);opacity:.75}
-.art .core{position:absolute;left:58%;top:42%;width:20px;height:20px;translate:-50% -50%;border-radius:50%;background:var(--ink)}
+.glow{position:absolute;left:58%;top:46%;width:56%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:var(--tech);filter:blur(60px);opacity:.75}
+.art .core{position:absolute;left:58%;top:46%;width:18px;height:18px;translate:-50% -50%;border-radius:50%;background:var(--ink)}
 .mk{position:absolute;font-size:28px;line-height:1;font-weight:300;color:var(--ink)}
 .mk.tl{left:10px;top:6px}.mk.tr{right:10px;top:6px}.mk.bl{left:10px;bottom:10px}.mk.br{right:10px;bottom:10px}
-.art .geo{position:absolute;left:calc(58% + 20px);top:calc(42% + 18px);padding:4px 8px;background:var(--paper);font-size:14px;line-height:1.35;white-space:pre-line}
+.art .geo{position:absolute;left:calc(58% + 18px);top:calc(46% + 16px);padding:4px 8px;background:var(--paper);font-size:14px;line-height:1.35;white-space:pre-line}
 .art-cap{margin-top:10px;font-size:14px;color:var(--stone)}
-.hline{position:absolute;left:0;right:0;top:42%;border-top:1px dashed var(--line)}
+.hline{position:absolute;left:0;right:0;top:46%;border-top:1px dashed var(--line)}
 .vline{position:absolute;top:0;bottom:0;left:58%;border-left:1px dashed var(--line)}
 @media (max-width:860px){
   .hero{grid-template-columns:minmax(0,1fr)}
-  .art{aspect-ratio:16/11}
+  .art{aspect-ratio:16/9}
 }
 
-/* полоса с главным обещанием */
-.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
-.facts div{padding:20px 24px 24px 0;display:flex;flex-direction:column;gap:6px}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:18px 24px 20px 0;display:flex;flex-direction:column;gap:6px}
 .facts div+div{padding-left:24px;border-left:1px solid var(--line)}
-.facts b{font-weight:300;font-size:clamp(28px,2.8vw,40px);line-height:1;letter-spacing:-0.02em}
+.facts b{font-weight:300;font-size:clamp(26px,2.6vw,36px);line-height:1;letter-spacing:-0.02em}
 .facts span{font-size:16px;color:var(--stone);max-width:16em}
 @media (max-width:860px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.facts div:nth-child(3){padding-left:0;border-left:0}.facts div:nth-child(n+3){border-top:1px solid var(--line)}}
 
 /* прайс */
-.price{padding-top:clamp(64px,9vw,128px)}
-.price-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px}
-.upd{display:flex;align-items:center;gap:10px;font-size:16px;color:var(--stone)}
-.example{margin-top:14px;font-size:15px;color:var(--stone)}
-.tools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--hd));z-index:20;margin-top:clamp(20px,3vw,32px);padding-block:12px;background:color-mix(in srgb,var(--paper) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;border-bottom:1px solid var(--ink)}
-.search{flex:1 1 260px;display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;background:var(--white);box-shadow:inset 0 0 0 1px var(--line)}
-.search:focus-within{box-shadow:inset 0 0 0 1px var(--ink)}
-.search input{flex:1;min-width:0;border:0;background:transparent;font-size:17px;outline:none;min-height:46px}
-.search svg{flex:0 0 auto}
-.cats{display:flex;flex-wrap:wrap;gap:6px}
-.cats{max-height:none}
-.cat{min-height:40px;padding:0 14px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);font-size:15px;cursor:pointer;transition:box-shadow .2s,background .2s,color .2s}
-.cat:hover{box-shadow:inset 0 0 0 1px var(--ink)}
-.cat[aria-pressed="true"]{background:var(--ink);color:var(--paper);box-shadow:none}
-.only{display:inline-flex;align-items:center;gap:10px;min-height:40px;font-size:15px;cursor:pointer;user-select:none}
-.only input{width:18px;height:18px;margin:0;accent-color:var(--ink)}
+.price{padding-top:clamp(48px,7vw,96px)}
+.price-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px;padding-bottom:clamp(20px,2.6vw,32px)}
+.upd{display:flex;align-items:baseline;gap:10px;font-size:16px;color:var(--stone);max-width:34em}
+.upd .dot{translate:0 -.05em}
+.example{margin-top:-8px;margin-bottom:20px;font-size:15px;color:var(--stone)}
+.pr{display:grid;grid-template-columns:248px minmax(0,1fr);gap:clamp(24px,3.4vw,56px);align-items:start;border-top:1px solid var(--ink)}
 
-.list{margin-top:4px}
-.group{padding-top:28px}
-.group h3{display:flex;align-items:baseline;justify-content:space-between;gap:16px;font-weight:300;font-size:clamp(26px,2.6vw,36px);letter-spacing:-0.02em;padding-bottom:10px;border-bottom:1px solid var(--line)}
-.group h3 small{font-size:15px;color:var(--stone);letter-spacing:0}
-.row{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,3fr) minmax(0,2fr) minmax(0,2fr) 128px;align-items:center;gap:16px;min-height:64px;padding-block:10px;border-bottom:1px solid var(--line);transition:background .15s}
-.row:hover{background:color-mix(in srgb,var(--white) 60%,transparent)}
-.row .m{font-size:19px;line-height:1.25}
-.row .m small{display:block;font-size:15px;color:var(--stone)}
-.row .m .col{display:none}
-.row .c{font-size:16px;color:var(--stone)}
-.row .s{display:flex;align-items:center;gap:8px;font-size:15px}
-.row .p{font-size:20px;text-align:right;white-space:nowrap}
-.add{justify-self:end;min-height:44px;width:100%;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--ink);cursor:pointer;font-size:15px;transition:background .2s,color .2s}
+/* категории: колонка слева, на телефоне — лента */
+.side{position:sticky;top:calc(var(--hd) + env(safe-area-inset-top,0px));max-height:calc(100dvh - var(--hd));overflow-y:auto;padding:18px 0 32px;scrollbar-width:thin}
+.side h3{font-weight:400;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mark);padding:14px 0 6px}
+.side h3:first-child{padding-top:0}
+.cat{display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;min-height:38px;padding:0 10px 0 0;border:0;background:transparent;text-align:left;font-size:16px;cursor:pointer;color:var(--ink);position:relative}
+.cat small{font-size:14px;color:var(--mark)}
+.cat:hover span{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.cat[aria-current="true"]{font-weight:500}
+.cat[aria-current="true"]::before{content:"";position:absolute;left:-18px;top:50%;width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--tech)}
+.cat[aria-current="true"] small{color:var(--ink);font-weight:400}
+
+.pr-main{min-width:0;padding-top:18px}
+.pr-bar{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;padding-bottom:6px}
+.pr-bar h3{font-weight:300;font-size:clamp(32px,3.4vw,48px);line-height:1.05;letter-spacing:-0.025em}
+.pr-bar p{font-size:15px;color:var(--stone)}
+
+.mg{padding-top:26px}
+.mg h4{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;font-weight:400;font-size:clamp(21px,1.7vw,25px);line-height:1.2;letter-spacing:-0.01em;padding-bottom:8px;border-bottom:1px solid var(--ink)}
+.mg h4 small{font-size:15px;color:var(--stone);letter-spacing:0;font-weight:400}
+.r{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) auto 46px;align-items:center;gap:6px 20px;min-height:56px;padding-block:8px;border-bottom:1px solid var(--line);transition:background .15s}
+.r:hover{background:color-mix(in srgb,var(--white) 70%,transparent)}
+.r .v{font-size:18px;line-height:1.3}
+.r.solo .v{font-size:19px}
+.r .g{font-size:15px;color:var(--stone);line-height:1.35}
+.r .g b{font-weight:400;color:var(--ink);letter-spacing:.02em}
+.r .p{display:flex;align-items:center;justify-content:flex-end;gap:10px;font-size:19px;white-space:nowrap;min-width:8.5em}
+.add{width:46px;height:46px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--ink);cursor:pointer;font-size:24px;font-weight:300;line-height:1;transition:background .2s,color .2s;display:grid;place-items:center}
 .add:hover{background:var(--ink);color:var(--paper)}
-.add.in{background:var(--ink);color:var(--paper)}
-.none{padding:48px 0;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.add.in{background:var(--ink);color:var(--paper);font-size:16px;font-weight:400}
+.cgrp{padding-top:40px}
+.cgrp:first-child{padding-top:8px}
+.cgrp>h3{font-weight:300;font-size:clamp(28px,2.8vw,38px);letter-spacing:-0.02em;line-height:1.1}
+.cgrp>h3 small{font-size:15px;color:var(--stone);letter-spacing:0;margin-left:10px}
+.more{padding:28px 0 4px}
+.none{padding:40px 0;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
 .none p{font-size:22px;font-weight:300;max-width:26em}
-.order-any{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px;padding:28px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.order-any{margin-top:clamp(40px,5vw,64px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px;padding:28px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
 .order-any p{font-weight:300;font-size:clamp(24px,2.4vw,34px);line-height:1.15;letter-spacing:-0.02em;max-width:22em}
+
 @media (max-width:860px){
-  .row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"m p" "s a";gap:8px 16px;padding-block:14px}
-  .row .m{grid-area:m}.row .c{display:none}.row .s{grid-area:s}.row .p{grid-area:p}.row .add{grid-area:a;width:auto;padding:0 16px;min-height:40px}
-  .row .m .col{display:inline}
-  .tools{position:static}
+  .pr{grid-template-columns:minmax(0,1fr);gap:0;border-top:0}
+  .side{position:sticky;top:calc(var(--hd) + env(safe-area-inset-top,0px));z-index:20;max-height:none;overflow:visible;padding:0;margin-inline:calc(-1 * var(--gutter));background:color-mix(in srgb,var(--paper) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+  .side nav{display:flex;gap:6px;overflow-x:auto;padding:10px var(--gutter);scrollbar-width:none}
+  .side nav::-webkit-scrollbar{display:none}
+  .side h3{display:none}
+  .cat{flex:0 0 auto;width:auto;min-height:40px;padding:0 14px;box-shadow:inset 0 0 0 1px var(--line);gap:8px;font-size:15px}
+  .cat[aria-current="true"]{background:var(--ink);color:var(--paper);box-shadow:none;font-weight:400}
+  .cat[aria-current="true"]::before{display:none}
+  .cat[aria-current="true"] small{color:var(--line)}
+  .r{grid-template-columns:minmax(0,1fr) auto 44px;grid-template-areas:"v p a" "g p a";gap:2px 14px;padding-block:12px}
+  .r .v{grid-area:v;font-size:17px}.r .g{grid-area:g;font-size:14px}.r .p{grid-area:p;font-size:17px;min-width:0}.r .add{grid-area:a;width:44px;height:44px}
+  .r .p .dot{display:none}
 }
 
 /* как купить */
@@ -210,16 +235,18 @@ button,input{font:inherit;color:inherit;border-radius:0}
 </head>
 <body>
 
-
-<a class="skip" href="#main">К содержанию</a>
+<a class="skip" href="#price">К прайсу</a>
 <header class="hd" id="hd">
   <div class="wrap hd-in">
     <a class="logo" href="#top" aria-label="get.tech, в начало">get.<b>tech</b></a>
+    <label class="search" for="q" role="search">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="7.5" cy="7.5" r="6" fill="none" stroke="#302F2C" stroke-width="1.5"/><path d="M12 12l5 5" stroke="#302F2C" stroke-width="1.5"/></svg>
+      <input id="q" type="search" placeholder="Поиск по прайсу" autocomplete="off" aria-label="Поиск по прайсу">
+    </label>
     <nav aria-label="Разделы">
       <ul>
-        <li><a href="#price">Прайс</a></li>
         <li><a href="#how">Как купить</a></li>
-        <li><a href="#check">Проверка и гарантия</a></li>
+        <li><a href="#check">Гарантия</a></li>
       </ul>
     </nav>
     <button class="cart-btn" type="button" id="cartBtn" aria-haspopup="dialog" aria-controls="drawer">Корзина <span class="n num" id="cartN">0</span></button>
@@ -231,22 +258,22 @@ button,input{font:inherit;color:inherit;border-radius:0}
 <section class="wrap hero" id="top">
   <div>
     <h1><span>Честная цена.</span><span>Проверенная техника.</span></h1>
-    <p class="hero-sub">Apple и любая другая техника, в наличии и под заказ. Итоговую цену называем до оплаты, коробку вскрываем вместе с вами.</p>
+    <p class="hero-sub">Apple и любая другая техника. Всё из прайса есть в наличии, итоговую цену называем до оплаты, коробку вскрываем вместе с вами.</p>
     <div class="hero-cta">
       <a class="btn" href="#price">Открыть прайс</a>
       <a class="btn line" href="#" data-tg>Написать в Telegram</a>
     </div>
   </div>
   <div>
-  <div class="art" aria-hidden="true">
-    <canvas id="raster"></canvas>
-    <div class="glow"></div>
-    <div class="hline"></div><div class="vline"></div>
-    <div class="core"></div>
-    <div class="geo">55°45′ N
+    <div class="art" aria-hidden="true">
+      <canvas id="raster"></canvas>
+      <div class="glow"></div>
+      <div class="hline"></div><div class="vline"></div>
+      <div class="core"></div>
+      <div class="geo">55°45′ N
 37°37′ E</div>
-    <span class="mk tl">+</span><span class="mk tr">+</span><span class="mk bl">+</span><span class="mk br">+</span>
-  </div>
+      <span class="mk tl">+</span><span class="mk tr">+</span><span class="mk bl">+</span><span class="mk br">+</span>
+    </div>
     <p class="art-cap">офлайн — Москва, онлайн — весь мир</p>
   </div>
 </section>
@@ -263,20 +290,17 @@ button,input{font:inherit;color:inherit;border-radius:0}
 <section class="wrap price" id="price">
   <div class="price-head">
     <h2 class="h2">Прайс</h2>
-    <p class="upd"><span class="dot"></span><span>Обновлено <span id="updTime" class="num">сегодня</span>. Цены меняются в течение дня, итоговую подтверждаем в чате.</span></p>
+    <p class="upd"><span class="dot"></span><span><span id="total" class="num">0</span> позиций в наличии, обновлено <span id="updTime" class="num">сегодня</span>. Регион — для какой страны выпущено устройство.</span></p>
   </div>
-  <p class="example">Это пример позиций, цены условные. Здесь будет прайс из нашего Telegram.</p>
+  <p class="example">Это пример позиций, цены условные.</p>
 
-  <div class="tools" role="search">
-    <label class="search" for="q">
-      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="7.5" cy="7.5" r="6" fill="none" stroke="#302F2C" stroke-width="1.5"/><path d="M12 12l5 5" stroke="#302F2C" stroke-width="1.5"/></svg>
-      <input id="q" type="search" placeholder="Модель, память или цвет" autocomplete="off" aria-label="Поиск по прайсу">
-    </label>
-    <div class="cats" id="cats" role="group" aria-label="Категории"></div>
-    <label class="only" for="onlyIn"><input type="checkbox" id="onlyIn"> Только в наличии</label>
+  <div class="pr">
+    <aside class="side" aria-label="Категории"><nav id="cats"></nav></aside>
+    <div class="pr-main">
+      <div class="pr-bar"><h3 id="catTitle"></h3><p id="catMeta" class="num"></p></div>
+      <div id="list" aria-live="polite"></div>
+    </div>
   </div>
-
-  <div class="list" id="list" aria-live="polite"></div>
 
   <div class="order-any">
     <p>Нужной модели нет в прайсе? Назовите её, привезём под заказ.</p>
@@ -342,133 +366,181 @@ button,input{font:inherit;color:inherit;border-radius:0}
 
 <script>
 (async () => {
-  /* Аккаунт get.tech для заказов. Пока стоит общий аккаунт get., заменить на аккаунт поинта. */
   const TG = 'get_tochka_admin';
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const rub = (n) => Math.round(n).toLocaleString('ru-RU') + ' ₽';
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const plural = (n, a, b, c) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? a : m >= 2 && m <= 4 && (h < 12 || h > 14) ? b : c; };
+  const norm = (s) => s.toLowerCase().replace(/ё/g, 'е');
 
-  /* Прайс. На сайте позиции будут приходить из Telegram: цена поставщика + наценка, округление до 100 ₽.
-     Сейчас это пример, цены условные. stock: 1 — в наличии, 0 — под заказ. */
-  let P = [
-    ['iPhone', 'iPhone 17 Pro Max', '256 ГБ', 'Космический оранжевый', 1, 129900],
-    ['iPhone', 'iPhone 17 Pro Max', '512 ГБ', 'Тёмно-синий', 1, 149900],
-    ['iPhone', 'iPhone 17 Pro', '256 ГБ', 'Серебристый', 1, 114900],
-    ['iPhone', 'iPhone 17 Pro', '1 ТБ', 'Космический оранжевый', 0, 154900],
-    ['iPhone', 'iPhone Air', '256 ГБ', 'Небесно-голубой', 1, 94900],
-    ['iPhone', 'iPhone 17', '256 ГБ', 'Лавандовый', 1, 79900],
-    ['iPhone', 'iPhone 17', '512 ГБ', 'Чёрный', 0, 94900],
-    ['iPhone', 'iPhone 16e', '128 ГБ', 'Белый', 1, 54900],
-    ['Mac', 'MacBook Air 13 M4', '16 / 256 ГБ', 'Небесно-голубой', 1, 99900],
-    ['Mac', 'MacBook Air 15 M4', '16 / 512 ГБ', 'Полночь', 0, 139900],
-    ['Mac', 'MacBook Pro 14 M5', '16 / 512 ГБ', 'Чёрный космос', 1, 169900],
-    ['iPad', 'iPad Air 11 M3', '128 ГБ, Wi-Fi', 'Серый космос', 1, 59900],
-    ['iPad', 'iPad Pro 11 M5', '256 ГБ, Wi-Fi', 'Серебристый', 0, 104900],
-    ['iPad', 'iPad mini A17 Pro', '128 ГБ, Wi-Fi', 'Голубой', 1, 49900],
-    ['Наушники', 'AirPods Pro 3', '', 'Белый', 1, 24900],
-    ['Наушники', 'AirPods 4', 'с шумоподавлением', 'Белый', 1, 16900],
-    ['Наушники', 'AirPods Max', 'USB-C', 'Полночь', 0, 49900],
-    ['Часы', 'Apple Watch Series 11', '46 мм', 'Чёрный', 1, 42900],
-    ['Часы', 'Apple Watch Ultra 3', '49 мм', 'Натуральный титан', 0, 84900],
-    ['Другое', 'PlayStation 5 Pro', '2 ТБ', 'Белый', 1, 79900],
-    ['Другое', 'Dyson Airwrap', 'Coanda 2x', 'Фиолетовый', 0, 59900],
-  ].map(([cat, model, spec, color, stock, price], i) => ({id: 'p' + i, cat, model, spec, color, stock, price}));
-  /* живой прайс: файл, который каждые полчаса обновляет скрипт из канала поставщика */
-  let live = null;
+  /* Пример на случай, если файла прайса рядом нет */
+  let data = {updated: new Date().toISOString(), items: [
+    ['iPhone', 'iPhone 17 Pro Max 256 Cosmic Orange', 'US', 'eSIM', 129900],
+    ['iPhone', 'iPhone 17 Pro Max 512 Deep Blue', 'JP', 'eSIM', 149900],
+    ['iPhone', 'iPhone 17 Pro 256 Silver', 'HK', 'SIM + eSIM', 114900],
+    ['iPhone', 'iPhone 17 256 Lavender', 'IN', 'SIM + eSIM', 79900],
+    ['Mac', 'MacBook Air 13 M4 16/256 Sky Blue', '', '', 99900],
+    ['AirPods', 'AirPods Pro 3', '', '', 24900],
+  ].map(([category, name, region, note, price]) => ({category, name, region, note, price}))};
+  let live = false;
   try {
     const r = await fetch('data/prices.json', {cache: 'no-store'});
-    if (r.ok) { const d = await r.json(); if (d.items && d.items.length) live = d; }
-  } catch (e) { live = null; }
-  if (live) {
-    P = live.items.map((x) => ({id: [x.name, x.region, x.note].join('|'), cat: x.category, model: x.name, spec: [x.region ? 'регион ' + x.region : '', x.note || ''].filter(Boolean).join(' · '), color: '', stock: 1, price: x.price}));
-    $('.example').hidden = true;
-  }
-  const CATS = [...new Set(P.map((p) => p.cat))];
+    if (r.ok) { const d = await r.json(); if (d.items && d.items.length) { data = d; live = true; } }
+  } catch (e) { live = false; }
+  $('.example').hidden = live;
 
-  const upd = live ? new Date(live.updated) : new Date();
+  /* Модель и вариант: «iPhone 17 Pro 256 Silver» → «iPhone 17 Pro» + «256 ГБ Silver».
+     Делим по первому токену памяти (256, 1TB, 16/512) или срезаем цвета в конце. */
+  const MEM = /^\(?(\d+\/\d+\S*|\d+(gb|tb|гб|тб)|64|128|256|512|\d{2}mm)[,)]?$/i;
+  const COL = new Set('black white green purple grey gray orange blue silver gold pink red yellow midnight starlight natural titanium desert space graphite rose beige brown teal navy mint lavender violet cream sage indigo blush citrus lime ultramarine sky light dark deep cosmic jet onyx ice cloud pearl sand charcoal copper bronze olive coral cyan magenta lilac turquoise burgundy glacier'.split(' '));
+  const cap = (w) => /^[a-z]/.test(w) ? w[0].toUpperCase() + w.slice(1) : w;
+  function split(name) {
+    const t = name.replace(/^[^\p{L}\p{N}"(]+/u, '').split(/\s+/);
+    let k = t.findIndex((w, i) => i > 0 && MEM.test(w));
+    if (k < 0) { k = t.length; while (k > 1 && COL.has(t[k - 1].toLowerCase().replace(/[\/,]/g, ''))) k--; if (k === t.length) k = -1; }
+    if (k < 0) return [t.join(' '), ''];
+    let model = t.slice(0, k), rest = t.slice(k);
+    const o = model.findIndex((w) => w.includes('(') && !w.includes(')'));
+    if (o >= 0) { rest = model.slice(o).concat(rest); model = model.slice(0, o); }
+    const v = rest.join(' ').replace(/[()]/g, '').split(' ').map((w, i) => {
+      if (i === 0 && /^(64|128|256|512)$/.test(w)) return w + ' ГБ';
+      const tb = w.match(/^(\d)tb$/i); if (tb) return tb[1] + ' ТБ';
+      return cap(w);
+    }).join(' ');
+    return [model.join(' '), v];
+  }
+
+  const P = data.items.map((x) => {
+    const [model, variant] = split(x.name);
+    return {id: [x.name, x.region, x.note].join('|'), cat: x.category, name: x.name.replace(/^[^\p{L}\p{N}"(]+/u, ''), model, variant, region: x.region || '', note: x.note || '', price: x.price,
+      hay: norm([x.name, x.region, x.note, x.category].join(' '))};
+  });
+
+  /* Категории: сначала Apple, затем остальное по числу позиций, «Другое» в конце */
+  const APPLE = ['iPhone', 'Mac', 'iPad', 'Apple Watch', 'AirPods', 'Аксессуары Apple'];
+  const count = {}; P.forEach((p) => { count[p.cat] = (count[p.cat] || 0) + 1; });
+  const apple = APPLE.filter((c) => count[c]);
+  const other = Object.keys(count).filter((c) => !APPLE.includes(c) && c !== 'Другое').sort((a, b) => count[b] - count[a]);
+  if (count['Другое']) other.push('Другое');
+  const CATS = [...apple, ...other];
+  const catBtn = (c) => `<button class="cat" type="button" data-cat="${esc(c)}"><span>${esc(c)}</span><small class="num">${count[c]}</small></button>`;
+  $('#cats').innerHTML = `<h3>Apple</h3>${apple.map(catBtn).join('')}<h3>Вся техника</h3>${other.map(catBtn).join('')}`;
+
+  $('#total').textContent = P.length.toLocaleString('ru-RU');
+  $('#q').placeholder = `Поиск среди ${P.length.toLocaleString('ru-RU')} позиций`;
+  const upd = new Date(data.updated);
   const sameDay = upd.toDateString() === new Date().toDateString();
   $('#updTime').textContent = (sameDay ? 'сегодня' : upd.toLocaleDateString('ru-RU', {day: 'numeric', month: 'long'})) + ' в ' + upd.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
 
-  /* корзина: запоминается в этом браузере, если хранилище доступно */
   let cart = {};
   try { cart = JSON.parse(localStorage.getItem('get-tech-cart') || '{}') || {}; } catch (e) { cart = {}; }
   Object.keys(cart).forEach((k) => { if (!P.find((p) => p.id === k)) delete cart[k]; });
-  const save = () => { try { localStorage.setItem('get-tech-cart', JSON.stringify(cart)); } catch (e) { /* без хранилища корзина живёт до перезагрузки */ } };
+  const save = () => { try { localStorage.setItem('get-tech-cart', JSON.stringify(cart)); } catch (e) { /* корзина живёт до перезагрузки */ } };
 
-  /* фильтры */
-  let cat = CATS[0], limit = 120;
-  const cats = $('#cats');
-  cats.innerHTML = CATS.map((c) => `<button class="cat" type="button" aria-pressed="${c === cat}">${c}</button>`).join('');
-  cats.addEventListener('click', (e) => {
+  let cat = CATS[0], limit = 160;
+  $('#cats').addEventListener('click', (e) => {
     const b = e.target.closest('.cat'); if (!b) return;
-    cat = b.textContent; limit = 120;
-    $('#q').value = '';
-    $$('.cat', cats).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    cat = b.dataset.cat; limit = 160; $('#q').value = '';
     render();
+    b.scrollIntoView({block: 'nearest', inline: 'center', behavior: REDUCE ? 'auto' : 'smooth'});
+    const top = $('#price .pr').getBoundingClientRect().top;
+    if (top < 0) $('.pr').scrollIntoView({behavior: 'auto'});
   });
-  $('#q').addEventListener('input', () => { limit = 120; render(); });
-  $('#onlyIn').addEventListener('change', render);
+  let qt = 0;
+  $('#q').addEventListener('input', () => {
+    clearTimeout(qt);
+    qt = setTimeout(() => {
+      limit = 160; render();
+      const pr = $('.pr').getBoundingClientRect().top;
+      if (pr > innerHeight * .6 || pr < 0) $('.pr').scrollIntoView({behavior: 'auto'});
+    }, 120);
+  });
+
+  /* Модели внутри категории: по бренду (первое слово), затем новее выше; варианты по цене */
+  const coll = new Intl.Collator('ru', {numeric: true, sensitivity: 'base'});
+  function groups(items) {
+    const m = new Map();
+    items.forEach((p) => { const k = p.model.toLowerCase(); if (!m.has(k)) m.set(k, {model: p.model, rows: []}); m.get(k).rows.push(p); });
+    const g = [...m.values()];
+    g.forEach((x) => x.rows.sort((a, b) => a.price - b.price));
+    g.sort((a, b) => {
+      const [fa, ...ra] = a.model.split(' '), [fb, ...rb] = b.model.split(' ');
+      const na = parseFloat((ra.join(' ').match(/\d+/) || [-1])[0]), nb = parseFloat((rb.join(' ').match(/\d+/) || [-1])[0]);
+      return coll.compare(fa, fb) || nb - na || coll.compare(rb.join(' '), ra.join(' '));
+    });
+    return g;
+  }
+  const row = (p, solo) => `<div class="r${solo ? ' solo' : ''}">
+      <div class="v">${esc(solo ? p.name : p.variant)}</div>
+      <div class="g">${p.region ? `<b>${esc(p.region)}</b>` : ''}${p.region && p.note ? ' · ' : ''}${esc(p.note)}</div>
+      <div class="p num"><span class="dot" title="В наличии"></span>${rub(p.price)}</div>
+      <button class="add${cart[p.id] ? ' in' : ''}" type="button" data-id="${esc(p.id)}" aria-label="${cart[p.id] ? 'В корзине ' + cart[p.id] + ', добавить ещё' : 'В корзину'}: ${esc(p.name)}">${cart[p.id] ? cart[p.id] : '+'}</button>
+    </div>`;
+  function block(items, budget) {
+    let html = '', shown = 0;
+    for (const g of groups(items)) {
+      if (shown >= budget) break;
+      const rows = g.rows.slice(0, budget - shown); shown += rows.length;
+      if (g.rows.length === 1) { html += row(g.rows[0], true); continue; }
+      const min = g.rows[0].price;
+      html += `<div class="mg"><h4>${esc(g.model)}<small class="num">${g.rows.length} ${plural(g.rows.length, 'вариант', 'варианта', 'вариантов')} · от ${rub(min)}</small></h4>${rows.map((p) => row(p, false)).join('')}</div>`;
+    }
+    return [html, shown];
+  }
 
   function render() {
-    const q = $('#q').value.trim().toLowerCase().replace(/ё/g, 'е');
-    const only = $('#onlyIn').checked;
-    /* поиск идёт по всему прайсу, без поиска показываем выбранную категорию */
-    $$('.cat', cats).forEach((x) => x.setAttribute('aria-pressed', String(!q && x.textContent === cat)));
-    const all = P.filter((p) => (q || p.cat === cat) && (!only || p.stock) &&
-      (!q || q.split(/\s+/).every((w) => (p.model + ' ' + p.spec + ' ' + p.color + ' ' + p.cat).toLowerCase().replace(/ё/g, 'е').includes(w))));
-    const items = all.slice(0, limit);
+    const raw = $('#q').value.trim(), q = norm(raw);
+    $$('.cat').forEach((x) => x.setAttribute('aria-current', String(!q && x.dataset.cat === cat)));
     const list = $('#list');
-    if (!items.length) {
-      list.innerHTML = `<div class="none"><p>Ничего не нашли${q ? ` по запросу «${esc($('#q').value.trim())}»` : ''}. Напишите нам, найдём и привезём под заказ.</p><a class="btn line" href="#" data-tg data-msg="Здравствуйте. Ищу: ${esc($('#q').value.trim())}">Найти под заказ</a></div>`;
-      return;
+    if (q) {
+      const words = q.split(/\s+/);
+      const all = P.filter((p) => words.every((w) => p.hay.includes(w)));
+      $('#catTitle').textContent = `«${raw}»`;
+      $('#catMeta').textContent = all.length ? `${all.length} ${plural(all.length, 'позиция', 'позиции', 'позиций')} во всех категориях` : '';
+      if (!all.length) {
+        list.innerHTML = `<div class="none"><p>В прайсе такого нет. Напишите нам, найдём и привезём под заказ.</p><a class="btn line" href="#" data-tg data-msg="Здравствуйте. Ищу: ${esc(raw)}">Найти под заказ</a></div>`;
+        return;
+      }
+      let left = limit, html = '';
+      for (const c of CATS) {
+        const items = all.filter((p) => p.cat === c); if (!items.length || left <= 0) continue;
+        const [h, n] = block(items, left); left -= n;
+        html += `<div class="cgrp"><h3>${esc(c)}<small class="num">${items.length}</small></h3>${h}</div>`;
+      }
+      list.innerHTML = html + moreBtn(all.length - limit);
+    } else {
+      const items = P.filter((p) => p.cat === cat);
+      const prices = items.map((p) => p.price);
+      $('#catTitle').textContent = cat;
+      $('#catMeta').textContent = `${items.length} ${plural(items.length, 'позиция', 'позиции', 'позиций')} · ${rub(Math.min(...prices))} — ${rub(Math.max(...prices))}`;
+      list.innerHTML = block(items, limit)[0] + moreBtn(items.length - limit);
     }
-    const groups = [...new Set(items.map((p) => p.cat))];
-    list.innerHTML = groups.map((g) => {
-      const rows = items.filter((p) => p.cat === g), total = all.filter((p) => p.cat === g).length;
-      return `<div class="group"><h3>${g} <small>${total} ${plural(total, 'позиция', 'позиции', 'позиций')}</small></h3>` + rows.map((p) =>
-        `<div class="row">
-          <div class="m">${esc(p.model)}<small>${esc(p.spec)}<span class="col">${p.spec && p.color ? ', ' : ''}${p.color.toLowerCase()}</span></small></div>
-          <div class="c">${p.color}</div>
-          <div class="s"><span class="dot${p.stock ? '' : ' off'}"></span>${p.stock ? 'В наличии' : 'Под заказ'}</div>
-          <div class="p num">${rub(p.price)}</div>
-          <button class="add${cart[p.id] ? ' in' : ''}" type="button" data-id="${esc(p.id)}" aria-label="${cart[p.id] ? 'Уже в корзине' : 'В корзину'}: ${esc(p.model)}">${cart[p.id] ? 'В корзине · ' + cart[p.id] : 'В корзину'}</button>
-        </div>`).join('') + `</div>`;
-    }).join('') + (all.length > limit ? `<div class="none"><button class="btn line" type="button" id="more">Показать ещё ${Math.min(120, all.length - limit)} из ${all.length - limit}</button></div>` : '');
-    const more = $('#more');
-    if (more) more.addEventListener('click', () => { limit += 120; render(); });
   }
-  const esc = (s) => s.replace(/[&<>"]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
-  const plural = (n, a, b, c) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? a : m >= 2 && m <= 4 && (h < 12 || h > 14) ? b : c; };
+  const moreBtn = (rest) => rest > 0 ? `<div class="more"><button class="btn line" type="button" id="more">Показать ещё ${Math.min(160, rest)} из ${rest}</button></div>` : '';
 
   $('#list').addEventListener('click', (e) => {
+    if (e.target.closest('#more')) { limit += 160; render(); return; }
     const b = e.target.closest('.add'); if (!b) return;
     const id = b.dataset.id;
     cart[id] = (cart[id] || 0) + 1;
-    save(); render(); drawCart();
-    const p = P.find((x) => x.id === id);
-    toast(`${p.model} в корзине`);
-    [...document.querySelectorAll('.add')].find((x) => x.dataset.id === id)?.focus();
+    save(); drawCart();
+    b.classList.add('in'); b.textContent = cart[id];
+    b.setAttribute('aria-label', `В корзине ${cart[id]}, добавить ещё`);
+    toast(`${P.find((x) => x.id === id).name} в корзине`);
   });
 
-  /* выдвижная корзина */
   const drawer = $('#drawer'), scrim = $('#scrim');
   let lastFocus = null;
-  const openCart = () => {
-    lastFocus = document.activeElement;
-    drawer.classList.add('open'); scrim.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');
-    $('#drClose').focus();
-  };
-  const closeCart = () => {
-    drawer.classList.remove('open'); scrim.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true');
-    $('#sent').hidden = true;
-    lastFocus?.focus();
-  };
+  const openCart = () => { lastFocus = document.activeElement; drawer.classList.add('open'); scrim.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); $('#drClose').focus(); };
+  const closeCart = () => { drawer.classList.remove('open'); scrim.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); $('#sent').hidden = true; lastFocus?.focus(); };
   $('#cartBtn').addEventListener('click', openCart);
   $('#drClose').addEventListener('click', closeCart);
   scrim.addEventListener('click', closeCart);
   addEventListener('keydown', (e) => { if (e.key === 'Escape' && drawer.classList.contains('open')) closeCart(); });
 
+  const spec = (p) => [p.region ? 'регион ' + p.region : '', p.note].filter(Boolean).join(', ');
   function drawCart() {
     const ids = Object.keys(cart);
     const n = ids.reduce((s, k) => s + cart[k], 0);
@@ -485,7 +557,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
     body.innerHTML = ids.map((k) => {
       const p = P.find((x) => x.id === k);
       return `<div class="it">
-        <div class="m">${esc(p.model)}<small>${esc([p.spec, p.color, p.stock ? 'в наличии' : 'под заказ'].filter(Boolean).join(', '))}</small></div>
+        <div class="m">${esc(p.name)}<small>${esc(spec(p))}</small></div>
         <div class="p num">${rub(p.price * cart[k])}</div>
         <div class="qty"><button type="button" data-q="-1" data-id="${esc(k)}" aria-label="Меньше">−</button><span class="num">${cart[k]}</span><button type="button" data-q="1" data-id="${esc(k)}" aria-label="Больше">+</button></div>
         <button class="rm" type="button" data-rm="${esc(k)}">Убрать</button>
@@ -499,13 +571,12 @@ button,input{font:inherit;color:inherit;border-radius:0}
     else if (rm) delete cart[rm.dataset.rm];
     else return;
     save(); drawCart(); render();
-    const focusTarget = $('#drBody button') || $('#drClose'); focusTarget.focus();
+    ($('#drBody button') || $('#drClose')).focus();
   });
 
-  /* оформление: копируем текст заказа и открываем чат */
   const orderText = () => {
     const ids = Object.keys(cart);
-    const lines = ids.map((k) => { const p = P.find((x) => x.id === k); return `• ${[p.model, p.spec, p.color].filter(Boolean).join(', ')} × ${cart[k]} — ${rub(p.price * cart[k])}`; });
+    const lines = ids.map((k) => { const p = P.find((x) => x.id === k); return `• ${[p.name, spec(p)].filter(Boolean).join(', ')} × ${cart[k]} — ${rub(p.price * cart[k])}`; });
     const sum = ids.reduce((s, k) => s + P.find((x) => x.id === k).price * cart[k], 0);
     return `Здравствуйте. Хочу заказать:\n${lines.join('\n')}\nИтого по прайсу: ${rub(sum)}`;
   };
@@ -518,9 +589,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
   $('#checkout').addEventListener('click', async () => {
     const text = orderText();
     const copied = await sendToTg(text);
-    const box = $('#sent');
-    box.hidden = false;
-    box.textContent = text;
+    const box = $('#sent'); box.hidden = false; box.textContent = text;
     if (!copied) { const r = document.createRange(); r.selectNodeContents(box); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
     toast(copied ? 'Список скопирован. Вставьте его в чат get.tech' : 'Скопируйте список ниже и отправьте в чат get.tech');
   });
@@ -535,11 +604,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
   let tt = 0;
   function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => el.classList.remove('show'), 2600); }
 
-  /* шапка получает линию после начала прокрутки */
-  const hd = $('#hd');
-  new IntersectionObserver(([en]) => hd.classList.toggle('scrolled', !en.isIntersecting), {rootMargin: '-1px 0px 0px 0px'}).observe($('#top'));
-
-  /* растр: точки разного размера, крупнее к центру свечения, чуть растут под курсором */
+  /* растр: точки крупнее к центру свечения, чуть растут под курсором */
   const cv = $('#raster'), art = cv.parentElement, ctx = cv.getContext('2d');
   let W = 0, H = 0, mx = -999, my = -999, raf = 0;
   const drawRaster = () => {
@@ -550,7 +615,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, W, H);
     ctx.fillStyle = '#302F2C';
-    const step = Math.max(14, W / 26), cx = W * .58, cy = H * .42, R = Math.hypot(W, H) * .62;
+    const step = Math.max(14, W / 26), cx = W * .58, cy = H * .46, R = Math.hypot(W, H) * .62;
     for (let y = step / 2; y < H; y += step) for (let x = step / 2; x < W; x += step) {
       const d = Math.hypot(x - cx, y - cy) / R;
       let r = (1 - d) * step * .44;
