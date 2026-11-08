@@ -182,6 +182,9 @@ def fetch_posts() -> list[dict]:
     return posts
 
 
+DEBUG_POST, DEBUG = 12970, {}
+
+
 def fetch_single(num: int) -> dict | None:
     """Один пост по номеру через встраиваемую версию. Нужна, если пост не попал в ленту t.me/s."""
     import requests
@@ -193,6 +196,10 @@ def fetch_single(num: int) -> dict | None:
         return None
     soup = BeautifulSoup(r.text, "lxml")
     body = soup.select_one(".tgme_widget_message_text")
+    if num == DEBUG_POST:
+        err = soup.select_one(".tgme_widget_message_error, .message_media_not_supported")
+        DEBUG.update({"status": r.status_code, "has_text": bool(body), "photos": len(soup.select(".tgme_widget_message_photo_wrap")),
+                      "error": err.get_text(" ", strip=True)[:120] if err else "", "len": len(r.text)})
     if not body:
         return None
     for br in body.find_all("br"):
@@ -248,6 +255,9 @@ def main() -> int:
     data = build(posts)
     data["stats"]["probe"] = {k: v for k, v in probe.items() if v}
     data["stats"]["feed_max_id"] = max(seen) if seen else None
+    if DEBUG_POST not in probe:
+        fetch_single(DEBUG_POST)
+    data["stats"]["debug_post"] = DEBUG
     prev = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"count": 0}
     if data["count"] == 0 or (prev.get("count") and data["count"] < prev["count"] * MAX_DROP):
         print(f"Подозрительно мало позиций: {data['count']} (было {prev.get('count')}). Прайс не обновлён.", file=sys.stderr)
