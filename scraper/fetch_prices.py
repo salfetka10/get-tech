@@ -139,6 +139,9 @@ def find_price(line: str):
         return m
     tail = re.sub(r"[\s*!]+$", "", FLAG_RE.sub("", EMOJI_RE.sub("", line)))
     m = PRICE_END_RE.search(tail)
+    # год в конце названия («MacBook 2025», «iPad Pro 13 M5 2026») — не цена
+    if m and re.fullmatch(r"20[12]\d", m.group(1)):
+        return None
     if m:
         # координаты найденной цены в исходной строке: ищем то же число с конца
         pos = line.rfind(m.group(1))

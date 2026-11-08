@@ -93,12 +93,34 @@ img{display:block;max-width:100%}
 .hero h1{font-weight:300;font-size:clamp(40px,5vw,78px);line-height:.98;letter-spacing:-0.04em;text-wrap:balance}
 .hero-sub{margin-top:clamp(16px,2.4vh,24px);font-size:clamp(17px,1.3vw,19px);color:var(--stone);max-width:26em;text-wrap:pretty}
 .hero-cta{margin-top:clamp(20px,3vh,32px);display:flex;flex-wrap:wrap;gap:10px}
-.rast{position:relative;min-width:0}
-.rast canvas{display:block;width:100%;touch-action:manipulation}
-.rtip{position:absolute;z-index:2;padding:10px 14px;background:var(--ink);color:var(--paper);font-size:14px;line-height:1.35;pointer-events:none;white-space:nowrap}
-.rtip b{display:block;font-weight:400;font-size:17px}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-.sr:focus-within{position:static;width:auto;height:auto;clip-path:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;font-size:15px}
+/* сцена новинки */
+.stage{position:relative;margin:0;aspect-ratio:5/4;background:var(--tile);transition:--g .8s var(--ease);display:flex;flex-direction:column}
+.stage-img{flex:1;min-height:0;display:block;background:radial-gradient(closest-side,color-mix(in srgb,var(--g) 46%,transparent),transparent) 50% 50%/80% 92% no-repeat,#FFFFFF}
+@media (max-width:860px){.stage{aspect-ratio:auto}.stage-img{aspect-ratio:4/3;flex:none}}
+.stage-img img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
+.stage .mk{position:absolute;font-size:26px;line-height:1;font-weight:300;color:var(--mark);z-index:1}
+.stage .mk.tl{left:10px;top:6px}.stage .mk.tr{right:10px;top:6px}.stage .mk.bl{left:10px;bottom:6px}.stage .mk.br{right:10px;bottom:6px}
+.stage-cap{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 20px;padding:0 clamp(16px,2.4vw,32px) clamp(18px,2.4vw,28px)}
+.stage-cap>span:first-child{display:flex;flex-direction:column}
+.stage-cap b{font-weight:300;font-size:clamp(26px,2.4vw,36px);letter-spacing:-0.02em;line-height:1.1}
+.stage-cap .num{font-size:16px;color:var(--stone)}
+.stage-sw{display:flex;gap:2px}
+/* категории Apple, как меню магазина Apple */
+.chic{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:clamp(8px,1vw,14px)}
+.chic a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:18px 10px 16px;background:var(--tile);text-align:center;transition:background .25s}
+.chic a:hover{background:color-mix(in srgb,var(--tech) 10%,var(--tile))}
+.chic img{width:100%;max-width:150px;aspect-ratio:400/260;object-fit:contain;margin-bottom:8px}
+.chic-ph{width:100%;max-width:150px;aspect-ratio:400/260;margin-bottom:8px;background-image:radial-gradient(circle,var(--mark) 1px,transparent 1.5px);background-size:10px 10px}
+.chic b{font-weight:400;font-size:18px}
+.chic small{font-size:14px;color:var(--stone)}
+@media (max-width:860px){.chic{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:42%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter);scroll-padding-inline:var(--gutter)}.chic a{scroll-snap-align:start}}
+/* остальная техника */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));column-gap:clamp(16px,2.4vw,40px)}
+.tiles a{display:flex;align-items:baseline;justify-content:space-between;gap:12px;min-height:60px;padding:16px 4px;border-bottom:1px solid var(--line);transition:padding .25s var(--ease)}
+.tiles b{font-weight:400;font-size:18px;line-height:1.25}
+.tiles small{font-size:14px;color:var(--stone);white-space:nowrap}
+.tiles a:hover{padding-left:12px}
+.tiles a:hover b{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 @media (max-width:860px){.hero{grid-template-columns:minmax(0,1fr)}}
 .lnk{font-size:16px;color:var(--stone);text-decoration:underline;text-underline-offset:4px;margin-left:auto}
 .lnk:hover{color:var(--ink)}
@@ -539,25 +561,36 @@ img{display:block;max-width:100%}
     scrollTo({top: 0, behavior: 'auto'});
   }
 
-  /* Главная. Первый экран — растр каталога: одна точка = одна позиция в наличии, сгусток = категория.
-     Наведение подсвечивает сгусток свечением get.tech, нажатие открывает витрину. */
+  /* Главная. Первый экран — витрина новинки: крупное фото, свечение в цвете корпуса и выбор цвета прямо здесь.
+     Ниже каталог: категории Apple с картинками, остальная техника, новые iPhone, бренды. */
   function home() {
     document.title = 'get.tech';
-    const upd = new Date(data.updated);
-    const when = (upd.toDateString() === new Date().toDateString() ? 'сегодня' : upd.toLocaleDateString('ru-RU', {day: 'numeric', month: 'long'})) + ' в ' + upd.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
     const cats = [...APPLE.filter((c) => count[c]), ...OTHER];
     const fresh = [...MODELS.values()].filter((m) => m.cat === 'iPhone' && imgFor(m.model, m.colors[0]))
       .sort((a, b) => b.num - a.num || b.min - a.min).slice(0, 8);
+    const star = fresh.find((m) => / Pro$/.test(m.model)) || fresh[0];
+    const starColors = star ? star.colors.filter((c) => IMG[star.model + '|' + c.toLowerCase()]) : [];
+    const appleCats = APPLE.filter((c) => count[c]);
+    const restCats = cats.filter((c) => !APPLE.includes(c));
     app.innerHTML = `
       <section class="hero">
         <div class="hero-t">
           <h1>Честная цена. Проверенная техника.</h1>
-          <p class="hero-sub">Одна точка в растре означает одну позицию в наличии. Всего их ${P.length.toLocaleString('ru-RU')}, цены обновлены ${when}.</p>
-          <div class="hero-cta"><a class="btn" href="#/c/iphone">Выбрать iPhone</a><button class="btn line" type="button" id="toSearch">Найти модель</button></div>
+          <p class="hero-sub">Apple и другая техника в наличии. Итоговую цену называем до оплаты, коробку вскрываем вместе с вами.</p>
+          <div class="hero-cta"><a class="btn" href="#/c/iphone">Выбрать iPhone</a><a class="btn line" href="#cat">Весь каталог</a></div>
         </div>
-        <div class="rast" id="rast"><canvas id="rc" aria-hidden="true"></canvas><div class="rtip" id="rtip" hidden></div>
-          <nav class="sr" aria-label="Категории">${cats.map((c) => `<a href="#/c/${slug(c)}">${esc(c)}, ${count[c]}</a>`).join('')}</nav>
-        </div>
+        ${star ? `<figure class="stage" id="stage" style="--g:${swc(starColors[0])}">
+          <span class="mk tl">+</span><span class="mk tr">+</span><span class="mk bl">+</span><span class="mk br">+</span>
+          <a class="stage-img" href="#/p/${star.slug}/color=${encodeURIComponent(starColors[0] || '')}" id="stageLink"><img id="stageImg" src="${esc(imgFor(star.model, starColors[0]))}" alt="${esc(star.model + ', ' + (starColors[0] || ''))}"></a>
+          <figcaption class="stage-cap">
+            <span><b>${esc(star.model)}</b><span class="num">от ${rub(star.min)}</span></span>
+            <span class="stage-sw" role="group" aria-label="Цвет">${starColors.map((c, i) => `<button type="button" class="swb" aria-pressed="${i === 0}" data-c="${esc(c)}" aria-label="${esc(c)}" title="${esc(c)}"><i class="sw" style="--c:${swc(c)}"></i></button>`).join('')}</span>
+          </figcaption>
+        </figure>` : ''}
+      </section>
+      <section class="blk" id="cat">
+        <div class="blk-h"><h2>Apple</h2></div>
+        <div class="chic">${appleCats.map((c) => `<a href="#/c/${slug(c)}">${IMG['nav|' + c] ? `<img src="${esc(IMG['nav|' + c])}" alt="" loading="lazy">` : `<span class="chic-ph"></span>`}<b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></a>`).join('')}</div>
       </section>
       <section class="blk">
         <div class="blk-h"><h2>Новые iPhone</h2><a class="lnk" href="#/c/iphone">Все iPhone</a></div>
@@ -566,12 +599,12 @@ img{display:block;max-width:100%}
           <span class="nw-b"><b>${esc(m.model)}</b><span class="num">от ${rub(m.min)}</span><span class="sws">${m.colors.slice(0, 6).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span></span></a>`).join('')}</div>
       </section>
       <section class="blk">
-        <div class="blk-h"><h2>Все категории</h2></div>
-        <div class="segs">${cats.map((c) => `<a class="seg mini${APPLE.includes(c) ? ' ap' : ''}" href="#/c/${slug(c)}"><span class="seg-t"><b>${esc(c)}</b><small class="num">${count[c]} ${plural(count[c], 'позиция', 'позиции', 'позиций')}, от ${rub(catMin(c))}</small></span></a>`).join('')}</div>
+        <div class="blk-h"><h2>Вся техника</h2></div>
+        <div class="tiles">${restCats.map((c) => `<a href="#/c/${slug(c)}"><b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></a>`).join('')}</div>
       </section>
       <section class="blk">
         <div class="blk-h"><h2>Бренды</h2></div>
-        <div class="brands">${BRANDS.map(([b, , n]) => `<a href="#/s/${encodeURIComponent(b)}">${esc(b)}<small class="num">${n}</small></a>`).join('')}</div>
+        <div class="brands">${BRANDS.map(([b]) => `<a href="#/s/${encodeURIComponent(b)}">${esc(b)}</a>`).join('')}</div>
       </section>
       <section class="facts" aria-label="Главное о get.tech">
         <div><b>1 час</b><span>подтверждаем цену и наличие в рабочее время</span></div>
@@ -579,76 +612,21 @@ img{display:block;max-width:100%}
         <div><b>Брак</b><span>заводской меняем за свой счёт</span></div>
         <div><b>Упаковка</b><span>фирменная упаковка get. с каждым заказом</span></div>
       </section>`;
-    $('#toSearch').addEventListener('click', () => { q.focus(); q.scrollIntoView({block: 'nearest'}); });
-    raster(cats);
-  }
-
-  function raster(cats) {
-    const box = $('#rast'), cv = $('#rc'), tip = $('#rtip'), ctx = cv.getContext('2d');
-    const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
-    let blocks = [], hover = -1, t0 = 0, raf = 0, W = 0, H = 0;
-    const layout = () => {
-      W = box.clientWidth;
-      const d = W < 520 ? 4.6 : W < 760 ? 5.6 : 6.6, gap = d * 3, lab = 20;
-      blocks = []; let x = 0, y = 0, rowH = 0;
-      for (const c of cats) {
-        ctx.font = '400 13px Jost, system-ui, sans-serif';
-        const n = count[c], lw = ctx.measureText(c).width + 4;
-        const cols = Math.max(4, Math.ceil(Math.sqrt(n * 1.6)), Math.ceil(lw / d)), rows = Math.ceil(n / cols);
-        const w = cols * d, h = rows * d + lab;
-        if (x > 0 && x + w > W) { x = 0; y += rowH + gap; rowH = 0; }
-        blocks.push({c, n, cols, x, y, w, h, d});
-        x += w + gap; rowH = Math.max(rowH, h);
-      }
-      H = y + rowH;
-      const dpr = Math.min(2, devicePixelRatio || 1);
-      cv.width = W * dpr; cv.height = H * dpr; cv.style.height = H + 'px';
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    };
-    const draw = (now) => {
-      raf = 0;
-      const p = REDUCE ? 1 : Math.min(1, (now - t0) / 1400);
-      ctx.clearRect(0, 0, W, H);
-      blocks.forEach((b, i) => {
-        const on = i === hover;
-        if (on) {
-          const g = ctx.createRadialGradient(b.x + b.w / 2, b.y + (b.h - 20) / 2, 0, b.x + b.w / 2, b.y + (b.h - 20) / 2, Math.max(b.w, b.h) * .75);
-          g.addColorStop(0, 'rgba(99,129,175,.55)'); g.addColorStop(1, 'rgba(99,129,175,0)');
-          ctx.fillStyle = g; ctx.fillRect(b.x - b.w * .4, b.y - b.h * .4, b.w * 1.8, b.h * 1.8);
-        }
-        /* появление по очереди: сгустки проявляются один за другим, точки внутри от центра */
-        const local = Math.max(0, Math.min(1, p * 1.6 - i / blocks.length * .6));
-        const shown = Math.round(b.n * local);
-        ctx.fillStyle = on ? '#3F5E8F' : '#302F2C';
-        const r = b.d * (on ? .34 : .28);
-        for (let k = 0; k < shown; k++) {
-          const cx = b.x + (k % b.cols) * b.d + b.d / 2, cy = b.y + Math.floor(k / b.cols) * b.d + b.d / 2;
-          ctx.beginPath(); ctx.arc(cx, cy, r, 0, 6.2832); ctx.fill();
-        }
-        if (b.w > 54 || on) {
-          ctx.fillStyle = on ? '#302F2C' : '#6B6A66';
-          ctx.font = `${on ? 500 : 400} 13px Jost, system-ui, sans-serif`;
-          let t = b.c; while (ctx.measureText(t).width > Math.max(b.w, 60) && t.length > 3) t = t.slice(0, -2) + '…';
-          ctx.fillText(t, b.x, b.y + b.h - 5);
-        }
+    /* выбор цвета на первом экране: свечение перетекает, фото проявляется, ссылка ведёт в карточку с этим цветом */
+    const stage = $('#stage');
+    if (stage) {
+      starColors.forEach((c) => { const im = new Image(); im.src = imgFor(star.model, c); });
+      stage.addEventListener('click', (e) => {
+        const b = e.target.closest('[data-c]'); if (!b) return;
+        const c = b.dataset.c;
+        $$('[data-c]', stage).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        stage.style.setProperty('--g', swc(c));
+        const im = $('#stageImg');
+        im.src = imgFor(star.model, c); im.alt = star.model + ', ' + c;
+        $('#stageLink').href = `#/p/${star.slug}/color=${encodeURIComponent(c)}`;
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches) im.animate([{opacity: 0, transform: 'translateY(10px) scale(.97)'}, {opacity: 1, transform: 'none'}], {duration: 500, easing: 'cubic-bezier(.16,1,.3,1)'});
       });
-      if (p < 1) raf = requestAnimationFrame(draw);
-    };
-    const at = (e) => { const r = cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top; return blocks.findIndex((b) => x >= b.x - 6 && x <= b.x + b.w + 6 && y >= b.y - 6 && y <= b.y + b.h); };
-    const show = (i, e) => {
-      if (i === hover && i >= 0) { const r = cv.getBoundingClientRect(); tip.style.left = Math.min(e.clientX - r.left + 16, W - 230) + 'px'; tip.style.top = (e.clientY - r.top + 18) + 'px'; return; }
-      if (i === hover) return; hover = i; cv.style.cursor = i >= 0 ? 'pointer' : 'default';
-      if (i >= 0) { const b = blocks[i]; tip.hidden = false; tip.innerHTML = `<b>${esc(b.c)}</b>${b.n} ${plural(b.n, 'позиция', 'позиции', 'позиций')}, от ${rub(catMin(b.c))}`; const r = cv.getBoundingClientRect(); tip.style.left = Math.min(e.clientX - r.left + 16, W - 230) + 'px'; tip.style.top = (e.clientY - r.top + 18) + 'px'; }
-      else tip.hidden = true;
-      if (!raf) raf = requestAnimationFrame(draw);
-    };
-    cv.addEventListener('pointermove', (e) => show(at(e), e));
-    cv.addEventListener('pointerleave', () => show(-1));
-    cv.addEventListener('click', (e) => { const i = at(e); if (i >= 0) location.hash = '#/c/' + slug(blocks[i].c); });
-    const ro = new ResizeObserver(() => { layout(); if (!raf) raf = requestAnimationFrame(draw); });
-    ro.observe(box);
-    layout(); t0 = performance.now(); raf = requestAnimationFrame(draw);
-    document.fonts?.ready.then(() => { if (!raf) raf = requestAnimationFrame(draw); });
+    }
   }
 
   /* фильтры витрины: какие есть у позиций категории */
