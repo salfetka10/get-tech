@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="get.tech: техника по честной цене, проверяем вместе с вами.">
+<title>get.tech</title>
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Layout: лист бумаги с разметкой. Слева крупный тонкий текст, справа растр с синим свечением.
+   Прайс — главное на странице: строка = позиция, точка = наличие (закрашена — есть, контур — под заказ).
+   Новый стиль get.: Jost Light, зерно 16%, прямые углы, цвет поинта только в точках и свечении. */
+:root{
+  --paper:#F5F5F5; --white:#FFFFFF; --ink:#302F2C; --stone:#6B6A66; --line:#C8C7C3; --mark:#8D8C88;
+  --tech:#6381AF;
+  --font:'Jost','Futura','Century Gothic',system-ui,sans-serif;
+  --gutter:clamp(16px,4vw,64px); --wrap:1440px; --hd:64px;
+  --ease:cubic-bezier(.16,1,.3,1);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hd) + 12px)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:18px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:clip}
+body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.16;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E")}
+h1,h2,h3,p,ul,ol,dl,dd{margin:0}
+ul,ol{padding:0;list-style:none}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit;color:inherit;border-radius:0}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+[hidden]{display:none!important}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gutter)}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--stone)}
+.dot{display:inline-block;width:.5em;height:.5em;border-radius:50%;background:var(--tech);flex:0 0 auto}
+.dot.off{background:transparent;box-shadow:inset 0 0 0 1.5px var(--tech)}
+.skip{position:absolute;left:var(--gutter);top:-80px;z-index:100;background:var(--ink);color:var(--paper);padding:12px 18px}
+.skip:focus{top:10px}
+.h2{font-weight:300;font-size:clamp(36px,4.6vw,68px);line-height:1;letter-spacing:-0.03em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border:0;background:var(--ink);color:var(--paper);font-size:17px;cursor:pointer;white-space:nowrap;transition:background .2s,transform .2s var(--ease)}
+.btn:hover{background:#000000}
+.btn:active{transform:translateY(1px)}
+.btn.line{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn.line:hover{background:var(--ink);color:var(--paper)}
+.todo{border-bottom:1px dashed var(--mark)}
+
+/* шапка */
+.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .2s}
+.hd.scrolled{border-bottom-color:var(--line)}
+.hd-in{height:var(--hd);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:inline-flex;align-items:baseline;gap:2px;font-size:26px;letter-spacing:-0.012em;min-height:44px;align-items:center}
+.logo b{font-weight:500}
+.hd nav ul{display:flex;gap:28px;font-size:16px}
+.hd nav a{color:var(--stone);display:inline-flex;align-items:center;min-height:44px;transition:color .2s}
+.hd nav a:hover{color:var(--ink)}
+.cart-btn{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--ink);cursor:pointer;font-size:16px}
+.cart-btn .n{min-width:1.4em;text-align:center}
+.cart-btn.has{background:var(--ink);color:var(--paper)}
+@media (max-width:860px){.hd nav{display:none}}
+
+/* первый экран */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,4vw,64px);padding-block:clamp(28px,5vh,64px) clamp(40px,7vh,88px);align-items:end}
+.hero h1{font-weight:300;font-size:clamp(50px,8.2vw,128px);line-height:.92;letter-spacing:-0.045em}
+.hero h1 span{display:block}
+.hero-sub{margin-top:clamp(20px,3vh,32px);max-width:30em;font-size:clamp(18px,1.5vw,21px);color:var(--stone)}
+.hero-cta{margin-top:clamp(24px,4vh,40px);display:flex;flex-wrap:wrap;gap:12px}
+.art{position:relative;aspect-ratio:4/5;max-width:100%;border:1px solid var(--line);overflow:hidden;background:var(--paper)}
+.art canvas{position:absolute;inset:0;width:100%;height:100%}
+.glow{position:absolute;left:58%;top:42%;width:62%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:var(--tech);filter:blur(64px);opacity:.75}
+.art .core{position:absolute;left:58%;top:42%;width:20px;height:20px;translate:-50% -50%;border-radius:50%;background:var(--ink)}
+.mk{position:absolute;font-size:28px;line-height:1;font-weight:300;color:var(--ink)}
+.mk.tl{left:10px;top:6px}.mk.tr{right:10px;top:6px}.mk.bl{left:10px;bottom:10px}.mk.br{right:10px;bottom:10px}
+.art .geo{position:absolute;left:calc(58% + 20px);top:calc(42% + 18px);padding:4px 8px;background:var(--paper);font-size:14px;line-height:1.35;white-space:pre-line}
+.art-cap{margin-top:10px;font-size:14px;color:var(--stone)}
+.hline{position:absolute;left:0;right:0;top:42%;border-top:1px dashed var(--line)}
+.vline{position:absolute;top:0;bottom:0;left:58%;border-left:1px dashed var(--line)}
+@media (max-width:860px){
+  .hero{grid-template-columns:minmax(0,1fr)}
+  .art{aspect-ratio:16/11}
+}
+
+/* полоса с главным обещанием */
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
+.facts div{padding:20px 24px 24px 0;display:flex;flex-direction:column;gap:6px}
+.facts div+div{padding-left:24px;border-left:1px solid var(--line)}
+.facts b{font-weight:300;font-size:clamp(28px,2.8vw,40px);line-height:1;letter-spacing:-0.02em}
+.facts span{font-size:16px;color:var(--stone);max-width:16em}
+@media (max-width:860px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.facts div:nth-child(3){padding-left:0;border-left:0}.facts div:nth-child(n+3){border-top:1px solid var(--line)}}
+
+/* прайс */
+.price{padding-top:clamp(64px,9vw,128px)}
+.price-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px}
+.upd{display:flex;align-items:center;gap:10px;font-size:16px;color:var(--stone)}
+.example{margin-top:14px;font-size:15px;color:var(--stone)}
+.tools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--hd));z-index:20;margin-top:clamp(20px,3vw,32px);padding-block:12px;background:color-mix(in srgb,var(--paper) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;border-bottom:1px solid var(--ink)}
+.search{flex:1 1 260px;display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;background:var(--white);box-shadow:inset 0 0 0 1px var(--line)}
+.search:focus-within{box-shadow:inset 0 0 0 1px var(--ink)}
+.search input{flex:1;min-width:0;border:0;background:transparent;font-size:17px;outline:none;min-height:46px}
+.search svg{flex:0 0 auto}
+.cats{display:flex;flex-wrap:wrap;gap:6px}
+.cat{min-height:40px;padding:0 14px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);font-size:15px;cursor:pointer;transition:box-shadow .2s,background .2s,color .2s}
+.cat:hover{box-shadow:inset 0 0 0 1px var(--ink)}
+.cat[aria-pressed="true"]{background:var(--ink);color:var(--paper);box-shadow:none}
+.only{display:inline-flex;align-items:center;gap:10px;min-height:40px;font-size:15px;cursor:pointer;user-select:none}
+.only input{width:18px;height:18px;margin:0;accent-color:var(--ink)}
+
+.list{margin-top:4px}
+.group{padding-top:28px}
+.group h3{display:flex;align-items:baseline;justify-content:space-between;gap:16px;font-weight:300;font-size:clamp(26px,2.6vw,36px);letter-spacing:-0.02em;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.group h3 small{font-size:15px;color:var(--stone);letter-spacing:0}
+.row{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,3fr) minmax(0,2fr) minmax(0,2fr) 128px;align-items:center;gap:16px;min-height:64px;padding-block:10px;border-bottom:1px solid var(--line);transition:background .15s}
+.row:hover{background:color-mix(in srgb,var(--white) 60%,transparent)}
+.row .m{font-size:19px;line-height:1.25}
+.row .m small{display:block;font-size:15px;color:var(--stone)}
+.row .m .col{display:none}
+.row .c{font-size:16px;color:var(--stone)}
+.row .s{display:flex;align-items:center;gap:8px;font-size:15px}
+.row .p{font-size:20px;text-align:right;white-space:nowrap}
+.add{justify-self:end;min-height:44px;width:100%;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--ink);cursor:pointer;font-size:15px;transition:background .2s,color .2s}
+.add:hover{background:var(--ink);color:var(--paper)}
+.add.in{background:var(--ink);color:var(--paper)}
+.none{padding:48px 0;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.none p{font-size:22px;font-weight:300;max-width:26em}
+.order-any{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px;padding:28px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.order-any p{font-weight:300;font-size:clamp(24px,2.4vw,34px);line-height:1.15;letter-spacing:-0.02em;max-width:22em}
+@media (max-width:860px){
+  .row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"m p" "s a";gap:8px 16px;padding-block:14px}
+  .row .m{grid-area:m}.row .c{display:none}.row .s{grid-area:s}.row .p{grid-area:p}.row .add{grid-area:a;width:auto;padding:0 16px;min-height:40px}
+  .row .m .col{display:inline}
+  .tools{position:static}
+}
+
+/* как купить */
+.how{padding-top:clamp(80px,11vw,160px)}
+.steps{margin-top:clamp(28px,4vw,48px);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink)}
+.steps li{position:relative;padding:20px 24px 0 0;display:flex;flex-direction:column;gap:10px}
+.steps li+li{padding-left:24px;border-left:1px dashed var(--line)}
+.steps .k{font-size:14px;color:var(--stone)}
+.steps h3{font-weight:400;font-size:clamp(21px,1.8vw,26px);line-height:1.15;letter-spacing:-0.01em}
+.steps p{font-size:16px;color:var(--stone);max-width:20em}
+@media (max-width:860px){.steps{grid-template-columns:minmax(0,1fr)}.steps li+li{padding-left:0;border-left:0;border-top:1px dashed var(--line);margin-top:20px}}
+
+/* проверка и честная цена */
+.trust{padding-top:clamp(80px,11vw,160px);display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,80px);align-items:start}
+.trust .h2{position:sticky;top:calc(var(--hd) + 32px)}
+.checks{display:flex;flex-direction:column}
+.checks li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:4px 16px;padding-block:22px;border-top:1px solid var(--line)}
+.checks li:last-child{border-bottom:1px solid var(--line)}
+.checks .dot{margin-top:.55em;width:12px;height:12px}
+.checks h3{font-weight:400;font-size:clamp(21px,1.8vw,26px);line-height:1.2}
+.checks p{grid-column:2;font-size:17px;color:var(--stone);max-width:32em}
+@media (max-width:860px){.trust{grid-template-columns:minmax(0,1fr)}.trust .h2{position:static}}
+
+.honest{padding-block:clamp(80px,11vw,160px)}
+.honest p{font-weight:300;font-size:clamp(28px,3.8vw,56px);line-height:1.1;letter-spacing:-0.03em;max-width:20em}
+.honest p span{color:var(--stone)}
+
+/* подвал get. */
+.ft{border-top:1px solid var(--ink);padding-block:28px 32px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px 40px;align-items:end}
+.ft-points{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:17px}
+.ft-points a{display:inline-flex;align-items:center;gap:8px;min-height:40px}
+.ft-points a:hover{text-decoration:underline;text-underline-offset:4px}
+.ft-points i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.ft-big{font-size:clamp(80px,17vw,260px);line-height:.9;padding-bottom:.08em;letter-spacing:-0.03em;margin-top:clamp(40px,6vw,80px)}
+.ft-meta{display:flex;flex-direction:column;gap:2px;font-size:15px;color:var(--stone);text-align:right}
+@media (max-width:860px){.ft{grid-template-columns:minmax(0,1fr)}.ft-meta{text-align:left}}
+
+/* корзина */
+.scrim{position:fixed;inset:0;z-index:60;background:rgba(48,47,44,.28);opacity:0;pointer-events:none;transition:opacity .25s}
+.scrim.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;z-index:70;width:min(460px,100%);background:var(--paper);border-left:1px solid var(--ink);display:flex;flex-direction:column;transform:translateX(100%);transition:transform .35s var(--ease);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.drawer.open{transform:none}
+.dr-hd{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;border-bottom:1px solid var(--line)}
+.dr-hd h2{font-weight:300;font-size:30px;letter-spacing:-0.02em}
+.x{width:44px;height:44px;border:0;background:transparent;font-size:30px;font-weight:300;cursor:pointer;line-height:1}
+.dr-body{flex:1;overflow-y:auto;padding:4px 20px}
+.it{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;padding-block:16px;border-bottom:1px solid var(--line)}
+.it .m{font-size:17px;line-height:1.3}
+.it .m small{display:block;color:var(--stone);font-size:14px}
+.it .p{font-size:17px;white-space:nowrap;text-align:right}
+.qty{display:flex;align-items:center;gap:0}
+.qty button{width:36px;height:36px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);cursor:pointer;font-size:18px}
+.qty button:hover{box-shadow:inset 0 0 0 1px var(--ink)}
+.qty span{min-width:36px;text-align:center}
+.rm{justify-self:end;border:0;background:transparent;color:var(--stone);font-size:14px;cursor:pointer;min-height:36px;text-decoration:underline;text-underline-offset:3px}
+.empty{padding:40px 0;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.empty p{font-weight:300;font-size:22px;line-height:1.25}
+.dr-ft{padding:16px 20px 20px;border-top:1px solid var(--ink);display:flex;flex-direction:column;gap:12px}
+.total{display:flex;justify-content:space-between;align-items:baseline;font-size:17px}
+.total b{font-weight:300;font-size:34px;letter-spacing:-0.02em}
+.dr-ft .btn{width:100%}
+.note{font-size:14px;color:var(--stone);line-height:1.45}
+.sent{background:var(--white);box-shadow:inset 0 0 0 1px var(--line);padding:14px;font-size:14px;line-height:1.45;white-space:pre-wrap;max-height:180px;overflow:auto}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:80;translate:-50% 20px;opacity:0;background:var(--ink);color:var(--paper);padding:12px 18px;font-size:15px;transition:opacity .25s,translate .25s var(--ease);pointer-events:none;max-width:calc(100vw - 32px)}
+.toast.show{opacity:1;translate:-50% 0}
+
+@media (prefers-reduced-motion: no-preference){
+  .hero h1 span{animation:rise .9s var(--ease) both}
+  .hero h1 span+span{animation-delay:.08s}
+  .glow{animation:breathe 7s ease-in-out infinite alternate}
+}
+@keyframes rise{from{opacity:0;transform:translateY(30%)}to{opacity:1;transform:none}}
+@keyframes breathe{to{scale:1.12;opacity:.6}}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.drawer,.scrim,.toast{transition:none}}
+</style>
+</head>
+<body>
+
+
+<a class="skip" href="#main">К содержанию</a>
+<header class="hd" id="hd">
+  <div class="wrap hd-in">
+    <a class="logo" href="#top" aria-label="get.tech, в начало">get.<b>tech</b></a>
+    <nav aria-label="Разделы">
+      <ul>
+        <li><a href="#price">Прайс</a></li>
+        <li><a href="#how">Как купить</a></li>
+        <li><a href="#check">Проверка и гарантия</a></li>
+      </ul>
+    </nav>
+    <button class="cart-btn" type="button" id="cartBtn" aria-haspopup="dialog" aria-controls="drawer">Корзина <span class="n num" id="cartN">0</span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="wrap hero" id="top">
+  <div>
+    <h1><span>Честная цена.</span><span>Проверенная техника.</span></h1>
+    <p class="hero-sub">Apple и любая другая техника, в наличии и под заказ. Итоговую цену называем до оплаты, коробку вскрываем вместе с вами.</p>
+    <div class="hero-cta">
+      <a class="btn" href="#price">Открыть прайс</a>
+      <a class="btn line" href="#" data-tg>Написать в Telegram</a>
+    </div>
+  </div>
+  <div>
+  <div class="art" aria-hidden="true">
+    <canvas id="raster"></canvas>
+    <div class="glow"></div>
+    <div class="hline"></div><div class="vline"></div>
+    <div class="core"></div>
+    <div class="geo">55°45′ N
+37°37′ E</div>
+    <span class="mk tl">+</span><span class="mk tr">+</span><span class="mk bl">+</span><span class="mk br">+</span>
+  </div>
+    <p class="art-cap">офлайн — Москва, онлайн — весь мир</p>
+  </div>
+</section>
+
+<section class="wrap" aria-label="Главное о get.tech">
+  <div class="facts">
+    <div><b>1 час</b><span>подтверждаем цену и наличие в рабочее время</span></div>
+    <div><b>Вместе</b><span>вскрываем и проверяем технику при встрече</span></div>
+    <div><b>Брак</b><span>заводской меняем за свой счёт</span></div>
+    <div><b>Упаковка</b><span>фирменная упаковка get. с каждым заказом</span></div>
+  </div>
+</section>
+
+<section class="wrap price" id="price">
+  <div class="price-head">
+    <h2 class="h2">Прайс</h2>
+    <p class="upd"><span class="dot"></span><span>Обновлено <span id="updTime" class="num">сегодня</span>. Цены меняются в течение дня, итоговую подтверждаем в чате.</span></p>
+  </div>
+  <p class="example">Это пример позиций, цены условные. Здесь будет прайс из нашего Telegram.</p>
+
+  <div class="tools" role="search">
+    <label class="search" for="q">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="7.5" cy="7.5" r="6" fill="none" stroke="#302F2C" stroke-width="1.5"/><path d="M12 12l5 5" stroke="#302F2C" stroke-width="1.5"/></svg>
+      <input id="q" type="search" placeholder="Модель, память или цвет" autocomplete="off" aria-label="Поиск по прайсу">
+    </label>
+    <div class="cats" id="cats" role="group" aria-label="Категории"></div>
+    <label class="only" for="onlyIn"><input type="checkbox" id="onlyIn"> Только в наличии</label>
+  </div>
+
+  <div class="list" id="list" aria-live="polite"></div>
+
+  <div class="order-any">
+    <p>Нужной модели нет в прайсе? Назовите её, привезём под заказ.</p>
+    <a class="btn" href="#" data-tg data-msg="Здравствуйте. Ищу модель, которой нет в прайсе: ">Найти под заказ</a>
+  </div>
+</section>
+
+<section class="wrap how" id="how">
+  <h2 class="h2">Как купить</h2>
+  <ol class="steps">
+    <li><span class="k">01</span><h3>Выбираете в прайсе</h3><p>Добавьте позиции в корзину или назовите модель, которой в нём нет.</p></li>
+    <li><span class="k">02</span><h3>Подтверждаем цену и наличие</h3><p>В течение часа в рабочее время. Названная цена окончательная.</p></li>
+    <li><span class="k">03</span><h3>Вносите предоплату</h3><p>После неё бронируем технику в наличии или заказываем у поставщика.</p></li>
+    <li><span class="k">04</span><h3>Получаете</h3><p>На встрече в Москве или доставкой. Стоимость доставки скажем в чате.</p></li>
+  </ol>
+</section>
+
+<section class="wrap trust" id="check">
+  <h2 class="h2">Проверка и гарантия</h2>
+  <ul class="checks">
+    <li><span class="dot"></span><h3>Проверяем вместе с вами</h3><p>На встрече вскрываем коробку при вас и включаем технику.</p></li>
+    <li><span class="dot"></span><h3>При доставке снимите распаковку</h3><p>Предупредим об этом до отправки. Если на видео виден брак, заменим.</p></li>
+    <li><span class="dot"></span><h3>Заводской брак за наш счёт</h3><p>Меняем технику, не перекладывая проверку на вас.</p></li>
+    <li><span class="dot off"></span><h3>Возврат, если упаковка не вскрыта</h3><p>Вскрытая коробка сразу теряет в цене, поэтому возвращаем только нераспакованную технику.</p></li>
+  </ul>
+</section>
+
+<section class="wrap honest">
+  <p>Мы не обещаем самую низкую цену. <span>Обещаем честную: называем итоговую до оплаты, и она не растёт.</span> Берём только у проверенных поставщиков. <span>Если вам подойдёт вариант проще или дешевле, так и скажем.</span></p>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="ft">
+    <nav class="ft-points" aria-label="Другие поинты get.">
+      <a href="#" style="--c:#57BFC0"><i></i>get.clothes</a>
+      <a href="#" style="--c:#9999F8"><i></i>get.video</a>
+      <a href="#" style="--c:#58B9F8"><i></i>get.design</a>
+      <a href="#" style="--c:#D0A581"><i></i>get.books</a>
+    </nav>
+    <div class="ft-meta"><span>@get_tochka</span><span>офлайн — Москва, онлайн — весь мир</span><span class="todo">Политика обработки данных</span></div>
+  </div>
+  <div class="ft-big" aria-hidden="true">get.</div>
+  <div class="ft" style="border-top:0;padding-top:16px"><span>Different needs. One get.</span><span class="muted">2026</span></div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drTitle" aria-hidden="true">
+  <div class="dr-hd">
+    <h2 id="drTitle">Корзина</h2>
+    <button class="x" type="button" id="drClose" aria-label="Закрыть корзину">×</button>
+  </div>
+  <div class="dr-body" id="drBody"></div>
+  <div class="dr-ft" id="drFt">
+    <div class="total"><span>Итого по прайсу</span><b class="num" id="sum">0 ₽</b></div>
+    <button class="btn" type="button" id="checkout">Оформить в Telegram</button>
+    <p class="note">Откроем чат get.tech и скопируем список заказа, останется вставить его в сообщение. Подтвердим цену и наличие в течение часа, затем предоплата.</p>
+    <div class="sent" id="sent" hidden></div>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(async () => {
+  /* Аккаунт get.tech для заказов. Пока стоит общий аккаунт get., заменить на аккаунт поинта. */
+  const TG = 'get_tochka';
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const rub = (n) => Math.round(n).toLocaleString('ru-RU') + ' ₽';
+
+  /* Прайс. На сайте позиции будут приходить из Telegram: цена поставщика + наценка, округление до 100 ₽.
+     Сейчас это пример, цены условные. stock: 1 — в наличии, 0 — под заказ. */
+  let P = [
+    ['iPhone', 'iPhone 17 Pro Max', '256 ГБ', 'Космический оранжевый', 1, 129900],
+    ['iPhone', 'iPhone 17 Pro Max', '512 ГБ', 'Тёмно-синий', 1, 149900],
+    ['iPhone', 'iPhone 17 Pro', '256 ГБ', 'Серебристый', 1, 114900],
+    ['iPhone', 'iPhone 17 Pro', '1 ТБ', 'Космический оранжевый', 0, 154900],
+    ['iPhone', 'iPhone Air', '256 ГБ', 'Небесно-голубой', 1, 94900],
+    ['iPhone', 'iPhone 17', '256 ГБ', 'Лавандовый', 1, 79900],
+    ['iPhone', 'iPhone 17', '512 ГБ', 'Чёрный', 0, 94900],
+    ['iPhone', 'iPhone 16e', '128 ГБ', 'Белый', 1, 54900],
+    ['Mac', 'MacBook Air 13 M4', '16 / 256 ГБ', 'Небесно-голубой', 1, 99900],
+    ['Mac', 'MacBook Air 15 M4', '16 / 512 ГБ', 'Полночь', 0, 139900],
+    ['Mac', 'MacBook Pro 14 M5', '16 / 512 ГБ', 'Чёрный космос', 1, 169900],
+    ['iPad', 'iPad Air 11 M3', '128 ГБ, Wi-Fi', 'Серый космос', 1, 59900],
+    ['iPad', 'iPad Pro 11 M5', '256 ГБ, Wi-Fi', 'Серебристый', 0, 104900],
+    ['iPad', 'iPad mini A17 Pro', '128 ГБ, Wi-Fi', 'Голубой', 1, 49900],
+    ['Наушники', 'AirPods Pro 3', '', 'Белый', 1, 24900],
+    ['Наушники', 'AirPods 4', 'с шумоподавлением', 'Белый', 1, 16900],
+    ['Наушники', 'AirPods Max', 'USB-C', 'Полночь', 0, 49900],
+    ['Часы', 'Apple Watch Series 11', '46 мм', 'Чёрный', 1, 42900],
+    ['Часы', 'Apple Watch Ultra 3', '49 мм', 'Натуральный титан', 0, 84900],
+    ['Другое', 'PlayStation 5 Pro', '2 ТБ', 'Белый', 1, 79900],
+    ['Другое', 'Dyson Airwrap', 'Coanda 2x', 'Фиолетовый', 0, 59900],
+  ].map(([cat, model, spec, color, stock, price], i) => ({id: 'p' + i, cat, model, spec, color, stock, price}));
+  /* живой прайс: файл, который каждые полчаса обновляет скрипт из канала поставщика */
+  let live = null;
+  try {
+    const r = await fetch('data/prices.json', {cache: 'no-store'});
+    if (r.ok) { const d = await r.json(); if (d.items && d.items.length) live = d; }
+  } catch (e) { live = null; }
+  if (live) {
+    P = live.items.map((x, i) => ({id: 'l' + i + '-' + x.name, cat: x.category, model: x.name, spec: x.region ? 'регион ' + x.region : '', color: '', stock: 1, price: x.price}));
+    $('.example').hidden = true;
+  }
+  const CATS = ['Все', ...new Set(P.map((p) => p.cat))];
+
+  const upd = live ? new Date(live.updated) : new Date();
+  const sameDay = upd.toDateString() === new Date().toDateString();
+  $('#updTime').textContent = (sameDay ? 'сегодня' : upd.toLocaleDateString('ru-RU', {day: 'numeric', month: 'long'})) + ' в ' + upd.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
+
+  /* корзина: запоминается в этом браузере, если хранилище доступно */
+  let cart = {};
+  try { cart = JSON.parse(localStorage.getItem('get-tech-cart') || '{}') || {}; } catch (e) { cart = {}; }
+  Object.keys(cart).forEach((k) => { if (!P.find((p) => p.id === k)) delete cart[k]; });
+  const save = () => { try { localStorage.setItem('get-tech-cart', JSON.stringify(cart)); } catch (e) { /* без хранилища корзина живёт до перезагрузки */ } };
+
+  /* фильтры */
+  let cat = 'Все';
+  const cats = $('#cats');
+  cats.innerHTML = CATS.map((c) => `<button class="cat" type="button" aria-pressed="${c === cat}">${c}</button>`).join('');
+  cats.addEventListener('click', (e) => {
+    const b = e.target.closest('.cat'); if (!b) return;
+    cat = b.textContent;
+    $$('.cat', cats).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    render();
+  });
+  $('#q').addEventListener('input', render);
+  $('#onlyIn').addEventListener('change', render);
+
+  function render() {
+    const q = $('#q').value.trim().toLowerCase().replace(/ё/g, 'е');
+    const only = $('#onlyIn').checked;
+    const items = P.filter((p) => (cat === 'Все' || p.cat === cat) && (!only || p.stock) &&
+      (!q || q.split(/\s+/).every((w) => (p.model + ' ' + p.spec + ' ' + p.color + ' ' + p.cat).toLowerCase().replace(/ё/g, 'е').includes(w))));
+    const list = $('#list');
+    if (!items.length) {
+      list.innerHTML = `<div class="none"><p>Ничего не нашли${q ? ` по запросу «${esc($('#q').value.trim())}»` : ''}. Напишите нам, найдём и привезём под заказ.</p><a class="btn line" href="#" data-tg data-msg="Здравствуйте. Ищу: ${esc($('#q').value.trim())}">Найти под заказ</a></div>`;
+      return;
+    }
+    const groups = [...new Set(items.map((p) => p.cat))];
+    list.innerHTML = groups.map((g) => {
+      const rows = items.filter((p) => p.cat === g);
+      return `<div class="group"><h3>${g} <small>${rows.length} ${plural(rows.length, 'позиция', 'позиции', 'позиций')}</small></h3>` + rows.map((p) =>
+        `<div class="row">
+          <div class="m">${p.model}<small>${p.spec}<span class="col">${p.spec && p.color ? ', ' : ''}${p.color.toLowerCase()}</span></small></div>
+          <div class="c">${p.color}</div>
+          <div class="s"><span class="dot${p.stock ? '' : ' off'}"></span>${p.stock ? 'В наличии' : 'Под заказ'}</div>
+          <div class="p num">${rub(p.price)}</div>
+          <button class="add${cart[p.id] ? ' in' : ''}" type="button" data-id="${p.id}" aria-label="${cart[p.id] ? 'Уже в корзине' : 'В корзину'}: ${p.model} ${p.spec}">${cart[p.id] ? 'В корзине · ' + cart[p.id] : 'В корзину'}</button>
+        </div>`).join('') + `</div>`;
+    }).join('');
+  }
+  const esc = (s) => s.replace(/[&<>"]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const plural = (n, a, b, c) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? a : m >= 2 && m <= 4 && (h < 12 || h > 14) ? b : c; };
+
+  $('#list').addEventListener('click', (e) => {
+    const b = e.target.closest('.add'); if (!b) return;
+    const id = b.dataset.id;
+    cart[id] = (cart[id] || 0) + 1;
+    save(); render(); drawCart();
+    const p = P.find((x) => x.id === id);
+    toast(`${p.model} в корзине`);
+    $(`.add[data-id="${id}"]`)?.focus();
+  });
+
+  /* выдвижная корзина */
+  const drawer = $('#drawer'), scrim = $('#scrim');
+  let lastFocus = null;
+  const openCart = () => {
+    lastFocus = document.activeElement;
+    drawer.classList.add('open'); scrim.classList.add('open'); drawer.setAttribute('aria-hidden', 'false');
+    $('#drClose').focus();
+  };
+  const closeCart = () => {
+    drawer.classList.remove('open'); scrim.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true');
+    $('#sent').hidden = true;
+    lastFocus?.focus();
+  };
+  $('#cartBtn').addEventListener('click', openCart);
+  $('#drClose').addEventListener('click', closeCart);
+  scrim.addEventListener('click', closeCart);
+  addEventListener('keydown', (e) => { if (e.key === 'Escape' && drawer.classList.contains('open')) closeCart(); });
+
+  function drawCart() {
+    const ids = Object.keys(cart);
+    const n = ids.reduce((s, k) => s + cart[k], 0);
+    $('#cartN').textContent = n;
+    $('#cartBtn').classList.toggle('has', n > 0);
+    const body = $('#drBody');
+    if (!ids.length) {
+      body.innerHTML = `<div class="empty"><p>В корзине пока пусто. Выберите технику в прайсе.</p><a class="btn line" href="#price" id="toPrice">Открыть прайс</a></div>`;
+      $('#drFt').hidden = true;
+      $('#toPrice').addEventListener('click', closeCart);
+      return;
+    }
+    $('#drFt').hidden = false;
+    body.innerHTML = ids.map((k) => {
+      const p = P.find((x) => x.id === k);
+      return `<div class="it">
+        <div class="m">${p.model}<small>${[p.spec, p.color, p.stock ? 'в наличии' : 'под заказ'].filter(Boolean).join(', ')}</small></div>
+        <div class="p num">${rub(p.price * cart[k])}</div>
+        <div class="qty"><button type="button" data-q="-1" data-id="${k}" aria-label="Меньше">−</button><span class="num">${cart[k]}</span><button type="button" data-q="1" data-id="${k}" aria-label="Больше">+</button></div>
+        <button class="rm" type="button" data-rm="${k}">Убрать</button>
+      </div>`;
+    }).join('');
+    $('#sum').textContent = rub(ids.reduce((s, k) => s + P.find((x) => x.id === k).price * cart[k], 0));
+  }
+  $('#drBody').addEventListener('click', (e) => {
+    const q = e.target.closest('[data-q]'), rm = e.target.closest('[data-rm]');
+    if (q) { const k = q.dataset.id; cart[k] += Number(q.dataset.q); if (cart[k] < 1) delete cart[k]; }
+    else if (rm) delete cart[rm.dataset.rm];
+    else return;
+    save(); drawCart(); render();
+    const focusTarget = $('#drBody button') || $('#drClose'); focusTarget.focus();
+  });
+
+  /* оформление: копируем текст заказа и открываем чат */
+  const orderText = () => {
+    const ids = Object.keys(cart);
+    const lines = ids.map((k) => { const p = P.find((x) => x.id === k); return `• ${p.model}${p.spec ? ', ' + p.spec : ''}, ${p.color} × ${cart[k]} — ${rub(p.price * cart[k])}`; });
+    const sum = ids.reduce((s, k) => s + P.find((x) => x.id === k).price * cart[k], 0);
+    return `Здравствуйте. Хочу заказать:\n${lines.join('\n')}\nИтого по прайсу: ${rub(sum)}`;
+  };
+  async function sendToTg(text) {
+    let copied = false;
+    try { await navigator.clipboard.writeText(text); copied = true; } catch (e) { copied = false; }
+    window.open('https://t.me/' + TG, '_blank', 'noopener');
+    return copied;
+  }
+  $('#checkout').addEventListener('click', async () => {
+    const text = orderText();
+    const copied = await sendToTg(text);
+    const box = $('#sent');
+    box.hidden = false;
+    box.textContent = text;
+    if (!copied) { const r = document.createRange(); r.selectNodeContents(box); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+    toast(copied ? 'Список скопирован. Вставьте его в чат get.tech' : 'Скопируйте список ниже и отправьте в чат get.tech');
+  });
+  document.addEventListener('click', async (e) => {
+    const a = e.target.closest('[data-tg]'); if (!a) return;
+    e.preventDefault();
+    const msg = a.dataset.msg;
+    const copied = msg ? await sendToTg(msg) : (window.open('https://t.me/' + TG, '_blank', 'noopener'), false);
+    if (msg) toast(copied ? 'Начало сообщения скопировано, допишите модель' : 'Открыли чат get.tech');
+  });
+
+  let tt = 0;
+  function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => el.classList.remove('show'), 2600); }
+
+  /* шапка получает линию после начала прокрутки */
+  const hd = $('#hd');
+  new IntersectionObserver(([en]) => hd.classList.toggle('scrolled', !en.isIntersecting), {rootMargin: '-1px 0px 0px 0px'}).observe($('#top'));
+
+  /* растр: точки разного размера, крупнее к центру свечения, чуть растут под курсором */
+  const cv = $('#raster'), art = cv.parentElement, ctx = cv.getContext('2d');
+  let W = 0, H = 0, mx = -999, my = -999, raf = 0;
+  const drawRaster = () => {
+    raf = 0;
+    const dpr = Math.min(2, devicePixelRatio || 1);
+    W = art.clientWidth; H = art.clientHeight;
+    if (cv.width !== Math.round(W * dpr)) { cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); }
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#302F2C';
+    const step = Math.max(14, W / 26), cx = W * .58, cy = H * .42, R = Math.hypot(W, H) * .62;
+    for (let y = step / 2; y < H; y += step) for (let x = step / 2; x < W; x += step) {
+      const d = Math.hypot(x - cx, y - cy) / R;
+      let r = (1 - d) * step * .44;
+      const md = Math.hypot(x - mx, y - my);
+      if (md < 110) r += (1 - md / 110) * step * .18;
+      if (r < .7) continue;
+      ctx.beginPath(); ctx.arc(x, y, Math.min(r, step * .48), 0, Math.PI * 2); ctx.fill();
+    }
+  };
+  const queue = () => { if (!raf) raf = requestAnimationFrame(drawRaster); };
+  new ResizeObserver(queue).observe(art);
+  if (!REDUCE && matchMedia('(hover: hover)').matches) {
+    art.addEventListener('pointermove', (e) => { const r = art.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; queue(); });
+    art.addEventListener('pointerleave', () => { mx = my = -999; queue(); });
+  }
+
+  render(); drawCart();
+})();
+</script>
+
+</body>
+</html>

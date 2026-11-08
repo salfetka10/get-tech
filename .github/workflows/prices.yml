@@ -1,0 +1,34 @@
+name: Прайс get.tech
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # каждые 30 минут; GitHub может запускать с задержкой
+  workflow_dispatch:          # кнопка «Run workflow» для ручного запуска
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 beautifulsoup4==4.12.3 lxml==5.3.0
+      - run: python scraper/fetch_prices.py
+        env:
+          SOURCE_CHANNEL: ${{ secrets.SOURCE_CHANNEL }}
+          MARKUP: ${{ secrets.MARKUP }}
+          PACKAGING: ${{ secrets.PACKAGING }}
+      - name: Сохранить прайс, если он изменился
+        run: |
+          git config user.name "get-tech-bot"
+          git config user.email "get-tech-bot@users.noreply.github.com"
+          git add data/prices.json
+          git diff --cached --quiet || (git commit -m "Прайс обновлён" && git push)
