@@ -192,6 +192,12 @@ img{display:block;max-width:100%}
 .opt legend b{font-weight:400;color:var(--ink)}
 .opt .chips{gap:8px}
 .opt .chip{min-height:46px;padding:0 16px;font-size:16px}
+.chip[data-tip]{position:relative}
+.chip[data-tip]::after{content:attr(data-tip);position:absolute;left:0;bottom:calc(100% + 8px);z-index:10;width:max-content;max-width:300px;padding:10px 12px;background:var(--ink);color:var(--paper);font-size:14px;line-height:1.4;white-space:normal;text-align:left;opacity:0;pointer-events:none;transform:translateY(4px);transition:opacity .15s,transform .15s}
+@media (hover:hover){.chip[data-tip]:hover::after{opacity:1;transform:none}}
+.chip[data-tip]:focus-visible::after{opacity:1;transform:none}
+.fg .chip[data-tip]::after{bottom:auto;top:calc(100% + 8px);max-width:240px}
+.hint{margin-top:10px;font-size:15px;line-height:1.45;color:var(--stone);max-width:34em}
 .opt .chip.off{color:var(--mark);box-shadow:inset 0 0 0 1px var(--line);background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(200,199,195,.35) 6px 7px)}
 .opt .chip.off[aria-pressed="true"]{color:var(--paper)}
 .swb{width:46px;height:46px;border:0;padding:0;background:transparent;border-radius:50%;cursor:pointer;display:grid;place-items:center;box-shadow:inset 0 0 0 1px transparent}
@@ -574,7 +580,7 @@ img{display:block;max-width:100%}
       <div class="sh-h"><h1>${esc(title)}</h1><p class="num">${list.length} ${plural(list.length, 'модель', 'модели', 'моделей')}, ${hit.length} ${plural(hit.length, 'вариант', 'варианта', 'вариантов')}</p></div>
       ${pool.length ? `<div class="shop">
         <details class="flt" id="flt"><summary>Фильтры${n ? ` (${n})` : ''}</summary>
-          ${dims.map(([k, label, vals]) => `<fieldset class="fg"><legend>${label}</legend><div class="chips">${vals.map((v) => `<a class="chip" role="button" aria-pressed="${pick(k).includes(v)}" href="${toggle(k, v)}">${k === 'color' ? `<i class="sw" style="--c:${swc(v)}"></i>` : ''}${esc(v)}</a>`).join('')}</div></fieldset>`).join('')}
+          ${dims.map(([k, label, vals]) => `<fieldset class="fg"><legend>${label}</legend><div class="chips">${vals.map((v) => `<a class="chip" role="button" aria-pressed="${pick(k).includes(v)}" href="${toggle(k, v)}"${HINT[v] ? ` data-tip="${esc(HINT[v])}"` : ''}>${k === 'color' ? `<i class="sw" style="--c:${swc(v)}"></i>` : ''}${esc(v)}</a>`).join('')}</div></fieldset>`).join('')}
           ${n ? `<a class="clear" href="${link(Object.fromEntries(dims.map(([k]) => [k, ''])))}">Сбросить фильтры</a>` : ''}
         </details>
         <div>
@@ -587,6 +593,15 @@ img{display:block;max-width:100%}
   }
 
   /* карточка модели: выбор цвета, памяти, SIM, состояния, региона; недоступные сочетания приглушены */
+  /* Пояснения к состоянию и SIM: подсказка при наведении и строка под выбранным значением */
+  const HINT = {
+    'Новый': 'Запечатанная коробка, телефон ни разу не включали.',
+    'Активирован': 'Новый телефон, который уже включили и привязали к серверам Apple, обычно чтобы проверить его или разблокировать. Коробка вскрыта, срок гарантии Apple отсчитывается с даты активации. Поэтому дешевле.',
+    'CPO': 'Восстановленный: телефон вернули, проверили и восстановили в сертифицированном сервисе. Продаётся в простой коробке. Заметно дешевле нового.',
+    'eSIM': 'Только электронная SIM-карта, лотка для обычной нет. Российские операторы eSIM поддерживают, номер переносится в салоне связи или в приложении.',
+    'SIM + eSIM': 'Лоток для обычной SIM-карты и eSIM. Можно пользоваться двумя номерами одновременно.',
+    '2 SIM': 'Два лотка для обычных SIM-карт, такие версии выпускают для Китая и Гонконга.',
+  };
   const PDIMS = [['color', 'Цвет'], ['mem', 'Память'], ['sim', 'SIM'], ['cond', 'Состояние'], ['variant', 'Вариант']];
   /* регион не выбирают, а показывают флагом у цены: для какой страны выпущено устройство */
   const flag = (code) => /^[A-Z]{2}$/.test(code) ? String.fromCodePoint(...[...code].map((c) => 0x1F1A5 + c.charCodeAt(0))) : code;
@@ -618,9 +633,10 @@ img{display:block;max-width:100%}
       const chips = vals.map((v) => {
         const off = !okWith(k, v);
         if (k === 'color') return `<a class="swb${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}" title="${esc(v)}${off ? ', нет с выбранными параметрами' : ''}" aria-label="${esc(v)}"><i class="sw" style="--c:${swc(v)}"></i></a>`;
-        return `<a class="chip${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}"${off ? ' title="Нет с выбранными параметрами, остальное подберём заново"' : ''}>${esc(v || 'Не указано')}</a>`;
+        const tip = [HINT[v], off ? 'С выбранными параметрами такого нет, остальное подберём заново.' : ''].filter(Boolean).join(' ');
+        return `<a class="chip${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}"${tip ? ` data-tip="${esc(tip)}"` : ''}>${esc(v || 'Не указано')}</a>`;
       }).join('');
-      return `<fieldset class="opt"><legend>${label}: <b>${esc(s[k] || 'не указано')}</b></legend><div class="chips">${chips}</div></fieldset>`;
+      return `<fieldset class="opt"><legend>${label}: <b>${esc(s[k] || 'не указано')}</b></legend><div class="chips">${chips}</div>${HINT[s[k]] ? `<p class="hint">${esc(HINT[s[k]])}</p>` : ''}</fieldset>`;
     };
     const vrows = [...m.items].sort((a, b) => a.price - b.price);
     app.innerHTML = `
