@@ -88,12 +88,33 @@ img{display:block;max-width:100%}
 .ph.dots .nm{position:relative;background:var(--tile);padding:6px 10px;color:var(--ink)}
 
 /* главная */
-.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px 48px;align-items:end;padding-block:clamp(28px,5vh,56px) clamp(24px,4vh,40px)}
-.hero h1{font-weight:300;font-size:clamp(42px,5.6vw,88px);line-height:.95;letter-spacing:-0.04em}
-.hero h1 span{display:block}
-.hero-sub{font-size:clamp(17px,1.3vw,19px);color:var(--stone);max-width:24em}
+@property --g{syntax:'<color>';inherits:true;initial-value:#6381AF}
+.hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:24px clamp(32px,5vw,80px);align-items:center;padding-block:clamp(28px,5vh,56px) clamp(16px,3vh,32px)}
+.hero h1{font-weight:300;font-size:clamp(40px,5vw,78px);line-height:.98;letter-spacing:-0.04em;text-wrap:balance}
+.hero-sub{margin-top:clamp(16px,2.4vh,24px);font-size:clamp(17px,1.3vw,19px);color:var(--stone);max-width:26em;text-wrap:pretty}
+.hero-cta{margin-top:clamp(20px,3vh,32px);display:flex;flex-wrap:wrap;gap:10px}
+.rast{position:relative;min-width:0}
+.rast canvas{display:block;width:100%;touch-action:manipulation}
+.rtip{position:absolute;z-index:2;padding:10px 14px;background:var(--ink);color:var(--paper);font-size:14px;line-height:1.35;pointer-events:none;white-space:nowrap}
+.rtip b{display:block;font-weight:400;font-size:17px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.sr:focus-within{position:static;width:auto;height:auto;clip-path:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;font-size:15px}
 @media (max-width:860px){.hero{grid-template-columns:minmax(0,1fr)}}
-
+.lnk{font-size:16px;color:var(--stone);text-decoration:underline;text-underline-offset:4px;margin-left:auto}
+.lnk:hover{color:var(--ink)}
+/* полка новинок: свечение в цвете модели, фото Apple смешивается с ним через multiply */
+.shelf{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,1fr);gap:clamp(10px,1.2vw,16px);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;scrollbar-width:thin;margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter);scroll-padding-inline:var(--gutter)}
+.nw{scroll-snap-align:start;display:flex;flex-direction:column;background:var(--tile);min-width:0}
+.nw .ph{aspect-ratio:4/5}
+.nw-b{display:flex;flex-direction:column;gap:4px;padding:12px 14px 16px}
+.nw-b b{font-weight:400;font-size:20px;line-height:1.2}
+.nw-b .sws{margin-top:6px;display:flex;gap:6px}
+.nw-b .sw{width:13px;height:13px}
+.nw:hover b{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+@media (max-width:640px){.shelf{grid-auto-columns:72%}}
+.ph.glow{background:radial-gradient(closest-side,color-mix(in srgb,var(--g) 42%,transparent),transparent) 50% 52%/78% 78% no-repeat,var(--tile);transition:--g .7s var(--ease)}
+.ph.glow img{mix-blend-mode:multiply}
+.seg.mini.ap{background:linear-gradient(160deg,color-mix(in srgb,var(--tech) 9%,var(--paper)),var(--paper) 70%)}
 .segs{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
 .seg{position:relative;display:flex;flex-direction:column;background:var(--tile);min-height:220px;overflow:hidden;grid-column:span 3}
 .seg .ph{flex:1;min-height:150px}
@@ -180,6 +201,18 @@ img{display:block;max-width:100%}
 .pd{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,4vw,64px);align-items:start;padding-top:8px}
 .pd-img{position:sticky;top:calc(var(--hd) + 16px)}
 .pd-img .ph{aspect-ratio:1}
+.pd-img .ph.big{background-size:86% 86%,auto}
+.opt-c{flex-direction:column;align-items:flex-start;justify-content:center;gap:0;line-height:1.2;padding-block:6px}
+.opt-c .dl{font-size:13px;color:var(--stone)}
+.opt-c[aria-pressed="true"] .dl{color:var(--line)}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:45;background:color-mix(in srgb,var(--paper) 92%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid var(--ink);padding-bottom:env(safe-area-inset-bottom,0px);transform:translateY(105%);transition:transform .35s var(--ease)}
+.bar.on{transform:none}
+.bar-in{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:12px 24px;min-height:76px;padding-block:10px}
+.bar-m b{display:block;font-weight:400;font-size:18px;line-height:1.2}
+.bar-m small{font-size:14px;color:var(--stone)}
+.bar-p{font-size:22px;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.bar-p .flags{font-size:20px}
+@media (max-width:640px){.bar-in{grid-template-columns:minmax(0,1fr) auto}.bar-m{display:none}.bar .btn{padding:0 18px}}
 .pd h1{font-weight:300;font-size:clamp(36px,4vw,60px);line-height:1;letter-spacing:-0.035em}
 .pd-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin-top:16px}
 .pd-price b{font-weight:300;font-size:clamp(34px,3.4vw,48px);letter-spacing:-0.02em}
@@ -193,9 +226,9 @@ img{display:block;max-width:100%}
 .opt .chips{gap:8px}
 .opt .chip{min-height:46px;padding:0 16px;font-size:16px}
 .chip[data-tip]{position:relative}
-.chip[data-tip]::after{content:attr(data-tip);position:absolute;left:0;bottom:calc(100% + 8px);z-index:10;width:max-content;max-width:300px;padding:10px 12px;background:var(--ink);color:var(--paper);font-size:14px;line-height:1.4;white-space:normal;text-align:left;opacity:0;pointer-events:none;transform:translateY(4px);transition:opacity .15s,transform .15s}
-@media (hover:hover){.chip[data-tip]:hover::after{opacity:1;transform:none}}
-.chip[data-tip]:focus-visible::after{opacity:1;transform:none}
+.chip[data-tip]::after{content:attr(data-tip);display:none;position:absolute;left:0;bottom:calc(100% + 8px);z-index:10;width:max-content;max-width:300px;padding:10px 12px;background:var(--ink);color:var(--paper);font-size:14px;line-height:1.4;white-space:normal;text-align:left;opacity:0;pointer-events:none;transform:translateY(4px);transition:opacity .15s,transform .15s}
+@media (hover:hover){.chip[data-tip]:hover::after{display:block;opacity:1;transform:none}}
+.chip[data-tip]:focus-visible::after{display:block;opacity:1;transform:none}
 .fg .chip[data-tip]::after{bottom:auto;top:calc(100% + 8px);max-width:240px}
 .hint{margin-top:10px;font-size:15px;line-height:1.45;color:var(--stone);max-width:34em}
 .opt .chip.off{color:var(--mark);box-shadow:inset 0 0 0 1px var(--line);background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(200,199,195,.35) 6px 7px)}
@@ -285,7 +318,7 @@ img{display:block;max-width:100%}
 .toast.show{opacity:1;translate:-50% 0}
 
 @media (prefers-reduced-motion: no-preference){
-  #app>*{animation:in .5s var(--ease) both}
+  #app>*:not(.bar){animation:in .5s var(--ease) both}
 }
 @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){.drawer,.scrim,.toast,.ph img{transition:none}}
@@ -506,25 +539,35 @@ img{display:block;max-width:100%}
     scrollTo({top: 0, behavior: 'auto'});
   }
 
+  /* Главная. Первый экран — растр каталога: одна точка = одна позиция в наличии, сгусток = категория.
+     Наведение подсвечивает сгусток свечением get.tech, нажатие открывает витрину. */
   function home() {
     document.title = 'get.tech';
     const upd = new Date(data.updated);
-    const seg = (c, cls) => {
-      const ms = [...MODELS.values()].filter((m) => m.cat === c).sort((a, b) => b.num - a.num);
-      const img = ms.map((m) => imgFor(m.model, m.colors[0])).find(Boolean);
-      return `<a class="seg ${cls}" href="#/c/${slug(c)}">${photo(img, c)}<span class="seg-t"><b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></span></a>`;
-    };
-    const apple = APPLE.filter((c) => count[c] && c !== 'Аксессуары Apple').slice(0, 5);
-    const rest = [...APPLE.filter((c) => count[c] && !apple.includes(c)), ...OTHER];
+    const when = (upd.toDateString() === new Date().toDateString() ? 'сегодня' : upd.toLocaleDateString('ru-RU', {day: 'numeric', month: 'long'})) + ' в ' + upd.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
+    const cats = [...APPLE.filter((c) => count[c]), ...OTHER];
+    const fresh = [...MODELS.values()].filter((m) => m.cat === 'iPhone' && imgFor(m.model, m.colors[0]))
+      .sort((a, b) => b.num - a.num || b.min - a.min).slice(0, 8);
     app.innerHTML = `
       <section class="hero">
-        <h1><span>Честная цена.</span><span>Проверенная техника.</span></h1>
-        <p class="hero-sub"><span class="dot"></span> ${P.length.toLocaleString('ru-RU')} позиций в наличии. Цены обновлены ${upd.toDateString() === new Date().toDateString() ? 'сегодня' : upd.toLocaleDateString('ru-RU', {day: 'numeric', month: 'long'})} в ${upd.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'})}.</p>
+        <div class="hero-t">
+          <h1>Честная цена. Проверенная техника.</h1>
+          <p class="hero-sub">Одна точка в растре означает одну позицию в наличии. Всего их ${P.length.toLocaleString('ru-RU')}, цены обновлены ${when}.</p>
+          <div class="hero-cta"><a class="btn" href="#/c/iphone">Выбрать iPhone</a><button class="btn line" type="button" id="toSearch">Найти модель</button></div>
+        </div>
+        <div class="rast" id="rast"><canvas id="rc" aria-hidden="true"></canvas><div class="rtip" id="rtip" hidden></div>
+          <nav class="sr" aria-label="Категории">${cats.map((c) => `<a href="#/c/${slug(c)}">${esc(c)}, ${count[c]}</a>`).join('')}</nav>
+        </div>
       </section>
-      <div class="segs">${apple.map((c, i) => seg(c, i === 0 ? 'big' : 'mid')).join('')}</div>
       <section class="blk">
-        <div class="blk-h"><h2>Вся техника</h2></div>
-        <div class="segs">${rest.map((c) => `<a class="seg mini" href="#/c/${slug(c)}"><span class="seg-t"><b>${esc(c)}</b><small class="num">${count[c]} ${plural(count[c], 'позиция', 'позиции', 'позиций')}, от ${rub(catMin(c))}</small></span></a>`).join('')}</div>
+        <div class="blk-h"><h2>Новые iPhone</h2><a class="lnk" href="#/c/iphone">Все iPhone</a></div>
+        <div class="shelf">${fresh.map((m) => `<a class="nw" href="#/p/${m.slug}" style="--g:${swc(m.colors[0])}">
+          <span class="ph glow"><img src="${esc(imgFor(m.model, m.colors[0]))}" alt="${esc(m.model)}" loading="lazy"></span>
+          <span class="nw-b"><b>${esc(m.model)}</b><span class="num">от ${rub(m.min)}</span><span class="sws">${m.colors.slice(0, 6).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span></span></a>`).join('')}</div>
+      </section>
+      <section class="blk">
+        <div class="blk-h"><h2>Все категории</h2></div>
+        <div class="segs">${cats.map((c) => `<a class="seg mini${APPLE.includes(c) ? ' ap' : ''}" href="#/c/${slug(c)}"><span class="seg-t"><b>${esc(c)}</b><small class="num">${count[c]} ${plural(count[c], 'позиция', 'позиции', 'позиций')}, от ${rub(catMin(c))}</small></span></a>`).join('')}</div>
       </section>
       <section class="blk">
         <div class="blk-h"><h2>Бренды</h2></div>
@@ -536,6 +579,76 @@ img{display:block;max-width:100%}
         <div><b>Брак</b><span>заводской меняем за свой счёт</span></div>
         <div><b>Упаковка</b><span>фирменная упаковка get. с каждым заказом</span></div>
       </section>`;
+    $('#toSearch').addEventListener('click', () => { q.focus(); q.scrollIntoView({block: 'nearest'}); });
+    raster(cats);
+  }
+
+  function raster(cats) {
+    const box = $('#rast'), cv = $('#rc'), tip = $('#rtip'), ctx = cv.getContext('2d');
+    const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let blocks = [], hover = -1, t0 = 0, raf = 0, W = 0, H = 0;
+    const layout = () => {
+      W = box.clientWidth;
+      const d = W < 520 ? 4.6 : W < 760 ? 5.6 : 6.6, gap = d * 3, lab = 20;
+      blocks = []; let x = 0, y = 0, rowH = 0;
+      for (const c of cats) {
+        ctx.font = '400 13px Jost, system-ui, sans-serif';
+        const n = count[c], lw = ctx.measureText(c).width + 4;
+        const cols = Math.max(4, Math.ceil(Math.sqrt(n * 1.6)), Math.ceil(lw / d)), rows = Math.ceil(n / cols);
+        const w = cols * d, h = rows * d + lab;
+        if (x > 0 && x + w > W) { x = 0; y += rowH + gap; rowH = 0; }
+        blocks.push({c, n, cols, x, y, w, h, d});
+        x += w + gap; rowH = Math.max(rowH, h);
+      }
+      H = y + rowH;
+      const dpr = Math.min(2, devicePixelRatio || 1);
+      cv.width = W * dpr; cv.height = H * dpr; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    };
+    const draw = (now) => {
+      raf = 0;
+      const p = REDUCE ? 1 : Math.min(1, (now - t0) / 1400);
+      ctx.clearRect(0, 0, W, H);
+      blocks.forEach((b, i) => {
+        const on = i === hover;
+        if (on) {
+          const g = ctx.createRadialGradient(b.x + b.w / 2, b.y + (b.h - 20) / 2, 0, b.x + b.w / 2, b.y + (b.h - 20) / 2, Math.max(b.w, b.h) * .75);
+          g.addColorStop(0, 'rgba(99,129,175,.55)'); g.addColorStop(1, 'rgba(99,129,175,0)');
+          ctx.fillStyle = g; ctx.fillRect(b.x - b.w * .4, b.y - b.h * .4, b.w * 1.8, b.h * 1.8);
+        }
+        /* появление по очереди: сгустки проявляются один за другим, точки внутри от центра */
+        const local = Math.max(0, Math.min(1, p * 1.6 - i / blocks.length * .6));
+        const shown = Math.round(b.n * local);
+        ctx.fillStyle = on ? '#3F5E8F' : '#302F2C';
+        const r = b.d * (on ? .34 : .28);
+        for (let k = 0; k < shown; k++) {
+          const cx = b.x + (k % b.cols) * b.d + b.d / 2, cy = b.y + Math.floor(k / b.cols) * b.d + b.d / 2;
+          ctx.beginPath(); ctx.arc(cx, cy, r, 0, 6.2832); ctx.fill();
+        }
+        if (b.w > 54 || on) {
+          ctx.fillStyle = on ? '#302F2C' : '#6B6A66';
+          ctx.font = `${on ? 500 : 400} 13px Jost, system-ui, sans-serif`;
+          let t = b.c; while (ctx.measureText(t).width > Math.max(b.w, 60) && t.length > 3) t = t.slice(0, -2) + '…';
+          ctx.fillText(t, b.x, b.y + b.h - 5);
+        }
+      });
+      if (p < 1) raf = requestAnimationFrame(draw);
+    };
+    const at = (e) => { const r = cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top; return blocks.findIndex((b) => x >= b.x - 6 && x <= b.x + b.w + 6 && y >= b.y - 6 && y <= b.y + b.h); };
+    const show = (i, e) => {
+      if (i === hover && i >= 0) { const r = cv.getBoundingClientRect(); tip.style.left = Math.min(e.clientX - r.left + 16, W - 230) + 'px'; tip.style.top = (e.clientY - r.top + 18) + 'px'; return; }
+      if (i === hover) return; hover = i; cv.style.cursor = i >= 0 ? 'pointer' : 'default';
+      if (i >= 0) { const b = blocks[i]; tip.hidden = false; tip.innerHTML = `<b>${esc(b.c)}</b>${b.n} ${plural(b.n, 'позиция', 'позиции', 'позиций')}, от ${rub(catMin(b.c))}`; const r = cv.getBoundingClientRect(); tip.style.left = Math.min(e.clientX - r.left + 16, W - 230) + 'px'; tip.style.top = (e.clientY - r.top + 18) + 'px'; }
+      else tip.hidden = true;
+      if (!raf) raf = requestAnimationFrame(draw);
+    };
+    cv.addEventListener('pointermove', (e) => show(at(e), e));
+    cv.addEventListener('pointerleave', () => show(-1));
+    cv.addEventListener('click', (e) => { const i = at(e); if (i >= 0) location.hash = '#/c/' + slug(blocks[i].c); });
+    const ro = new ResizeObserver(() => { layout(); if (!raf) raf = requestAnimationFrame(draw); });
+    ro.observe(box);
+    layout(); t0 = performance.now(); raf = requestAnimationFrame(draw);
+    document.fonts?.ready.then(() => { if (!raf) raf = requestAnimationFrame(draw); });
   }
 
   /* фильтры витрины: какие есть у позиций категории */
@@ -606,6 +719,7 @@ img{display:block;max-width:100%}
   /* регион не выбирают, а показывают флагом у цены: для какой страны выпущено устройство */
   const flag = (code) => /^[A-Z]{2}$/.test(code) ? String.fromCodePoint(...[...code].map((c) => 0x1F1A5 + c.charCodeAt(0))) : code;
   const flags = (r) => r ? `<span class="flags" title="Регион: ${esc(r)}. Для какой страны выпущено устройство" aria-label="Регион ${esc(r)}">${regionList(r).map(flag).join(' ')}</span>` : '';
+  let lastPd = {slug: '', color: ''};
   function product(m, qs) {
     document.title = m.model + ' · get.tech';
     const want = Object.fromEntries(new URLSearchParams(qs || ''));
@@ -616,40 +730,48 @@ img{display:block;max-width:100%}
       else vals.sort((a, b) => Math.min(...m.items.filter((p) => p.opts[k] === a).map((p) => p.price)) - Math.min(...m.items.filter((p) => p.opts[k] === b).map((p) => p.price)));
       return [k, label, vals];
     });
-    /* выбор: по очереди измерений; если желаемое значение недоступно с предыдущими, берём самое дешёвое доступное */
     /* Выбор варианта: последний нажатый параметр (f) соблюдаем всегда, остальные по возможности
-       в порядке важности, при равенстве берём дешевле. */
-    const f = want.f;
-    const score = (p) => (f && (p.opts[f] || '') === want[f] ? 1e6 : 0)
-      + dims.reduce((acc, [k], i) => acc + ((want[k] !== undefined && (p.opts[k] || '') === want[k]) ? 2 ** (dims.length - i) * 10 : 0), 0)
-      + (!want.cond && p.opts.cond === 'Новый' ? 5 : 0);
-    const cur = [...m.items].sort((x, y) => score(y) - score(x) || x.price - y.price)[0];
+       в порядке важности, по умолчанию новый, при равенстве берём дешевле. */
+    const best = (w, f) => {
+      const score = (p) => (f && (p.opts[f] || '') === w[f] ? 1e6 : 0)
+        + dims.reduce((acc, [k], i) => acc + ((w[k] !== undefined && (p.opts[k] || '') === w[k]) ? 2 ** (dims.length - i) * 10 : 0), 0)
+        + (!w.cond && p.opts.cond === 'Новый' ? 5 : 0);
+      return [...m.items].sort((x, y) => score(y) - score(x) || x.price - y.price)[0];
+    };
+    const cur = best(want, want.f);
     const s = Object.fromEntries(dims.map(([k]) => [k, cur.opts[k] || '']));
     const link = (k, v) => `#/p/${m.slug}/${new URLSearchParams({...s, [k]: v, f: k})}`;
-    /* значение доступно, если есть позиция с ним и со всеми остальными выбранными параметрами */
     const okWith = (k, v) => m.items.some((p) => (p.opts[k] || '') === v && dims.every(([d]) => d === k || (p.opts[d] || '') === s[d]));
+    /* разница в цене, как в Apple Store: сколько добавит или сэкономит другой вариант */
+    const delta = (k, v) => { if (s[k] === v) return ''; const d = best({...s, [k]: v}, k).price - cur.price; return d ? `<small class="dl num">${d > 0 ? '+' : '−'}${rub(Math.abs(d))}</small>` : ''; };
     const opt = ([k, label, vals]) => {
       if (vals.length < 2 && !(k === 'color' && vals[0])) return '';
       const chips = vals.map((v) => {
         const off = !okWith(k, v);
         if (k === 'color') return `<a class="swb${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}" title="${esc(v)}${off ? ', нет с выбранными параметрами' : ''}" aria-label="${esc(v)}"><i class="sw" style="--c:${swc(v)}"></i></a>`;
         const tip = [HINT[v], off ? 'С выбранными параметрами такого нет, остальное подберём заново.' : ''].filter(Boolean).join(' ');
-        return `<a class="chip${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}"${tip ? ` data-tip="${esc(tip)}"` : ''}>${esc(v || 'Не указано')}</a>`;
+        return `<a class="chip opt-c${off ? ' off' : ''}" role="button" aria-pressed="${s[k] === v}" href="${link(k, v)}"${tip ? ` data-tip="${esc(tip)}"` : ''}><span>${esc(v || 'Не указано')}</span>${delta(k, v)}</a>`;
       }).join('');
       return `<fieldset class="opt"><legend>${label}: <b>${esc(s[k] || 'не указано')}</b></legend><div class="chips">${chips}</div>${HINT[s[k]] ? `<p class="hint">${esc(HINT[s[k]])}</p>` : ''}</fieldset>`;
     };
+    /* соседние модели линейки: iPhone 18 Pro ↔ iPhone 18 Pro Max */
+    const fam = (x) => x.model.replace(/ (Pro Max|Pro|Plus|mini)$/i, '');
+    const sibs = [...MODELS.values()].filter((x) => x.cat === m.cat && fam(x) === fam(m)).sort((a, b) => a.min - b.min);
     const vrows = [...m.items].sort((a, b) => a.price - b.price);
+    const summary = [s.mem, s.sim, s.cond !== 'Новый' ? s.cond : ''].filter(Boolean).join(', ');
+    const same = lastPd.slug === m.slug, prevColor = same ? lastPd.color : s.color;
     app.innerHTML = `
       <nav class="crumbs" aria-label="Путь"><a href="#/">Каталог</a><span>/</span><a href="#/c/${slug(m.cat)}">${esc(m.cat)}</a><span>/</span><span>${esc(m.model)}</span></nav>
       <article class="pd">
-        <div class="pd-img">${photo(imgFor(m.model, s.color), m.model + (s.color ? ', ' + s.color : ''))}</div>
-        <div>
+        <div class="pd-img"><div class="ph glow big" id="pdImg" style="--g:${swc(prevColor)}">${imgFor(m.model, s.color) ? `<img src="${esc(imgFor(m.model, s.color))}" alt="${esc(m.model + (s.color ? ', ' + s.color : ''))}">` : `<span class="nm">${esc(m.model)}</span>`}</div></div>
+        <div class="pd-r">
           <h1>${esc(m.model)}</h1>
           <div class="pd-price"><b class="num">${rub(cur.price)}</b>${flags(cur.region)}<span><i class="dot"></i>В наличии</span></div>
+          ${sibs.length > 1 ? `<fieldset class="opt"><legend>Модель: <b>${esc(m.model)}</b></legend><div class="chips">${sibs.map((x) => `<a class="chip opt-c" role="button" aria-pressed="${x === m}" href="#/p/${x.slug}${s.color && x.colors.includes(s.color) ? '/color=' + encodeURIComponent(s.color) : ''}"><span>${esc(x.model.replace(fam(x), '').trim() || x.model)}</span><small class="dl num">от ${rub(x.min)}</small></a>`).join('')}</div></fieldset>` : ''}
           ${dims.map(opt).join('')}
           ${cur.opts.other ? `<p class="pd-note">Пометка поставщика: ${esc(cur.opts.other)}</p>` : ''}
-          <div class="pd-buy">
-            <button class="btn" type="button" id="buy" data-id="${esc(cur.id)}">${cart[cur.id] ? 'В корзине · ' + cart[cur.id] : 'В корзину'}</button>
+          <div class="pd-buy" id="pdBuy">
+            <button class="btn" type="button" data-buy="${esc(cur.id)}">${cart[cur.id] ? 'В корзине · ' + cart[cur.id] : 'В корзину'}</button>
             <a class="btn line" href="#" data-tg data-msg="Здравствуйте. Интересует ${esc(cur.name)}${cur.region ? ', регион ' + esc(cur.region) : ''}${cur.raw.note ? ', ' + esc(cur.raw.note) : ''}, ${rub(cur.price)}. ">Спросить в Telegram</a>
           </div>
           <ul class="pd-feat">
@@ -662,14 +784,29 @@ img{display:block;max-width:100%}
       <details class="vars"><summary>Все варианты<small class="num">${m.items.length}</small></summary>
         <table class="vt"><thead><tr><th>Вариант</th><th>Регион</th><th class="hm">Пометка</th><th>Цена</th></tr></thead><tbody>
         ${vrows.map((p) => `<tr data-href="#/p/${m.slug}/${new URLSearchParams(Object.fromEntries(dims.map(([k]) => [k, p.opts[k] || ''])))}"${p === cur ? ' class="cur"' : ''}><td>${esc(p.opts.mem ? [p.opts.color, p.opts.mem, p.opts.sim, p.opts.cond].filter(Boolean).join(', ') : (p.opts.variant || p.name))}</td><td>${flags(p.region)}</td><td class="hm">${esc(p.opts.other || '')}</td><td class="num">${rub(p.price)}</td></tr>`).join('')}
-        </tbody></table></details>`;
-    $('#buy').addEventListener('click', (e) => {
-      const id = e.currentTarget.dataset.id;
+        </tbody></table></details>
+      <div class="bar" id="bar" aria-hidden="true">
+        <div class="wrap bar-in">
+          <span class="bar-m"><b>${esc(m.model)}</b><small>${esc([s.color, summary].filter(Boolean).join(', '))}</small></span>
+          <span class="bar-p num">${rub(cur.price)} ${flags(cur.region)}</span>
+          <button class="btn" type="button" data-buy="${esc(cur.id)}" tabindex="-1">${cart[cur.id] ? 'В корзине · ' + cart[cur.id] : 'В корзину'}</button>
+        </div>
+      </div>`;
+    /* смена цвета: свечение плавно перетекает в новый цвет, фото проявляется */
+    const img = $('#pdImg');
+    requestAnimationFrame(() => requestAnimationFrame(() => img.style.setProperty('--g', swc(s.color))));
+    if (same && lastPd.color !== s.color) img.querySelector('img')?.animate([{opacity: 0, transform: 'scale(.97)'}, {opacity: 1, transform: 'none'}], {duration: 450, easing: 'cubic-bezier(.16,1,.3,1)'});
+    lastPd = {slug: m.slug, color: s.color};
+    $$('[data-buy]').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.buy;
       cart[id] = (cart[id] || 0) + 1; save(); drawCart();
-      e.currentTarget.textContent = 'В корзине · ' + cart[id];
+      $$('[data-buy]').forEach((x) => { x.textContent = 'В корзине · ' + cart[id]; });
       toast(`${PID.get(id).name} в корзине`);
-    });
+    }));
     $('.vt').addEventListener('click', (e) => { const tr = e.target.closest('tr[data-href]'); if (tr) location.hash = tr.dataset.href; });
+    /* нижняя панель покупки появляется, когда основная кнопка ушла за экран */
+    const bar = $('#bar');
+    new IntersectionObserver(([en]) => { const on = !en.isIntersecting && en.boundingClientRect.top < 0; bar.classList.toggle('on', on); bar.setAttribute('aria-hidden', String(!on)); bar.querySelector('button').tabIndex = on ? 0 : -1; }).observe($('#pdBuy'));
   }
 
   /* при смене варианта не прыгаем наверх */
