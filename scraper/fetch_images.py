@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 import io
 
 import requests
-from PIL import Image
+from PIL import Image, ImageChops, ImageDraw, ImageFilter
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=1400&fmt=png-alpha"
@@ -80,12 +80,36 @@ def candidates(model: str, color: str) -> list[str]:
     return list(dict.fromkeys(names))
 
 
+def unbg(im: Image.Image, thresh: int = 9) -> Image.Image:
+    """Убирает ровный фон фото Apple: заливка от краёв по похожему цвету, мягкий край.
+    Белые и серебристые корпуса не страдают — закрашивается только фон, связанный с краем кадра."""
+    rgb = im.convert("RGB")
+    w, h = rgb.size
+    work, key = rgb.copy(), (255, 0, 255)
+    for x in range(0, w, max(1, w // 40)):
+        for y in (0, h - 1):
+            if work.getpixel((x, y)) != key:
+                ImageDraw.floodfill(work, (x, y), key, thresh=thresh)
+    for y in range(0, h, max(1, h // 40)):
+        for x in (0, w - 1):
+            if work.getpixel((x, y)) != key:
+                ImageDraw.floodfill(work, (x, y), key, thresh=thresh)
+    r, g, b = work.split()
+    bg = ImageChops.multiply(ImageChops.multiply(r.point(lambda v: 255 if v == 255 else 0), g.point(lambda v: 255 if v == 0 else 0)), b.point(lambda v: 255 if v == 255 else 0))
+    out = rgb.convert("RGBA")
+    out.putalpha(ImageChops.invert(bg).filter(ImageFilter.GaussianBlur(0.8)))
+    return out
+
+
 def cutout(body: bytes, path: pathlib.Path, height: int) -> str:
     """PNG с прозрачным фоном → обрезка по контуру → WebP. Возвращает, был ли фон прозрачным."""
     im = Image.open(io.BytesIO(body)).convert("RGBA")
     alpha = im.getchannel("A")
     clear = alpha.getextrema()[0] < 255
-    if clear:
+    if not clear:
+        im = unbg(im)
+        alpha = im.getchannel("A")
+    if True:
         box = alpha.point(lambda a: 255 if a > 8 else 0).getbbox()
         if box:
             pad = 8
@@ -94,7 +118,7 @@ def cutout(body: bytes, path: pathlib.Path, height: int) -> str:
         im = im.resize((round(im.width * height / im.height), height), Image.LANCZOS)
     path.parent.mkdir(parents=True, exist_ok=True)
     im.save(path, "WEBP", quality=84, method=6)
-    return "прозрачный" if clear else "с фоном"
+    return "прозрачный" if clear else "фон убран"
 
 
 def try_get(url: str):
