@@ -10,10 +10,13 @@ import pathlib
 import re
 from concurrent.futures import ThreadPoolExecutor
 
+import io
+
 import requests
+from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=1400&fmt=jpeg&qlt=85"
+CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=1400&fmt=png-alpha"
 
 # модель → (код на CDN, месяцы выхода, размер экрана в названии файла)
 MODELS = {
@@ -77,6 +80,23 @@ def candidates(model: str, color: str) -> list[str]:
     return list(dict.fromkeys(names))
 
 
+def cutout(body: bytes, path: pathlib.Path, height: int) -> str:
+    """PNG с прозрачным фоном → обрезка по контуру → WebP. Возвращает, был ли фон прозрачным."""
+    im = Image.open(io.BytesIO(body)).convert("RGBA")
+    alpha = im.getchannel("A")
+    clear = alpha.getextrema()[0] < 255
+    if clear:
+        box = alpha.point(lambda a: 255 if a > 8 else 0).getbbox()
+        if box:
+            pad = 8
+            im = im.crop((max(0, box[0] - pad), max(0, box[1] - pad), min(im.width, box[2] + pad), min(im.height, box[3] + pad)))
+    if im.height > height:
+        im = im.resize((round(im.width * height / im.height), height), Image.LANCZOS)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    im.save(path, "WEBP", quality=84, method=6)
+    return "прозрачный" if clear else "с фоном"
+
+
 def try_get(url: str):
     try:
         r = requests.get(url, timeout=20)
@@ -89,26 +109,25 @@ def try_get(url: str):
 
 def find(job):
     model, color = job
-    path = ROOT / "img/apple" / re.sub(r"\W+", "-", model.lower()) / f"{color.replace(' ', '-')}.jpg"
+    path = ROOT / "img/apple" / re.sub(r"\W+", "-", model.lower()) / f"{color.replace(' ', '-')}.webp"
     if path.exists():
         return model, color, path, "есть"
     for name in candidates(model, color):
         body = try_get(CDN.format(name=name))
         if body:
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_bytes(body)
-            return model, color, path, name
+            how = cutout(body, path, 1000)
+            return model, color, path, f"{name} ({how})"
     return model, color, None, "не найдено"
 
 
 # Картинки категорий из меню магазина Apple: «store-card-13-<категория>-nav-<год><месяц>»
 NAV = {"iPhone": "iphone", "Mac": "mac", "iPad": "ipad", "Apple Watch": "watch", "AirPods": "airpods", "Аксессуары Apple": "accessories"}
-NAV_CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=400&hei=260&fmt=png-alpha"
+NAV_CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=600&fmt=png-alpha"
 
 
 def find_nav(item):
     cat, key = item
-    path = ROOT / "img/apple/nav" / f"{key}.png"
+    path = ROOT / "img/apple/nav" / f"{key}.webp"
     if path.exists():
         return cat, path, "есть"
     for year in range(2026, 2021, -1):
@@ -116,9 +135,8 @@ def find_nav(item):
             name = f"store-card-13-{key}-nav-{year}{month:02d}"
             body = try_get(NAV_CDN.format(name=name))
             if body:
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_bytes(body)
-                return cat, path, name
+                how = cutout(body, path, 360)
+                return cat, path, f"{name} ({how})"
     return cat, None, "не найдено"
 
 
