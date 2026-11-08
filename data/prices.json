@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:19+00:00",
+ "updated": "2026-11-08T13:21+00:00",
  "count": 2742,
  "stats": {
   "posts": 80,
@@ -14,7 +14,14 @@
    "Друзья! В честь 13-летия мы приготовили "
   ],
   "probe": {},
-  "feed_max_id": 12962
+  "feed_max_id": 12962,
+  "debug_post": {
+   "status": 200,
+   "has_text": false,
+   "photos": 0,
+   "error": "Please open Telegram to view this post VIEW IN TELEGRAM",
+   "len": 15443
+  }
  },
  "items": [
   {
