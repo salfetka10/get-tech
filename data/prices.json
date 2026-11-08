@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:51+00:00",
+ "updated": "2026-11-08T13:52+00:00",
  "count": 3962,
  "stats": {
   "posts": 100,
@@ -1714,6 +1714,22 @@
   },
   {
    "category": "iPhone",
+   "name": "iPhone 14 Pro Max 1TB Silver CPO",
+   "region": "AE",
+   "note": "",
+   "price": 72700,
+   "updated": "2026-11-08T12:38:06+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Pro Max 1TB Purple CPO",
+   "region": "AE",
+   "note": "",
+   "price": 72700,
+   "updated": "2026-11-08T12:38:06+00:00"
+  },
+  {
+   "category": "iPhone",
    "name": "iPhone 15 128 Black",
    "region": "IN",
    "note": "",
@@ -3226,6 +3242,22 @@
   },
   {
    "category": "iPhone",
+   "name": "iPhone 16 Pro 1Tb White",
+   "region": "KW",
+   "note": "",
+   "price": 127800,
+   "updated": "2026-11-08T09:11:38+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 1Tb Natural",
+   "region": "US",
+   "note": "активирован",
+   "price": 114900,
+   "updated": "2026-11-08T09:11:38+00:00"
+  },
+  {
+   "category": "iPhone",
    "name": "iPhone 16 Prо Maх 256 Desert",
    "region": "KW",
    "note": "",
@@ -3522,6 +3554,54 @@
   },
   {
    "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 157100,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 141700,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 139600,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 123600,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 150400,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 128800,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
    "name": "iPhone 17 Pro Max 256 Silver",
    "region": "KR, HK",
    "note": "SIM + eSIM",
@@ -3670,6 +3750,150 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 113300,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 170500,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "KW, JP",
+   "note": "eSIM",
+   "price": 141200,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 132900,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 161800,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "KR, HK",
+   "note": "ASIS",
+   "price": 135000,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 132900,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 127800,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 164800,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM активирован",
+   "price": 158200,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KW, JP",
+   "note": "eSIM",
+   "price": 138600,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 131400,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 178800,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 163300,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 170500,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 150900,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 139100,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 173600,
+   "updated": "2026-11-08T09:06:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 152000,
    "updated": "2026-11-08T09:06:02+00:00"
   },
   {
@@ -13674,7 +13898,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ ASUS ExpertBook 15 BM1 BM1503CDA-S72009",
+   "name": "ASUS ExpertBook 15 BM1 BM1503CDA-S72009",
    "region": "",
    "note": "AMD Ryzen 5 7535U · 16GB · SSD 256GB · 15,6″ 1920×1080 · AMD Radeon Graphics · Wi-Fi/Bluetooth · Серый",
    "price": 85500,
@@ -13898,10 +14122,90 @@
   },
   {
    "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5060 Ti 16GB Dual OC (Dual-RTX5060TI-O16G)",
+   "region": "",
+   "note": "",
+   "price": 90700,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5060 Ti 16GB Dual OC White (Dual-RTX5060TI-O16G-White)",
+   "region": "",
+   "note": "",
+   "price": 81900,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5060 Ti 16GB Prime OC (Prime-RTX5060TI-O16G)",
+   "region": "",
+   "note": "",
+   "price": 85500,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5060 Ti 8GB Dual (Dual-RTX5060TI-8G)",
+   "region": "",
+   "note": "",
+   "price": 55700,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5060 Ti 8GB Dual OC (Dual-RTX5060TI-O8G)",
+   "region": "",
+   "note": "",
+   "price": 56700,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5070 12GB Prime OC (Prime-RTX5070-O12G)",
+   "region": "",
+   "note": "",
+   "price": 89700,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS GeForce RTX 5070 Ti 16GB Prime OC (Prime-RTX5070TI-O16G)",
+   "region": "",
+   "note": "",
+   "price": 141200,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
    "name": "ASUS GeForce RTX 5090 32GB ROG Astral OC (ROG-Astral-RTX5090-O32G-Gaming)",
    "region": "",
    "note": "",
    "price": 857900,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI GeForce RTX 5060 8GB Shadow 2X OC Max",
+   "region": "",
+   "note": "",
+   "price": 47500,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI GeForce RTX 5070 12GB Shadow 2X",
+   "region": "",
+   "note": "",
+   "price": 88600,
+   "updated": "2026-11-08T13:05:17+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI GeForce RTX 5070 12GB Shadow 2X OC",
+   "region": "",
+   "note": "",
+   "price": 88600,
    "updated": "2026-11-08T13:05:17+00:00"
   },
   {
@@ -13946,7 +14250,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Stealth 16 AI A2HWFG-041US",
+   "name": "MSI Stealth 16 AI A2HWFG-041US",
    "region": "",
    "note": "Intel Core Ultra 7 255H · 32GB · SSD 1TB · 16″ 2560×1600 OLED · 240Hz · NVIDIA GeForce RTX 5060 8GB · Windows 11 Home · Чёрный",
    "price": 212200,
@@ -13954,7 +14258,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Crosshair 16 HX AI D2XWGKG-201US",
+   "name": "MSI Crosshair 16 HX AI D2XWGKG-201US",
    "region": "",
    "note": "Intel Core Ultra 7 255HX · 16GB · SSD 1TB · 16″ 2560×1600 IPS · 240Hz · NVIDIA GeForce RTX 5070 8GB · Windows 11 Home · Чёрный",
    "price": 212200,
@@ -13962,7 +14266,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Crosshair A16 HX D8WFKG-090US",
+   "name": "MSI Crosshair A16 HX D8WFKG-090US",
    "region": "",
    "note": "AMD Ryzen 9 8940HX · 16GB · SSD 1TB · 16″ 2560×1600 IPS · 240Hz · NVIDIA GeForce RTX 5060 8GB · Windows 11 Home · Серый",
    "price": 212200,
@@ -13994,7 +14298,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ ASUS V16 Laptop V3607VP-DS74",
+   "name": "ASUS V16 Laptop V3607VP-DS74",
    "region": "",
    "note": "Intel Core 7 240H · 16GB · SSD 1TB · 16″ 1920×1200 · 144Hz · NVIDIA GeForce RTX 5070 8GB · Windows 11 Home · Чёрный",
    "price": 222500,
@@ -14162,7 +14466,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Vector 16 HX AI A2XWHG-275US",
+   "name": "MSI Vector 16 HX AI A2XWHG-275US",
    "region": "",
    "note": "Intel Core Ultra 7 255HX · 32GB · SSD 1TB · 16″ 1900×1200 IPS · 144Hz · NVIDIA GeForce RTX 5070 Ti 12GB · Windows 11 Pro · Чёрный",
    "price": 253400,
@@ -14322,7 +14626,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Vector A18 HX A9WIG-076US",
+   "name": "MSI Vector A18 HX A9WIG-076US",
    "region": "",
    "note": "AMD Ryzen 9 9955HX · 64GB · SSD 2TB · 18″ 2560×1600 IPS · 240Hz · NVIDIA GeForce RTX 5080 16GB · Windows 11 Pro · Чёрный",
    "price": 377000,
@@ -14378,6 +14682,54 @@
   },
   {
    "category": "Ноутбуки",
+   "name": "ASUS Prime B550M-A B550 Socket AM4 4xDDR4, 4xSATA3, RAID, 2xM.2, 1xPCI-E16x, 6xUSB3.1, D-Sub, DVI-D, HDMI, GLAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 10000,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS Prime B550-Plus B550 Socket AM4 4xDDR4, 6xSATA3, RAID, 2xM.2, 2xPCI-E16x, 5xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, GLAN, ATX",
+   "region": "",
+   "note": "",
+   "price": 11500,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS Prime B650M-R B650 Socket AM5 2xDDR5, 4xSATA3, RAID, 2xM.2, 2xPCI-E16x, 2xUSB3.2, HDMI, 2.5G LAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 9700,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS Prime B760M-K B760 Socket-1700 2xDDR5, 4xSATA3, RAID, 2xM.2, 1xPCI-E16x, 4xUSB3.2, D-Sub, HDMI, 2.5G LAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 9200,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS Prime B760M-R D4 B760 Socket-1700 2xDDR4, 4xSATA3, RAID, 2xM.2, 1xPCI-E16x, 4xUSB3.2, 1xHDMI, 2.5G LAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 9600,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS Prime H610M-R-SI H610 Socket-1700 2xDDR5, 4xSATA3, 1xM.2, 1xPCI-E16x, 2xUSB3.2, D-Sub, DP, HDMI, GLAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 7200,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
    "name": "ASUS TUF Gaming B550M-Plus WiFi II B550 Socket AM4 4xDDR4, 4xSATA3, RAID, 2xM.2, 2xPCI-E16x, 5xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, Wi-Fi, 2.5G LAN, mATX",
    "region": "",
    "note": "",
@@ -14402,11 +14754,83 @@
   },
   {
    "category": "Ноутбуки",
+   "name": "MSI A520M-A Pro A520 Socket AM4 2xDDR4, 4xSATA3, RAID, 1xM.2, 1xPCI-E16x, 4xUSB3.2, DVI-D, HDMI, GLAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 6500,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI B760 Gaming Plus WiFi DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, RAID, 2xM.2, 5xPCI-E16x, 2xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, Wi-Fi, 2.5G LAN, ATX",
+   "region": "",
+   "note": "",
+   "price": 13900,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Pro B760M-A WiFi DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, RAID, 2xM.2, 2xPCI-E16x, 4xUSB3.2, 2xDP, 2xHDMI, Wi-Fi, 2.5G LAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 13200,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Pro B760M-P DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, 2xM.2, 1xPCI-E16x, 1xUSB3.2, 1xUSB3.2 Type-C, D-Sub, DP, HDMI, GLAN, mATX",
+   "region": "",
+   "note": "",
+   "price": 9700,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Pro B760-P WiFi DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, RAID, 2xM.2, 5xPCI-E16x, 2xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, Wi-Fi, GLAN, ATX",
+   "region": "",
+   "note": "",
+   "price": 13100,
+   "updated": "2026-11-08T06:10:01+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "24\" MSI MAG 244F IPS 1920x1080 0,5ms HDMI, DisplayPort",
+   "region": "",
+   "note": "",
+   "price": 13400,
+   "updated": "2026-11-06T10:12:38+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "27\" MSI MAG 274QRFW E20 IPS 2560x1440 0,5ms HDMI, DisplayPort",
+   "region": "",
+   "note": "",
+   "price": 23200,
+   "updated": "2026-11-06T10:12:38+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "27\" MSI Pro MP272L IPS 1920x1080 4ms HDMI, DisplayPort",
+   "region": "",
+   "note": "",
+   "price": 11900,
+   "updated": "2026-11-06T10:12:38+00:00"
+  },
+  {
+   "category": "Ноутбуки",
    "name": "DIMM 32Gb 2х16Gb DDR5 PC48000 6000MHz Patriot Memory Elite 5 RGB TUF Gaming White (PVER532G60C36KT)",
    "region": "",
    "note": "",
    "price": 60000,
    "updated": "2026-11-06T10:12:13+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "2000Gb MSI Spatium M461 S78-440Q550-P83 M.2 2280 PCIe NVMe 4.0 x4",
+   "region": "",
+   "note": "",
+   "price": 25300,
+   "updated": "2026-11-06T10:11:54+00:00"
   },
   {
    "category": "Ноутбуки",
@@ -14562,7 +14986,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ Gigabyte Gaming A16 CVHI3US894SH",
+   "name": "Gigabyte Gaming A16 CVHI3US894SH",
    "region": "",
    "note": "Intel Core i7-13620H · 16GB · SSD 1TB · 16″ 1920×1200 IPS · 165Hz · NVIDIA GeForce RTX 5060 8GB · Windows 11 Home · Чёрный",
    "price": 169000,
@@ -14594,7 +15018,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Cyborg 15 B2RWGKG-409US",
+   "name": "MSI Cyborg 15 B2RWGKG-409US",
    "region": "",
    "note": "Intel Core 7 240H · 16GB · SSD 1TB · 15,6″ 1920×1080 IPS · 144Hz · NVIDIA GeForce RTX 5070 8GB · Windows 11 Home",
    "price": 169000,
@@ -14762,7 +15186,7 @@
   },
   {
    "category": "Ноутбуки",
-   "name": "Ноутбуки по предзаказ MSI Katana 15 HX B14WGK-293US",
+   "name": "MSI Katana 15 HX B14WGK-293US",
    "region": "",
    "note": "Intel Core i7-14650HX · 16GB · SSD 1TB · 15,6″ 2560×1440 · 165Hz · NVIDIA GeForce RTX 5070 8GB · Windows 11 Home · Чёрный",
    "price": 191600,
@@ -14839,6 +15263,54 @@
    "note": "Intel Core Ultra 7 356H · 16GB · SSD 512GB · 14″ 2880×1800 AMOLED · сенсорный экран · 120Hz · Intel Arc Graphics · Windows 11 Home · Серый",
    "price": 201900,
    "updated": "2026-11-01T08:07:09+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Gigabyte Aero X16 4WH",
+   "region": "",
+   "note": "Ryzen AI 9 465 · 16GB RAM · 1TB SSD · RTX 5070 8GB · 16\" WQXGA · DOS · White",
+   "price": 179000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Gigabyte Gaming A16 GA63H",
+   "region": "",
+   "note": "Ryzen AI 7 260 · 16GB RAM · 1TB SSD · RTX 5050 8GB · 16\" WUXGA · DOS · Black",
+   "price": 125400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Gigabyte Gaming A16 GA6EH",
+   "region": "",
+   "note": "Core Ultra 9 185H · 16GB RAM · 512GB SSD · RTX 5060 8GB · 16\" WUXGA · DOS · Black",
+   "price": 140300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Gigabyte Gaming A16 Pro",
+   "region": "",
+   "note": "Core 7 240H · 32GB RAM · 1TB SSD · RTX 5080 16GB · 16\" WUXGA · DOS · Black",
+   "price": 255100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Gigabyte Gaming A18 GA83H",
+   "region": "",
+   "note": "Ryzen 7 260 · 16GB RAM · 1TB SSD · RTX 5050 8GB · 18\" WQXGA · DOS · Black",
+   "price": 147800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Gigabyte Gaming A18 GA83H",
+   "region": "",
+   "note": "Ryzen 7 260 · 16GB RAM · 512GB SSD · RTX 5050 8GB · 18\" WQXGA · DOS · Black",
+   "price": 139500,
+   "updated": "2026-10-13T13:37:03+00:00"
   },
   {
    "category": "Ноутбуки",
@@ -14938,6 +15410,134 @@
   },
   {
    "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IAL",
+   "region": "",
+   "note": "Core Ultra 5 225U · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 99400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IAL",
+   "region": "",
+   "note": "Core Ultra 7 255H · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 100700,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IRL",
+   "region": "",
+   "note": "Core 5 210H · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 102000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IRL",
+   "region": "",
+   "note": "Core 5 210H · 32GB RAM · 1TB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 147000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IRL",
+   "region": "",
+   "note": "Core 5 210H · 32GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 142200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IRL",
+   "region": "",
+   "note": "Core 7 240H · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 111800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 14 G8 IRL",
+   "region": "",
+   "note": "Core 7 240H · 32GB RAM · 1TB SSD · 14\" WUXGA · DOS · Grey",
+   "price": 156800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G6 IRL",
+   "region": "",
+   "note": "Core i5-1335U · 16GB RAM · 512GB SSD · 16\" Full HD · DOS · Grey",
+   "price": 132400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G6 IRL",
+   "region": "",
+   "note": "Core i5-1340P · 8GB RAM · 512GB SSD · 16\" WUXGA · Windows 11 Pro · Grey",
+   "price": 121600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G8 IAL",
+   "region": "",
+   "note": "Core Ultra 5 225U · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 102000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G8 IRL",
+   "region": "",
+   "note": "Core 5 210H · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 102000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G8 IRL",
+   "region": "",
+   "note": "Core 5 210H · 32GB RAM · 1TB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 152000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G8 IRL",
+   "region": "",
+   "note": "Core 5 210H · 32GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 142200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G8 IRL",
+   "region": "",
+   "note": "Core 7 240H · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 111800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G8 IRL",
+   "region": "",
+   "note": "Core 7 240H · 32GB RAM · 1TB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 156800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Lenovo ThinkBook 16 G9 IRL",
+   "region": "",
+   "note": "Core i5-13420H · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 102000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
    "name": "Lenovo ThinkPad E16 G2",
    "region": "",
    "note": "Ryzen 7 7735HS · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Black",
@@ -15030,6 +15630,414 @@
    "region": "",
    "note": "32GB RAM · 1TB SSD · 14\" WUXGA OLED · Windows 11 Pro · Black",
    "price": 168100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 15 B13WEKG-1248XRU",
+   "region": "",
+   "note": "Core i5 13420H · 16GB RAM · 512GB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Black",
+   "price": 119100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 15 C13WE-230XRU",
+   "region": "",
+   "note": "Core i5 13420H · 16GB RAM · 512GB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Grey",
+   "price": 117500,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 15 C2WE-016XRU",
+   "region": "",
+   "note": "Core i7 240H · 16GB RAM · 1TB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Grey",
+   "price": 137300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 15 C2WE-017XRU",
+   "region": "",
+   "note": "Core i5 210H · 16GB RAM · 512GB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Grey",
+   "price": 130000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 15 C2WF-015XRU",
+   "region": "",
+   "note": "Core i5 210H · 16GB RAM · 1TB SSD · RTX 5060 8GB · 15.6\" Full HD · DOS · Grey",
+   "price": 124100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 15 Max C2WG-227XRU",
+   "region": "",
+   "note": "Core i7 240H · 16GB RAM · 512GB SSD · RTX 5070 8GB · 15.6\" Full HD · DOS · Grey",
+   "price": 157100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg 17 B2RWEKG-279XRU",
+   "region": "",
+   "note": "Core i7 240H · 16GB RAM · 1TB SSD · RTX 5050 8GB · 17.3\" Full HD · DOS · Black",
+   "price": 143900,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg A17 AI B2HWFKG-040XRU",
+   "region": "",
+   "note": "Ryzen 7 260 · 16GB RAM · 1TB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
+   "price": 176800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Cyborg A17 AI B2HWFKG-048XRU",
+   "region": "",
+   "note": "Ryzen 7 260 · 16GB RAM · 512GB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
+   "price": 134700,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Katana 15 HX B14WFK-1065XRU",
+   "region": "",
+   "note": "Core i5 14450HX · 16GB RAM · 512GB SSD · RTX 5060 8GB · 15.6\" Full HD · DOS · Black",
+   "price": 142300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Katana 15 HX B14WFK-617XRU",
+   "region": "",
+   "note": "Core i7 14650HX · 16GB RAM · 1TB SSD · RTX 5060 8GB · 15.6\" Full HD · DOS · Black",
+   "price": 168600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Katana 17 B13UCR-1612XRU",
+   "region": "",
+   "note": "Core i5 13420H · 16GB RAM · 1TB SSD · RTX 3050 4GB · 17.3\" Full HD · DOS · Black",
+   "price": 105100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Katana 17 HX B14WFK-275XRU",
+   "region": "",
+   "note": "Core i5 14450HX · 32GB RAM · 1TB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
+   "price": 185200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Katana 17 HX B14WFK-412XRU",
+   "region": "",
+   "note": "Core i7 14650HX · 16GB RAM · 1TB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
+   "price": 168600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Katana 17 HX B14WGK-274XRU",
+   "region": "",
+   "note": "Core i7 14650HX · 32GB RAM · 1TB SSD · RTX 5070 8GB · 17.3\" QHD · DOS · Black",
+   "price": 223300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 14S AI+ G3MG-010XRU",
+   "region": "",
+   "note": "Core Ultra 7 355 · 16GB RAM · 512GB SSD · 14\" FHD+ OLED · DOS · Silver",
+   "price": 104400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 14S AI+ G3MG-011XRU",
+   "region": "",
+   "note": "Core Ultra 5 322 · 16GB RAM · 512GB SSD · 14\" FHD+ OLED · DOS · Silver",
+   "price": 93700,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 15 F1MG-1071XRU",
+   "region": "",
+   "note": "Core i7 150U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Grey",
+   "price": 90300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 15 F1MG-1072XRU",
+   "region": "",
+   "note": "Core i5 120U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Grey",
+   "price": 77300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 15 F1MXG-1278XRU",
+   "region": "",
+   "note": "Core i7 150U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Platinum Gray",
+   "price": 93700,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 15 F1MXG-1279XRU",
+   "region": "",
+   "note": "Core i5 120U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Platinum Gray",
+   "price": 83400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 15 F1MXG-1280RU",
+   "region": "",
+   "note": "Core i7 150U · 16GB RAM · 512GB SSD · 15.6\" Full HD · Windows 11 Pro · Platinum Gray",
+   "price": 110500,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 15 F1MXG-1281RU",
+   "region": "",
+   "note": "Core i5 120U · 16GB RAM · 512GB SSD · 15.6\" Full HD · Windows 11 Pro · Platinum Gray",
+   "price": 100300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 16S AI+ G3MG-012XRU",
+   "region": "",
+   "note": "Core Ultra 7 355 · 16GB RAM · 512GB SSD · 16\" FHD+ OLED · DOS · Grey",
+   "price": 103600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 16S AI+ G3MG-013XRU",
+   "region": "",
+   "note": "Core Ultra 5 322 · 16GB RAM · 512GB SSD · 16\" FHD+ OLED · DOS · Grey",
+   "price": 96100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 16S G3MG-017XRU",
+   "region": "",
+   "note": "Core i7 350 · 16GB RAM · 512GB SSD · 16\" FHD+ · DOS · Grey",
+   "price": 97800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern 16S G3MG-018XRU",
+   "region": "",
+   "note": "Core i5 320 · 16GB RAM · 512GB SSD · 16\" FHD+ · DOS · Grey",
+   "price": 90000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern A14 AI+ F3HMG-041XRU",
+   "region": "",
+   "note": "Ryzen AI 5 330 · 16GB RAM · 512GB SSD · 14\" Full HD · DOS · Grey",
+   "price": 76900,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Modern A15 AI+ F3HMG-040XRU",
+   "region": "",
+   "note": "Ryzen AI 5 330 · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Grey",
+   "price": 74600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Prestige 13 AI+ A3MG-046RU",
+   "region": "",
+   "note": "Core Ultra 9 386H · 32GB RAM · 1TB SSD · 13.3\" 2.8K OLED · Windows 11 Pro · Grey",
+   "price": 187100,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Prestige 16 AI+ C3MG-030RU",
+   "region": "",
+   "note": "Core Ultra 7 355H · 32GB RAM · 1TB SSD · 16\" 2.8K OLED · Windows 11 Pro · Grey",
+   "price": 212600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Pulse A16 AI+ C3HWGKG-030XRU",
+   "region": "",
+   "note": "Ryzen AI 7 350 · 32GB RAM · 1TB SSD · RTX 5070 8GB · 16\" QHD+ · DOS · Black",
+   "price": 200200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider 16 HX AI A2XWHG-814XRU",
+   "region": "",
+   "note": "Core Ultra 7 255HX · 32GB RAM · 1TB SSD · RTX 5070 Ti 12GB · 16\" QHD+ · DOS · Black",
+   "price": 252800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider 16 Max HX B2WI-030RU",
+   "region": "",
+   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5080 16GB · 16\" OLED QHD+ · Windows 11 · Black",
+   "price": 404500,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider 16 Max HX B2WJ-031RU",
+   "region": "",
+   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5090 24GB · 16\" OLED QHD+ · Windows 11 · Black",
+   "price": 489900,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider 18 Max HX A2WI-1048RU",
+   "region": "",
+   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5080 16GB · 18\" UHD+ · Windows 11 · Black",
+   "price": 460800,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider 18 Max HX A2WJ-1050RU",
+   "region": "",
+   "note": "Core Ultra 9 290HX Plus · 64GB RAM · 2TB SSD · RTX 5090 24GB · 18\" UHD+ · Windows 11 · Black",
+   "price": 572000,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider A18 HX A8WHG-409RU",
+   "region": "",
+   "note": "Ryzen 9 8940HX · 32GB RAM · 1TB SSD · RTX 5070 Ti 12GB · 18\" QHD+ · Windows 11 · Black",
+   "price": 314600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider A18 HX A9WIG-408RU",
+   "region": "",
+   "note": "Ryzen 9 9955HX3D · 32GB RAM · 2TB SSD · RTX 5080 16GB · 18\" UHD+ · Windows 11 · Black",
+   "price": 445200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider A18 HX A9WJG-216RU",
+   "region": "",
+   "note": "Ryzen 9 9955HX3D · 64GB RAM · 2TB SSD · RTX 5090 · 18\" UHD+ · Windows 11 · Black",
+   "price": 555600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Raider A18 HX A9WJG-407RU",
+   "region": "",
+   "note": "Ryzen 9 9955HX3D · 32GB RAM · 2TB SSD · RTX 5090 24GB · 18\" UHD+ · Windows 11 · Black",
+   "price": 491600,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Stealth 16 AI A2HWFG-086XRU",
+   "region": "",
+   "note": "Core Ultra 7 255H · 32GB RAM · 1TB SSD · RTX 5060 8GB · 16\" QHD+ OLED · DOS · Black",
+   "price": 224900,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Stealth 16 AI A2HWGG-085XRU",
+   "region": "",
+   "note": "Core Ultra 7 255H · 32GB RAM · 1TB SSD · RTX 5070 8GB · 16\" QHD+ OLED · DOS · Black",
+   "price": 235200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Stealth 16 AI+ B3WI-012RU",
+   "region": "",
+   "note": "Core Ultra 9 386H · 32GB RAM · 1TB SSD · RTX 5080 16GB · 16\" OLED QHD+ · Windows 11 · Black",
+   "price": 424200,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Stealth 18 HX A2WI-083RU",
+   "region": "",
+   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5080 16GB · 18\" UHD+ · Windows 11 · Black",
+   "price": 432400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Stealth A16 AI+ A3HWHG-239XRU",
+   "region": "",
+   "note": "Ryzen AI 9 365 · 32GB RAM · 1TB SSD · RTX 5070 Ti 12GB · 16\" QHD+ OLED · DOS · Black",
+   "price": 280900,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Summit 16 AI Evo A2HMTG-057RU",
+   "region": "",
+   "note": "Core Ultra 7 255H · 16GB RAM · 1TB SSD · 16\" QHD+ Touch · Windows 11 · Black",
+   "price": 139400,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI SummitPro 16 AI A2HVETG-084RU",
+   "region": "",
+   "note": "Core Ultra 9 285H · 32GB RAM · 1TB SSD · RTX 4050 6GB · 16\" QHD+ Touch · Windows 11 Pro · Black",
+   "price": 203500,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI SummitPro 16 AI A2HVETG-085RU",
+   "region": "",
+   "note": "Core Ultra 7 255H · 32GB RAM · 1TB SSD · RTX 4050 6GB · 16\" QHD+ Touch · Windows 11 Pro · Black",
+   "price": 195300,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Thin 15 B2RVE-3450XRU",
+   "region": "",
+   "note": "Core i5 210H · 16GB RAM · 512GB SSD · RTX 4050 6GB · 15.6\" Full HD · DOS · Grey",
+   "price": 101900,
+   "updated": "2026-10-13T13:37:03+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "MSI Thin 15 B2RVE-3451XRU",
+   "region": "",
+   "note": "Core i7 240H · 16GB RAM · 512GB SSD · RTX 4050 6GB · 15.6\" Full HD · DOS · Grey",
+   "price": 110100,
    "updated": "2026-10-13T13:37:03+00:00"
   },
   {
@@ -15142,6 +16150,78 @@
    "region": "",
    "note": "Core i7-12700H · 16 GB RAM · 1 TB SSD · RTX 3080 8 GB · 15.6\" WQXGA · DOS · Black",
    "price": 147200,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ExpertBook B1 B1503CVA-S70425",
+   "region": "",
+   "note": "Core 7 150U · 16 GB RAM · 1 TB SSD · 15.6\" Full HD · DOS · Grey",
+   "price": 125800,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ExpertBook B1 B1503CVA-S77900",
+   "region": "",
+   "note": "Core 5 120U · 16 GB RAM · 512 GB SSD · 15.6\" Full HD · DOS · Grey",
+   "price": 84300,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ExpertBook B3 B3605CVA-MB0955",
+   "region": "",
+   "note": "Core 5 120U · 16 GB RAM · 512 GB SSD · 16\" WUXGA · DOS · Grey",
+   "price": 84200,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ExpertBook B9 B9403CVAR-PP1795",
+   "region": "",
+   "note": "Core 7 150U · 32 GB RAM · 1 TB SSD · 14\" WQXGA+ OLED · DOS · Black",
+   "price": 145600,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ExpertBook B9 B9403CVAR-PP1795X",
+   "region": "",
+   "note": "Core 7 150U · 32 GB RAM · 1 TB SSD · 14\" WQXGA+ OLED · Windows 11 Pro · Black",
+   "price": 154700,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ProArt P16 H7606WM-SR172X",
+   "region": "",
+   "note": "Ryzen AI 9 HX 370 · 32 GB RAM · 1 TB SSD · RTX 5060 8 GB · 16\" 3K OLED Touch · Windows 11 Pro · Black",
+   "price": 320300,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ProArt P16 H7606WR-SE060X",
+   "region": "",
+   "note": "Ryzen AI 9 HX 370 · 32 GB RAM · 1 TB SSD · RTX 5070 Ti 12 GB · 16\" 4K OLED Touch · Windows 11 Pro · Black",
+   "price": 417600,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ProArt PX13 HN7306EA-LX010X",
+   "region": "",
+   "note": "Ryzen AI Max+ 395 · 64 GB RAM · 1 TB SSD · Radeon 8060S · 13.3\" 3K OLED Touch · Windows 11 Pro · Black",
+   "price": 425700,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ProArt PX13 HN7306EA-LX129X",
+   "region": "",
+   "note": "Ryzen AI Max+ 395 · 32 GB RAM · 1 TB SSD · Radeon 8060S · 13.3\" 3K OLED Touch · Windows 11 Pro · Black",
+   "price": 320200,
    "updated": "2026-10-13T13:16:10+00:00"
   },
   {
@@ -15358,6 +16438,38 @@
    "region": "",
    "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 3050 6 GB · 17.3\" Full HD · DOS · Grey",
    "price": 106800,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS V16 V3607VH-TK185",
+   "region": "",
+   "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 5050 8 GB · 16\" WUXGA · DOS · Black",
+   "price": 146500,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS V16 V3607VJ-TK268",
+   "region": "",
+   "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 3050 6 GB · 16\" WUXGA · DOS · Black",
+   "price": 129400,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS V16 V3607VM-TK207",
+   "region": "",
+   "note": "Core 5 210H · 32 GB RAM · 512 GB SSD · RTX 5060 8 GB · 16\" WUXGA · DOS · Black",
+   "price": 190200,
+   "updated": "2026-10-13T13:16:10+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS V16 V3607VP-TK116",
+   "region": "",
+   "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 5070 8 GB · 16\" WUXGA · DOS · Black",
+   "price": 153900,
    "updated": "2026-10-13T13:16:10+00:00"
   },
   {
@@ -16090,14 +17202,6 @@
   },
   {
    "category": "Телевизоры и проекторы",
-   "name": "24\" MSI MAG 244F IPS 1920x1080 0,5ms HDMI, DisplayPort",
-   "region": "",
-   "note": "",
-   "price": 13400,
-   "updated": "2026-11-06T10:12:38+00:00"
-  },
-  {
-   "category": "Телевизоры и проекторы",
    "name": "24\" Samsung Essential S3 S24D300GAI IPS 1920x1080 5ms HDMI, VGA",
    "region": "",
    "note": "",
@@ -16310,22 +17414,6 @@
    "region": "",
    "note": "",
    "price": 18400,
-   "updated": "2026-11-06T10:12:38+00:00"
-  },
-  {
-   "category": "Телевизоры и проекторы",
-   "name": "27\" MSI MAG 274QRFW E20 IPS 2560x1440 0,5ms HDMI, DisplayPort",
-   "region": "",
-   "note": "",
-   "price": 23200,
-   "updated": "2026-11-06T10:12:38+00:00"
-  },
-  {
-   "category": "Телевизоры и проекторы",
-   "name": "27\" MSI Pro MP272L IPS 1920x1080 4ms HDMI, DisplayPort",
-   "region": "",
-   "note": "",
-   "price": 11900,
    "updated": "2026-11-06T10:12:38+00:00"
   },
   {
@@ -20898,6 +21986,30 @@
   },
   {
    "category": "Часы и браслеты",
+   "name": "Whoop 5.0 Life",
+   "region": "",
+   "note": "",
+   "price": 31500,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Whoop 5.0 Peak",
+   "region": "",
+   "note": "",
+   "price": 23200,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Whoop ONE",
+   "region": "",
+   "note": "",
+   "price": 19500,
+   "updated": "2026-11-08T12:32:58+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
    "name": "Index S2 White",
    "region": "",
    "note": "",
@@ -20910,6 +22022,22 @@
    "region": "",
    "note": "",
    "price": 19900,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "HRM 600 XS-S",
+   "region": "",
+   "note": "",
+   "price": 15200,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "HRM FIT",
+   "region": "",
+   "note": "",
+   "price": 14800,
    "updated": "2026-11-08T11:25:42+00:00"
   },
   {
@@ -21278,6 +22406,30 @@
    "region": "",
    "note": "",
    "price": 79900,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Approach S62 Black wt Black Band",
+   "region": "",
+   "note": "",
+   "price": 22400,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Approach S12 2022 Edition Neo",
+   "region": "",
+   "note": "",
+   "price": 15200,
+   "updated": "2026-11-08T11:25:42+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Approach S12 2022 Edition Tidal Blue",
+   "region": "",
+   "note": "",
+   "price": 15200,
    "updated": "2026-11-08T11:25:42+00:00"
   },
   {
@@ -26458,6 +27610,30 @@
   },
   {
    "category": "Дом и кухня",
+   "name": "Bosch BGC05AAA2",
+   "region": "",
+   "note": "",
+   "price": 9600,
+   "updated": "2026-10-18T11:03:20+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Bosch BWD421PRO",
+   "region": "",
+   "note": "",
+   "price": 27300,
+   "updated": "2026-10-18T11:03:20+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Bosch BWD421PET",
+   "region": "",
+   "note": "",
+   "price": 25800,
+   "updated": "2026-10-18T11:03:20+00:00"
+  },
+  {
+   "category": "Дом и кухня",
    "name": "Очиститель Увлажнитель Воздуха HushJet Purfier Compact SP01 White Silver",
    "region": "",
    "note": "",
@@ -27010,6 +28186,62 @@
   },
   {
    "category": "Дом и кухня",
+   "name": "Ballu BWH/S 30 Artendo DH",
+   "region": "",
+   "note": "",
+   "price": 11000,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu BWH/S 30 Brief НС-1699356",
+   "region": "",
+   "note": "",
+   "price": 6500,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu BWH/S 30 Cetrion Inox Inverter",
+   "region": "",
+   "note": "",
+   "price": 16400,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu BWH/S 30 Rodon SP",
+   "region": "",
+   "note": "",
+   "price": 9300,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu BWH/S 50 Brief НС-1699357",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu BWH/S 80 Brief НС-1699358",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu BWH/S 80 Rodon SP",
+   "region": "",
+   "note": "",
+   "price": 15100,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
    "name": "Electrolux EWH 15 Q-bic O",
    "region": "",
    "note": "",
@@ -27078,6 +28310,78 @@
    "region": "",
    "note": "",
    "price": 15900,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu GWH 10 Fiery",
+   "region": "",
+   "note": "",
+   "price": 9500,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu GWH 10 Warmix",
+   "region": "",
+   "note": "",
+   "price": 9100,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu GWH 12 Fiery",
+   "region": "",
+   "note": "",
+   "price": 13100,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Ballu GWH 6 Fiery",
+   "region": "",
+   "note": "",
+   "price": 7900,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Electrolux GWH 10 NanoPlus 2.0",
+   "region": "",
+   "note": "",
+   "price": 13400,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Electrolux GWH 12 NanoPlus 2.0",
+   "region": "",
+   "note": "",
+   "price": 15500,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Electrolux GWH 14 NanoPlus 2.0",
+   "region": "",
+   "note": "",
+   "price": 19000,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Royal Thermo GWH 10 Eclipse",
+   "region": "",
+   "note": "",
+   "price": 10900,
+   "updated": "2026-06-14T08:08:14+00:00"
+  },
+  {
+   "category": "Дом и кухня",
+   "name": "Royal Thermo GWH 11 Piezo Pro",
+   "region": "",
+   "note": "",
+   "price": 16400,
    "updated": "2026-06-14T08:08:14+00:00"
   },
   {
@@ -27154,10 +28458,34 @@
   },
   {
    "category": "Сад и инструмент",
+   "name": "Edon GT-520/3000C 25162",
+   "region": "",
+   "note": "",
+   "price": 5600,
+   "updated": "2026-06-14T15:46:44+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Edon GT-630/3700C 25163",
+   "region": "",
+   "note": "",
+   "price": 5700,
+   "updated": "2026-06-14T15:46:44+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
    "name": "Champion ET351",
    "region": "",
    "note": "",
    "price": 4100,
+   "updated": "2026-06-14T15:46:44+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Deko DKTR450 065-1240",
+   "region": "",
+   "note": "",
+   "price": 3200,
    "updated": "2026-06-14T15:46:44+00:00"
   },
   {
@@ -27230,6 +28558,30 @@
    "region": "",
    "note": "",
    "price": 28900,
+   "updated": "2026-06-14T15:43:42+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Edon GML-410/2600 20844",
+   "region": "",
+   "note": "",
+   "price": 15500,
+   "updated": "2026-06-14T15:43:42+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Edon GML-460/4600 20845",
+   "region": "",
+   "note": "",
+   "price": 19100,
+   "updated": "2026-06-14T15:43:42+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Edon GML-510/4800 20846",
+   "region": "",
+   "note": "",
+   "price": 19600,
    "updated": "2026-06-14T15:43:42+00:00"
   },
   {
@@ -27326,6 +28678,30 @@
    "region": "",
    "note": "",
    "price": 15000,
+   "updated": "2026-06-14T15:43:42+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Edon ELME-32/1800 50125",
+   "region": "",
+   "note": "",
+   "price": 8500,
+   "updated": "2026-06-14T15:43:42+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Makita ELM3320",
+   "region": "",
+   "note": "",
+   "price": 14000,
+   "updated": "2026-06-14T15:43:42+00:00"
+  },
+  {
+   "category": "Сад и инструмент",
+   "name": "Makita ELM3720",
+   "region": "",
+   "note": "",
+   "price": 16500,
    "updated": "2026-06-14T15:43:42+00:00"
   },
   {
@@ -27906,62 +29282,6 @@
   },
   {
    "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5060 Ti 16GB Dual OC (Dual-RTX5060TI-O16G)",
-   "region": "",
-   "note": "",
-   "price": 90700,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5060 Ti 16GB Dual OC White (Dual-RTX5060TI-O16G-White)",
-   "region": "",
-   "note": "",
-   "price": 81900,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5060 Ti 16GB Prime OC (Prime-RTX5060TI-O16G)",
-   "region": "",
-   "note": "",
-   "price": 85500,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5060 Ti 8GB Dual (Dual-RTX5060TI-8G)",
-   "region": "",
-   "note": "",
-   "price": 55700,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5060 Ti 8GB Dual OC (Dual-RTX5060TI-O8G)",
-   "region": "",
-   "note": "",
-   "price": 56700,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5070 12GB Prime OC (Prime-RTX5070-O12G)",
-   "region": "",
-   "note": "",
-   "price": 89700,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS GeForce RTX 5070 Ti 16GB Prime OC (Prime-RTX5070TI-O16G)",
-   "region": "",
-   "note": "",
-   "price": 141200,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
    "name": "Gigabyte GeForce RTX 5060 8GB Windforce Max OC (GV-N5060WF2MAX OC-8GD)",
    "region": "",
    "note": "",
@@ -27990,30 +29310,6 @@
    "region": "",
    "note": "",
    "price": 163800,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI GeForce RTX 5060 8GB Shadow 2X OC Max",
-   "region": "",
-   "note": "",
-   "price": 47500,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI GeForce RTX 5070 12GB Shadow 2X",
-   "region": "",
-   "note": "",
-   "price": 88600,
-   "updated": "2026-11-08T13:05:17+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI GeForce RTX 5070 12GB Shadow 2X OC",
-   "region": "",
-   "note": "",
-   "price": 88600,
    "updated": "2026-11-08T13:05:17+00:00"
   },
   {
@@ -28054,54 +29350,6 @@
    "region": "",
    "note": "",
    "price": 9200,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS Prime B550M-A B550 Socket AM4 4xDDR4, 4xSATA3, RAID, 2xM.2, 1xPCI-E16x, 6xUSB3.1, D-Sub, DVI-D, HDMI, GLAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 10000,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS Prime B550-Plus B550 Socket AM4 4xDDR4, 6xSATA3, RAID, 2xM.2, 2xPCI-E16x, 5xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, GLAN, ATX",
-   "region": "",
-   "note": "",
-   "price": 11500,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS Prime B650M-R B650 Socket AM5 2xDDR5, 4xSATA3, RAID, 2xM.2, 2xPCI-E16x, 2xUSB3.2, HDMI, 2.5G LAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 9700,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS Prime B760M-K B760 Socket-1700 2xDDR5, 4xSATA3, RAID, 2xM.2, 1xPCI-E16x, 4xUSB3.2, D-Sub, HDMI, 2.5G LAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 9200,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS Prime B760M-R D4 B760 Socket-1700 2xDDR4, 4xSATA3, RAID, 2xM.2, 1xPCI-E16x, 4xUSB3.2, 1xHDMI, 2.5G LAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 9600,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "ASUS Prime H610M-R-SI H610 Socket-1700 2xDDR5, 4xSATA3, 1xM.2, 1xPCI-E16x, 2xUSB3.2, D-Sub, DP, HDMI, GLAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 7200,
    "updated": "2026-11-08T06:10:01+00:00"
   },
   {
@@ -28206,46 +29454,6 @@
    "region": "",
    "note": "",
    "price": 24000,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI A520M-A Pro A520 Socket AM4 2xDDR4, 4xSATA3, RAID, 1xM.2, 1xPCI-E16x, 4xUSB3.2, DVI-D, HDMI, GLAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 6500,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI B760 Gaming Plus WiFi DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, RAID, 2xM.2, 5xPCI-E16x, 2xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, Wi-Fi, 2.5G LAN, ATX",
-   "region": "",
-   "note": "",
-   "price": 13900,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI Pro B760M-A WiFi DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, RAID, 2xM.2, 2xPCI-E16x, 4xUSB3.2, 2xDP, 2xHDMI, Wi-Fi, 2.5G LAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 13200,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI Pro B760M-P DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, 2xM.2, 1xPCI-E16x, 1xUSB3.2, 1xUSB3.2 Type-C, D-Sub, DP, HDMI, GLAN, mATX",
-   "region": "",
-   "note": "",
-   "price": 9700,
-   "updated": "2026-11-08T06:10:01+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "MSI Pro B760-P WiFi DDR4 B760 Socket-1700 4xDDR4, 4xSATA3, RAID, 2xM.2, 5xPCI-E16x, 2xUSB3.2, 1xUSB3.2 Type-C, DP, HDMI, Wi-Fi, GLAN, ATX",
-   "region": "",
-   "note": "",
-   "price": 13100,
    "updated": "2026-11-08T06:10:01+00:00"
   },
   {
@@ -29402,14 +30610,6 @@
   },
   {
    "category": "Накопители",
-   "name": "2000Gb MSI Spatium M461 S78-440Q550-P83 M.2 2280 PCIe NVMe 4.0 x4",
-   "region": "",
-   "note": "",
-   "price": 25300,
-   "updated": "2026-11-06T10:11:54+00:00"
-  },
-  {
-   "category": "Накопители",
    "name": "2000Gb Netac NV3000 NT01NV3000-2T0-E4X M.2 2280 PCIe NVMe 3.0 x4",
    "region": "",
    "note": "",
@@ -29986,22 +31186,6 @@
   },
   {
    "category": "Другое",
-   "name": "14 Pro Max 1TB Silver CPO",
-   "region": "AE",
-   "note": "",
-   "price": 72700,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "14 Pro Max 1TB Purple CPO",
-   "region": "AE",
-   "note": "",
-   "price": 72700,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Встраиваемый винный шкаф Electrolux KBW6T",
    "region": "",
    "note": "",
@@ -30071,30 +31255,6 @@
    "note": "",
    "price": 72100,
    "updated": "2026-11-08T12:35:41+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "(нажмите) АКСЕССУАРЫ ВУП Whoop 5.0 Life",
-   "region": "",
-   "note": "",
-   "price": 31500,
-   "updated": "2026-11-08T12:32:58+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "(нажмите) АКСЕССУАРЫ ВУП Whoop 5.0 Peak",
-   "region": "",
-   "note": "",
-   "price": 23200,
-   "updated": "2026-11-08T12:32:58+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "(нажмите) АКСЕССУАРЫ ВУП Whoop ONE",
-   "region": "",
-   "note": "",
-   "price": 19500,
-   "updated": "2026-11-08T12:32:58+00:00"
   },
   {
    "category": "Другое",
@@ -30194,22 +31354,6 @@
   },
   {
    "category": "Другое",
-   "name": "Art: 010-02294-12 HRM 600 XS-S",
-   "region": "",
-   "note": "",
-   "price": 15200,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-13383-01 HRM FIT",
-   "region": "",
-   "note": "",
-   "price": 14800,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Art: 010-13314-00 Index Sleep Monitor S-M",
    "region": "",
    "note": "",
@@ -30230,30 +31374,6 @@
    "region": "",
    "note": "",
    "price": 29700,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Approach S62 Black wt Black Band",
-   "region": "",
-   "note": "",
-   "price": 22400,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02200-00 Approach S12 2022 Edition Neo",
-   "region": "",
-   "note": "",
-   "price": 15200,
-   "updated": "2026-11-08T11:25:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02472-15 Approach S12 2022 Edition Tidal Blue",
-   "region": "",
-   "note": "",
-   "price": 15200,
    "updated": "2026-11-08T11:25:42+00:00"
   },
   {
@@ -30287,214 +31407,6 @@
    "note": "",
    "price": 87600,
    "updated": "2026-11-08T09:11:38+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "16 Pro 1Tb White",
-   "region": "KW",
-   "note": "",
-   "price": 127800,
-   "updated": "2026-11-08T09:11:38+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "16 Pro 1Tb Natural",
-   "region": "US",
-   "note": "активирован",
-   "price": 114900,
-   "updated": "2026-11-08T09:11:38+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro 1TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 157100,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro 1TB Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 141700,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro 1TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 139600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro 1TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 123600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 150400,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro 1TB Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 128800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 170500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Silver",
-   "region": "KW, JP",
-   "note": "eSIM",
-   "price": 141200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Silver",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 132900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 161800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Orange",
-   "region": "KR, HK",
-   "note": "ASIS",
-   "price": 135000,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 132900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 127800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 164800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM активирован",
-   "price": 158200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Blue",
-   "region": "KW, JP",
-   "note": "eSIM",
-   "price": 138600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 1TB Blue",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 131400,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 178800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 163300,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 170500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 150900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 139100,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 173600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "17 Pro Max 2TB Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 152000,
-   "updated": "2026-11-08T09:06:02+00:00"
   },
   {
    "category": "Другое",
@@ -30658,30 +31570,6 @@
   },
   {
    "category": "Другое",
-   "name": "Bosch BGC05AAA2",
-   "region": "",
-   "note": "",
-   "price": 9600,
-   "updated": "2026-10-18T11:03:20+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Bosch BWD421PRO",
-   "region": "",
-   "note": "",
-   "price": 27300,
-   "updated": "2026-10-18T11:03:20+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Bosch BWD421PET",
-   "region": "",
-   "note": "",
-   "price": 25800,
-   "updated": "2026-10-18T11:03:20+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Gigabyte A16 GA63H",
    "region": "",
    "note": "Ryzen 7 260 · 16GB RAM · 1TB SSD · RTX 5060 8GB · 16\" Full HD+ · DOS · Black",
@@ -30706,54 +31594,6 @@
   },
   {
    "category": "Другое",
-   "name": "Gigabyte Aero X16 4WH",
-   "region": "",
-   "note": "Ryzen AI 9 465 · 16GB RAM · 1TB SSD · RTX 5070 8GB · 16\" WQXGA · DOS · White",
-   "price": 179000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gigabyte Gaming A16 GA63H",
-   "region": "",
-   "note": "Ryzen AI 7 260 · 16GB RAM · 1TB SSD · RTX 5050 8GB · 16\" WUXGA · DOS · Black",
-   "price": 125400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gigabyte Gaming A16 GA6EH",
-   "region": "",
-   "note": "Core Ultra 9 185H · 16GB RAM · 512GB SSD · RTX 5060 8GB · 16\" WUXGA · DOS · Black",
-   "price": 140300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gigabyte Gaming A16 Pro",
-   "region": "",
-   "note": "Core 7 240H · 32GB RAM · 1TB SSD · RTX 5080 16GB · 16\" WUXGA · DOS · Black",
-   "price": 255100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gigabyte Gaming A18 GA83H",
-   "region": "",
-   "note": "Ryzen 7 260 · 16GB RAM · 1TB SSD · RTX 5050 8GB · 18\" WQXGA · DOS · Black",
-   "price": 147800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gigabyte Gaming A18 GA83H",
-   "region": "",
-   "note": "Ryzen 7 260 · 16GB RAM · 512GB SSD · RTX 5050 8GB · 18\" WQXGA · DOS · Black",
-   "price": 139500,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "HP ProBook 440 G10",
    "region": "",
    "note": "Core i5-1335U · 8GB RAM · 512GB SSD · 14\" Full HD · DOS · Silver",
@@ -30774,542 +31614,6 @@
    "region": "",
    "note": "Ryzen 7 Pro 7840HS · 32GB RAM · 1TB SSD · RTX A2000 8GB · 15.6\" Full HD · Windows 11 Pro · Grey",
    "price": 247000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IAL",
-   "region": "",
-   "note": "Core Ultra 5 225U · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 99400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IAL",
-   "region": "",
-   "note": "Core Ultra 7 255H · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 100700,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IRL",
-   "region": "",
-   "note": "Core 5 210H · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 102000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IRL",
-   "region": "",
-   "note": "Core 5 210H · 32GB RAM · 1TB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 147000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IRL",
-   "region": "",
-   "note": "Core 5 210H · 32GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 142200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IRL",
-   "region": "",
-   "note": "Core 7 240H · 16GB RAM · 512GB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 111800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 14 G8 IRL",
-   "region": "",
-   "note": "Core 7 240H · 32GB RAM · 1TB SSD · 14\" WUXGA · DOS · Grey",
-   "price": 156800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G6 IRL",
-   "region": "",
-   "note": "Core i5-1335U · 16GB RAM · 512GB SSD · 16\" Full HD · DOS · Grey",
-   "price": 132400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G6 IRL",
-   "region": "",
-   "note": "Core i5-1340P · 8GB RAM · 512GB SSD · 16\" WUXGA · Windows 11 Pro · Grey",
-   "price": 121600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G8 IAL",
-   "region": "",
-   "note": "Core Ultra 5 225U · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 102000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G8 IRL",
-   "region": "",
-   "note": "Core 5 210H · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 102000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G8 IRL",
-   "region": "",
-   "note": "Core 5 210H · 32GB RAM · 1TB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 152000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G8 IRL",
-   "region": "",
-   "note": "Core 5 210H · 32GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 142200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G8 IRL",
-   "region": "",
-   "note": "Core 7 240H · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 111800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G8 IRL",
-   "region": "",
-   "note": "Core 7 240H · 32GB RAM · 1TB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 156800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Lenovo ThinkBook 16 G9 IRL",
-   "region": "",
-   "note": "Core i5-13420H · 16GB RAM · 512GB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 102000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 15 B13WEKG-1248XRU",
-   "region": "",
-   "note": "Core i5 13420H · 16GB RAM · 512GB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Black",
-   "price": 119100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 15 C13WE-230XRU",
-   "region": "",
-   "note": "Core i5 13420H · 16GB RAM · 512GB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Grey",
-   "price": 117500,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 15 C2WE-016XRU",
-   "region": "",
-   "note": "Core i7 240H · 16GB RAM · 1TB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Grey",
-   "price": 137300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 15 C2WE-017XRU",
-   "region": "",
-   "note": "Core i5 210H · 16GB RAM · 512GB SSD · RTX 5050 8GB · 15.6\" Full HD · DOS · Grey",
-   "price": 130000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 15 C2WF-015XRU",
-   "region": "",
-   "note": "Core i5 210H · 16GB RAM · 1TB SSD · RTX 5060 8GB · 15.6\" Full HD · DOS · Grey",
-   "price": 124100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 15 Max C2WG-227XRU",
-   "region": "",
-   "note": "Core i7 240H · 16GB RAM · 512GB SSD · RTX 5070 8GB · 15.6\" Full HD · DOS · Grey",
-   "price": 157100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg 17 B2RWEKG-279XRU",
-   "region": "",
-   "note": "Core i7 240H · 16GB RAM · 1TB SSD · RTX 5050 8GB · 17.3\" Full HD · DOS · Black",
-   "price": 143900,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg A17 AI B2HWFKG-040XRU",
-   "region": "",
-   "note": "Ryzen 7 260 · 16GB RAM · 1TB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
-   "price": 176800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Cyborg A17 AI B2HWFKG-048XRU",
-   "region": "",
-   "note": "Ryzen 7 260 · 16GB RAM · 512GB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
-   "price": 134700,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Katana 15 HX B14WFK-1065XRU",
-   "region": "",
-   "note": "Core i5 14450HX · 16GB RAM · 512GB SSD · RTX 5060 8GB · 15.6\" Full HD · DOS · Black",
-   "price": 142300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Katana 15 HX B14WFK-617XRU",
-   "region": "",
-   "note": "Core i7 14650HX · 16GB RAM · 1TB SSD · RTX 5060 8GB · 15.6\" Full HD · DOS · Black",
-   "price": 168600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Katana 17 B13UCR-1612XRU",
-   "region": "",
-   "note": "Core i5 13420H · 16GB RAM · 1TB SSD · RTX 3050 4GB · 17.3\" Full HD · DOS · Black",
-   "price": 105100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Katana 17 HX B14WFK-275XRU",
-   "region": "",
-   "note": "Core i5 14450HX · 32GB RAM · 1TB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
-   "price": 185200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Katana 17 HX B14WFK-412XRU",
-   "region": "",
-   "note": "Core i7 14650HX · 16GB RAM · 1TB SSD · RTX 5060 8GB · 17.3\" Full HD · DOS · Black",
-   "price": 168600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Katana 17 HX B14WGK-274XRU",
-   "region": "",
-   "note": "Core i7 14650HX · 32GB RAM · 1TB SSD · RTX 5070 8GB · 17.3\" QHD · DOS · Black",
-   "price": 223300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 14S AI+ G3MG-010XRU",
-   "region": "",
-   "note": "Core Ultra 7 355 · 16GB RAM · 512GB SSD · 14\" FHD+ OLED · DOS · Silver",
-   "price": 104400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 14S AI+ G3MG-011XRU",
-   "region": "",
-   "note": "Core Ultra 5 322 · 16GB RAM · 512GB SSD · 14\" FHD+ OLED · DOS · Silver",
-   "price": 93700,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 15 F1MG-1071XRU",
-   "region": "",
-   "note": "Core i7 150U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Grey",
-   "price": 90300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 15 F1MG-1072XRU",
-   "region": "",
-   "note": "Core i5 120U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Grey",
-   "price": 77300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 15 F1MXG-1278XRU",
-   "region": "",
-   "note": "Core i7 150U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Platinum Gray",
-   "price": 93700,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 15 F1MXG-1279XRU",
-   "region": "",
-   "note": "Core i5 120U · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Platinum Gray",
-   "price": 83400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 15 F1MXG-1280RU",
-   "region": "",
-   "note": "Core i7 150U · 16GB RAM · 512GB SSD · 15.6\" Full HD · Windows 11 Pro · Platinum Gray",
-   "price": 110500,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 15 F1MXG-1281RU",
-   "region": "",
-   "note": "Core i5 120U · 16GB RAM · 512GB SSD · 15.6\" Full HD · Windows 11 Pro · Platinum Gray",
-   "price": 100300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 16S AI+ G3MG-012XRU",
-   "region": "",
-   "note": "Core Ultra 7 355 · 16GB RAM · 512GB SSD · 16\" FHD+ OLED · DOS · Grey",
-   "price": 103600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 16S AI+ G3MG-013XRU",
-   "region": "",
-   "note": "Core Ultra 5 322 · 16GB RAM · 512GB SSD · 16\" FHD+ OLED · DOS · Grey",
-   "price": 96100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 16S G3MG-017XRU",
-   "region": "",
-   "note": "Core i7 350 · 16GB RAM · 512GB SSD · 16\" FHD+ · DOS · Grey",
-   "price": 97800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern 16S G3MG-018XRU",
-   "region": "",
-   "note": "Core i5 320 · 16GB RAM · 512GB SSD · 16\" FHD+ · DOS · Grey",
-   "price": 90000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern A14 AI+ F3HMG-041XRU",
-   "region": "",
-   "note": "Ryzen AI 5 330 · 16GB RAM · 512GB SSD · 14\" Full HD · DOS · Grey",
-   "price": 76900,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Modern A15 AI+ F3HMG-040XRU",
-   "region": "",
-   "note": "Ryzen AI 5 330 · 16GB RAM · 512GB SSD · 15.6\" Full HD · DOS · Grey",
-   "price": 74600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Prestige 13 AI+ A3MG-046RU",
-   "region": "",
-   "note": "Core Ultra 9 386H · 32GB RAM · 1TB SSD · 13.3\" 2.8K OLED · Windows 11 Pro · Grey",
-   "price": 187100,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Prestige 16 AI+ C3MG-030RU",
-   "region": "",
-   "note": "Core Ultra 7 355H · 32GB RAM · 1TB SSD · 16\" 2.8K OLED · Windows 11 Pro · Grey",
-   "price": 212600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Pulse A16 AI+ C3HWGKG-030XRU",
-   "region": "",
-   "note": "Ryzen AI 7 350 · 32GB RAM · 1TB SSD · RTX 5070 8GB · 16\" QHD+ · DOS · Black",
-   "price": 200200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider 16 HX AI A2XWHG-814XRU",
-   "region": "",
-   "note": "Core Ultra 7 255HX · 32GB RAM · 1TB SSD · RTX 5070 Ti 12GB · 16\" QHD+ · DOS · Black",
-   "price": 252800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider 16 Max HX B2WI-030RU",
-   "region": "",
-   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5080 16GB · 16\" OLED QHD+ · Windows 11 · Black",
-   "price": 404500,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider 16 Max HX B2WJ-031RU",
-   "region": "",
-   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5090 24GB · 16\" OLED QHD+ · Windows 11 · Black",
-   "price": 489900,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider 18 Max HX A2WI-1048RU",
-   "region": "",
-   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5080 16GB · 18\" UHD+ · Windows 11 · Black",
-   "price": 460800,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider 18 Max HX A2WJ-1050RU",
-   "region": "",
-   "note": "Core Ultra 9 290HX Plus · 64GB RAM · 2TB SSD · RTX 5090 24GB · 18\" UHD+ · Windows 11 · Black",
-   "price": 572000,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider A18 HX A8WHG-409RU",
-   "region": "",
-   "note": "Ryzen 9 8940HX · 32GB RAM · 1TB SSD · RTX 5070 Ti 12GB · 18\" QHD+ · Windows 11 · Black",
-   "price": 314600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider A18 HX A9WIG-408RU",
-   "region": "",
-   "note": "Ryzen 9 9955HX3D · 32GB RAM · 2TB SSD · RTX 5080 16GB · 18\" UHD+ · Windows 11 · Black",
-   "price": 445200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider A18 HX A9WJG-216RU",
-   "region": "",
-   "note": "Ryzen 9 9955HX3D · 64GB RAM · 2TB SSD · RTX 5090 · 18\" UHD+ · Windows 11 · Black",
-   "price": 555600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Raider A18 HX A9WJG-407RU",
-   "region": "",
-   "note": "Ryzen 9 9955HX3D · 32GB RAM · 2TB SSD · RTX 5090 24GB · 18\" UHD+ · Windows 11 · Black",
-   "price": 491600,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Stealth 16 AI A2HWFG-086XRU",
-   "region": "",
-   "note": "Core Ultra 7 255H · 32GB RAM · 1TB SSD · RTX 5060 8GB · 16\" QHD+ OLED · DOS · Black",
-   "price": 224900,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Stealth 16 AI A2HWGG-085XRU",
-   "region": "",
-   "note": "Core Ultra 7 255H · 32GB RAM · 1TB SSD · RTX 5070 8GB · 16\" QHD+ OLED · DOS · Black",
-   "price": 235200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Stealth 16 AI+ B3WI-012RU",
-   "region": "",
-   "note": "Core Ultra 9 386H · 32GB RAM · 1TB SSD · RTX 5080 16GB · 16\" OLED QHD+ · Windows 11 · Black",
-   "price": 424200,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Stealth 18 HX A2WI-083RU",
-   "region": "",
-   "note": "Core Ultra 9 290HX Plus · 32GB RAM · 2TB SSD · RTX 5080 16GB · 18\" UHD+ · Windows 11 · Black",
-   "price": 432400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Stealth A16 AI+ A3HWHG-239XRU",
-   "region": "",
-   "note": "Ryzen AI 9 365 · 32GB RAM · 1TB SSD · RTX 5070 Ti 12GB · 16\" QHD+ OLED · DOS · Black",
-   "price": 280900,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Summit 16 AI Evo A2HMTG-057RU",
-   "region": "",
-   "note": "Core Ultra 7 255H · 16GB RAM · 1TB SSD · 16\" QHD+ Touch · Windows 11 · Black",
-   "price": 139400,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI SummitPro 16 AI A2HVETG-084RU",
-   "region": "",
-   "note": "Core Ultra 9 285H · 32GB RAM · 1TB SSD · RTX 4050 6GB · 16\" QHD+ Touch · Windows 11 Pro · Black",
-   "price": 203500,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI SummitPro 16 AI A2HVETG-085RU",
-   "region": "",
-   "note": "Core Ultra 7 255H · 32GB RAM · 1TB SSD · RTX 4050 6GB · 16\" QHD+ Touch · Windows 11 Pro · Black",
-   "price": 195300,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Thin 15 B2RVE-3450XRU",
-   "region": "",
-   "note": "Core i5 210H · 16GB RAM · 512GB SSD · RTX 4050 6GB · 15.6\" Full HD · DOS · Grey",
-   "price": 101900,
-   "updated": "2026-10-13T13:37:03+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "MSI Thin 15 B2RVE-3451XRU",
-   "region": "",
-   "note": "Core i7 240H · 16GB RAM · 512GB SSD · RTX 4050 6GB · 15.6\" Full HD · DOS · Grey",
-   "price": 110100,
    "updated": "2026-10-13T13:37:03+00:00"
   },
   {
@@ -31354,110 +31658,6 @@
   },
   {
    "category": "Другое",
-   "name": "ASUS ExpertBook B1 B1503CVA-S70425",
-   "region": "",
-   "note": "Core 7 150U · 16 GB RAM · 1 TB SSD · 15.6\" Full HD · DOS · Grey",
-   "price": 125800,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ExpertBook B1 B1503CVA-S77900",
-   "region": "",
-   "note": "Core 5 120U · 16 GB RAM · 512 GB SSD · 15.6\" Full HD · DOS · Grey",
-   "price": 84300,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ExpertBook B3 B3605CVA-MB0955",
-   "region": "",
-   "note": "Core 5 120U · 16 GB RAM · 512 GB SSD · 16\" WUXGA · DOS · Grey",
-   "price": 84200,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ExpertBook B9 B9403CVAR-PP1795",
-   "region": "",
-   "note": "Core 7 150U · 32 GB RAM · 1 TB SSD · 14\" WQXGA+ OLED · DOS · Black",
-   "price": 145600,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ExpertBook B9 B9403CVAR-PP1795X",
-   "region": "",
-   "note": "Core 7 150U · 32 GB RAM · 1 TB SSD · 14\" WQXGA+ OLED · Windows 11 Pro · Black",
-   "price": 154700,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ProArt P16 H7606WM-SR172X",
-   "region": "",
-   "note": "Ryzen AI 9 HX 370 · 32 GB RAM · 1 TB SSD · RTX 5060 8 GB · 16\" 3K OLED Touch · Windows 11 Pro · Black",
-   "price": 320300,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ProArt P16 H7606WR-SE060X",
-   "region": "",
-   "note": "Ryzen AI 9 HX 370 · 32 GB RAM · 1 TB SSD · RTX 5070 Ti 12 GB · 16\" 4K OLED Touch · Windows 11 Pro · Black",
-   "price": 417600,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ProArt PX13 HN7306EA-LX010X",
-   "region": "",
-   "note": "Ryzen AI Max+ 395 · 64 GB RAM · 1 TB SSD · Radeon 8060S · 13.3\" 3K OLED Touch · Windows 11 Pro · Black",
-   "price": 425700,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS ProArt PX13 HN7306EA-LX129X",
-   "region": "",
-   "note": "Ryzen AI Max+ 395 · 32 GB RAM · 1 TB SSD · Radeon 8060S · 13.3\" 3K OLED Touch · Windows 11 Pro · Black",
-   "price": 320200,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS V16 V3607VH-TK185",
-   "region": "",
-   "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 5050 8 GB · 16\" WUXGA · DOS · Black",
-   "price": 146500,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS V16 V3607VJ-TK268",
-   "region": "",
-   "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 3050 6 GB · 16\" WUXGA · DOS · Black",
-   "price": 129400,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS V16 V3607VM-TK207",
-   "region": "",
-   "note": "Core 5 210H · 32 GB RAM · 512 GB SSD · RTX 5060 8 GB · 16\" WUXGA · DOS · Black",
-   "price": 190200,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ASUS V16 V3607VP-TK116",
-   "region": "",
-   "note": "Core 5 210H · 16 GB RAM · 512 GB SSD · RTX 5070 8 GB · 16\" WUXGA · DOS · Black",
-   "price": 153900,
-   "updated": "2026-10-13T13:16:10+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Canon CanoScan LiDE 300",
    "region": "",
    "note": "",
@@ -31471,22 +31671,6 @@
    "note": "",
    "price": 9200,
    "updated": "2026-09-11T08:27:21+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Edon GT-520/3000C 25162",
-   "region": "",
-   "note": "",
-   "price": 5600,
-   "updated": "2026-06-14T15:46:44+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Edon GT-630/3700C 25163",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2026-06-14T15:46:44+00:00"
   },
   {
    "category": "Другое",
@@ -31506,38 +31690,6 @@
   },
   {
    "category": "Другое",
-   "name": "Deko DKTR450 065-1240",
-   "region": "",
-   "note": "",
-   "price": 3200,
-   "updated": "2026-06-14T15:46:44+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Edon GML-410/2600 20844",
-   "region": "",
-   "note": "",
-   "price": 15500,
-   "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Edon GML-460/4600 20845",
-   "region": "",
-   "note": "",
-   "price": 19100,
-   "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Edon GML-510/4800 20846",
-   "region": "",
-   "note": "",
-   "price": 19600,
-   "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "FUBAG FPL 42",
    "region": "",
    "note": "",
@@ -31551,158 +31703,6 @@
    "note": "",
    "price": 24800,
    "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Edon ELME-32/1800 50125",
-   "region": "",
-   "note": "",
-   "price": 8500,
-   "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Makita ELM3320",
-   "region": "",
-   "note": "",
-   "price": 14000,
-   "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Makita ELM3720",
-   "region": "",
-   "note": "",
-   "price": 16500,
-   "updated": "2026-06-14T15:43:42+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 30 Artendo DH",
-   "region": "",
-   "note": "",
-   "price": 11000,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 30 Brief НС-1699356",
-   "region": "",
-   "note": "",
-   "price": 6500,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 30 Cetrion Inox Inverter",
-   "region": "",
-   "note": "",
-   "price": 16400,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 30 Rodon SP",
-   "region": "",
-   "note": "",
-   "price": 9300,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 50 Brief НС-1699357",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 80 Brief НС-1699358",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu BWH/S 80 Rodon SP",
-   "region": "",
-   "note": "",
-   "price": 15100,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu GWH 10 Fiery",
-   "region": "",
-   "note": "",
-   "price": 9500,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu GWH 10 Warmix",
-   "region": "",
-   "note": "",
-   "price": 9100,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu GWH 12 Fiery",
-   "region": "",
-   "note": "",
-   "price": 13100,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Ballu GWH 6 Fiery",
-   "region": "",
-   "note": "",
-   "price": 7900,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Electrolux GWH 10 NanoPlus 2.0",
-   "region": "",
-   "note": "",
-   "price": 13400,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Electrolux GWH 12 NanoPlus 2.0",
-   "region": "",
-   "note": "",
-   "price": 15500,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Electrolux GWH 14 NanoPlus 2.0",
-   "region": "",
-   "note": "",
-   "price": 19000,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Royal Thermo GWH 10 Eclipse",
-   "region": "",
-   "note": "",
-   "price": 10900,
-   "updated": "2026-06-14T08:08:14+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Royal Thermo GWH 11 Piezo Pro",
-   "region": "",
-   "note": "",
-   "price": 16400,
-   "updated": "2026-06-14T08:08:14+00:00"
   }
  ]
 }
