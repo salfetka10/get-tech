@@ -70,5 +70,11 @@
  "iPhone Air|black": "img/apple/iphone-air/black.jpg",
  "iPhone Air|blue": "img/apple/iphone-air/blue.jpg",
  "iPhone Air|gold": "img/apple/iphone-air/gold.jpg",
- "iPhone Air|white": "img/apple/iphone-air/white.jpg"
+ "iPhone Air|white": "img/apple/iphone-air/white.jpg",
+ "nav|AirPods": "img/apple/nav/airpods.png",
+ "nav|Apple Watch": "img/apple/nav/watch.png",
+ "nav|Mac": "img/apple/nav/mac.png",
+ "nav|iPad": "img/apple/nav/ipad.png",
+ "nav|iPhone": "img/apple/nav/iphone.png",
+ "nav|Аксессуары Apple": "img/apple/nav/accessories.png"
 }
