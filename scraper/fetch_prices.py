@@ -29,6 +29,7 @@ OUT = ROOT / "data" / "prices.json"
 
 # Категории: первое совпадение по строке позиции вместе с заголовком блока. Порядок важен.
 CATEGORIES = [
+    ("Чехлы и аксессуары", r"\bcase\b|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател"),
     ("iPhone", r"iphone"),
     ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro"),
     ("iPad", r"ipad"),
@@ -103,6 +104,15 @@ def note(tail: str) -> str:
     return t if re.search(r"[a-zа-я]", t, re.I) else ""
 
 
+BRANDS = {"iphone": "iPhone", "ipad": "iPad", "macbook": "MacBook", "imac": "iMac", "airpods": "AirPods",
+          "airtag": "AirTag", "magsafe": "MagSafe", "pro": "Pro", "max": "Max", "air": "Air", "mini": "mini", "plus": "Plus"}
+
+
+def pretty(name: str) -> str:
+    """«IPHONE 17» → «iPhone 17», «MACBOOK PRO 14» → «MacBook Pro 14»; остальное не трогаем."""
+    return re.sub(r"\b[A-Za-z]+\b", lambda m: BRANDS.get(m.group(0).lower(), m.group(0)) if m.group(0).isupper() or m.group(0).lower() in ("iphone", "ipad", "macbook", "airpods") else m.group(0), name)
+
+
 def join_name(header: str, line: str) -> str:
     """«iPhone 18 Pro 256/512/1TB» + «18 Pro 256 Black» → «iPhone 18 Pro 256 Black»."""
     if not header:
@@ -137,7 +147,7 @@ def parse_post(text: str) -> list[dict]:
         if not head or SKIP_RE.search(head):
             continue
         own = category(head) != "Другое"
-        name = head if own else join_name(header, head)
+        name = pretty(head if own else join_name(header, head))
         items.append({
             "category": category(name) if own else category(name + " " + header),
             "name": name,
