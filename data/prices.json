@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T13:52+00:00",
- "count": 3962,
+ "updated": "2026-11-08T16:58+00:00",
+ "count": 3961,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -8,6 +8,302 @@
   "without_text": 2
  },
  "items": [
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Apple 20 w",
+   "region": "EU",
+   "note": "",
+   "price": 1900,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Apple 35W",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Оригинальный блок От 10",
+   "region": "",
+   "note": "",
+   "price": 2100,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Dynamic Power 40–60W (2026)",
+   "region": "",
+   "note": "",
+   "price": 5500,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter MacBook Apple USB-C 35W",
+   "region": "",
+   "note": "",
+   "price": 4500,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Зарядка Apple MagSafe (1м) 25w",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Зарядка Apple MagSafe (2м) 25w",
+   "region": "",
+   "note": "",
+   "price": 5100,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7200,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 12400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Black",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Magenta",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Taupe",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
   {
    "category": "Чехлы и аксессуары",
    "name": "USB-C to MagSafe 3 Cable (2 m) Silver",
@@ -458,38 +754,6 @@
   },
   {
    "category": "Чехлы и аксессуары",
-   "name": "Adapter Apple 20 w",
-   "region": "EU",
-   "note": "",
-   "price": 1900,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter Apple 35W",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter MacBook Apple USB-C 35W",
-   "region": "",
-   "note": "",
-   "price": 4500,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter Dynamic Power 40–60W (2026)",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T12:52:50+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
    "name": "Apple Power Adapter 35W Dual USB-C Port MW2K3",
    "region": "RU",
    "note": "",
@@ -602,27 +866,11 @@
   },
   {
    "category": "Чехлы и аксессуары",
-   "name": "Оригинальный блок От 10",
+   "name": "MacBook Pro 16 Leather Sleeve",
    "region": "",
    "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Зарядка Apple MagSafe (1м) 25w",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T12:38:06+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Зарядка Apple MagSafe (2м) 25w",
-   "region": "",
-   "note": "",
-   "price": 5100,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "price": 20600,
+   "updated": "2026-11-08T12:52:50+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -727,246 +975,6 @@
    "note": "",
    "price": 6200,
    "updated": "2026-11-08T12:32:42+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Black",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Magenta",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Taupe",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-08T11:43:59+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -1094,6 +1102,22 @@
    "region": "",
    "note": "",
    "price": 20100,
+   "updated": "2026-11-08T09:52:12+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Folio Blue",
+   "region": "",
+   "note": "",
+   "price": 21700,
+   "updated": "2026-11-08T09:52:12+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Folio Taupe",
+   "region": "",
+   "note": "",
+   "price": 21700,
    "updated": "2026-11-08T09:52:12+00:00"
   },
   {
@@ -1349,16 +1373,16 @@
    "name": "Magic Mouse Black USB-C",
    "region": "US",
    "note": "",
-   "price": 9600,
-   "updated": "2026-11-08T13:26:16+00:00"
+   "price": 9300,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
    "category": "Аксессуары Apple",
    "name": "Magic Mouse White USB-C",
    "region": "US",
    "note": "",
-   "price": 8100,
-   "updated": "2026-11-08T13:26:16+00:00"
+   "price": 8000,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -1598,7 +1622,7 @@
    "region": "US",
    "note": "",
    "price": 47300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1606,7 +1630,7 @@
    "region": "US",
    "note": "",
    "price": 47300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1614,7 +1638,7 @@
    "region": "US",
    "note": "",
    "price": 47300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1622,7 +1646,7 @@
    "region": "US",
    "note": "",
    "price": 47300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1630,7 +1654,7 @@
    "region": "US",
    "note": "",
    "price": 47300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1638,7 +1662,7 @@
    "region": "JP",
    "note": "",
    "price": 44900,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1646,7 +1670,7 @@
    "region": "AE",
    "note": "",
    "price": 49000,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1654,7 +1678,7 @@
    "region": "AE",
    "note": "",
    "price": 49000,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1662,7 +1686,7 @@
    "region": "IN",
    "note": "",
    "price": 60800,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1670,7 +1694,7 @@
    "region": "BR",
    "note": "",
    "price": 60300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1678,7 +1702,7 @@
    "region": "US",
    "note": "",
    "price": 46900,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1686,7 +1710,7 @@
    "region": "US",
    "note": "",
    "price": 45900,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1694,7 +1718,7 @@
    "region": "AE",
    "note": "",
    "price": 59800,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1702,7 +1726,7 @@
    "region": "CA",
    "note": "",
    "price": 65500,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1710,7 +1734,7 @@
    "region": "EU",
    "note": "",
    "price": 65500,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1718,7 +1742,7 @@
    "region": "AE",
    "note": "",
    "price": 72700,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1726,7 +1750,7 @@
    "region": "AE",
    "note": "",
    "price": 72700,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1734,7 +1758,7 @@
    "region": "IN",
    "note": "",
    "price": 54300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1742,7 +1766,7 @@
    "region": "IN",
    "note": "",
    "price": 54300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1750,7 +1774,7 @@
    "region": "AE",
    "note": "",
    "price": 59500,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1758,7 +1782,7 @@
    "region": "IN",
    "note": "",
    "price": 64400,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1766,7 +1790,7 @@
    "region": "IN",
    "note": "активирован",
    "price": 60300,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1774,7 +1798,7 @@
    "region": "IN",
    "note": "",
    "price": 66700,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1782,7 +1806,7 @@
    "region": "IN",
    "note": "активирован",
    "price": 61800,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1790,7 +1814,7 @@
    "region": "IN",
    "note": "",
    "price": 74200,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1798,7 +1822,7 @@
    "region": "IN",
    "note": "",
    "price": 74100,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1806,7 +1830,7 @@
    "region": "IN",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1814,7 +1838,7 @@
    "region": "IN",
    "note": "",
    "price": 62400,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1822,7 +1846,7 @@
    "region": "JP, CA",
    "note": "",
    "price": 67500,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1830,7 +1854,7 @@
    "region": "US",
    "note": "",
    "price": 72400,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1838,7 +1862,7 @@
    "region": "JP, KW",
    "note": "",
    "price": 88100,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1846,7 +1870,7 @@
    "region": "US",
    "note": "активирован",
    "price": 78800,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
   },
   {
    "category": "iPhone",
@@ -1854,7 +1878,1007 @@
    "region": "JP, KW",
    "note": "",
    "price": 88100,
-   "updated": "2026-11-08T12:38:06+00:00"
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 Pro Max 1TB Black (361 цикл, 92%)",
+   "region": "CN",
+   "note": "без Dual Sim",
+   "price": 72100,
+   "updated": "2026-11-08T15:53:20+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 120600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Black",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 113300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 122600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 112300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 120600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 112300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 120000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 113300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Glacier",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 110300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 141700,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Black",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 132900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 145300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Burgundy",
+   "region": "US",
+   "note": "eSIM",
+   "price": 133400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 145800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 135500,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 145800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 135000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 190600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Black",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 163800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 189600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Burgundy",
+   "region": "JP, US",
+   "note": "е sim",
+   "price": 179300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 191600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 172100,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 190600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 167900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 233900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Black",
+   "region": "JP, US",
+   "note": "е sim",
+   "price": 209700,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 238000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 216300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 239000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 218900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 233900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 216300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 129800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Black",
+   "region": "US",
+   "note": "е sim",
+   "price": 127300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 136000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 126700,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 129300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 124700,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 133900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 129800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 152000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 145800,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Black",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 143200,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 160200,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 154000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 146300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 154000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Glacier",
+   "region": "US",
+   "note": "eSIM",
+   "price": 147900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 194700,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 189100,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 206000,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 191600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Silver",
+   "region": "HK, KR",
+   "note": "SIM + eSIM",
+   "price": 201400,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 194700,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 200900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Glacier",
+   "region": "US",
+   "note": "е sim",
+   "price": 191100,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 249300,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 223600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 268900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Burgundy",
+   "region": "US",
+   "note": "eSIM",
+   "price": 256500,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 245200,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 223600,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 243100,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 234900,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Silver",
+   "region": "HK, KR",
+   "note": "SIM + eSIM",
+   "price": 105600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 100000,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Silver",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 91700,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 97400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 95800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 91200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Blue",
+   "region": "KR, HK",
+   "note": "1sim+e sim6",
+   "price": 102000,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Blue",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 100500,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 91200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 140600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 115400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 118500,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Orange",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 114900,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 111800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 125200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 114900,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 109700,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 157100,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 141700,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 139600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 123600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 150400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 128800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 117000,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Silver",
+   "region": "HK",
+   "note": "Новый, Обменка",
+   "price": 106100,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Silver",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 105100,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 105600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 101500,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 94300,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Blue",
+   "region": "HK, KR",
+   "note": "SIM + eSIM",
+   "price": 109700,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 102000,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 147300,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Silver",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 126200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Silver",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 115400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 126200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "HK",
+   "note": "SIM + eSIM замена дисплея в СЦ",
+   "price": 110300,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 115400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 111300,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 133400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Blue",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 119500,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 113300,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 170500,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "KW, JP",
+   "note": "eSIM",
+   "price": 141200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 132900,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 161800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "KR, HK",
+   "note": "ASIS",
+   "price": 135000,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 132900,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 127800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 164800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM активирован",
+   "price": 158200,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KW, JP",
+   "note": "eSIM",
+   "price": 138600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 131400,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 178800,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 163300,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 170500,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 150900,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 139100,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 173600,
+   "updated": "2026-11-08T14:13:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 152000,
+   "updated": "2026-11-08T14:13:10+00:00"
   },
   {
    "category": "iPhone",
@@ -2250,534 +3274,6 @@
   },
   {
    "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 120600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Black",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 113300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 122600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 112300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 120600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 112300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 120000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 113300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Glacier",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 110300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 141700,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Black",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 132900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 145300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 133400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 145800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 135500,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 145800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 135000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 190600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Black",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 163800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 189600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Burgundy",
-   "region": "JP, US",
-   "note": "е sim",
-   "price": 179300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 191600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 172100,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 190600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 167900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 233900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Black",
-   "region": "JP, US",
-   "note": "е sim",
-   "price": 209700,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 238000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 216300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 239000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 218900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 233900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 216300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 129800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Black",
-   "region": "US",
-   "note": "е sim",
-   "price": 127300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 136000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 126700,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 129300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 124700,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 133900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 129800,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 152000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 145300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Black",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 143200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 160200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 154000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 154000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Silver",
-   "region": "US",
-   "note": "eSIM",
-   "price": 146300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 154000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Glacier",
-   "region": "US",
-   "note": "eSIM",
-   "price": 147900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 194700,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 189100,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 206000,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 191600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Silver",
-   "region": "HK, KR",
-   "note": "SIM + eSIM",
-   "price": 201400,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Silver",
-   "region": "US",
-   "note": "eSIM",
-   "price": 194700,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 200900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Glacier",
-   "region": "US",
-   "note": "е sim",
-   "price": 191100,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 249300,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 223600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 268900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 256500,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 245200,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Silver",
-   "region": "US",
-   "note": "eSIM",
-   "price": 223600,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 243100,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 234900,
-   "updated": "2026-11-08T11:43:59+00:00"
-  },
-  {
-   "category": "iPhone",
    "name": "iPhone Duo 256 Star White",
    "region": "JP, HK",
    "note": "",
@@ -2838,22 +3334,6 @@
    "region": "US, JP",
    "note": "",
    "price": 350200,
-   "updated": "2026-11-08T09:52:12+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo Folio Blue",
-   "region": "",
-   "note": "",
-   "price": 21700,
-   "updated": "2026-11-08T09:52:12+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo Folio Taupe",
-   "region": "",
-   "note": "",
-   "price": 21700,
    "updated": "2026-11-08T09:52:12+00:00"
   },
   {
@@ -3417,484 +3897,396 @@
    "updated": "2026-11-08T09:11:38+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Silver",
-   "region": "HK, KR",
-   "note": "SIM + eSIM",
-   "price": 105600,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 16/512) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 172100,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 100000,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 24/512) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 176200,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Silver",
+   "category": "Mac",
+   "name": "MacBook Pro 14 (М5 16/1TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 179800,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (М5 16/1TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 179800,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (М5 24/1TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 205000,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (М5 24/1TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 197800,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 32/1TB)",
+   "region": "IN, US",
+   "note": "",
+   "price": 251400,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Pro 24/ 1TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 215300,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Pro 24/ 1TB) Black",
+   "region": "IN, US",
+   "note": "активирован",
+   "price": 214300,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Pro 24/1TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 222000,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Pro 24/1TB) Silver",
+   "region": "IN, US",
+   "note": "С пленкой/ гравировкой",
+   "price": 221500,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Pro 24/2TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 232800,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Pro 24/2TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 234900,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M4 Max 36/1TB) Black",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 91700,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 266800,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 97400,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Max 36/2TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 330700,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 95800,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 14 (M5 Max 36/2TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 330700,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Orange",
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Pro (18c CPU/20c GPU/48/1Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 367800,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 518100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 518100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 597400,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 597400,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 723100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 723100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 860100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 14 M5 Pro Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 860100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Pro 24/1TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 248300,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Pro 24/1TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 249300,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Pro 48/1TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 319300,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Pro 48/1TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 329600,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Max 36/2TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 321400,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Max 36/2TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 321400,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max 48/2TB) Black",
+   "region": "IN, US",
+   "note": "",
+   "price": 394500,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 (M5 Max 48/2TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 399700,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/1Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 437800,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 479000,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 479000,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 551100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 551100,
+   "updated": "2026-11-08T13:58:11+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 91200,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 736500,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Blue",
-   "region": "KR, HK",
-   "note": "1sim+e sim6",
-   "price": 102000,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Blue",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 100500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Blue",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black NANO",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 91200,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 746800,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 140600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 115400,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 118500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Orange",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 114900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Orange",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 111800,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 736500,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 125200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 114900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver NANO",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 109700,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 746800,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 157100,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 141700,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 139600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 123600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 150400,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 128800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 117000,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Silver",
-   "region": "HK",
-   "note": "Новый, Обменка",
-   "price": 106100,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Silver",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 105100,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 105600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 101500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Orange",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 94300,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 896100,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Blue",
-   "region": "HK, KR",
-   "note": "SIM + eSIM",
-   "price": 109700,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
+   "region": "SG",
+   "note": "",
+   "price": 916700,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 102000,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Blue",
-   "region": "US, JP",
-   "note": "eSIM активирован",
-   "price": 95800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 147300,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Silver",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 126200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Silver",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black NANO",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 115400,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 909500,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 126200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "HK",
-   "note": "SIM + eSIM замена дисплея в СЦ",
-   "price": 110300,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 115400,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 111300,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 896100,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 133400,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 916700,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Blue",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 119500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Blue",
+   "category": "Mac",
+   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver NANO",
    "region": "US",
-   "note": "eSIM активирован",
-   "price": 113300,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "note": "",
+   "price": 909500,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 170500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Silver",
-   "region": "KW, JP",
-   "note": "eSIM",
-   "price": 141200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Silver",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 132900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 161800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "KR, HK",
-   "note": "ASIS",
-   "price": 135000,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 132900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 127800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 164800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM активирован",
-   "price": 158200,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "KW, JP",
-   "note": "eSIM",
-   "price": 138600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 131400,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 178800,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 163300,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 170500,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 150900,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 139100,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 173600,
-   "updated": "2026-11-08T09:06:02+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 152000,
-   "updated": "2026-11-08T09:06:02+00:00"
+   "category": "Mac",
+   "name": "MacBook Pro 16 Space Black (M5 Max, 128GB, 8TB, 18 CPU, 40 GPU) Z1N2001RW Nano Glass",
+   "region": "IN",
+   "note": "",
+   "price": 1029000,
+   "updated": "2026-11-08T13:58:11+00:00"
   },
   {
    "category": "Mac",
@@ -4583,14 +4975,6 @@
    "note": "",
    "price": 175500,
    "updated": "2026-11-08T13:26:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 Leather Sleeve",
-   "region": "",
-   "note": "",
-   "price": 20600,
-   "updated": "2026-11-08T12:52:50+00:00"
   },
   {
    "category": "Mac",
@@ -5663,398 +6047,6 @@
    "note": "",
    "price": 613900,
    "updated": "2026-11-08T11:24:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 16/512) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 172100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 24/512) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 176200,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (М5 16/1TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 179800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (М5 16/1TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 179800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (М5 24/1TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 205000,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (М5 24/1TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 197800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 32/1TB)",
-   "region": "IN, US",
-   "note": "",
-   "price": 251400,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Pro 24/ 1TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 215300,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Pro 24/ 1TB) Black",
-   "region": "IN, US",
-   "note": "активирован",
-   "price": 214300,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Pro 24/1TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 222000,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Pro 24/1TB) Silver",
-   "region": "IN, US",
-   "note": "С пленкой/ гравировкой",
-   "price": 221500,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Pro 24/2TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 232800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Pro 24/2TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 234900,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M4 Max 36/1TB) Black",
-   "region": "US",
-   "note": "",
-   "price": 266800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Max 36/2TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 330700,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 (M5 Max 36/2TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 330700,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Pro (18c CPU/20c GPU/48/1Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 367800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 518100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 518100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 597400,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 597400,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 723100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 723100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 860100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 14 M5 Pro Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 860100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Pro 24/1TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 242100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Pro 24/1TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 249300,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Pro 48/1TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 319300,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Pro 48/1TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 329600,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Max 36/2TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 321400,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Max 36/2TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 321400,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max 48/2TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 394500,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 (M5 Max 48/2TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 399700,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/1Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 437800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 479000,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 479000,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 551100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 551100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black",
-   "region": "US",
-   "note": "",
-   "price": 736500,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black NANO",
-   "region": "US",
-   "note": "",
-   "price": 746800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver",
-   "region": "US",
-   "note": "",
-   "price": 736500,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver NANO",
-   "region": "US",
-   "note": "",
-   "price": 746800,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black",
-   "region": "US",
-   "note": "",
-   "price": 896100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
-   "region": "SG",
-   "note": "",
-   "price": 916700,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black NANO",
-   "region": "US",
-   "note": "",
-   "price": 909500,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver",
-   "region": "US",
-   "note": "",
-   "price": 896100,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 916700,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver NANO",
-   "region": "US",
-   "note": "",
-   "price": 909500,
-   "updated": "2026-11-08T11:24:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Pro 16 Space Black (M5 Max, 128GB, 8TB, 18 CPU, 40 GPU) Z1N2001RW Nano Glass",
-   "region": "IN",
-   "note": "",
-   "price": 1029000,
-   "updated": "2026-11-08T11:24:05+00:00"
   },
   {
    "category": "Mac",
@@ -31082,6 +31074,14 @@
   },
   {
    "category": "Другое",
+   "name": "Оригинальные блоки От 10",
+   "region": "",
+   "note": "",
+   "price": 2100,
+   "updated": "2026-11-08T15:13:02+00:00"
+  },
+  {
+   "category": "Другое",
    "name": "Samsung Earphones Type-C Black",
    "region": "",
    "note": "",
@@ -31119,14 +31119,6 @@
    "note": "",
    "price": 206000,
    "updated": "2026-11-08T13:05:27+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Оригинальные блоки От 10",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-11-08T12:52:50+00:00"
   },
   {
    "category": "Другое",
