@@ -207,6 +207,18 @@ def fetch_posts_api() -> list[dict]:
             if one:
                 d = one.to_dict()
                 DIAG.update({k: (type(v).__name__ if not isinstance(v, dict) else "dict:" + str(v.get("_"))) for k, v in d.items() if v not in (None, False, [], "")})
+                def skel(v, depth=0):
+                    if depth > 6: return "…"
+                    if isinstance(v, dict):
+                        out = {"_": v.get("_")}
+                        for k, x in v.items():
+                            if k == "_" or x in (None, False, [], ""): continue
+                            out[k] = skel(x, depth + 1) if isinstance(x, (dict, list)) else (("str:" + x[:25]) if isinstance(x, str) else type(x).__name__)
+                        return out
+                    if isinstance(v, list):
+                        return [skel(x, depth + 1) for x in v[:4]] + ([f"+{len(v) - 4}"] if len(v) > 4 else [])
+                    return type(v).__name__
+                DIAG["skel"] = skel(d.get("rich_message"))
                 DIAG["message_len"] = len(one.message or "")
                 DIAG["raw_text_len"] = len(one.raw_text or "")
         return posts
