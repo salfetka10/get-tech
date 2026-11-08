@@ -1,0 +1,24 @@
+name: Фото техники
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - run: python scraper/fetch_images.py
+      - name: Сохранить фото
+        run: |
+          git config user.name "get-tech-bot"
+          git config user.email "get-tech-bot@users.noreply.github.com"
+          git add img data/images.json
+          git diff --cached --quiet || (git commit -m "Фото техники" && git pull --rebase && git push)
