@@ -1,10 +1,35 @@
 {
- "updated": "2026-11-08T13:39+00:00",
+ "updated": "2026-11-08T13:40+00:00",
  "count": 2742,
  "stats": {
   "posts": 79,
   "with_prices": 48,
-  "source": "api"
+  "source": "api",
+  "media_without_text": [
+   "13048:MessageMediaUnsupported",
+   "12971:MessageMediaUnsupported",
+   "12970:MessageMediaUnsupported",
+   "12969:MessageMediaUnsupported",
+   "12968:MessageMediaUnsupported",
+   "12966:MessageMediaUnsupported",
+   "12965:MessageMediaUnsupported",
+   "12964:MessageMediaUnsupported",
+   "12963:MessageMediaUnsupported",
+   "12942:MessageMediaPhoto",
+   "12920:MessageMediaUnsupported",
+   "12919:MessageMediaUnsupported",
+   "12918:MessageMediaUnsupported",
+   "12917:MessageMediaUnsupported",
+   "12150:MessageMediaUnsupported",
+   "12149:MessageMediaUnsupported",
+   "12119:MessageMediaUnsupported",
+   "12118:MessageMediaUnsupported",
+   "12064:MessageMediaUnsupported",
+   "11510:MessageMediaUnsupported",
+   "11200:MessageMediaUnsupported",
+   "5622:MessageMediaUnsupported",
+   "5621:MessageMediaGeo"
+  ]
  },
  "items": [
   {
