@@ -182,6 +182,25 @@ def fetch_posts() -> list[dict]:
     return posts
 
 
+def fetch_single(num: int) -> dict | None:
+    """Один пост по номеру через встраиваемую версию. Нужна, если пост не попал в ленту t.me/s."""
+    import requests
+    from bs4 import BeautifulSoup
+
+    r = requests.get(f"https://t.me/{CHANNEL}/{num}", params={"embed": "1", "mode": "tme"}, timeout=30,
+                     headers={"User-Agent": "get-tech-price/1.0"})
+    if r.status_code != 200:
+        return None
+    soup = BeautifulSoup(r.text, "lxml")
+    body = soup.select_one(".tgme_widget_message_text")
+    if not body:
+        return None
+    for br in body.find_all("br"):
+        br.replace_with("\n")
+    when = soup.select_one("time[datetime]")
+    return {"id": f"{CHANNEL}/{num}", "time": when["datetime"] if when else None, "text": body.get_text(), "photos": []}
+
+
 def build(posts: list[dict]) -> dict:
     # новые посты важнее старых: одна и та же позиция берётся из самого свежего поста
     posts = sorted(posts, key=lambda p: p["time"] or "", reverse=True)
@@ -218,7 +237,17 @@ def main() -> int:
     if not CHANNEL or not MARKUP:
         print("Не заданы секреты SOURCE_CHANNEL и MARKUP.", file=sys.stderr)
         return 1
-    data = build(fetch_posts())
+    posts = fetch_posts()
+    seen = {int(p["id"].split("/")[-1] or 0) for p in posts}
+    probe = {}
+    for num in range(max(seen) + 1, max(seen) + 40) if seen else []:   # свежие посты, которых ещё нет в ленте
+        one = fetch_single(num)
+        probe[num] = bool(one)
+        if one:
+            posts.append(one)
+    data = build(posts)
+    data["stats"]["probe"] = {k: v for k, v in probe.items() if v}
+    data["stats"]["feed_max_id"] = max(seen) if seen else None
     prev = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"count": 0}
     if data["count"] == 0 or (prev.get("count") and data["count"] < prev["count"] * MAX_DROP):
         print(f"Подозрительно мало позиций: {data['count']} (было {prev.get('count')}). Прайс не обновлён.", file=sys.stderr)
