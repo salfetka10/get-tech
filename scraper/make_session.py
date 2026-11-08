@@ -1,6 +1,6 @@
 """Один раз запустить на своём компьютере, чтобы получить строку сессии технического аккаунта.
 
-    pip install telethon==1.36.0
+    pip install telethon==1.45.0
     python scraper/make_session.py
 
 Скрипт спросит api_id, api_hash, номер телефона и код из Telegram (и пароль, если включена
