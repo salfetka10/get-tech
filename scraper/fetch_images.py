@@ -101,6 +101,27 @@ def find(job):
     return model, color, None, "не найдено"
 
 
+# Картинки категорий из меню магазина Apple: «store-card-13-<категория>-nav-<год><месяц>»
+NAV = {"iPhone": "iphone", "Mac": "mac", "iPad": "ipad", "Apple Watch": "watch", "AirPods": "airpods", "Аксессуары Apple": "accessories"}
+NAV_CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=400&hei=260&fmt=png-alpha"
+
+
+def find_nav(item):
+    cat, key = item
+    path = ROOT / "img/apple/nav" / f"{key}.png"
+    if path.exists():
+        return cat, path, "есть"
+    for year in range(2026, 2021, -1):
+        for month in range(12, 0, -1):
+            name = f"store-card-13-{key}-nav-{year}{month:02d}"
+            body = try_get(NAV_CDN.format(name=name))
+            if body:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(body)
+                return cat, path, name
+    return cat, None, "не найдено"
+
+
 def main():
     jobs = [(m, c) for m, cs in model_colors().items() for c in sorted(cs)]
     found = {}
@@ -109,6 +130,11 @@ def main():
             print(f"{model:20} {color:12} {how}")
             if path:
                 found[f"{model}|{color}"] = str(path.relative_to(ROOT))
+    with ThreadPoolExecutor(6) as ex:
+        for cat, path, how in ex.map(find_nav, NAV.items()):
+            print(f"категория {cat:16} {how}")
+            if path:
+                found[f"nav|{cat}"] = str(path.relative_to(ROOT))
     (ROOT / "data/images.json").write_text(json.dumps(found, ensure_ascii=False, indent=1, sort_keys=True))
     print(f"найдено {len(found)} из {len(jobs)}")
 
