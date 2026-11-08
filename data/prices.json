@@ -21,6 +21,262 @@
    "edit_date": "datetime",
    "reactions": "dict:MessageReactions",
    "rich_message": "dict:RichMessage",
+   "skel": {
+    "_": "RichMessage",
+    "blocks": [
+     {
+      "_": "PageBlockParagraph",
+      "text": {
+       "_": "TextConcat",
+       "texts": [
+        {
+         "_": "TextBold",
+         "text": {
+          "_": "TextPlain",
+          "text": "str:09/11/2026"
+         }
+        },
+        {
+         "_": "TextPlain",
+         "text": "str:  ️"
+        }
+       ]
+      }
+     },
+     {
+      "_": "PageBlockParagraph",
+      "text": {
+       "_": "TextEmpty"
+      }
+     },
+     {
+      "_": "PageBlockParagraph",
+      "text": {
+       "_": "TextBold",
+       "text": {
+        "_": "TextConcat",
+        "texts": [
+         {
+          "_": "TextPlain",
+          "text": "str:Гарантия 14 дней со дня п"
+         },
+         {
+          "_": "TextPlain",
+          "text": "str:🛍"
+         },
+         {
+          "_": "TextPlain",
+          "text": "str: "
+         }
+        ]
+       }
+      }
+     },
+     {
+      "_": "PageBlockParagraph",
+      "text": {
+       "_": "TextConcat",
+       "texts": [
+        {
+         "_": "TextBold",
+         "text": {
+          "_": "TextPlain",
+          "text": "str:Получите дополнительную г"
+         }
+        },
+        {
+         "_": "TextCustomEmoji",
+         "document_id": "int",
+         "alt": "str:📱"
+        },
+        {
+         "_": "TextCustomEmoji",
+         "document_id": "int",
+         "alt": "str:📱"
+        },
+        {
+         "_": "TextCustomEmoji",
+         "document_id": "int",
+         "alt": "str:📱"
+        },
+        "+1"
+       ]
+      }
+     },
+     "+111"
+    ],
+    "photos": [
+     {
+      "_": "Photo",
+      "id": "int",
+      "access_hash": "int",
+      "file_reference": "bytes",
+      "date": "datetime",
+      "sizes": [
+       {
+        "_": "PhotoStrippedSize",
+        "type": "str:i",
+        "bytes": "bytes"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:m",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:x",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSizeProgressive",
+        "type": "str:y",
+        "w": "int",
+        "h": "int",
+        "sizes": [
+         "int",
+         "int",
+         "int",
+         "int",
+         "+1"
+        ]
+       }
+      ],
+      "dc_id": "int"
+     },
+     {
+      "_": "Photo",
+      "id": "int",
+      "access_hash": "int",
+      "file_reference": "bytes",
+      "date": "datetime",
+      "sizes": [
+       {
+        "_": "PhotoStrippedSize",
+        "type": "str:i",
+        "bytes": "bytes"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:m",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:x",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSizeProgressive",
+        "type": "str:y",
+        "w": "int",
+        "h": "int",
+        "sizes": [
+         "int",
+         "int",
+         "int",
+         "int",
+         "+1"
+        ]
+       }
+      ],
+      "dc_id": "int"
+     },
+     {
+      "_": "Photo",
+      "id": "int",
+      "access_hash": "int",
+      "file_reference": "bytes",
+      "date": "datetime",
+      "sizes": [
+       {
+        "_": "PhotoStrippedSize",
+        "type": "str:i",
+        "bytes": "bytes"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:m",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:x",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSizeProgressive",
+        "type": "str:y",
+        "w": "int",
+        "h": "int",
+        "sizes": [
+         "int",
+         "int",
+         "int",
+         "int",
+         "+1"
+        ]
+       }
+      ],
+      "dc_id": "int"
+     },
+     {
+      "_": "Photo",
+      "id": "int",
+      "access_hash": "int",
+      "file_reference": "bytes",
+      "date": "datetime",
+      "sizes": [
+       {
+        "_": "PhotoStrippedSize",
+        "type": "str:i",
+        "bytes": "bytes"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:m",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSize",
+        "type": "str:x",
+        "w": "int",
+        "h": "int",
+        "size": "int"
+       },
+       {
+        "_": "PhotoSizeProgressive",
+        "type": "str:y",
+        "w": "int",
+        "h": "int",
+        "sizes": [
+         "int",
+         "int",
+         "int",
+         "int",
+         "+1"
+        ]
+       }
+      ],
+      "dc_id": "int"
+     },
+     "+1"
+    ]
+   },
    "message_len": 0,
    "raw_text_len": 0
   }
