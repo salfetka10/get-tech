@@ -344,6 +344,72 @@ img{display:block;max-width:100%}
 }
 @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){.drawer,.scrim,.toast,.ph img{transition:none}}
+
+/* Подача по образцу Apple, re:Store, biggeek: белые скруглённые карточки на светлом фоне, кнопки-таблетки.
+   Цвет поинта get.tech #6381AF — в свечении, точках, рамке выбранного варианта; заливка кнопок на полтона глубже (#58769F), чтобы белый текст читался. */
+:root{--r:22px;--r-s:14px;--card:#FFFFFF;--tech-d:#58769F;--tech-dd:#4A6894;--soft:color-mix(in srgb,var(--tech) 10%,#FFFFFF)}
+.btn{border-radius:999px;background:var(--tech-d);font-weight:500}
+.btn:hover{background:var(--tech-dd)}
+.btn.line{background:var(--card);color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn.line:hover{background:var(--card);color:var(--tech-dd);box-shadow:inset 0 0 0 1.5px var(--tech)}
+.search{border-radius:999px;background:var(--card);padding:0 18px}
+.sugg{border-radius:18px;overflow:hidden;box-shadow:0 20px 50px rgba(74,104,148,.16),inset 0 0 0 1px var(--line)}
+.sugg .ph{border-radius:10px}
+.cart-btn{border-radius:999px;box-shadow:inset 0 0 0 1.5px var(--line);background:var(--card)}
+.cart-btn:hover{box-shadow:inset 0 0 0 1.5px var(--tech)}
+.cart-btn.has{background:var(--tech-d);color:#FFFFFF;box-shadow:none}
+.chip{border-radius:999px;background:var(--card)}
+.chip:hover{box-shadow:inset 0 0 0 1px var(--tech)}
+.chip[aria-pressed="true"]{background:var(--tech-d);color:#FFFFFF}
+.chip[data-tip]::after{border-radius:12px}
+.lnk{color:var(--tech-dd)}
+.toast{border-radius:999px;background:var(--ink)}
+/* главная */
+.hero{background:var(--card);border-radius:32px;padding:clamp(24px,4vw,56px);margin-top:clamp(12px,2vw,24px);overflow:hidden;position:relative}
+.hero::before{content:"";position:absolute;inset:auto auto -30% -10%;width:55%;aspect-ratio:1;border-radius:50%;background:var(--tech);opacity:.10;filter:blur(80px);pointer-events:none}
+.stage{background:transparent;border-radius:24px}
+.stage-img{border-radius:24px;overflow:hidden;background:radial-gradient(closest-side,color-mix(in srgb,var(--g) 46%,transparent),transparent) 50% 50%/80% 92% no-repeat,var(--tile)}
+.stage .mk{display:none}
+.stage-cap{padding-inline:clamp(8px,1.6vw,20px)}
+.chic a{background:var(--card);border-radius:var(--r);transition:box-shadow .25s,transform .25s var(--ease)}
+.chic a:hover{background:var(--card);box-shadow:0 14px 34px rgba(74,104,148,.14);transform:translateY(-2px)}
+.nw{background:var(--card);border-radius:var(--r);overflow:hidden;padding:8px}
+.nw .ph{border-radius:16px}
+.go{align-self:flex-start;margin-top:10px;display:inline-flex;align-items:center;min-height:36px;padding:0 16px;border-radius:999px;background:var(--soft);color:var(--tech-dd);font-size:15px;font-weight:500;transition:background .2s,color .2s}
+.nw:hover .go,.card:hover .go{background:var(--tech-d);color:#FFFFFF}
+.nw:hover b,.card:hover b{text-decoration:none}
+.tiles{gap:10px;border:0}
+.tiles a{background:var(--card);border:0;border-radius:var(--r-s);padding:18px 20px;transition:box-shadow .25s}
+.tiles a:hover{padding-left:20px;box-shadow:inset 0 0 0 1.5px var(--tech)}
+.tiles a:hover b{text-decoration:none}
+.brands a{border-radius:999px;background:var(--card);box-shadow:none}
+.brands a:hover{box-shadow:inset 0 0 0 1.5px var(--tech)}
+.facts{background:var(--card);border:0;border-radius:var(--r);padding:6px clamp(16px,2vw,28px)}
+/* витрина */
+.shop{border-top:0}
+.flt{padding-top:6px}
+.card{background:var(--card);border-radius:var(--r);overflow:hidden;padding:8px}
+.card .ph{border-radius:16px}
+.card-b{padding:12px 8px 8px}
+/* карточка модели */
+.pd-img .ph{border-radius:32px}
+.opt .chip{background:var(--card);border-radius:var(--r-s);box-shadow:inset 0 0 0 1.5px var(--line)}
+.opt .chip:hover{box-shadow:inset 0 0 0 1.5px var(--tech)}
+.opt .chip[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:inset 0 0 0 2px var(--tech)}
+.opt-c[aria-pressed="true"] .dl{color:var(--stone)}
+.opt .chip.off{background:repeating-linear-gradient(135deg,var(--card) 0 6px,rgba(200,199,195,.35) 6px 7px)}
+.opt .chip.off[aria-pressed="true"]{color:var(--ink)}
+.swb[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--tech)}
+.pd-feat{border-top:0;background:var(--card);border-radius:var(--r);padding:4px 20px}
+.pd-feat li:last-child{border-bottom:0}
+.vars summary{border-top-color:var(--line)}
+.bar-in .btn{min-height:48px}
+.drawer{border-left:0;border-radius:24px 0 0 24px;box-shadow:-20px 0 60px rgba(48,47,44,.12)}
+.it .ph{border-radius:12px}
+.qty button{border-radius:999px}
+.sent{border-radius:12px}
+.flt summary{font-weight:500}
+@media (max-width:860px){.hero{border-radius:24px}.drawer{border-radius:0}}
 </style>
 <script type="module">import { polyfillCountryFlagEmojis } from "https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1.8/dist/index.mjs"; polyfillCountryFlagEmojis();</script>
 </head>
@@ -596,7 +662,7 @@ img{display:block;max-width:100%}
         <div class="blk-h"><h2>Новые iPhone</h2><a class="lnk" href="#/c/iphone">Все iPhone</a></div>
         <div class="shelf">${fresh.map((m) => `<a class="nw" href="#/p/${m.slug}" style="--g:${swc(m.colors[0])}">
           <span class="ph glow"><img src="${esc(imgFor(m.model, m.colors[0]))}" alt="${esc(m.model)}" loading="lazy"></span>
-          <span class="nw-b"><b>${esc(m.model)}</b><span class="num">от ${rub(m.min)}</span><span class="sws">${m.colors.slice(0, 6).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span></span></a>`).join('')}</div>
+          <span class="nw-b"><b>${esc(m.model)}</b><span class="num">от ${rub(m.min)}</span><span class="sws">${m.colors.slice(0, 6).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span><span class="go">Выбрать</span></span></a>`).join('')}</div>
       </section>
       <section class="blk">
         <div class="blk-h"><h2>Вся техника</h2></div>
@@ -664,7 +730,7 @@ img{display:block;max-width:100%}
       return `<a class="card" href="#/p/${m.slug}${fsel ? '/' + fsel : ''}">${photo(imgFor(m.model, pick('color')[0] || colors[0]), m.model)}
         <span class="card-b"><b>${esc(m.model)}</b><span class="pr num"><small>от</small> ${rub(min)}</span>
         <small class="muted">${items.length} ${plural(items.length, 'вариант', 'варианта', 'вариантов')}</small>
-        ${colors.length ? `<span class="sws">${colors.slice(0, 8).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span>` : ''}</span></a>`;
+        ${colors.length ? `<span class="sws">${colors.slice(0, 8).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span>` : ''}<span class="go">Выбрать</span></span></a>`;
     };
     app.innerHTML = `
       <nav class="crumbs" aria-label="Путь"><a href="#/">Каталог</a><span>/</span><span>${esc(title)}</span></nav>
