@@ -20,7 +20,7 @@ CHANNEL = os.environ.get("SOURCE_CHANNEL", "")
 MARKUP = float(os.environ.get("MARKUP") or 0)          # наценка get.tech к цене поставщика, доля (секрет MARKUP)
 ROUND_TO = 100                                          # округление вверх, ₽
 PACKAGING = int(os.environ.get("PACKAGING", "0"))       # упаковка, ₽ на позицию
-POSTS_TO_READ = 600    # поставщик правит старые посты, поэтому читаем канал целиком (до этого числа)
+POSTS_TO_READ = 5000   # поставщик правит старые посты, поэтому читаем канал целиком
 MIN_PRICE, MAX_PRICE = 1_000, 1_500_000
 MAX_DROP = 0.5         # если позиций стало меньше половины прошлого раза, не обновляем
 
@@ -32,7 +32,7 @@ CATEGORIES = [
     ("iPhone", r"iphone"),
     ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro"),
     ("iPad", r"ipad"),
-    ("Apple Watch", r"apple watch|watch ultra|watch series|watch se\b"),
+    ("Apple Watch", r"apple watch|(?<!galaxy )(?<!redmi )watch (ultra|series|se)\b"),
     ("AirPods", r"airpods"),
     ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|apple pencil|airtag|magsafe|apple tv|homepod|vision pro"),
     ("Смартфоны", r"galaxy [asz]\d|galaxy z|samsung galaxy (?!tab|book|watch|buds)|redmi|poco|xiaomi \d|pixel \d|honor (?!magicbook|pad)|realme|oneplus|nothing phone|huawei (pura|mate|nova|p\d)|смартфон"),
@@ -41,7 +41,7 @@ CATEGORIES = [
     ("Телевизоры", r"^\d{2,3}\" |телевизор|\btv\b|oled\d|qled"),
     ("Игровые приставки", r"playstation|\bps5\b|xbox|nintendo|switch 2|steam deck|dualsense"),
     ("Наушники и колонки", r"buds|наушник|jbl|marshall|\bwh-|\bwf-|колонк|beats|станция|soundbar|саундбар"),
-    ("Часы и браслеты", r"watch|band \d|часы"),
+    ("Часы и браслеты", r"watch|band \d|часы|garmin|fenix|forerunner|quatix|instinct|venu|epix|amazfit"),
     ("Фото и видео", r"gopro|\bdji\b|insta360|фотоаппарат|камера|объектив|eos|alpha a\d|fujifilm"),
     ("Красота и дом", r"dyson|пылесос|робот|фен\b|стайлер|air fryer|аэрогрил|очиститель|purifier|парогенератор|karcher|утюг|чайник|кофемашин|блендер|мультиварк|увлажнител"),
     ("Принтеры и расходники", r"принтер|мфу|pixma|i-sensys|laserjet|deskjet|smart tank|officejet|ecosys|pantum|xerox|\bepson\b|картридж|тонер|profiline|tsc "),
@@ -56,6 +56,10 @@ PRICE_DASH_RE = re.compile(r"[-–—:=]\s*(\d{1,3}(?:[ .,  ]\d{3})+)(?!\d)")
 PRICE_END_RE = re.compile(r"(\d{1,3}(?:[ .,  ]\d{3})+|\d{4,7})\s*(?:₽|р\.?|руб\.?)?\s*$", re.I)
 EMOJI_RE = re.compile("[\U0001F000-\U0001FAFF☀-➿️‍]+")
 FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
+
+
+SKU_RE = re.compile(r"\[[A-Z0-9/-]{4,}\]-?|^art:\s*[\d-]+", re.I)   # артикулы поставщика: [Z1EK000TE], Art: 010-02904-00
+SKIP_RE = re.compile(r"гаранти|год выпуска|замена|ремонт|доставк|скидк|левое ухо|правое ухо|\bbox\b|кейс отдельно", re.I)
 
 
 def to_rub(s: str) -> int:
@@ -95,7 +99,8 @@ def note(tail: str) -> str:
     t = re.sub(r"\b1 ?sim ?\+ ?e ?sim\b", "SIM + eSIM", t, flags=re.I)
     t = re.sub(r"\be ?sim\b", "eSIM", t, flags=re.I)
     t = re.sub(r"\bактив\w*", "активирован", t, flags=re.I)
-    return re.sub(r"\s+", " ", t).strip(" ,")
+    t = re.sub(r"\s+", " ", t).strip(" ,*₽")
+    return t if re.search(r"[a-zа-я]", t, re.I) else ""
 
 
 def join_name(header: str, line: str) -> str:
@@ -128,8 +133,8 @@ def parse_post(text: str) -> list[dict]:
         price = to_rub(m.group(1))
         if not MIN_PRICE <= price <= MAX_PRICE:
             continue
-        head = clean(line[: m.start()])
-        if not head:
+        head = clean(SKU_RE.sub(" ", line[: m.start()]))
+        if not head or SKIP_RE.search(head):
             continue
         own = category(head) != "Другое"
         name = head if own else join_name(header, head)
@@ -165,6 +170,8 @@ def fetch_posts() -> list[dict]:
                     br.replace_with("\n")
                 posts.append({"id": m.get("data-post", ""), "time": when["datetime"] if when else None,
                               "text": body.get_text()})
+            elif m.select_one(".tgme_widget_message_photo_wrap, .tgme_widget_message_document"):
+                posts.append({"id": m.get("data-post", ""), "time": None, "text": "", "media": True})
         ids = [int(m.get("data-post", "0").split("/")[-1] or 0) for m in found]
         before = min(ids) if ids else None
         if not before:
@@ -185,7 +192,9 @@ def build(posts: list[dict]) -> dict:
             it["updated"] = p["time"]
             items.append(it)
     items.sort(key=lambda x: CATEGORY_ORDER.index(x["category"]))
-    return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "items": items}
+    stats = {"posts": len(posts), "media_only": sum(1 for p in posts if p.get("media")),
+             "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"]))}
+    return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "stats": stats, "items": items}
 
 
 def main() -> int:
