@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:41+00:00",
+ "updated": "2026-11-08T13:42+00:00",
  "count": 2742,
  "stats": {
   "posts": 79,
@@ -8,7 +8,22 @@
   "media_without_text": [
    "12942:MessageMediaPhoto",
    "5621:MessageMediaGeo"
-  ]
+  ],
+  "diag_12970": {
+   "_": "str",
+   "id": "int",
+   "peer_id": "dict:PeerChannel",
+   "date": "datetime",
+   "post": "bool",
+   "reply_markup": "dict:ReplyInlineMarkup",
+   "views": "int",
+   "forwards": "int",
+   "edit_date": "datetime",
+   "reactions": "dict:MessageReactions",
+   "rich_message": "dict:RichMessage",
+   "message_len": 0,
+   "raw_text_len": 0
+  }
  },
  "items": [
   {
