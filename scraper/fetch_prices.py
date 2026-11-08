@@ -200,7 +200,7 @@ def build(posts: list[dict]) -> dict:
              "photo_posts": sum(1 for p in posts if p.get("photos")),
              "photos": sum(len(p.get("photos", [])) for p in posts),
              "post_ids": sorted(int(p["id"].split("/")[-1] or 0) for p in posts)[:1] + sorted(int(p["id"].split("/")[-1] or 0) for p in posts)[-1:],
-             "posts_mentioning_iphone": [p["id"].split("/")[-1] for p in posts if "iphone" in p["text"].lower() or "pro max" in p["text"].lower()],
+             "posts_mentioning_iphone": [p["id"].split("/")[-1] + ": " + p["text"][:500] for p in posts if "iphone" in p["text"].lower() or "pro max" in p["text"].lower()],
              "photo_captions": [p["text"].strip().splitlines()[0][:40] if p["text"].strip() else "" for p in posts if p.get("photos")][:40]}
     return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "stats": stats, "items": items}
 
