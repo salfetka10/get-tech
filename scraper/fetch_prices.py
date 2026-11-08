@@ -20,22 +20,40 @@ CHANNEL = os.environ.get("SOURCE_CHANNEL", "")
 MARKUP = float(os.environ.get("MARKUP") or 0)          # наценка get.tech к цене поставщика, доля (секрет MARKUP)
 ROUND_TO = 100                                          # округление вверх, ₽
 PACKAGING = int(os.environ.get("PACKAGING", "0"))       # упаковка, ₽ на позицию
-POSTS_TO_READ = 30     # сколько последних постов смотреть
+POSTS_TO_READ = 600    # поставщик правит старые посты, поэтому читаем канал целиком (до этого числа)
 MIN_PRICE, MAX_PRICE = 1_000, 1_500_000
 MAX_DROP = 0.5         # если позиций стало меньше половины прошлого раза, не обновляем
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "prices.json"
 
+# Категории: первое совпадение по строке позиции вместе с заголовком блока. Порядок важен.
 CATEGORIES = [
     ("iPhone", r"iphone"),
-    ("Mac", r"macbook|imac|mac mini|mac studio"),
+    ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro"),
     ("iPad", r"ipad"),
-    ("Наушники", r"airpods|beats|наушник"),
-    ("Часы", r"watch"),
+    ("Apple Watch", r"apple watch|watch ultra|watch series|watch se\b"),
+    ("AirPods", r"airpods"),
+    ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|apple pencil|airtag|magsafe|apple tv|homepod|vision pro"),
+    ("Смартфоны", r"galaxy [asz]\d|galaxy z|samsung galaxy (?!tab|book|watch|buds)|redmi|poco|xiaomi \d|pixel \d|honor (?!magicbook|pad)|realme|oneplus|nothing phone|huawei (pura|mate|nova|p\d)|смартфон"),
+    ("Планшеты", r"galaxy tab|matepad|xiaomi pad|redmi pad|honor pad|планшет|lenovo tab"),
+    ("Ноутбуки", r"galaxy book|ноутбук|notebook|thinkpad|vivobook|zenbook|ideapad|legion|\brog\b|tuf gaming|matebook|magicbook|aspire|predator|nitro|pavilion|victus|omen|inspiron|xps|yoga"),
+    ("Телевизоры", r"^\d{2,3}\" |телевизор|\btv\b|oled\d|qled"),
+    ("Игровые приставки", r"playstation|\bps5\b|xbox|nintendo|switch 2|steam deck|dualsense"),
+    ("Наушники и колонки", r"buds|наушник|jbl|marshall|\bwh-|\bwf-|колонк|beats|станция|soundbar|саундбар"),
+    ("Часы и браслеты", r"watch|band \d|часы"),
+    ("Фото и видео", r"gopro|\bdji\b|insta360|фотоаппарат|камера|объектив|eos|alpha a\d|fujifilm"),
+    ("Красота и дом", r"dyson|пылесос|робот|фен\b|стайлер|air fryer|аэрогрил|очиститель|purifier|парогенератор|karcher|утюг|чайник|кофемашин|блендер|мультиварк|увлажнител"),
+    ("Принтеры и расходники", r"принтер|мфу|pixma|i-sensys|laserjet|deskjet|smart tank|officejet|ecosys|pantum|xerox|\bepson\b|картридж|тонер|profiline|tsc "),
+    ("Комплектующие", r"geforce|\brtx\b|radeon|socket|ddr\d|материнск|блок питания|\d{3,4}w |процессор|ryzen|core i\d|core ultra|кулер|корпус"),
+    ("Накопители", r"\bssd\b|\bhdd\b|sata|nvme|m\.2|флешк|\busb-?c?\b.*\d+ ?(gb|tb)|^\d+ ?(gb|tb) |kingston|netac|sandisk|samsung t\d"),
+    ("Мониторы и сеть", r"монитор|ubiquiti|роутер|router|keenetic|tp-link|mikrotik|точка доступа|mesh"),
 ]
-# цена в конце строки: 118.500 / 118 500 / 118500 / 118 500₽ / 118,5к
-PRICE_RE = re.compile(r"(\d{1,3}(?:[ .,  ]\d{3})+|\d{4,7})\s*(?:₽|р\.?|руб\.?)?\s*$", re.I)
+CATEGORY_ORDER = [c for c, _ in CATEGORIES] + ["Другое"]
+
+# цена: «-117.000» внутри строки (дальше могут быть флаги и пометки) или число в конце строки
+PRICE_DASH_RE = re.compile(r"[-–—:=]\s*(\d{1,3}(?:[ .,  ]\d{3})+)(?!\d)")
+PRICE_END_RE = re.compile(r"(\d{1,3}(?:[ .,  ]\d{3})+|\d{4,7})\s*(?:₽|р\.?|руб\.?)?\s*$", re.I)
 EMOJI_RE = re.compile("[\U0001F000-\U0001FAFF☀-➿️‍]+")
 FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
 
@@ -56,28 +74,52 @@ def category(text: str) -> str:
     return "Другое"
 
 
-def region(line: str) -> str:
-    """Флаг страны → код (US, JP...). Для iPhone это важно: от региона зависят SIM и eSIM."""
-    m = FLAG_RE.search(line)
-    return "".join(chr(ord(c) - 0x1F1E6 + 65) for c in m.group(0)) if m else ""
+def regions(text: str) -> str:
+    """Флаги стран → коды через запятую (KR, HK). Для iPhone от региона зависят SIM и eSIM."""
+    codes = ["".join(chr(ord(c) - 0x1F1E6 + 65) for c in f) for f in FLAG_RE.findall(text)]
+    return ", ".join(dict.fromkeys(codes))
 
 
 def clean(line: str) -> str:
     line = FLAG_RE.sub(" ", line)
     line = EMOJI_RE.sub(" ", line)
-    line = re.sub(r"[\-–—:|•·]+\s*$", "", line)
-    return re.sub(r"\s+", " ", line).strip(" -–—:|•·")
+    line = re.sub(r"[\-–—:=|•·]+\s*$", "", line)
+    return re.sub(r"\s+", " ", line).strip(" -–—:=|•·")
+
+
+def note(tail: str) -> str:
+    """Пометки после цены: тип SIM, «актив» и т. п."""
+    t = clean(tail).strip("() ")
+    t = re.sub(r"\)\s*\(", ", ", t).replace("(", " ").replace(")", " ")
+    t = re.sub(r"([a-z])([а-яё])", r"\1 \2", t, flags=re.I)
+    t = re.sub(r"\b1 ?sim ?\+ ?e ?sim\b", "SIM + eSIM", t, flags=re.I)
+    t = re.sub(r"\be ?sim\b", "eSIM", t, flags=re.I)
+    t = re.sub(r"\bактив\w*", "активирован", t, flags=re.I)
+    return re.sub(r"\s+", " ", t).strip(" ,")
+
+
+def join_name(header: str, line: str) -> str:
+    """«iPhone 18 Pro 256/512/1TB» + «18 Pro 256 Black» → «iPhone 18 Pro 256 Black»."""
+    if not header:
+        return line
+    words = [w for w in header.split() if "/" not in w]
+    first = line.split()[0].lower() if line.split() else ""
+    for i, w in enumerate(words):
+        if w.lower() == first:
+            return " ".join(words[:i] + [line])
+    if header.lower() in line.lower():
+        return line
+    return " ".join(words + [line])
 
 
 def parse_post(text: str) -> list[dict]:
-    """Строка с ценой = позиция. Строка без цены = заголовок модели для следующих строк."""
+    """Строка с ценой = позиция. Строка без цены = заголовок блока для следующих строк."""
     items, header = [], ""
     for raw in text.splitlines():
         line = raw.strip()
         if not line:
-            header = ""  # пустая строка закрывает блок модели
             continue
-        m = PRICE_RE.search(line)
+        m = PRICE_DASH_RE.search(line) or PRICE_END_RE.search(line)
         if not m:
             h = clean(line)
             if len(h) >= 3 and re.search(r"[a-zа-я]", h, re.I):
@@ -86,15 +128,16 @@ def parse_post(text: str) -> list[dict]:
         price = to_rub(m.group(1))
         if not MIN_PRICE <= price <= MAX_PRICE:
             continue
-        rest = clean(line[: m.start()])
-        own_model = category(rest) != "Другое"
-        name = rest if own_model or not header or header.lower() in rest.lower() else f"{header} {rest}".strip()
-        if not name:
+        head = clean(line[: m.start()])
+        if not head:
             continue
+        own = category(head) != "Другое"
+        name = head if own else join_name(header, head)
         items.append({
-            "category": category(name),
+            "category": category(name) if own else category(name + " " + header),
             "name": name,
-            "region": region(line),
+            "region": regions(line),
+            "note": note(line[m.end():]),
             "price": our_price(price),
         })
     return items
@@ -135,13 +178,13 @@ def build(posts: list[dict]) -> dict:
     seen, items = set(), []
     for p in posts:
         for it in parse_post(p["text"]):
-            key = it["name"].lower()
+            key = (it["name"] + "|" + it["region"] + "|" + it["note"]).lower()
             if key in seen:
                 continue
             seen.add(key)
             it["updated"] = p["time"]
             items.append(it)
-    items.sort(key=lambda x: ([c for c, _ in CATEGORIES] + ["Другое"]).index(x["category"]))
+    items.sort(key=lambda x: CATEGORY_ORDER.index(x["category"]))
     return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "items": items}
 
 

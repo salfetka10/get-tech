@@ -101,6 +101,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
 .search input{flex:1;min-width:0;border:0;background:transparent;font-size:17px;outline:none;min-height:46px}
 .search svg{flex:0 0 auto}
 .cats{display:flex;flex-wrap:wrap;gap:6px}
+.cats{max-height:none}
 .cat{min-height:40px;padding:0 14px;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);font-size:15px;cursor:pointer;transition:box-shadow .2s,background .2s,color .2s}
 .cat:hover{box-shadow:inset 0 0 0 1px var(--ink)}
 .cat[aria-pressed="true"]{background:var(--ink);color:var(--paper);box-shadow:none}
@@ -380,10 +381,10 @@ button,input{font:inherit;color:inherit;border-radius:0}
     if (r.ok) { const d = await r.json(); if (d.items && d.items.length) live = d; }
   } catch (e) { live = null; }
   if (live) {
-    P = live.items.map((x, i) => ({id: 'l' + i + '-' + x.name, cat: x.category, model: x.name, spec: x.region ? 'регион ' + x.region : '', color: '', stock: 1, price: x.price}));
+    P = live.items.map((x) => ({id: [x.name, x.region, x.note].join('|'), cat: x.category, model: x.name, spec: [x.region ? 'регион ' + x.region : '', x.note || ''].filter(Boolean).join(' · '), color: '', stock: 1, price: x.price}));
     $('.example').hidden = true;
   }
-  const CATS = ['Все', ...new Set(P.map((p) => p.cat))];
+  const CATS = [...new Set(P.map((p) => p.cat))];
 
   const upd = live ? new Date(live.updated) : new Date();
   const sameDay = upd.toDateString() === new Date().toDateString();
@@ -396,23 +397,27 @@ button,input{font:inherit;color:inherit;border-radius:0}
   const save = () => { try { localStorage.setItem('get-tech-cart', JSON.stringify(cart)); } catch (e) { /* без хранилища корзина живёт до перезагрузки */ } };
 
   /* фильтры */
-  let cat = 'Все';
+  let cat = CATS[0], limit = 120;
   const cats = $('#cats');
   cats.innerHTML = CATS.map((c) => `<button class="cat" type="button" aria-pressed="${c === cat}">${c}</button>`).join('');
   cats.addEventListener('click', (e) => {
     const b = e.target.closest('.cat'); if (!b) return;
-    cat = b.textContent;
+    cat = b.textContent; limit = 120;
+    $('#q').value = '';
     $$('.cat', cats).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
     render();
   });
-  $('#q').addEventListener('input', render);
+  $('#q').addEventListener('input', () => { limit = 120; render(); });
   $('#onlyIn').addEventListener('change', render);
 
   function render() {
     const q = $('#q').value.trim().toLowerCase().replace(/ё/g, 'е');
     const only = $('#onlyIn').checked;
-    const items = P.filter((p) => (cat === 'Все' || p.cat === cat) && (!only || p.stock) &&
+    /* поиск идёт по всему прайсу, без поиска показываем выбранную категорию */
+    $$('.cat', cats).forEach((x) => x.setAttribute('aria-pressed', String(!q && x.textContent === cat)));
+    const all = P.filter((p) => (q || p.cat === cat) && (!only || p.stock) &&
       (!q || q.split(/\s+/).every((w) => (p.model + ' ' + p.spec + ' ' + p.color + ' ' + p.cat).toLowerCase().replace(/ё/g, 'е').includes(w))));
+    const items = all.slice(0, limit);
     const list = $('#list');
     if (!items.length) {
       list.innerHTML = `<div class="none"><p>Ничего не нашли${q ? ` по запросу «${esc($('#q').value.trim())}»` : ''}. Напишите нам, найдём и привезём под заказ.</p><a class="btn line" href="#" data-tg data-msg="Здравствуйте. Ищу: ${esc($('#q').value.trim())}">Найти под заказ</a></div>`;
@@ -420,16 +425,18 @@ button,input{font:inherit;color:inherit;border-radius:0}
     }
     const groups = [...new Set(items.map((p) => p.cat))];
     list.innerHTML = groups.map((g) => {
-      const rows = items.filter((p) => p.cat === g);
-      return `<div class="group"><h3>${g} <small>${rows.length} ${plural(rows.length, 'позиция', 'позиции', 'позиций')}</small></h3>` + rows.map((p) =>
+      const rows = items.filter((p) => p.cat === g), total = all.filter((p) => p.cat === g).length;
+      return `<div class="group"><h3>${g} <small>${total} ${plural(total, 'позиция', 'позиции', 'позиций')}</small></h3>` + rows.map((p) =>
         `<div class="row">
-          <div class="m">${p.model}<small>${p.spec}<span class="col">${p.spec && p.color ? ', ' : ''}${p.color.toLowerCase()}</span></small></div>
+          <div class="m">${esc(p.model)}<small>${esc(p.spec)}<span class="col">${p.spec && p.color ? ', ' : ''}${p.color.toLowerCase()}</span></small></div>
           <div class="c">${p.color}</div>
           <div class="s"><span class="dot${p.stock ? '' : ' off'}"></span>${p.stock ? 'В наличии' : 'Под заказ'}</div>
           <div class="p num">${rub(p.price)}</div>
-          <button class="add${cart[p.id] ? ' in' : ''}" type="button" data-id="${p.id}" aria-label="${cart[p.id] ? 'Уже в корзине' : 'В корзину'}: ${p.model} ${p.spec}">${cart[p.id] ? 'В корзине · ' + cart[p.id] : 'В корзину'}</button>
+          <button class="add${cart[p.id] ? ' in' : ''}" type="button" data-id="${esc(p.id)}" aria-label="${cart[p.id] ? 'Уже в корзине' : 'В корзину'}: ${esc(p.model)}">${cart[p.id] ? 'В корзине · ' + cart[p.id] : 'В корзину'}</button>
         </div>`).join('') + `</div>`;
-    }).join('');
+    }).join('') + (all.length > limit ? `<div class="none"><button class="btn line" type="button" id="more">Показать ещё ${Math.min(120, all.length - limit)} из ${all.length - limit}</button></div>` : '');
+    const more = $('#more');
+    if (more) more.addEventListener('click', () => { limit += 120; render(); });
   }
   const esc = (s) => s.replace(/[&<>"]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
   const plural = (n, a, b, c) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? a : m >= 2 && m <= 4 && (h < 12 || h > 14) ? b : c; };
@@ -441,7 +448,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
     save(); render(); drawCart();
     const p = P.find((x) => x.id === id);
     toast(`${p.model} в корзине`);
-    $(`.add[data-id="${id}"]`)?.focus();
+    [...document.querySelectorAll('.add')].find((x) => x.dataset.id === id)?.focus();
   });
 
   /* выдвижная корзина */
@@ -478,10 +485,10 @@ button,input{font:inherit;color:inherit;border-radius:0}
     body.innerHTML = ids.map((k) => {
       const p = P.find((x) => x.id === k);
       return `<div class="it">
-        <div class="m">${p.model}<small>${[p.spec, p.color, p.stock ? 'в наличии' : 'под заказ'].filter(Boolean).join(', ')}</small></div>
+        <div class="m">${esc(p.model)}<small>${esc([p.spec, p.color, p.stock ? 'в наличии' : 'под заказ'].filter(Boolean).join(', '))}</small></div>
         <div class="p num">${rub(p.price * cart[k])}</div>
-        <div class="qty"><button type="button" data-q="-1" data-id="${k}" aria-label="Меньше">−</button><span class="num">${cart[k]}</span><button type="button" data-q="1" data-id="${k}" aria-label="Больше">+</button></div>
-        <button class="rm" type="button" data-rm="${k}">Убрать</button>
+        <div class="qty"><button type="button" data-q="-1" data-id="${esc(k)}" aria-label="Меньше">−</button><span class="num">${cart[k]}</span><button type="button" data-q="1" data-id="${esc(k)}" aria-label="Больше">+</button></div>
+        <button class="rm" type="button" data-rm="${esc(k)}">Убрать</button>
       </div>`;
     }).join('');
     $('#sum').textContent = rub(ids.reduce((s, k) => s + P.find((x) => x.id === k).price * cart[k], 0));
@@ -498,7 +505,7 @@ button,input{font:inherit;color:inherit;border-radius:0}
   /* оформление: копируем текст заказа и открываем чат */
   const orderText = () => {
     const ids = Object.keys(cart);
-    const lines = ids.map((k) => { const p = P.find((x) => x.id === k); return `• ${p.model}${p.spec ? ', ' + p.spec : ''}, ${p.color} × ${cart[k]} — ${rub(p.price * cart[k])}`; });
+    const lines = ids.map((k) => { const p = P.find((x) => x.id === k); return `• ${[p.model, p.spec, p.color].filter(Boolean).join(', ')} × ${cart[k]} — ${rub(p.price * cart[k])}`; });
     const sum = ids.reduce((s, k) => s + P.find((x) => x.id === k).price * cart[k], 0);
     return `Здравствуйте. Хочу заказать:\n${lines.join('\n')}\nИтого по прайсу: ${rub(sum)}`;
   };
