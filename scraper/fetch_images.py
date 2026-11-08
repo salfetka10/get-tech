@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=900&hei=900&fmt=jpeg&qlt=90"
+CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=1400&fmt=jpeg&qlt=85"
 
 # модель → (код на CDN, месяцы выхода, размер экрана в названии файла)
 MODELS = {
@@ -40,10 +40,10 @@ MODELS = {
 }
 # как поставщик пишет цвет → как Apple называет его в адресе
 ALIASES = {
-    "orange": ["cosmicorange"], "blue": ["deepblue", "mistblue", "skyblue", "ultramarine", "blue"],
-    "natural": ["naturaltitanium"], "desert": ["deserttitanium"], "black": ["black", "blacktitanium", "spaceblack"],
+    "orange": ["cosmicorange"], "blue": ["deepblue", "mistblue", "skyblue", "ultramarine", "blue", "bluetitanium"],
+    "natural": ["naturaltitanium"], "bluetitanium": ["bluetitanium"], "desert": ["deserttitanium"], "black": ["black", "blacktitanium", "spaceblack"],
     "white": ["white", "whitetitanium", "cloudwhite"], "gold": ["lightgold", "gold"], "silver": ["silver"],
-    "purple": ["purple", "deeppurple"], "pink": ["pink", "softpink"], "glacier": ["glacier", "glacierblue"],
+    "purple": ["purple", "deeppurple"], "red": ["productred", "product-red", "red"], "deser": ["deserttitanium"], "pink": ["pink", "softpink", "lightpink", "blush", "pastelpink"], "glacier": ["glacier", "glacierblue"],
 }
 
 HOMO = str.maketrans("аеорсхуАЕОРСХ", "aeopcxyAEOPCX")
