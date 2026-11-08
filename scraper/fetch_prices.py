@@ -182,8 +182,41 @@ def fetch_posts() -> list[dict]:
     return posts
 
 
-MEDIA: list[str] = []
-DIAG: dict = {}
+MEDIA: list[int] = []
+
+
+def rich_inline(node) -> str:
+    """Строка из «расширенного» текста Telegram: TextPlain, TextBold, TextConcat, TextCustomEmoji…"""
+    if not isinstance(node, dict):
+        return node if isinstance(node, str) else ""
+    if "texts" in node:
+        return "".join(rich_inline(x) for x in node["texts"])
+    if "text" in node:
+        return rich_inline(node["text"])
+    return node.get("alt") or ""
+
+
+def rich_to_text(rich) -> str:
+    """RichMessage (новый формат постов): блоки-абзацы и списки → обычный текст построчно."""
+    if not isinstance(rich, dict):
+        return ""
+    lines = []
+
+    def walk(block):
+        if isinstance(block, list):
+            for b in block:
+                walk(b)
+            return
+        if not isinstance(block, dict):
+            return
+        if "text" in block and isinstance(block["text"], dict):
+            lines.append(rich_inline(block["text"]))
+        for key in ("items", "blocks", "cells", "rows"):
+            if key in block:
+                walk(block[key])
+
+    walk(rich.get("blocks", []))
+    return "\n".join(lines).strip()
 
 
 def fetch_posts_api() -> list[dict]:
@@ -198,29 +231,13 @@ def fetch_posts_api() -> list[dict]:
         async with TelegramClient(StringSession(os.environ["TG_SESSION"]), int(os.environ["TG_API_ID"]),
                                   os.environ["TG_API_HASH"]) as client:
             async for msg in client.iter_messages(CHANNEL, limit=POSTS_TO_READ):
-                if not msg.message and msg.media:
-                    MEDIA.append(f"{msg.id}:{type(msg.media).__name__}")
-                if msg.message:
-                    when = (msg.edit_date or msg.date)
-                    posts.append({"id": f"{CHANNEL}/{msg.id}", "time": when.isoformat(), "text": msg.message, "photos": []})
-            one = await client.get_messages(CHANNEL, ids=12970)
-            if one:
-                d = one.to_dict()
-                DIAG.update({k: (type(v).__name__ if not isinstance(v, dict) else "dict:" + str(v.get("_"))) for k, v in d.items() if v not in (None, False, [], "")})
-                def skel(v, depth=0):
-                    if depth > 6: return "…"
-                    if isinstance(v, dict):
-                        out = {"_": v.get("_")}
-                        for k, x in v.items():
-                            if k == "_" or x in (None, False, [], ""): continue
-                            out[k] = skel(x, depth + 1) if isinstance(x, (dict, list)) else (("str:" + x[:25]) if isinstance(x, str) else type(x).__name__)
-                        return out
-                    if isinstance(v, list):
-                        return [skel(x, depth + 1) for x in v[:4]] + ([f"+{len(v) - 4}"] if len(v) > 4 else [])
-                    return type(v).__name__
-                DIAG["skel"] = skel(d.get("rich_message"))
-                DIAG["message_len"] = len(one.message or "")
-                DIAG["raw_text_len"] = len(one.raw_text or "")
+                text = msg.message or rich_to_text(msg.to_dict().get("rich_message"))
+                if not text:
+                    if msg.media:
+                        MEDIA.append(msg.id)
+                    continue
+                when = (msg.edit_date or msg.date)
+                posts.append({"id": f"{CHANNEL}/{msg.id}", "time": when.isoformat(), "text": text, "photos": []})
         return posts
 
     return asyncio.run(run())
@@ -279,8 +296,7 @@ def main() -> int:
         posts = fetch_posts_api()
         data = build(posts)
         data["stats"]["source"] = "api"
-        data["stats"]["media_without_text"] = MEDIA[:60]
-        data["stats"]["diag_12970"] = DIAG
+        data["stats"]["without_text"] = len(MEDIA)
         return save(data)
     posts = fetch_posts()
     seen = {int(p["id"].split("/")[-1] or 0) for p in posts}
