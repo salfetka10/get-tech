@@ -340,7 +340,7 @@ img{display:block;max-width:100%}
 .toast.show{opacity:1;translate:-50% 0}
 
 @media (prefers-reduced-motion: no-preference){
-  #app>*:not(.bar){animation:in .5s var(--ease) both}
+  
 }
 @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){.drawer,.scrim,.toast,.ph img{transition:none}}
@@ -410,6 +410,98 @@ img{display:block;max-width:100%}
 .sent{border-radius:12px}
 .flt summary{font-weight:500}
 @media (max-width:860px){.hero{border-radius:24px}.drawer{border-radius:0}}
+
+/* v4: фото без фона, свечение в цвете модели, движение.
+   Каждое движение отвечает на действие (переход, выбор цвета, наведение) или один раз показывает блок при прокрутке. */
+:root{--shadow:0 22px 44px rgba(74,104,148,.16)}
+body::before{content:"";position:fixed;inset:-25% -10% auto;height:80vh;z-index:-1;pointer-events:none;
+  background:radial-gradient(38% 46% at 18% 32%,color-mix(in srgb,var(--tech) 20%,transparent),transparent 70%),radial-gradient(34% 40% at 86% 12%,color-mix(in srgb,var(--tech) 14%,transparent),transparent 70%)}
+.hd{view-transition-name:hd;transition:box-shadow .3s}
+.hd.scrolled{box-shadow:0 10px 30px rgba(48,47,44,.08)}
+/* фото: белая подложка, свечение цвета модели, мягкая тень под техникой */
+.ph{background:radial-gradient(closest-side,color-mix(in srgb,var(--g,#C8C7C3) 26%,#FFFFFF),#FFFFFF) 50% 56%/86% 86% no-repeat,#FFFFFF}
+.ph img,.ph.glow img{mix-blend-mode:normal;object-fit:contain;padding:9%;filter:drop-shadow(0 16px 18px rgba(48,47,44,.16));transition:transform .6s var(--ease)}
+.ph.glow{background:radial-gradient(closest-side,color-mix(in srgb,var(--g) 40%,#FFFFFF),#FFFFFF) 50% 56%/84% 84% no-repeat,#FFFFFF}
+.card,.nw{transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.card:hover,.nw:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.card:hover img,.nw:hover img{transform:translateY(-8px) scale(1.05)}
+.float{display:block;width:100%;height:100%}
+@media (prefers-reduced-motion:no-preference){.float{animation:float 6s ease-in-out infinite}}
+@keyframes float{50%{transform:translateY(-12px)}}
+/* первый экран */
+.hero{isolation:isolate}
+.hero::before{opacity:.16;width:60%;inset:auto auto -35% -12%}
+.hero::after{content:"";position:absolute;right:-10%;top:-30%;width:45%;aspect-ratio:1;border-radius:50%;background:var(--g,var(--tech));opacity:.08;filter:blur(90px);pointer-events:none;z-index:-1}
+@media (prefers-reduced-motion:no-preference){
+  .hero::before{animation:drift 18s ease-in-out infinite alternate}
+  .hero h1 span{display:block;animation:rise 1s var(--ease) both}
+  .hero h1 span+span{animation-delay:.12s}
+  .hero-sub{animation:rise 1s .22s var(--ease) both}
+  .hero-cta{animation:rise 1s .32s var(--ease) both}
+  .stage{animation:pop 1.1s .15s var(--ease) both}
+}
+@keyframes drift{to{transform:translate3d(18%,-12%,0) scale(1.15)}}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:translateY(30px) scale(.96)}to{opacity:1;transform:none}}
+.hero h1 span{display:block}
+.stage{aspect-ratio:auto;min-height:clamp(380px,40vw,560px);perspective:1200px;overflow:visible}
+.stage-word{position:absolute;left:0;right:0;top:44%;translate:0 -50%;text-align:center;font-weight:500;font-size:clamp(96px,12.5vw,210px);line-height:.8;letter-spacing:-0.06em;color:color-mix(in srgb,var(--g) 18%,#FFFFFF);transition:color .9s var(--ease);pointer-events:none;white-space:nowrap;z-index:0}
+.stage-img{position:relative;z-index:1;flex:1;overflow:visible;border-radius:0;background:radial-gradient(closest-side,color-mix(in srgb,var(--g) 50%,transparent),transparent) 50% 52%/70% 82% no-repeat;transition:--g .9s var(--ease)}
+.stage-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:4% 12% 6%;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .6s var(--ease);filter:drop-shadow(0 34px 34px rgba(48,47,44,.24));mix-blend-mode:normal}
+.stage-cap{position:relative;z-index:2}
+@media (max-width:860px){.stage{min-height:0}.stage-img{aspect-ratio:1;flex:none}.stage-word{top:38%}}
+/* категории Apple */
+.chic-im{display:grid;place-items:center;height:110px;width:100%;margin-bottom:6px}
+.chic-im img{max-height:96px;max-width:90%;width:auto;aspect-ratio:auto;margin:0;object-fit:contain;transition:transform .55s var(--ease)}
+.chic a:hover .chic-im img{transform:translateY(-8px) scale(1.08)}
+/* полка */
+.arrows{margin-left:auto;display:flex;gap:6px}
+.blk-h .arrows+.lnk{margin-left:12px}
+.arr{width:44px;height:44px;border-radius:50%;border:0;background:var(--card);font-size:24px;line-height:1;cursor:pointer;box-shadow:inset 0 0 0 1.5px var(--line);transition:box-shadow .2s,background .2s,color .2s}
+.arr:hover{background:var(--tech-d);color:#FFFFFF;box-shadow:none}
+@media (max-width:860px){.arrows{display:none}.blk-h .lnk{margin-left:auto}}
+.nw .ph{aspect-ratio:1}
+/* бренды бегущей строкой */
+.marq{overflow:hidden;margin-inline:calc(-1 * var(--gutter));padding-block:4px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marq-t,.marq-dup{display:flex;gap:10px}
+.marq-t{width:max-content;padding-left:10px}
+.marq a{display:inline-flex;align-items:center;min-height:56px;padding:0 28px;border-radius:999px;background:var(--card);font-size:20px;white-space:nowrap;transition:box-shadow .2s,color .2s}
+.marq a:hover{box-shadow:inset 0 0 0 1.5px var(--tech);color:var(--tech-dd)}
+@media (prefers-reduced-motion:no-preference){.marq-t{animation:marq 45s linear infinite}.marq:hover .marq-t{animation-play-state:paused}}
+@media (prefers-reduced-motion:reduce){.marq-dup{display:none}.marq-t{flex-wrap:wrap;width:auto}}
+@keyframes marq{to{transform:translateX(calc(-50% - 5px))}}
+/* кнопки */
+.btn{position:relative;overflow:hidden;transition:background .25s,transform .2s var(--ease),box-shadow .25s}
+.btn:not(.line)::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.32) 50%,transparent 70%);transform:translateX(-120%);transition:transform .8s var(--ease)}
+.btn:not(.line):hover::after{transform:translateX(120%)}
+.btn:not(.line):hover{box-shadow:0 10px 24px rgba(74,104,148,.32)}
+.btn:active,.chip:active,.swb:active,.arr:active{transform:scale(.97)}
+.opt .chip,.chip,.swb{transition:box-shadow .25s,background .25s,color .25s,transform .2s var(--ease)}
+/* карточка модели */
+.pd-img .ph{aspect-ratio:1;background:radial-gradient(closest-side,color-mix(in srgb,var(--g) 46%,#FFFFFF),#FFFFFF) 50% 54%/80% 80% no-repeat,#FFFFFF}
+.pd-img .ph img{padding:10%;filter:drop-shadow(0 30px 30px rgba(48,47,44,.22))}
+.it .ph img,.sugg .ph img{padding:6%;filter:none}
+/* появление при прокрутке */
+@media (prefers-reduced-motion:no-preference){
+  [data-rv]{opacity:0;transform:translateY(30px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--i,0) * 70ms)}
+  [data-rv].in{opacity:1;transform:none}
+}
+/* переходы между экранами */
+::view-transition-old(root){animation:vt-out .32s var(--ease) both}
+::view-transition-new(root){animation:vt-in .5s var(--ease) both}
+::view-transition-group(pic){animation-duration:.65s;animation-timing-function:cubic-bezier(.16,1,.3,1)}
+@keyframes vt-out{to{opacity:0;transform:translateY(-10px)}}
+@keyframes vt-in{from{opacity:0;transform:translateY(16px)}}
+
+.stage-img .float{position:absolute;inset:0}
+.stage-img{background:radial-gradient(closest-side,color-mix(in srgb,color-mix(in srgb,var(--g) 55%,#B9C7DE) 70%,transparent),transparent) 50% 52%/66% 78% no-repeat}
+.stage-word{color:color-mix(in srgb,var(--g) 9%,#EDF0F5)}
+.ph.glow,.ph{--gg:color-mix(in srgb,var(--g,#C8C7C3) 50%,#C3CEE0)}
+.ph.glow{background:radial-gradient(closest-side,color-mix(in srgb,var(--gg) 55%,#FFFFFF),#FFFFFF) 50% 56%/84% 84% no-repeat,#FFFFFF}
+.pd-img .ph{background:radial-gradient(closest-side,color-mix(in srgb,var(--gg) 60%,#FFFFFF),#FFFFFF) 50% 54%/80% 80% no-repeat,#FFFFFF}
+.ph .float{position:absolute;inset:0}
+.ph .float img{width:100%;height:100%}
+.ph>img{position:absolute;inset:0;width:100%;height:100%}
 </style>
 <script type="module">import { polyfillCountryFlagEmojis } from "https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1.8/dist/index.mjs"; polyfillCountryFlagEmojis();</script>
 </head>
@@ -492,6 +584,7 @@ img{display:block;max-width:100%}
   const TG = 'get_tochka_admin';
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const rub = (n) => Math.round(n).toLocaleString('ru-RU') + ' ₽';
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
   const plural = (n, a, b, c) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? a : m >= 2 && m <= 4 && (h < 12 || h > 14) ? b : c; };
@@ -608,7 +701,7 @@ img{display:block;max-width:100%}
   const save = () => { try { localStorage.setItem('get-tech-cart', JSON.stringify(cart)); } catch (e) { /* без хранилища корзина живёт до перезагрузки */ } };
 
   const photo = (src, label, cls = '') => src
-    ? `<div class="ph ${cls}"><img src="${esc(src)}" alt="${esc(label)}" loading="lazy" decoding="async"></div>`
+    ? `<div class="ph ${cls}"><img src="${esc(src)}" alt="${esc(label)}" loading="lazy" decoding="async" data-vt></div>`
     : `<div class="ph dots ${cls}"><span class="nm">${esc(label)}</span></div>`;
   const describe = (p) => p.opts.mem ? [p.opts.color, p.opts.mem, p.opts.sim, p.opts.cond !== 'Новый' ? p.opts.cond : '', p.region ? 'регион ' + regionList(p.region).map(flag).join(' ') : ''].filter(Boolean).join(', ')
     : [p.region ? 'регион ' + p.region : '', p.opts.other].filter(Boolean).join(', ');
@@ -627,71 +720,79 @@ img{display:block;max-width:100%}
     scrollTo({top: 0, behavior: 'auto'});
   }
 
-  /* Главная. Первый экран — витрина новинки: крупное фото, свечение в цвете корпуса и выбор цвета прямо здесь.
-     Ниже каталог: категории Apple с картинками, остальная техника, новые iPhone, бренды. */
+  /* Главная. Первый экран — витрина новинки: телефон без фона парит над свечением в цвете корпуса,
+     за ним крупно номер модели, наклоняется за курсором; цвет меняется прямо здесь с плавным перетеканием. */
   function home() {
     document.title = 'get.tech';
     const cats = [...APPLE.filter((c) => count[c]), ...OTHER];
     const fresh = [...MODELS.values()].filter((m) => m.cat === 'iPhone' && imgFor(m.model, m.colors[0]))
-      .sort((a, b) => b.num - a.num || b.min - a.min).slice(0, 8);
+      .sort((a, b) => b.num - a.num || b.min - a.min).slice(0, 10);
     const star = fresh.find((m) => / Pro$/.test(m.model)) || fresh[0];
     const starColors = star ? star.colors.filter((c) => IMG[star.model + '|' + c.toLowerCase()]) : [];
     const appleCats = APPLE.filter((c) => count[c]);
     const restCats = cats.filter((c) => !APPLE.includes(c));
+    const word = star ? star.model.replace(/^iPhone\s*/, '') : '';
+    const brandRow = BRANDS.map(([b]) => `<a href="#/s/${encodeURIComponent(b)}">${esc(b)}</a>`).join('');
     app.innerHTML = `
       <section class="hero">
         <div class="hero-t">
-          <h1>Честная цена. Проверенная техника.</h1>
+          <h1><span>Честная цена.</span><span>Проверенная техника.</span></h1>
           <p class="hero-sub">Apple и другая техника в наличии. Итоговую цену называем до оплаты, коробку вскрываем вместе с вами.</p>
           <div class="hero-cta"><a class="btn" href="#/c/iphone">Выбрать iPhone</a><a class="btn line" href="#cat">Весь каталог</a></div>
         </div>
         ${star ? `<figure class="stage" id="stage" style="--g:${swc(starColors[0])}">
-          <span class="mk tl">+</span><span class="mk tr">+</span><span class="mk bl">+</span><span class="mk br">+</span>
-          <a class="stage-img" href="#/p/${star.slug}/color=${encodeURIComponent(starColors[0] || '')}" id="stageLink"><img id="stageImg" src="${esc(imgFor(star.model, starColors[0]))}" alt="${esc(star.model + ', ' + (starColors[0] || ''))}"></a>
+          <a class="stage-img" href="#/p/${star.slug}/color=${encodeURIComponent(starColors[0] || '')}" id="stageLink"><span class="float"><img id="stageImg" src="${esc(imgFor(star.model, starColors[0]))}" alt="${esc(star.model + ', ' + (starColors[0] || ''))}" data-vt></span></a>
           <figcaption class="stage-cap">
             <span><b>${esc(star.model)}</b><span class="num">от ${rub(star.min)}</span></span>
             <span class="stage-sw" role="group" aria-label="Цвет">${starColors.map((c, i) => `<button type="button" class="swb" aria-pressed="${i === 0}" data-c="${esc(c)}" aria-label="${esc(c)}" title="${esc(c)}"><i class="sw" style="--c:${swc(c)}"></i></button>`).join('')}</span>
           </figcaption>
         </figure>` : ''}
       </section>
-      <section class="blk" id="cat">
+      <section class="blk" id="cat" data-rv>
         <div class="blk-h"><h2>Apple</h2></div>
-        <div class="chic">${appleCats.map((c) => `<a href="#/c/${slug(c)}">${IMG['nav|' + c] ? `<img src="${esc(IMG['nav|' + c])}" alt="" loading="lazy">` : `<span class="chic-ph"></span>`}<b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></a>`).join('')}</div>
+        <div class="chic">${appleCats.map((c, i) => `<a href="#/c/${slug(c)}" data-rv style="--i:${i}">${IMG['nav|' + c] ? `<span class="chic-im"><img src="${esc(IMG['nav|' + c])}" alt="" loading="lazy"></span>` : `<span class="chic-ph"></span>`}<b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></a>`).join('')}</div>
       </section>
-      <section class="blk">
-        <div class="blk-h"><h2>Новые iPhone</h2><a class="lnk" href="#/c/iphone">Все iPhone</a></div>
-        <div class="shelf">${fresh.map((m) => `<a class="nw" href="#/p/${m.slug}" style="--g:${swc(m.colors[0])}">
-          <span class="ph glow"><img src="${esc(imgFor(m.model, m.colors[0]))}" alt="${esc(m.model)}" loading="lazy"></span>
+      <section class="blk" data-rv>
+        <div class="blk-h"><h2>Новые iPhone</h2><span class="arrows"><button type="button" class="arr" data-dir="-1" aria-label="Назад">‹</button><button type="button" class="arr" data-dir="1" aria-label="Вперёд">›</button></span><a class="lnk" href="#/c/iphone">Все iPhone</a></div>
+        <div class="shelf" id="shelf">${fresh.map((m, i) => `<a class="nw" href="#/p/${m.slug}" style="--g:${swc(m.colors[0])};--i:${i}" data-rv>
+          ${photo(imgFor(m.model, m.colors[0]), m.model, 'glow')}
           <span class="nw-b"><b>${esc(m.model)}</b><span class="num">от ${rub(m.min)}</span><span class="sws">${m.colors.slice(0, 6).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span><span class="go">Выбрать</span></span></a>`).join('')}</div>
       </section>
-      <section class="blk">
+      <section class="blk" data-rv>
         <div class="blk-h"><h2>Вся техника</h2></div>
-        <div class="tiles">${restCats.map((c) => `<a href="#/c/${slug(c)}"><b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></a>`).join('')}</div>
+        <div class="tiles">${restCats.map((c, i) => `<a href="#/c/${slug(c)}" data-rv style="--i:${i % 10}"><b>${esc(c)}</b><small class="num">от ${rub(catMin(c))}</small></a>`).join('')}</div>
       </section>
-      <section class="blk">
+      <section class="blk" data-rv>
         <div class="blk-h"><h2>Бренды</h2></div>
-        <div class="brands">${BRANDS.map(([b]) => `<a href="#/s/${encodeURIComponent(b)}">${esc(b)}</a>`).join('')}</div>
       </section>
-      <section class="facts" aria-label="Главное о get.tech">
+      <div class="marq" aria-label="Бренды"><div class="marq-t">${brandRow}<span aria-hidden="true" class="marq-dup">${brandRow}</span></div></div>
+      <section class="facts" aria-label="Главное о get.tech" data-rv>
         <div><b>1 час</b><span>подтверждаем цену и наличие в рабочее время</span></div>
         <div><b>Вместе</b><span>вскрываем и проверяем технику при встрече</span></div>
         <div><b>Брак</b><span>заводской меняем за свой счёт</span></div>
         <div><b>Упаковка</b><span>фирменная упаковка get. с каждым заказом</span></div>
       </section>`;
-    /* выбор цвета на первом экране: свечение перетекает, фото проявляется, ссылка ведёт в карточку с этим цветом */
+    $$('.marq-dup a').forEach((a) => { a.tabIndex = -1; });
+    $$('[data-dir]').forEach((b) => b.addEventListener('click', () => { const sh = $('#shelf'); sh.scrollBy({left: Number(b.dataset.dir) * sh.clientWidth * .8, behavior: REDUCE ? 'auto' : 'smooth'}); }));
     const stage = $('#stage');
-    if (stage) {
-      starColors.forEach((c) => { const im = new Image(); im.src = imgFor(star.model, c); });
-      stage.addEventListener('click', (e) => {
-        const b = e.target.closest('[data-c]'); if (!b) return;
-        const c = b.dataset.c;
+    if (!stage) return;
+    starColors.forEach((c) => { const im = new Image(); im.src = imgFor(star.model, c); });
+    stage.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-c]'); if (!b) return;
+      const c = b.dataset.c;
+      const swap = () => {
         $$('[data-c]', stage).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
         stage.style.setProperty('--g', swc(c));
-        const im = $('#stageImg');
-        im.src = imgFor(star.model, c); im.alt = star.model + ', ' + c;
+        const im = $('#stageImg'); im.src = imgFor(star.model, c); im.alt = star.model + ', ' + c;
         $('#stageLink').href = `#/p/${star.slug}/color=${encodeURIComponent(c)}`;
-        if (!matchMedia('(prefers-reduced-motion: reduce)').matches) im.animate([{opacity: 0, transform: 'translateY(10px) scale(.97)'}, {opacity: 1, transform: 'none'}], {duration: 500, easing: 'cubic-bezier(.16,1,.3,1)'});
-      });
+      };
+      const im = $('#stageImg'); im.style.viewTransitionName = 'pic';
+      if (document.startViewTransition && !REDUCE) document.startViewTransition(swap).finished.finally(() => { im.style.viewTransitionName = ''; }); else swap();
+    });
+    /* наклон за курсором */
+    if (!REDUCE && matchMedia('(hover: hover)').matches) {
+      stage.addEventListener('pointermove', (e) => { const r = stage.getBoundingClientRect(); stage.style.setProperty('--rx', ((e.clientY - r.top) / r.height - .5) * -10 + 'deg'); stage.style.setProperty('--ry', ((e.clientX - r.left) / r.width - .5) * 14 + 'deg'); });
+      stage.addEventListener('pointerleave', () => { stage.style.setProperty('--rx', '0deg'); stage.style.setProperty('--ry', '0deg'); });
     }
   }
 
@@ -724,10 +825,10 @@ img{display:block;max-width:100%}
     const link = (patch) => { const s = {...sel, ...patch}; Object.keys(s).forEach((k) => { if (!s[k]) delete s[k]; }); const u = new URLSearchParams(s).toString(); return '#/' + (scope.cat ? 'c/' + slug(scope.cat) : 's/' + encodeURIComponent(scope.q)) + (u ? '/' + u : ''); };
     const toggle = (k, v) => { const s = pick(k); const i = s.indexOf(v); i < 0 ? s.push(v) : s.splice(i, 1); return link({[k]: s.join(',')}); };
     const limit = Number(sel.n || 48);
-    const card = ({m, items, min}) => {
+    const card = ({m, items, min}, i) => {
       const colors = [...new Set(items.map((p) => p.opts.color).filter(Boolean))];
       const fsel = new URLSearchParams(Object.fromEntries(dims.map(([k]) => [k, pick(k)[0] || '']).filter(([, v]) => v))).toString();
-      return `<a class="card" href="#/p/${m.slug}${fsel ? '/' + fsel : ''}">${photo(imgFor(m.model, pick('color')[0] || colors[0]), m.model)}
+      return `<a class="card" data-rv style="--i:${i % 8};--g:${swc(pick('color')[0] || colors[0])}" href="#/p/${m.slug}${fsel ? '/' + fsel : ''}">${photo(imgFor(m.model, pick('color')[0] || colors[0]), m.model, 'glow')}
         <span class="card-b"><b>${esc(m.model)}</b><span class="pr num"><small>от</small> ${rub(min)}</span>
         <small class="muted">${items.length} ${plural(items.length, 'вариант', 'варианта', 'вариантов')}</small>
         ${colors.length ? `<span class="sws">${colors.slice(0, 8).map((c) => `<i class="sw" style="--c:${swc(c)}" title="${esc(c)}"></i>`).join('')}</span>` : ''}<span class="go">Выбрать</span></span></a>`;
@@ -807,7 +908,7 @@ img{display:block;max-width:100%}
     app.innerHTML = `
       <nav class="crumbs" aria-label="Путь"><a href="#/">Каталог</a><span>/</span><a href="#/c/${slug(m.cat)}">${esc(m.cat)}</a><span>/</span><span>${esc(m.model)}</span></nav>
       <article class="pd">
-        <div class="pd-img"><div class="ph glow big" id="pdImg" style="--g:${swc(prevColor)}">${imgFor(m.model, s.color) ? `<img src="${esc(imgFor(m.model, s.color))}" alt="${esc(m.model + (s.color ? ', ' + s.color : ''))}">` : `<span class="nm">${esc(m.model)}</span>`}</div></div>
+        <div class="pd-img"><div class="ph glow big" id="pdImg" style="--g:${swc(prevColor)}">${imgFor(m.model, s.color) ? `<span class="float"><img src="${esc(imgFor(m.model, s.color))}" alt="${esc(m.model + (s.color ? ', ' + s.color : ''))}" style="view-transition-name:pic"></span>` : `<span class="nm">${esc(m.model)}</span>`}</div></div>
         <div class="pd-r">
           <h1>${esc(m.model)}</h1>
           <div class="pd-price"><b class="num">${rub(cur.price)}</b>${flags(cur.region)}<span><i class="dot"></i>В наличии</span></div>
@@ -839,8 +940,13 @@ img{display:block;max-width:100%}
     /* смена цвета: свечение плавно перетекает в новый цвет, фото проявляется */
     const img = $('#pdImg');
     requestAnimationFrame(() => requestAnimationFrame(() => img.style.setProperty('--g', swc(s.color))));
-    if (same && lastPd.color !== s.color) img.querySelector('img')?.animate([{opacity: 0, transform: 'scale(.97)'}, {opacity: 1, transform: 'none'}], {duration: 450, easing: 'cubic-bezier(.16,1,.3,1)'});
-    lastPd = {slug: m.slug, color: s.color};
+    const pb = $('.pd-price b');
+    if (same && lastPd.price && lastPd.price !== cur.price && !REDUCE) {
+      const from = lastPd.price, to = cur.price, t0 = performance.now();
+      const tick = (t) => { const k = Math.min(1, (t - t0) / 500), e = 1 - (1 - k) ** 3; pb.textContent = rub(from + (to - from) * e); if (k < 1) requestAnimationFrame(tick); };
+      requestAnimationFrame(tick);
+    }
+    lastPd = {slug: m.slug, color: s.color, price: cur.price};
     $$('[data-buy]').forEach((b) => b.addEventListener('click', () => {
       const id = b.dataset.buy;
       cart[id] = (cart[id] || 0) + 1; save(); drawCart();
@@ -856,7 +962,25 @@ img{display:block;max-width:100%}
   /* при смене варианта не прыгаем наверх */
   let keepScroll = false;
   app.addEventListener('click', (e) => { if (e.target.closest('.opt a, .fg a, .sort a, .clear, .more a')) keepScroll = true; });
-  addEventListener('hashchange', () => { const y = scrollY; route(); if (keepScroll) scrollTo({top: y, behavior: 'auto'}); keepScroll = false; });
+  /* Плавные переходы между экранами (View Transitions): страница перетекает,
+     а фото из карточки летит на своё место в карточке модели. */
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href^="#/p/"]'); if (!a) return;
+    $$('[data-vt]').forEach((x) => { x.style.viewTransitionName = ''; });
+    const im = a.querySelector('img[data-vt]') || (a.id === 'stageLink' && $('#stageImg'));
+    if (im && !a.closest('.pd')) im.style.viewTransitionName = 'pic';
+  }, true);
+  addEventListener('hashchange', () => {
+    const y = scrollY, keep = keepScroll; keepScroll = false;
+    const run = () => { route(); if (keep) scrollTo({top: y, behavior: 'auto'}); reveal(); };
+    if (document.startViewTransition && !REDUCE) document.startViewTransition(run); else run();
+  });
+  /* появление блоков при прокрутке: один раз, с небольшой очередью внутри ряда */
+  const seen = new IntersectionObserver((es) => es.forEach((en) => { if (en.isIntersecting) { const el = en.target; el.classList.add('in'); seen.unobserve(el); setTimeout(() => { el.removeAttribute('data-rv'); el.classList.remove('in'); }, 1600); } }), {rootMargin: '0px 0px -8% 0px'});
+  function reveal() { $$('[data-rv]:not(.in)').forEach((el) => { if (REDUCE) el.classList.add('in'); else seen.observe(el); }); }
+  /* тень у шапки после начала прокрутки */
+  const hdEl = $('.hd'), sent = document.createElement('div'); sent.style.cssText = 'position:absolute;top:0;height:8px;width:1px'; document.body.prepend(sent);
+  new IntersectionObserver(([en]) => hdEl.classList.toggle('scrolled', !en.isIntersecting)).observe(sent);
 
   /* ---------- поиск с подсказками ---------- */
   const q = $('#q'), sugg = $('#sugg');
@@ -958,7 +1082,8 @@ img{display:block;max-width:100%}
   let tt = 0;
   function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => el.classList.remove('show'), 2600); }
 
-  route(); drawCart();
+  $$('.how .steps li, .checks li, .honest p').forEach((el, i) => { el.setAttribute('data-rv', ''); el.style.setProperty('--i', i % 4); });
+  route(); drawCart(); reveal();
 })();
 </script>
 
