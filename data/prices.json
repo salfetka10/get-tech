@@ -1,6 +1,11 @@
 {
- "updated": "2026-11-08T13:12+00:00",
- "count": 2762,
+ "updated": "2026-11-08T13:14+00:00",
+ "count": 2742,
+ "stats": {
+  "posts": 80,
+  "media_only": 0,
+  "with_prices": 48
+ },
  "items": [
   {
    "category": "iPhone",
@@ -11,40 +16,8 @@
    "updated": "2024-09-15T06:41:00+00:00"
   },
   {
-   "category": "iPhone",
-   "name": "iPhone 15 Pro Max Год выпуска",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2023-04-05T18:08:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Pro Год выпуска",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2023-04-05T18:08:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Plus Год выпуска",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2023-04-05T18:08:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Год выпуска",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2023-04-05T18:08:25+00:00"
-  },
-  {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 [MDE04] Pro 14 (M5 16/512) Black",
+   "name": "MACBOOK Pro 14 (M5 16/512) Black",
    "region": "IN, US",
    "note": "",
    "price": 172100,
@@ -52,23 +25,23 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 [Z1KH1] Pro 14 (M5 24/512) Black",
+   "name": "MACBOOK Pro 14 (M5 24/512) Black",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 176200,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MGDR4] Pro 14 (M5 Pro 24/ 1TB) Black",
+   "name": "MACBOOK Pro 14 (M5 Pro 24/ 1TB) Black",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 215300,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MGDR4] Pro 14 (M5 Pro 24/ 1TB) Black",
+   "name": "MACBOOK Pro 14 (M5 Pro 24/ 1TB) Black",
    "region": "IN, US",
    "note": "активирован",
    "price": 214300,
@@ -76,7 +49,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MGDN4] Pro 14 (M5 Pro 24/1TB) Silver",
+   "name": "MACBOOK Pro 14 (M5 Pro 24/1TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 222000,
@@ -84,7 +57,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MGDN4] Pro 14 (M5 Pro 24/1TB) Silver",
+   "name": "MACBOOK Pro 14 (M5 Pro 24/1TB) Silver",
    "region": "IN, US",
    "note": "С пленкой/ гравировкой",
    "price": 221500,
@@ -92,7 +65,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MJLW4] Pro 14 (M5 Pro 24/2TB) Black",
+   "name": "MACBOOK Pro 14 (M5 Pro 24/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 232800,
@@ -100,7 +73,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MJLV4] Pro 14 (M5 Pro 24/2TB) Silver",
+   "name": "MACBOOK Pro 14 (M5 Pro 24/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 234900,
@@ -108,31 +81,15 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MGDT4] Pro 14 (M5 Pro 24/2TB) Black",
-   "region": "IN, US",
-   "note": "",
-   "price": 258600,
-   "updated": "2025-03-25T06:41:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 PRO [MGDP4] Pro 14 (M5 Pro 24/2TB) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 263700,
-   "updated": "2025-03-25T06:41:05+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MACBOOK PRO 14 M4 MAX [MX2K3] Pro 14 (M4 Max 36/1TB) Black",
+   "name": "MACBOOK Pro 14 (M4 Max 36/1TB) Black",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 266800,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 MAX [MGDU4] Pro 14 (M5 Max 36/2TB) Black",
+   "name": "MACBOOK Pro 14 (M5 Max 36/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 330700,
@@ -140,7 +97,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 MAX [MGDQ4] Pro 14 (M5 Max 36/2TB) Silver",
+   "name": "MACBOOK Pro 14 (M5 Max 36/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 330700,
@@ -148,7 +105,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MH004AG] Pro 14 M5 Pro (18c CPU/20c GPU/48/1Tb) Silver Рус",
+   "name": "MACBOOK Pro 14 M5 Pro (18c CPU/20c GPU/48/1Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 367800,
@@ -156,7 +113,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MN0010Z] Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 518100,
@@ -164,7 +121,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MK0011H] Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 518100,
@@ -172,7 +129,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MN00114] Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Black Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 597400,
@@ -180,7 +137,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MK0011N] Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Silver Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/64/4Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 597400,
@@ -188,7 +145,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MN00115] Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Black Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 723100,
@@ -196,7 +153,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MK0011P] Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Silver Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/128/4Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 723100,
@@ -204,7 +161,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MN00117] Pro 14 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
+   "name": "MACBOOK Pro 14 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 860100,
@@ -212,7 +169,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 14 M5 CUSTOM [Z1MK0011R] Pro 14 M5 Pro Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
+   "name": "MACBOOK Pro 14 M5 Pro Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 860100,
@@ -220,7 +177,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 PRO [MGEA4] Pro 16 (M5 Pro 24/1TB) Black",
+   "name": "MACBOOK Pro 16 (M5 Pro 24/1TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 242100,
@@ -228,23 +185,23 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 PRO [MGE44] Pro 16 (M5 Pro 24/1TB) Silver",
+   "name": "MACBOOK Pro 16 (M5 Pro 24/1TB) Silver",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 249300,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 PRO [MGEC4] Pro 16 (M5 Pro 48/1TB) Black",
+   "name": "MACBOOK Pro 16 (M5 Pro 48/1TB) Black",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 319300,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 PRO [MGE64] Pro 16 (M5 Pro 48/1TB) Silver",
+   "name": "MACBOOK Pro 16 (M5 Pro 48/1TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 329600,
@@ -252,23 +209,23 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 MAX [MGED4] Pro 16 (M5 Max 36/2TB) Black",
+   "name": "MACBOOK Pro 16 (M5 Max 36/2TB) Black",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 321400,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 MAX [MGE74] Pro 16 (M5 Max 36/2TB) Silver",
+   "name": "MACBOOK Pro 16 (M5 Max 36/2TB) Silver",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 321400,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 MAX [MGEE4] Pro 16 M5 Max 48/2TB) Black",
+   "name": "MACBOOK Pro 16 M5 Max 48/2TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 394500,
@@ -276,7 +233,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 MAX [MGE94] Pro 16 (M5 Max 48/2TB) Silver",
+   "name": "MACBOOK Pro 16 (M5 Max 48/2TB) Silver",
    "region": "IN, US",
    "note": "",
    "price": 399700,
@@ -284,7 +241,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MZ000BM] Pro 16 M5 Pro (18c CPU/20c GPU/64/1Tb) Black Рус",
+   "name": "MACBOOK Pro 16 M5 Pro (18c CPU/20c GPU/64/1Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 437800,
@@ -292,7 +249,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MZ000BW] Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Black Рус",
+   "name": "MACBOOK Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 479000,
@@ -300,7 +257,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MV000BY] Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Silver Рус",
+   "name": "MACBOOK Pro 16 M5 Pro (18c CPU/20c GPU/64/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 479000,
@@ -308,7 +265,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1N10007W] Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 551100,
@@ -316,7 +273,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MX0007W] Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/64/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 551100,
@@ -324,7 +281,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1N20002D] Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black",
    "region": "US",
    "note": "",
    "price": 736500,
@@ -332,7 +289,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1N2000Y7] Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black NANO",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Black NANO",
    "region": "US",
    "note": "",
    "price": 746800,
@@ -340,7 +297,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MY0002D] Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver",
    "region": "US",
    "note": "",
    "price": 736500,
@@ -348,7 +305,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MY000U2] Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver NANO",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/4Tb) Silver NANO",
    "region": "US",
    "note": "",
    "price": 746800,
@@ -356,7 +313,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1N20002F] Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black",
    "region": "US",
    "note": "",
    "price": 896100,
@@ -364,7 +321,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1N100084] Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black Рус",
    "region": "SG",
    "note": "",
    "price": 916700,
@@ -372,7 +329,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1N2000XB] Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black NANO",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Black NANO",
    "region": "US",
    "note": "",
    "price": 909500,
@@ -380,7 +337,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MY0002F] Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver",
    "region": "US",
    "note": "",
    "price": 896100,
@@ -388,7 +345,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MX00084] Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 916700,
@@ -396,7 +353,7 @@
   },
   {
    "category": "Mac",
-   "name": "MACBOOK PRO 16 M5 CUSTOM [Z1MY000VY] Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver NANO",
+   "name": "MACBOOK Pro 16 M5 Max (18c CPU/40c GPU/128/8Tb) Silver NANO",
    "region": "US",
    "note": "",
    "price": 909500,
@@ -500,7 +457,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1UD00098]- Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 24GB/1TB SSD",
+   "name": "Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 24GB/1TB SSD",
    "region": "",
    "note": "",
    "price": 220500,
@@ -508,7 +465,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1UD00099]- Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 24GB/2TB SSD",
+   "name": "Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 24GB/2TB SSD",
    "region": "",
    "note": "",
    "price": 242100,
@@ -524,7 +481,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1UD000A2]- Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 48GB/2TB SSD",
+   "name": "Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 48GB/2TB SSD",
    "region": "",
    "note": "",
    "price": 315200,
@@ -532,7 +489,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1UD000A4]- Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 48GB/2TB SSD/10Gbe",
+   "name": "Mac Mini M5 Pro 2026 15C CPU / 16 GPU / 48GB/2TB SSD/10Gbe",
    "region": "",
    "note": "",
    "price": 328600,
@@ -548,7 +505,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1UD000A5]- Mac Mini M5 Pro 2026 18C CPU / 20 GPU / 48GB/2TB SSD/10Gbe",
+   "name": "Mac Mini M5 Pro 2026 18C CPU / 20 GPU / 48GB/2TB SSD/10Gbe",
    "region": "",
    "note": "",
    "price": 339900,
@@ -556,7 +513,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MU9D3] Mac Mini M4 (16/256)",
+   "name": "Mac Mini M4 (16/256)",
    "region": "US",
    "note": "",
    "price": 75200,
@@ -564,7 +521,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MU9E3] Mac Mini M4 (16/512)",
+   "name": "Mac Mini M4 (16/512)",
    "region": "US",
    "note": "",
    "price": 79900,
@@ -572,9 +529,9 @@
   },
   {
    "category": "Mac",
-   "name": "[MCYT4] Mac Mini M4 (24/512)",
+   "name": "Mac Mini M4 (24/512)",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 132900,
    "updated": "2025-03-25T06:41:00+00:00"
   },
@@ -596,7 +553,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MCX44] Mac Mini M4 Pro (24/512)",
+   "name": "Mac Mini M4 Pro (24/512)",
    "region": "US",
    "note": "",
    "price": 180300,
@@ -612,7 +569,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWUF3] iMac M4 (8/8/16/256) Blue",
+   "name": "iMac M4 (8/8/16/256) Blue",
    "region": "RU",
    "note": "",
    "price": 163800,
@@ -620,7 +577,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWUE3] iMac M4 (8/8/16/256) Green",
+   "name": "iMac M4 (8/8/16/256) Green",
    "region": "RU",
    "note": "",
    "price": 163800,
@@ -628,7 +585,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E800069] iMac M4 (8/8/16/256) Orange Рус",
+   "name": "iMac M4 (8/8/16/256) Orange Рус",
    "region": "SG",
    "note": "",
    "price": 163800,
@@ -636,7 +593,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E8000J1] iMac M4 (8/8/16/256) Orange",
+   "name": "iMac M4 (8/8/16/256) Orange",
    "region": "RU",
    "note": "",
    "price": 163800,
@@ -644,7 +601,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E30005L] iMac M4 (8/8/16/256) Yellow Рус",
+   "name": "iMac M4 (8/8/16/256) Yellow Рус",
    "region": "SG",
    "note": "",
    "price": 163800,
@@ -652,7 +609,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWUG3] iMac M4 (8/8/16/256) Pink",
+   "name": "iMac M4 (8/8/16/256) Pink",
    "region": "RU",
    "note": "",
    "price": 163800,
@@ -660,7 +617,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E7000KB] iMac M4 (8/8/16/256) Purple",
+   "name": "iMac M4 (8/8/16/256) Purple",
    "region": "RU",
    "note": "",
    "price": 163800,
@@ -668,7 +625,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWUU3] iMac M4 (10/10/16/256) Silver",
+   "name": "iMac M4 (10/10/16/256) Silver",
    "region": "US",
    "note": "",
    "price": 180800,
@@ -676,7 +633,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWUU3] iMac M4 (10/10/16/256) Silver",
+   "name": "iMac M4 (10/10/16/256) Silver",
    "region": "RU",
    "note": "",
    "price": 181300,
@@ -684,7 +641,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWV13] iMac M4 (10/10/16/256) Blue",
+   "name": "iMac M4 (10/10/16/256) Blue",
    "region": "RU",
    "note": "",
    "price": 181300,
@@ -692,7 +649,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWUY3] iMac M4 (10/10/16/256) Green",
+   "name": "iMac M4 (10/10/16/256) Green",
    "region": "RU",
    "note": "",
    "price": 181300,
@@ -700,7 +657,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EV0005K] iMac M4 (10/10/16/256) Orange Рус",
+   "name": "iMac M4 (10/10/16/256) Orange Рус",
    "region": "SG",
    "note": "",
    "price": 181300,
@@ -708,7 +665,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EK0005K] iMac M4 (10/10/16/256) Yellow Рус",
+   "name": "iMac M4 (10/10/16/256) Yellow Рус",
    "region": "SG",
    "note": "",
    "price": 181300,
@@ -716,7 +673,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EK000L2] iMac M4 (10/10/16/256) Yellow",
+   "name": "iMac M4 (10/10/16/256) Yellow",
    "region": "RU",
    "note": "",
    "price": 181300,
@@ -724,7 +681,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWV43] iMac M4 (10/10/16/256) Pink",
+   "name": "iMac M4 (10/10/16/256) Pink",
    "region": "RU",
    "note": "",
    "price": 181300,
@@ -732,7 +689,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET0005K] iMac M4 (10/10/16/256) Purple Рус",
+   "name": "iMac M4 (10/10/16/256) Purple Рус",
    "region": "SG",
    "note": "",
    "price": 181300,
@@ -740,7 +697,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET000MF] iMac M4 (10/10/16/256) Purple",
+   "name": "iMac M4 (10/10/16/256) Purple",
    "region": "RU",
    "note": "",
    "price": 181300,
@@ -748,7 +705,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E200002] iMac M4 (8/8/16/512) Silver",
+   "name": "iMac M4 (8/8/16/512) Silver",
    "region": "HK",
    "note": "",
    "price": 182400,
@@ -756,7 +713,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E2000KJ] iMac M4 (8/8/16/512) Silver",
+   "name": "iMac M4 (8/8/16/512) Silver",
    "region": "RU",
    "note": "",
    "price": 183400,
@@ -764,7 +721,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E5000JW] iMac M4 (8/8/16/512) Blue",
+   "name": "iMac M4 (8/8/16/512) Blue",
    "region": "RU",
    "note": "",
    "price": 183400,
@@ -772,7 +729,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E4000GS] iMac M4 (8/8/16/512) Green",
+   "name": "iMac M4 (8/8/16/512) Green",
    "region": "RU",
    "note": "",
    "price": 183400,
@@ -780,7 +737,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E6000FV] iMac M4 (8/8/16/512) Pink",
+   "name": "iMac M4 (8/8/16/512) Pink",
    "region": "RU",
    "note": "",
    "price": 183400,
@@ -788,7 +745,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1E7000EQ] iMac M4 (8/8/16/512) Purple",
+   "name": "iMac M4 (8/8/16/512) Purple",
    "region": "RU",
    "note": "",
    "price": 183400,
@@ -796,7 +753,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EH0005N] iMac M4 (10/10/16/512) Silver Рус",
+   "name": "iMac M4 (10/10/16/512) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 201400,
@@ -804,7 +761,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EH000ZC] iMac M4 (10/10/16/512) Silver",
+   "name": "iMac M4 (10/10/16/512) Silver",
    "region": "RU",
    "note": "",
    "price": 201400,
@@ -812,7 +769,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP0005N] iMac M4 (10/10/16/512) Blue Рус",
+   "name": "iMac M4 (10/10/16/512) Blue Рус",
    "region": "SG",
    "note": "",
    "price": 201400,
@@ -820,7 +777,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MWV33][Z1EP000WP] iMac M4 (10/10/16/512) Blue",
+   "name": "iMac M4 (10/10/16/512) Blue",
    "region": "RU",
    "note": "",
    "price": 201400,
@@ -828,7 +785,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM0005N] iMac M4 (10/10/16/512) Green Рус",
+   "name": "iMac M4 (10/10/16/512) Green Рус",
    "region": "SG",
    "note": "",
    "price": 201400,
@@ -836,7 +793,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM000PH] iMac M4 (10/10/16/512) Green",
+   "name": "iMac M4 (10/10/16/512) Green",
    "region": "RU",
    "note": "",
    "price": 201400,
@@ -844,7 +801,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EL00051] iMac M4 (10/10/16/512) Yellow Рус",
+   "name": "iMac M4 (10/10/16/512) Yellow Рус",
    "region": "SG",
    "note": "",
    "price": 201400,
@@ -852,7 +809,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EK000L3] iMac M4 (10/10/16/512) Yellow",
+   "name": "iMac M4 (10/10/16/512) Yellow",
    "region": "RU",
    "note": "",
    "price": 201400,
@@ -860,7 +817,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ER000LG] iMac M4 (10/10/16/512) Pink",
+   "name": "iMac M4 (10/10/16/512) Pink",
    "region": "RU",
    "note": "",
    "price": 202400,
@@ -868,7 +825,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EU00051] iMac M4 (10/10/16/512) Purple Рус",
+   "name": "iMac M4 (10/10/16/512) Purple Рус",
    "region": "SG",
    "note": "",
    "price": 201400,
@@ -876,7 +833,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET000MG] iMac M4 (10/10/16/512) Purple",
+   "name": "iMac M4 (10/10/16/512) Purple",
    "region": "RU",
    "note": "",
    "price": 201400,
@@ -884,7 +841,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ00003] iMac M4 (10/10/16/1Tb) Silver",
+   "name": "iMac M4 (10/10/16/1Tb) Silver",
    "region": "HK",
    "note": "",
    "price": 226600,
@@ -892,7 +849,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EH000V5] iMac M4 (10/10/16/1Tb) Silver",
+   "name": "iMac M4 (10/10/16/1Tb) Silver",
    "region": "RU",
    "note": "",
    "price": 227700,
@@ -900,7 +857,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP000T5] iMac M4 (10/10/16/1Tb) Blue",
+   "name": "iMac M4 (10/10/16/1Tb) Blue",
    "region": "RU",
    "note": "",
    "price": 227700,
@@ -908,7 +865,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EW000DV][Z1EV000TJ] iMac M4 (10/10/16/1Tb) Orange",
+   "name": "iMac M4 (10/10/16/1Tb) Orange",
    "region": "RU",
    "note": "",
    "price": 227700,
@@ -916,7 +873,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EL000DS] iMac M4 (10/10/16/1Tb) Yellow",
+   "name": "iMac M4 (10/10/16/1Tb) Yellow",
    "region": "RU",
    "note": "",
    "price": 227700,
@@ -924,7 +881,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ER000TY] iMac M4 (10/10/16/1Tb) Pink",
+   "name": "iMac M4 (10/10/16/1Tb) Pink",
    "region": "RU",
    "note": "",
    "price": 227700,
@@ -932,7 +889,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET000XX] iMac M4 (10/10/16/1Tb) Purple",
+   "name": "iMac M4 (10/10/16/1Tb) Purple",
    "region": "RU",
    "note": "",
    "price": 227700,
@@ -940,7 +897,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EH0005W] iMac M4 (10/10/24/512) Silver Рус",
+   "name": "iMac M4 (10/10/24/512) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 222500,
@@ -948,7 +905,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EH001PZ] iMac M4 (10/10/24/512) Silver",
+   "name": "iMac M4 (10/10/24/512) Silver",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -956,7 +913,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP0005W] iMac M4 (10/10/24/512) Blue Рус",
+   "name": "iMac M4 (10/10/24/512) Blue Рус",
    "region": "SG",
    "note": "",
    "price": 222500,
@@ -964,7 +921,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP001G2] iMac M4 (10/10/24/512) Blue",
+   "name": "iMac M4 (10/10/24/512) Blue",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -972,7 +929,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MD2Q4] iMac M4 (10/10/24/512) Green",
+   "name": "iMac M4 (10/10/24/512) Green",
    "region": "HK",
    "note": "",
    "price": 222500,
@@ -980,7 +937,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM0005W] iMac M4 (10/10/24/512) Green Рус",
+   "name": "iMac M4 (10/10/24/512) Green Рус",
    "region": "SG",
    "note": "",
    "price": 223600,
@@ -988,7 +945,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM0012L] iMac M4 (10/10/24/512) Green",
+   "name": "iMac M4 (10/10/24/512) Green",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -996,7 +953,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EV000TH] iMac M4 (10/10/24/512) Orange",
+   "name": "iMac M4 (10/10/24/512) Orange",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -1004,7 +961,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1K200048] iMac M4 (10/10/24/512) Yellow Рус",
+   "name": "iMac M4 (10/10/24/512) Yellow Рус",
    "region": "SG",
    "note": "",
    "price": 223600,
@@ -1012,7 +969,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EK000RC] iMac M4 (10/10/24/512) Yellow",
+   "name": "iMac M4 (10/10/24/512) Yellow",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -1020,7 +977,7 @@
   },
   {
    "category": "Mac",
-   "name": "[MD2U4] iMac M4 (10/10/24/512) Pink",
+   "name": "iMac M4 (10/10/24/512) Pink",
    "region": "HK",
    "note": "",
    "price": 222500,
@@ -1028,7 +985,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ER0005W] iMac M4 (10/10/24/512) Pink Рус",
+   "name": "iMac M4 (10/10/24/512) Pink Рус",
    "region": "SG",
    "note": "",
    "price": 223600,
@@ -1036,7 +993,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ER000UN] iMac M4 (10/10/24/512) Pink",
+   "name": "iMac M4 (10/10/24/512) Pink",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -1044,7 +1001,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1K700048] iMac M4 (10/10/24/512) Purple Рус",
+   "name": "iMac M4 (10/10/24/512) Purple Рус",
    "region": "SG",
    "note": "",
    "price": 223600,
@@ -1052,7 +1009,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET000YX] iMac M4 (10/10/24/512) Purple",
+   "name": "iMac M4 (10/10/24/512) Purple",
    "region": "RU",
    "note": "",
    "price": 223600,
@@ -1060,7 +1017,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EH001Q1] iMac M4 (10/10/24/1TB) Silver",
+   "name": "iMac M4 (10/10/24/1TB) Silver",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1068,7 +1025,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EQ001SN][Z1EP00210] iMac M4 (10/10/24/1TB) Blue",
+   "name": "iMac M4 (10/10/24/1TB) Blue",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1076,7 +1033,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM0012M] iMac M4 (10/10/24/1TB) Green",
+   "name": "iMac M4 (10/10/24/1TB) Green",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1084,7 +1041,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EV000TK] iMac M4 (10/10/24/1TB) Orange",
+   "name": "iMac M4 (10/10/24/1TB) Orange",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1092,7 +1049,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EL000VH][Z1EK00127] iMac M4 (10/10/24/1TB) Yellow",
+   "name": "iMac M4 (10/10/24/1TB) Yellow",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1100,7 +1057,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ER00142] iMac M4 (10/10/24/1TB) Pink",
+   "name": "iMac M4 (10/10/24/1TB) Pink",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1108,7 +1065,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET00199] iMac M4 (10/10/24/1TB) Purple",
+   "name": "iMac M4 (10/10/24/1TB) Purple",
    "region": "RU",
    "note": "",
    "price": 255000,
@@ -1116,7 +1073,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ0000K] iMac M4 (10/10/32/512GB) Silver",
+   "name": "iMac M4 (10/10/32/512GB) Silver",
    "region": "HK",
    "note": "",
    "price": 246200,
@@ -1124,7 +1081,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ000MD][Z1EH001Q0] iMac M4 (10/10/32/512GB) Silver",
+   "name": "iMac M4 (10/10/32/512GB) Silver",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1132,7 +1089,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP00211] iMac M4 (10/10/32/512GB) Blue",
+   "name": "iMac M4 (10/10/32/512GB) Blue",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1140,7 +1097,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM001DN] iMac M4 (10/10/32/512GB) Green",
+   "name": "iMac M4 (10/10/32/512GB) Green",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1148,7 +1105,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EW000DW] iMac M4 (10/10/32/512GB) Orange",
+   "name": "iMac M4 (10/10/32/512GB) Orange",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1156,7 +1113,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EK000TE] iMac M4 (10/10/32/512GB) Yellow",
+   "name": "iMac M4 (10/10/32/512GB) Yellow",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1164,7 +1121,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ER000TX] iMac M4 (10/10/32/512GB) Pink",
+   "name": "iMac M4 (10/10/32/512GB) Pink",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1172,7 +1129,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET0019A] iMac M4 (10/10/32/512GB) Purple",
+   "name": "iMac M4 (10/10/32/512GB) Purple",
    "region": "RU",
    "note": "",
    "price": 247200,
@@ -1180,7 +1137,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ0000P] iMac M4 (10/10/32/1TB) Silver",
+   "name": "iMac M4 (10/10/32/1TB) Silver",
    "region": "HK",
    "note": "",
    "price": 275600,
@@ -1188,7 +1145,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ000ME] iMac M4 (10/10/32/1TB) Silver",
+   "name": "iMac M4 (10/10/32/1TB) Silver",
    "region": "RU",
    "note": "",
    "price": 276600,
@@ -1196,7 +1153,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP001G3] iMac M4 (10/10/32/1TB) Blue",
+   "name": "iMac M4 (10/10/32/1TB) Blue",
    "region": "RU",
    "note": "",
    "price": 276600,
@@ -1204,7 +1161,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EV000TL] iMac M4 (10/10/32/1TB) Orange",
+   "name": "iMac M4 (10/10/32/1TB) Orange",
    "region": "RU",
    "note": "",
    "price": 276600,
@@ -1212,7 +1169,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EK000UC] iMac M4 (10/10/32/1TB) Yellow",
+   "name": "iMac M4 (10/10/32/1TB) Yellow",
    "region": "RU",
    "note": "",
    "price": 276600,
@@ -1220,7 +1177,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET0019B] iMac M4 (10/10/32/1TB) Purple",
+   "name": "iMac M4 (10/10/32/1TB) Purple",
    "region": "RU",
    "note": "",
    "price": 276600,
@@ -1228,7 +1185,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ0000Q] iMac M4 (10/10/32/2TB) Silver",
+   "name": "iMac M4 (10/10/32/2TB) Silver",
    "region": "HK",
    "note": "",
    "price": 321900,
@@ -1236,7 +1193,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EJ000MF][Z1EH001MT] iMac M4 (10/10/32/2TB) Silver",
+   "name": "iMac M4 (10/10/32/2TB) Silver",
    "region": "RU",
    "note": "",
    "price": 323000,
@@ -1244,7 +1201,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EQ0000Q] iMac M4 (10/10/32/2TB) Blue",
+   "name": "iMac M4 (10/10/32/2TB) Blue",
    "region": "HK",
    "note": "",
    "price": 321900,
@@ -1252,7 +1209,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EP001EE] iMac M4 (10/10/32/2TB) Blue",
+   "name": "iMac M4 (10/10/32/2TB) Blue",
    "region": "RU",
    "note": "",
    "price": 323000,
@@ -1260,7 +1217,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EM0012N] iMac M4 (10/10/32/2TB) Green",
+   "name": "iMac M4 (10/10/32/2TB) Green",
    "region": "RU",
    "note": "",
    "price": 323000,
@@ -1268,7 +1225,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EW0000Q] iMac M4 (10/10/32/2TB) Orange",
+   "name": "iMac M4 (10/10/32/2TB) Orange",
    "region": "HK",
    "note": "",
    "price": 321900,
@@ -1276,7 +1233,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1EV000TM] iMac M4 (10/10/32/2TB) Orange",
+   "name": "iMac M4 (10/10/32/2TB) Orange",
    "region": "RU",
    "note": "",
    "price": 323000,
@@ -1284,7 +1241,7 @@
   },
   {
    "category": "Mac",
-   "name": "[Z1ET000YY] iMac M4 (10/10/32/2TB) Purple",
+   "name": "iMac M4 (10/10/32/2TB) Purple",
    "region": "RU",
    "note": "",
    "price": 323000,
@@ -1300,7 +1257,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFF4] NEO (8/256) Indigo",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/256) Indigo",
    "region": "HK, US",
    "note": "",
    "price": 65500,
@@ -1308,7 +1265,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFA4] NEO (8/256) Silver",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/256) Silver",
    "region": "HK, US",
    "note": "",
    "price": 66000,
@@ -1316,7 +1273,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFH4] NEO (8/256) Blush",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/256) Blush",
    "region": "HK, US",
    "note": "",
    "price": 68000,
@@ -1324,7 +1281,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFD4] NEO (8/256) Citrus",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/256) Citrus",
    "region": "HK, US",
    "note": "",
    "price": 64900,
@@ -1332,7 +1289,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFG4] NEO (8/512/Touch ID) Indigo",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/512/Touch ID) Indigo",
    "region": "IN, US",
    "note": "",
    "price": 76800,
@@ -1340,7 +1297,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFC4] NEO (8/512/Touch ID) Silver",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/512/Touch ID) Silver",
    "region": "IN, US",
    "note": "",
    "price": 76300,
@@ -1348,7 +1305,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFJ4] NEO (8/512/Touch ID) Blush",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/512/Touch ID) Blush",
    "region": "IN, US",
    "note": "",
    "price": 76800,
@@ -1356,7 +1313,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MHFE4] NEO (8/512/Touch ID) Citrus",
+   "name": "⌨ Замена клавиш на MacBook 4500 NEO (8/512/Touch ID) Citrus",
    "region": "IN, US",
    "note": "",
    "price": 75200,
@@ -1364,7 +1321,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHA4] Air 13 (M5 16/512GB) Starlight",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/512GB) Starlight",
    "region": "US",
    "note": "",
    "price": 119000,
@@ -1372,7 +1329,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHE4] Air 13 (M5 16/512GB) Midnight",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/512GB) Midnight",
    "region": "US",
    "note": "",
    "price": 119000,
@@ -1380,7 +1337,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDH74] Air 13 (M5 16/512GB) Silver",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/512GB) Silver",
    "region": "US",
    "note": "",
    "price": 119000,
@@ -1388,7 +1345,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHH4] Air 13 (M5 16/512GB) Sky Blue",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/512GB) Sky Blue",
    "region": "US",
    "note": "",
    "price": 119000,
@@ -1396,7 +1353,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHC4] Air 13 (M5 16/1TB) Starlight",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/1TB) Starlight",
    "region": "US",
    "note": "",
    "price": 133400,
@@ -1404,7 +1361,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHF4] Air 13 (M5 16/1TB) Midnight",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/1TB) Midnight",
    "region": "US",
    "note": "",
    "price": 133400,
@@ -1412,7 +1369,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDH84] Air 13 (M5 16/1TB) Silver",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/1TB) Silver",
    "region": "US",
    "note": "",
    "price": 134500,
@@ -1420,7 +1377,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHJ4] Air 13 (M5 16/1TB) Sky Blue",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 16/1TB) Sky Blue",
    "region": "US",
    "note": "",
    "price": 133400,
@@ -1428,7 +1385,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHD4] Air 13 (M5 24/1TB) Starlight",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 24/1TB) Starlight",
    "region": "US",
    "note": "",
    "price": 158700,
@@ -1436,7 +1393,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHG4] Air 13 (M5 24/1TB) Midnight",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 24/1TB) Midnight",
    "region": "US",
    "note": "",
    "price": 158700,
@@ -1444,7 +1401,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDH94] Air 13 (M5 24/1TB) Silver",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 24/1TB) Silver",
    "region": "US",
    "note": "",
    "price": 159700,
@@ -1452,7 +1409,7 @@
   },
   {
    "category": "Mac",
-   "name": "⌨ Замена клавиш на MacBook 4500 [MDHK4] Air 13 (M5 24/1TB) Sky Blue",
+   "name": "⌨ Замена клавиш на MacBook 4500 Air 13 (M5 24/1TB) Sky Blue",
    "region": "US",
    "note": "",
    "price": 157600,
@@ -1542,7 +1499,7 @@
    "category": "iPad",
    "name": "iPad 10 64 Silver LTE",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 33500,
    "updated": "2024-12-25T06:41:00+00:00"
   },
@@ -1550,7 +1507,7 @@
    "category": "iPad",
    "name": "iPad 10 64 Blue LTE",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 33500,
    "updated": "2024-12-25T06:41:00+00:00"
   },
@@ -1750,7 +1707,7 @@
    "category": "iPad",
    "name": "iPad Mini 7 128 Gray LTE",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 67200,
    "updated": "2024-12-25T06:41:00+00:00"
   },
@@ -1758,7 +1715,7 @@
    "category": "iPad",
    "name": "iPad Mini 7 128 Blue LTE",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 67900,
    "updated": "2024-12-25T06:41:00+00:00"
   },
@@ -1846,7 +1803,7 @@
    "category": "iPad",
    "name": "Magic Keyboard Black iPad Pro 11",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 28400,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -1862,7 +1819,7 @@
    "category": "iPad",
    "name": "Magic Keyboard Black iPad Pro 13",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 38700,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -1886,7 +1843,7 @@
    "category": "iPad",
    "name": "iPad Pro 11\" (M5) 2025 iPro 11 M5 256 Silver Wi-Fi",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 101300,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -1942,7 +1899,7 @@
    "category": "iPad",
    "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Black Wi-Fi",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 115900,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -1950,7 +1907,7 @@
    "category": "iPad",
    "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Silver Wi-Fi",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 119500,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -1958,7 +1915,7 @@
    "category": "iPad",
    "name": "iPad Pro 13 M5 2025 iPro 13 M5 256 Black LTE",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 121100,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -1974,7 +1931,7 @@
    "category": "iPad",
    "name": "iPad Pro 13 M5 2025 iPro 13 M5 512 Black Wi-Fi",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 139100,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -2022,7 +1979,7 @@
    "category": "iPad",
    "name": "iPad Pro 13 m5 1TB Black Wi-Fi NANO",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 155600,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -2030,7 +1987,7 @@
    "category": "iPad",
    "name": "iPad Pro 13 m5 1TB Silver Wi-Fi NANO",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 156600,
    "updated": "2024-12-02T08:30:27+00:00"
   },
@@ -2726,7 +2683,7 @@
    "category": "iPad",
    "name": "iPad Air 11 M4 2026 256GB Starlight WiFi",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 77300,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -2742,7 +2699,7 @@
    "category": "iPad",
    "name": "iPad Air 11 M4 2026 256GB Purple WiFi",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 78300,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -3131,38 +3088,6 @@
    "updated": "2024-09-15T06:41:00+00:00"
   },
   {
-   "category": "Apple Watch",
-   "name": "Galaxy Watch Ultra SM-L705 Blue",
-   "region": "IN",
-   "note": "",
-   "price": 29200,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Apple Watch",
-   "name": "Galaxy Watch Ultra SM-L705 Silver",
-   "region": "IN",
-   "note": "",
-   "price": 29200,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Apple Watch",
-   "name": "Galaxy Watch Ultra 2 SM-L715 47mm Silver",
-   "region": "AE",
-   "note": "",
-   "price": 41800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Apple Watch",
-   "name": "Galaxy Watch Ultra 2 SM-L715 47mm Gray",
-   "region": "AE",
-   "note": "",
-   "price": 41800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
    "category": "AirPods",
    "name": "AirPods 09/11/",
    "region": "",
@@ -3304,94 +3229,6 @@
    "region": "US",
    "note": "",
    "price": 39400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 2 Box",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 4 Box",
-   "region": "",
-   "note": "",
-   "price": 4700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 4 Левое ухо",
-   "region": "",
-   "note": "",
-   "price": 4700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 4 Правое ухо",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 4 ANC Box",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 4 ANC Левое ухо",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods 4 ANC Правое ухо",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods Pro USB-C Box",
-   "region": "",
-   "note": "",
-   "price": 5700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods Pro 3 USB-C Box",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods Pro 3 USB-C Левое ухо",
-   "region": "",
-   "note": "",
-   "price": 7800,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods Pro 3 USB-C Правое ухо",
-   "region": "",
-   "note": "",
-   "price": 9300,
    "updated": "2024-09-15T06:41:00+00:00"
   },
   {
@@ -4558,7 +4395,7 @@
    "category": "Смартфоны",
    "name": "Huawei Pura 90S Pro Max 5G 12/256GB Blush Gold",
    "region": "RU",
-   "note": "*",
+   "note": "",
    "price": 66000,
    "updated": "2023-07-10T07:52:32+00:00"
   },
@@ -7822,7 +7659,7 @@
    "category": "Телевизоры",
    "name": "32\" TCL 32S4K-UZ",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 21100,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7830,7 +7667,7 @@
    "category": "Телевизоры",
    "name": "32\" TCL 32S5K-UZ",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 22300,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7838,7 +7675,7 @@
    "category": "Телевизоры",
    "name": "43\" TCL 43P7L-RU черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 35900,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7846,7 +7683,7 @@
    "category": "Телевизоры",
    "name": "50\" TCL 50P7L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 42100,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7854,7 +7691,7 @@
    "category": "Телевизоры",
    "name": "55\" TCL 55C6K",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 59700,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7862,7 +7699,7 @@
    "category": "Телевизоры",
    "name": "55\" TCL 55C7L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 80100,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7870,7 +7707,7 @@
    "category": "Телевизоры",
    "name": "55\" TCL 55P7L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 46100,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7878,7 +7715,7 @@
    "category": "Телевизоры",
    "name": "55\" TCL 55P8L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 58000,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7886,7 +7723,7 @@
    "category": "Телевизоры",
    "name": "65\" TCL 65C8L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 134900,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7894,7 +7731,7 @@
    "category": "Телевизоры",
    "name": "65\" TCL 65P6K",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 56800,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7902,7 +7739,7 @@
    "category": "Телевизоры",
    "name": "65\" TCL 65P7L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 66800,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7910,7 +7747,7 @@
    "category": "Телевизоры",
    "name": "75\" TCL 75C6K черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 101900,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7918,7 +7755,7 @@
    "category": "Телевизоры",
    "name": "75\" TCL 75C8L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 185400,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7926,7 +7763,7 @@
    "category": "Телевизоры",
    "name": "75\" TCL 75P6K",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 72500,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7934,7 +7771,7 @@
    "category": "Телевизоры",
    "name": "75\" TCL 75P7L черный",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 84100,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -7942,7 +7779,7 @@
    "category": "Телевизоры",
    "name": "85\" TCL 85C6K",
    "region": "",
-   "note": "^",
+   "note": "",
    "price": 142100,
    "updated": "2025-03-25T06:41:18+00:00"
   },
@@ -8518,7 +8355,7 @@
    "category": "Игровые приставки",
    "name": "PS5 Pulse Elite Black",
    "region": "",
-   "note": "*",
+   "note": "",
    "price": 14000,
    "updated": "2023-07-10T06:41:00+00:00"
   },
@@ -9134,7 +8971,7 @@
    "category": "Наушники и колонки",
    "name": "Galaxy Buds 4 Pro Black",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 14000,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -9398,7 +9235,7 @@
    "category": "Наушники и колонки",
    "name": "Sony WF-1000XM5 Pink",
    "region": "",
-   "note": "*",
+   "note": "",
    "price": 15000,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -9406,7 +9243,7 @@
    "category": "Наушники и колонки",
    "name": "Sony WF-1000XM5 White",
    "region": "",
-   "note": "*",
+   "note": "",
    "price": 17000,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -10980,6 +10817,462 @@
   },
   {
    "category": "Часы и браслеты",
+   "name": "Instinct 3 50mm AMOLED Bolt Blue",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 50mm AMOLED Fern Green",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct E (40mm) Black",
+   "region": "",
+   "note": "",
+   "price": 21400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct E (40mm) Electric Lime",
+   "region": "",
+   "note": "",
+   "price": 21400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct E (45mm) Electric Lime",
+   "region": "",
+   "note": "",
+   "price": 23000,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover Solar (45mm) Black",
+   "region": "",
+   "note": "",
+   "price": 46700,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover Solar (45mm) Tactical Black",
+   "region": "",
+   "note": "",
+   "price": 45700,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover Amoled (47mm) Tactical Black",
+   "region": "",
+   "note": "",
+   "price": 51900,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 2x Solar TACTICAL Black",
+   "region": "",
+   "note": "",
+   "price": 33300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (45mm) Solar Black",
+   "region": "",
+   "note": "",
+   "price": 34300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (50mm) Amoled Black",
+   "region": "",
+   "note": "",
+   "price": 37400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (50mm) Amoled Neo Tropic",
+   "region": "",
+   "note": "",
+   "price": 37400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (50mm) Amoled TACTICAL Black",
+   "region": "",
+   "note": "",
+   "price": 43000,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover AMOLED Bronze/Sunburst with Cocoa Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 43300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover Solar Tidal Blue",
+   "region": "",
+   "note": "",
+   "price": 41200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 50mm Solar Sunburst with Sunburst/Gray Band",
+   "region": "",
+   "note": "",
+   "price": 42800,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover AMOLED Charcoal with Charcoal Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 43300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct Crossover Solar Graphite",
+   "region": "",
+   "note": "",
+   "price": 41200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (45mm) Solar Sunburst/Gray Band",
+   "region": "",
+   "note": "",
+   "price": 33800,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (45mm) Amoled Bolt Blue / Black",
+   "region": "",
+   "note": "",
+   "price": 35300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (45mm) Amoled Black",
+   "region": "",
+   "note": "",
+   "price": 35300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (50mm) Solar Black",
+   "region": "",
+   "note": "",
+   "price": 35900,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Instinct 3 (50mm) Solar TACTICAL Black",
+   "region": "",
+   "note": "",
+   "price": 42100,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Lily 2 (35mm) Lilac with Lilac Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 25600,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Quatix 8 47mm Amoled Sapphire Marine",
+   "region": "",
+   "note": "",
+   "price": 83000,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Quatix 8 51mm Captain Blue Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 85000,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Quatix 8 Pro 47mm Amoled Sapphire Marine",
+   "region": "",
+   "note": "",
+   "price": 108700,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Quatix 8 47mm Amoled Sapphire Titanium Grey with Blue Band",
+   "region": "",
+   "note": "",
+   "price": 79700,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Quatix 8 51mm Amoled Sapphire Titanium Grey with Blue Band",
+   "region": "",
+   "note": "",
+   "price": 86900,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin MARQ Adventurer Gen 2 (46mm) Damascus Steel Edition",
+   "region": "",
+   "note": "",
+   "price": 215300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin MARQ ATHLETE GEN 2 | 010-02648-41",
+   "region": "",
+   "note": "",
+   "price": 128800,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Enduro 3 (51mm) Sapphire Solar Carbon Gray DLC Titanium with Black Nylon Band",
+   "region": "",
+   "note": "",
+   "price": 62200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Epix Pro Gen 2 Sapphire (51mm) Carbon Gray Titanium with Black Band",
+   "region": "",
+   "note": "",
+   "price": 64600,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Edge 550",
+   "region": "",
+   "note": "",
+   "price": 37100,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Edge 840 Solar",
+   "region": "",
+   "note": "",
+   "price": 47400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Edge 850",
+   "region": "",
+   "note": "",
+   "price": 47400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Edge 1040 Solar",
+   "region": "",
+   "note": "",
+   "price": 54100,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Edge 1050",
+   "region": "",
+   "note": "",
+   "price": 57700,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Varia UT800",
+   "region": "",
+   "note": "",
+   "price": 18100,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Varia RCT715",
+   "region": "",
+   "note": "",
+   "price": 32500,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin RALLY XC200",
+   "region": "",
+   "note": "",
+   "price": 77300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin RALLY RS200",
+   "region": "",
+   "note": "",
+   "price": 70100,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin RALLY RS210",
+   "region": "",
+   "note": "",
+   "price": 79900,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Active 2S (A2440) Black Leather",
+   "region": "",
+   "note": "",
+   "price": 10200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Active 3 Premium (A2559) Aero White",
+   "region": "",
+   "note": "",
+   "price": 13300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Active 3 Premium (A2559) Apex Silver",
+   "region": "",
+   "note": "",
+   "price": 13300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Active 3 Premium (A2559) Blue",
+   "region": "",
+   "note": "",
+   "price": 13300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Active Max (A2557) Black",
+   "region": "",
+   "note": "",
+   "price": 13300,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Balance 2 (A2430) Black",
+   "region": "",
+   "note": "",
+   "price": 18900,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Bip 6 (A2435) Black",
+   "region": "",
+   "note": "",
+   "price": 8000,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Bip Max (A2568) Carbon Gray",
+   "region": "",
+   "note": "",
+   "price": 9400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Bip Max (A2568) Silver",
+   "region": "",
+   "note": "",
+   "price": 9400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Cheetah 2 Pro (A2564) Titanium",
+   "region": "",
+   "note": "",
+   "price": 30700,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit Cheetah 2 Ultra (A2441) Titanium",
+   "region": "",
+   "note": "",
+   "price": 38400,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit T-Rex 3 Pro 44mm (A2549) Tactical Black",
+   "region": "",
+   "note": "",
+   "price": 26600,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit T-Rex 3 Pro 48mm (A2444) Tactical Black",
+   "region": "",
+   "note": "",
+   "price": 28200,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "⌚ Amazfit T-Rex Ultra 2 (A2550) Black",
+   "region": "",
+   "note": "",
+   "price": 41600,
+   "updated": "2024-09-15T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
    "name": "Huawei Watch GT Runner 2 Black",
    "region": "",
    "note": "",
@@ -11244,6 +11537,430 @@
   },
   {
    "category": "Часы и браслеты",
+   "name": "Garmin Venu 3S Soft Gold Ivory",
+   "region": "",
+   "note": "",
+   "price": 35600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 3S Soft Gold/French Gray",
+   "region": "",
+   "note": "",
+   "price": 34600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 3 Silver / White Stone",
+   "region": "",
+   "note": "",
+   "price": 33500,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu X1 French Gray",
+   "region": "",
+   "note": "",
+   "price": 57700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 3 (45mm) Slate Gray wt Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 32300,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 3s (41mm) Slate Pebble wt Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 31300,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (41mm) Lunar Gold wt Bone Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (41mm) Silver wt Periwinkle Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (41mm) Slate Gray wt Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 39700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (41mm) Lunar Gold wt Bone Silicone Band + Light Sand Leather Band",
+   "region": "",
+   "note": "",
+   "price": 43800,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (45mm) Slate Gray wt Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 38700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (45mm) Silver wt Citron Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu 4 (45mm) Slate Gray wt Black Silicone Band + Brown Leather Band",
+   "region": "",
+   "note": "",
+   "price": 43800,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu X1 (51mm) Black Titanium wt Black Nylon Band",
+   "region": "",
+   "note": "",
+   "price": 56000,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Venu X1 (51mm) Moss Titanium wt Moss Nylon Band",
+   "region": "",
+   "note": "",
+   "price": 56000,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 55 White",
+   "region": "",
+   "note": "",
+   "price": 16000,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 55 Black",
+   "region": "",
+   "note": "",
+   "price": 19400,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 70 43 Black",
+   "region": "",
+   "note": "",
+   "price": 25100,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 165 43 Music Mist Gray/Whitestone",
+   "region": "",
+   "note": "",
+   "price": 29200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 165 43 Music Turquoise/Aqua",
+   "region": "",
+   "note": "",
+   "price": 26600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 165 43 Music Berry/Lilac",
+   "region": "",
+   "note": "",
+   "price": 28600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 165 AMOLED Black/Slate Gray",
+   "region": "",
+   "note": "",
+   "price": 20500,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 165 AMOLED White",
+   "region": "",
+   "note": "",
+   "price": 23200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 170 Music Red Pink/Mango",
+   "region": "",
+   "note": "",
+   "price": 26800,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 170 Music Black/Amp Yellow",
+   "region": "",
+   "note": "",
+   "price": 29900,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 170 Music Teal Green",
+   "region": "",
+   "note": "",
+   "price": 29900,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 170 Music Whitestone/Cloud Blue",
+   "region": "",
+   "note": "",
+   "price": 29900,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 170 Amoled Black witch Black/Amp Yellow Band",
+   "region": "",
+   "note": "",
+   "price": 24300,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265 Amoled White",
+   "region": "",
+   "note": "",
+   "price": 33000,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265 Black/Black",
+   "region": "",
+   "note": "",
+   "price": 33000,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265 Amoled Aqua/ Black",
+   "region": "",
+   "note": "",
+   "price": 33000,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265s White",
+   "region": "",
+   "note": "",
+   "price": 37400,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265s Black",
+   "region": "",
+   "note": "",
+   "price": 37400,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265s Pink",
+   "region": "",
+   "note": "",
+   "price": 37400,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265S Whitestone / Neo Tropic Band",
+   "region": "",
+   "note": "",
+   "price": 38200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265 Aqua/Black",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 265S Black/Amp Yellow",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 42 Slate Gray with Translucent Black Band",
+   "region": "",
+   "note": "",
+   "price": 40700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 42 Whitestone/Cloud Blue",
+   "region": "",
+   "note": "",
+   "price": 40700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 42 Bone/Raspberry/Mango",
+   "region": "",
+   "note": "",
+   "price": 43600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 47 Yellow/Turquoise",
+   "region": "",
+   "note": "",
+   "price": 38700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 47 Slate Gray with Translucent Black Band",
+   "region": "",
+   "note": "",
+   "price": 40700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 47 Indigo with Imperial Purple Band",
+   "region": "",
+   "note": "",
+   "price": 40700,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 47 Whitestone/Amp Yellow",
+   "region": "",
+   "note": "",
+   "price": 42600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 570 47 Imperial Purple/Indigo",
+   "region": "",
+   "note": "",
+   "price": 43600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 965 AMOLED White",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 965 Yellow",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 965 47 Amoled Black wt Black Band",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 970 Carbon Grey DLC Titanium / Black-Translucent Whitestone",
+   "region": "",
+   "note": "",
+   "price": 54600,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 970 47 Black",
+   "region": "",
+   "note": "",
+   "price": 54900,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 970 47 White",
+   "region": "",
+   "note": "",
+   "price": 55400,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Forerunner 970 47 Soft Gold",
+   "region": "",
+   "note": "",
+   "price": 55400,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Линейка Garmin Vivoactive 5 Slate Black",
+   "region": "",
+   "note": "",
+   "price": 22200,
+   "updated": "2024-08-29T07:40:34+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
    "name": "Смарт часы 09/11/",
    "region": "",
    "note": "",
@@ -11380,11 +12097,347 @@
   },
   {
    "category": "Часы и браслеты",
-   "name": "⌚ Watch Garmin Xero C1 Pro",
+   "name": "Galaxy Watch Ultra SM-L705 Blue",
+   "region": "IN",
+   "note": "",
+   "price": 29200,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Galaxy Watch Ultra SM-L705 Silver",
+   "region": "IN",
+   "note": "",
+   "price": 29200,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Galaxy Watch Ultra 2 SM-L715 47mm Silver",
+   "region": "AE",
+   "note": "",
+   "price": 41800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Galaxy Watch Ultra 2 SM-L715 47mm Gray",
+   "region": "AE",
+   "note": "",
+   "price": 41800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Xero C1 Pro",
    "region": "",
    "note": "",
    "price": 51000,
    "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Tactix 8 47 Amoled Sapphire Applied Ballistic Solver",
+   "region": "",
+   "note": "",
+   "price": 90000,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 43 Amoled Titanium with Fog Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 90700,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 43 Amoled Sapphire Titanium with Pebble Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 90700,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 47 Amoled Titanium with Pebble Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 91700,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 Pro 47 inReach Amoled Carbon Gray DLC Titanium Black/Pebble Gray Silicone",
+   "region": "",
+   "note": "",
+   "price": 110300,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 Pro 47 inReach Amoled Titanium Graphite/Black Silicone",
+   "region": "",
+   "note": "",
+   "price": 110300,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 Pro 47 Solar Titanium with Pebble Gray/Silver Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 110800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 51 Titanium with Pebble Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 97900,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 9 Pro 51 Solar Titanium Graphite/Black Silicone",
+   "region": "",
+   "note": "",
+   "price": 117500,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix E 47 Slate Gray with Black Band",
+   "region": "",
+   "note": "",
+   "price": 46900,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix E 47 AMOLED Stainless Steel with Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 50500,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 7X Pro 51 Sapphire Solar Titanium wt Fog Gray Band",
+   "region": "",
+   "note": "",
+   "price": 69800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 43 AMOLED Silver with Whitestone Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 63400,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 43 AMOLED Sapphire with Soft Gold Band",
+   "region": "",
+   "note": "",
+   "price": 73200,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 43 Amoled Sapphire Soft Gold with Dark Sandstone Silicone Band + Soft Gold Leather Band",
+   "region": "",
+   "note": "",
+   "price": 92000,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 43 Amoled Sapphire Carbon Gray DLC Titanium with Pebble Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 76800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 8 47 Solar Sapphire Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 79400,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 47 Amoled Sapphire Carbon Gray DLC Titanium with Pebble Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 80100,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 47 Amoled Sapphire Titanium with Spark Orange Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 79700,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 47 Solar Sapphire Titanium with Yellow Graphite Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 79100,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 47 Amoled Slate Gray with Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 66500,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 47 Solar Sapphire Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 79100,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 51 Amoled Sapphire Carbon Gray DLC Titanium with Pebble Gray Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 87300,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 51 Amoled Sapphire Carbon Gray DLC Titanium with Spark Orange Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 86300,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 51 Solar Sapphire Titanium with Yellow Graphite Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 82800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 51 Solar Sapphire Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 85800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 51 Amoled Sapphire Bare Titanium Black with Chestnut Leather Band + Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 98600,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Fenix 8 51 AMOLED Slate Gray / Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 74700,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 87300,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 47 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 85800,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 93500,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 51 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 90400,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 97600,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 102300,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Fenix 8 PRO 51 MicroLED Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
+   "region": "",
+   "note": "",
+   "price": 162500,
+   "updated": "2024-08-09T16:54:39+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Cirqa Black L-XL",
+   "region": "",
+   "note": "",
+   "price": 23200,
+   "updated": "2023-04-11T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Cirqa Mauve S-M",
+   "region": "",
+   "note": "",
+   "price": 23200,
+   "updated": "2023-04-11T06:41:00+00:00"
+  },
+  {
+   "category": "Часы и браслеты",
+   "name": "Garmin Cirqa Captain Blue L-XL",
+   "region": "",
+   "note": "",
+   "price": 24300,
+   "updated": "2023-04-11T06:41:00+00:00"
   },
   {
    "category": "Фото и видео",
@@ -11726,7 +12779,7 @@
    "category": "Красота и дом",
    "name": "Dyson Увлажнитель V12 Slim Absolute SV46 Yellow/Nickel",
    "region": "GB",
-   "note": "*",
+   "note": "",
    "price": 44200,
    "updated": "2026-02-23T06:41:00+00:00"
   },
@@ -13340,7 +14393,7 @@
   },
   {
    "category": "Принтеры и расходники",
-   "name": "TSC RE310 Мобильный принтер Bluetooth+Wi-Fi, термо, 203dpi [RE310-A001-0102]",
+   "name": "TSC RE310 Мобильный принтер Bluetooth+Wi-Fi, термо, 203dpi",
    "region": "",
    "note": "",
    "price": 27400,
@@ -14788,14 +15841,6 @@
   },
   {
    "category": "Комплектующие",
-   "name": "Garmin Lily 2 (35mm) Lilac with Lilac Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 25600,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Комплектующие",
    "name": "Apple Power Adapter 140W USB-C MLYU3",
    "region": "US",
    "note": "",
@@ -15422,7 +16467,7 @@
    "category": "Накопители",
    "name": "SSD Extreme Pro 4Tb 2000 Mb/s",
    "region": "",
-   "note": "*",
+   "note": "",
    "price": 61800,
    "updated": "2023-04-11T06:41:00+00:00"
   },
@@ -17654,7 +18699,7 @@
    "category": "Другое",
    "name": "Получите дополнительную гарантию от +3 месяца",
    "region": "",
-   "note": "₽",
+   "note": "",
    "price": 3100,
    "updated": "2025-03-25T06:41:05+00:00"
   },
@@ -17662,7 +18707,7 @@
    "category": "Другое",
    "name": "Получите дополнительную гарантию от +6 месяцев",
    "region": "",
-   "note": "₽",
+   "note": "",
    "price": 6200,
    "updated": "2025-03-25T06:41:05+00:00"
   },
@@ -17670,7 +18715,7 @@
    "category": "Другое",
    "name": "Получите дополнительную гарантию от +12 месяцев",
    "region": "",
-   "note": "₽",
+   "note": "",
    "price": 11400,
    "updated": "2025-03-25T06:41:05+00:00"
   },
@@ -17692,15 +18737,7 @@
   },
   {
    "category": "Другое",
-   "name": "[MDE44] Pro 14 (M5 Silver [MDE14] Pro 14 (М5 16/1TB) Black",
-   "region": "IN, US",
-   "note": "*",
-   "price": 179800,
-   "updated": "2025-03-25T06:41:05+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "[MDE44] Pro 14 (M5 Silver [MDE54] Pro 14 (М5 16/1TB) Silver",
+   "name": "[MDE44] Pro 14 (М5 16/1TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 179800,
@@ -17708,7 +18745,15 @@
   },
   {
    "category": "Другое",
-   "name": "[MDE44] Pro 14 (M5 Silver [MDE34] Pro 14 (М5 24/1TB) Black",
+   "name": "[MDE44] Pro 14 (М5 16/1TB) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 179800,
+   "updated": "2025-03-25T06:41:05+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "[MDE44] Pro 14 (М5 24/1TB) Black",
    "region": "IN, US",
    "note": "",
    "price": 205000,
@@ -17716,15 +18761,15 @@
   },
   {
    "category": "Другое",
-   "name": "[MDE44] Pro 14 (M5 Silver [MDE64] Pro 14 (М5 24/1TB) Silver",
+   "name": "[MDE44] Pro 14 (М5 24/1TB) Silver",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 197800,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Другое",
-   "name": "[MDE44] Pro 14 (M5 Silver [MJ3D4] Pro 14 (M5 32/1TB)",
+   "name": "[MDE44] Pro 14 (M5 32/1TB)",
    "region": "IN, US",
    "note": "",
    "price": 251400,
@@ -17732,31 +18777,7 @@
   },
   {
    "category": "Другое",
-   "name": "Получите дополнительную гарантию от +3 месяца",
-   "region": "",
-   "note": "",
-   "price": 3100,
-   "updated": "2025-03-25T06:41:05+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Получите дополнительную гарантию от +6 месяцев",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2025-03-25T06:41:05+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Получите дополнительную гарантию от +12 месяцев",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2025-03-25T06:41:05+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "PRO 13 M1 [Z11B000EM] Pro 13 TB (M1 8c CPU/8c GPU/16/512) Grey",
+   "name": "Pro 13 TB (M1 8c CPU/8c GPU/16/512) Grey",
    "region": "US",
    "note": "",
    "price": 91700,
@@ -17764,7 +18785,7 @@
   },
   {
    "category": "Другое",
-   "name": "PRO 13 M1 [MPHE3] Pro 14 M2 Pro (10c CPU/16c GPU/16/512) Grey",
+   "name": "Pro 14 M2 Pro (10c CPU/16c GPU/16/512) Grey",
    "region": "IN",
    "note": "",
    "price": 148400,
@@ -17772,7 +18793,7 @@
   },
   {
    "category": "Другое",
-   "name": "PRO 13 M1 [MPHH3] Pro 14 M2 Pro (10c CPU/16c GPU/16/512) Silver",
+   "name": "Pro 14 M2 Pro (10c CPU/16c GPU/16/512) Silver",
    "region": "IN",
    "note": "",
    "price": 148400,
@@ -17780,7 +18801,7 @@
   },
   {
    "category": "Другое",
-   "name": "PRO 13 M1 [MTL73] Pro 14 M3 (8c CPU/10c GPU/8/512) Grey",
+   "name": "Pro 14 M3 (8c CPU/10c GPU/8/512) Grey",
    "region": "IN",
    "note": "",
    "price": 115400,
@@ -17798,13 +18819,13 @@
    "category": "Другое",
    "name": "[MR7K3] Pro 14 M3 (8c Silver — 119000* MX2K3 Space Black Pro 14 2024 M4 MAX /14C CPU/ 32C GPU/ 36gb/ 1 Tb",
    "region": "US",
-   "note": "*",
+   "note": "",
    "price": 266800,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Другое",
-   "name": "[MNWA3] Pro 16 M2 Max (12c CPU/38c GPU/32/1Tb) Grey",
+   "name": "Pro 16 M2 Max (12c CPU/38c GPU/32/1Tb) Grey",
    "region": "US, HK",
    "note": "",
    "price": 249300,
@@ -17828,7 +18849,7 @@
   },
   {
    "category": "Другое",
-   "name": "MX2T3 Silver 16 Pro M4 Pro 14-Core, GPU 20 [MX303] Pro 16 M4 Max (14c CPU/32c GPU/36/1Tb) Black",
+   "name": "MX2T3 Silver 16 Pro 16 M4 Max (14c CPU/32c GPU/36/1Tb) Black",
    "region": "VN",
    "note": "",
    "price": 296700,
@@ -17836,7 +18857,7 @@
   },
   {
    "category": "Другое",
-   "name": "MX2T3 Silver 16 Pro M4 Pro 14-Core, GPU 20 [MX2V3] Pro 16 M4 Max (14c CPU/32c GPU/36/1Tb) Silver",
+   "name": "MX2T3 Silver 16 Pro 16 M4 Max (14c CPU/32c GPU/36/1Tb) Silver",
    "region": "VN",
    "note": "",
    "price": 298700,
@@ -17846,13 +18867,13 @@
    "category": "Другое",
    "name": "MX2T3 Silver 16 Pro M4 Pro 14-Core, GPU 20 MX313 Space Black M4 Max 16-Core, GPU 40-Core, 48GB, 1TB",
    "region": "IN, US",
-   "note": "*",
+   "note": "",
    "price": 363600,
    "updated": "2025-03-25T06:41:05+00:00"
   },
   {
    "category": "Другое",
-   "name": "Apple Display 27 [MFEX4] Studio Display 2026 (Standard glass, tilt)",
+   "name": "Apple Display 27 Studio Display 2026 (Standard glass, tilt)",
    "region": "RU",
    "note": "",
    "price": 172600,
@@ -17860,7 +18881,7 @@
   },
   {
    "category": "Другое",
-   "name": "Apple Display 27 [MFEW4] Studio Display 2026 (Standard glass, tilt & height)",
+   "name": "Apple Display 27 Studio Display 2026 (Standard glass, tilt & height)",
    "region": "US",
    "note": "",
    "price": 212700,
@@ -17868,7 +18889,7 @@
   },
   {
    "category": "Другое",
-   "name": "Apple Display 27 [MFEW4] Studio Display 2026 (Standard glass, tilt & height)",
+   "name": "Apple Display 27 Studio Display 2026 (Standard glass, tilt & height)",
    "region": "RU",
    "note": "",
    "price": 213300,
@@ -17876,7 +18897,7 @@
   },
   {
    "category": "Другое",
-   "name": "Apple Display 27 [MFF04] Studio Display 2026 (Nano-texture glass, tilt & height)",
+   "name": "Apple Display 27 Studio Display 2026 (Nano-texture glass, tilt & height)",
    "region": "RU",
    "note": "",
    "price": 244200,
@@ -17884,7 +18905,7 @@
   },
   {
    "category": "Другое",
-   "name": "Apple Display 27 [MFEL4] Studio Display XDR 2026 (Standard glass, tilt & height)",
+   "name": "Apple Display 27 Studio Display XDR 2026 (Standard glass, tilt & height)",
    "region": "RU",
    "note": "",
    "price": 346100,
@@ -17892,7 +18913,7 @@
   },
   {
    "category": "Другое",
-   "name": "Apple Display 27 [MFEP4] Studio Display XDR 2026 (Nano-texture glass, tilt & height)",
+   "name": "Apple Display 27 Studio Display XDR 2026 (Nano-texture glass, tilt & height)",
    "region": "RU",
    "note": "",
    "price": 376000,
@@ -17980,7 +19001,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [MC6A4] Air 13 (M4 24/512GB) Starlight",
+   "name": "Air 13 (M4 24/512GB) Starlight",
    "region": "US",
    "note": "",
    "price": 149400,
@@ -17988,7 +19009,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [MC6V4] Air 13 (M4 24/512GB) Sky Blue",
+   "name": "Air 13 (M4 24/512GB) Sky Blue",
    "region": "US",
    "note": "",
    "price": 154500,
@@ -17996,7 +19017,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L6000Z0] Air 13 (M5 32/512/70w) Midnight",
+   "name": "Air 13 (M5 32/512/70w) Midnight",
    "region": "HK",
    "note": "",
    "price": 174600,
@@ -18004,7 +19025,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L0000Y5] Air 13 (M5 32/512/70w) Silver",
+   "name": "Air 13 (M5 32/512/70w) Silver",
    "region": "HK",
    "note": "",
    "price": 174600,
@@ -18012,7 +19033,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L300131] Air 13 (M5 32/512/70w) Starlight",
+   "name": "Air 13 (M5 32/512/70w) Starlight",
    "region": "HK",
    "note": "",
    "price": 174600,
@@ -18020,7 +19041,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L3000PC] Air 13 (M5 32/512) Starlight Рус",
+   "name": "Air 13 (M5 32/512) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 175100,
@@ -18028,7 +19049,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L9000WS] Air 13 (M5 32/512/70w) Sky Blue",
+   "name": "Air 13 (M5 32/512/70w) Sky Blue",
    "region": "HK",
    "note": "",
    "price": 174600,
@@ -18036,7 +19057,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L8000Q6] Air 13 (M5 32/1Tb/70w) Midnight",
+   "name": "Air 13 (M5 32/1Tb/70w) Midnight",
    "region": "HK",
    "note": "",
    "price": 203500,
@@ -18044,7 +19065,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L2000PA] Air 13 (M5 32/1Tb/70w) Silver",
+   "name": "Air 13 (M5 32/1Tb/70w) Silver",
    "region": "HK",
    "note": "",
    "price": 203500,
@@ -18052,7 +19073,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L5000N0] Air 13 (M5 32/1Tb/70w) Starlight",
+   "name": "Air 13 (M5 32/1Tb/70w) Starlight",
    "region": "HK",
    "note": "",
    "price": 203500,
@@ -18060,7 +19081,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L3000PH] Air 13 (M5 32/1Tb) Starlight Рус",
+   "name": "Air 13 (M5 32/1Tb) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 204000,
@@ -18068,7 +19089,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1LB000NC] Air 13 (M5 32/1Tb/70w) Sky Blue",
+   "name": "Air 13 (M5 32/1Tb/70w) Sky Blue",
    "region": "HK",
    "note": "",
    "price": 203500,
@@ -18076,7 +19097,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L8000QL] Air 13 (M5 32/2Tb/70w) Midnight",
+   "name": "Air 13 (M5 32/2Tb/70w) Midnight",
    "region": "HK",
    "note": "",
    "price": 249800,
@@ -18084,7 +19105,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L2000P1] Air 13 (M5 32/2Tb/70w) Silver",
+   "name": "Air 13 (M5 32/2Tb/70w) Silver",
    "region": "HK",
    "note": "",
    "price": 249800,
@@ -18092,7 +19113,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L5000T0] Air 13 (M5 32/2Tb/70w) Starlight",
+   "name": "Air 13 (M5 32/2Tb/70w) Starlight",
    "region": "HK",
    "note": "",
    "price": 249800,
@@ -18100,7 +19121,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L3000PK] Air 13 (M5 32/2Tb) Starlight Рус",
+   "name": "Air 13 (M5 32/2Tb) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 248300,
@@ -18108,7 +19129,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1LB000SJ] Air 13 (M5 32/2Tb/70w) Sky Blue",
+   "name": "Air 13 (M5 32/2Tb/70w) Sky Blue",
    "region": "HK",
    "note": "",
    "price": 249800,
@@ -18116,7 +19137,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L0001DV] Air 13 (M5 32/4Tb/70W) Silver",
+   "name": "Air 13 (M5 32/4Tb/70W) Silver",
    "region": "RU",
    "note": "",
    "price": 341000,
@@ -18124,7 +19145,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [Z1L3000PM] Air 13 (M5 32/4Tb) Starlight Рус",
+   "name": "Air 13 (M5 32/4Tb) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 341000,
@@ -18132,7 +19153,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 13 M4 [MRYP3] Air 15 Silver (M3, 8GB, 256GB)",
+   "name": "Air 15 Silver (M3, 8GB, 256GB)",
    "region": "US",
    "note": "с гравировкой",
    "price": 105100,
@@ -18236,7 +19257,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [MW1K3] Air 15 Starlight (16GB, 512GB)",
+   "name": "Air 15 Starlight (16GB, 512GB)",
    "region": "US",
    "note": "",
    "price": 140100,
@@ -18252,7 +19273,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [MC7C4] Air 15 Sky Blue (16GB, 512GB)",
+   "name": "Air 15 Sky Blue (16GB, 512GB)",
    "region": "US",
    "note": "",
    "price": 142200,
@@ -18260,7 +19281,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LW00140] Air 15 (M5 32/512/70w) Midnight",
+   "name": "Air 15 (M5 32/512/70w) Midnight",
    "region": "HK",
    "note": "",
    "price": 197300,
@@ -18268,7 +19289,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LQ000WA] Air 15 (M5 32/512/70w) Silver",
+   "name": "Air 15 (M5 32/512/70w) Silver",
    "region": "HK",
    "note": "",
    "price": 197300,
@@ -18276,7 +19297,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LT000W7] Air 15 (M5 32/512/70w) Starlight",
+   "name": "Air 15 (M5 32/512/70w) Starlight",
    "region": "HK",
    "note": "",
    "price": 197300,
@@ -18284,7 +19305,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LT00054] Air 15 (M5 32/512) Starlight Рус",
+   "name": "Air 15 (M5 32/512) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 197800,
@@ -18292,7 +19313,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LZ000W1] Air 15 (M5 32/512/70w) Sky Blue",
+   "name": "Air 15 (M5 32/512/70w) Sky Blue",
    "region": "HK",
    "note": "",
    "price": 197300,
@@ -18300,7 +19321,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LY000MJ] Air 15 (M5 32/1Tb/70w) Midnight",
+   "name": "Air 15 (M5 32/1Tb/70w) Midnight",
    "region": "HK",
    "note": "",
    "price": 226100,
@@ -18308,7 +19329,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LS000UV] Air 15 (M5 32/1Tb/70w) Silver",
+   "name": "Air 15 (M5 32/1Tb/70w) Silver",
    "region": "HK",
    "note": "",
    "price": 226100,
@@ -18316,7 +19337,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LV000MB] Air 15 (M5 32/1Tb/70w) Starlight",
+   "name": "Air 15 (M5 32/1Tb/70w) Starlight",
    "region": "HK",
    "note": "",
    "price": 226100,
@@ -18324,7 +19345,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1M2000MH] Air 15 (M5 32/1Tb/70w) Sky Blue",
+   "name": "Air 15 (M5 32/1Tb/70w) Sky Blue",
    "region": "HK",
    "note": "",
    "price": 226100,
@@ -18332,7 +19353,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LY000SE] Air 15 (M5 32/2Tb/70w) Midnight",
+   "name": "Air 15 (M5 32/2Tb/70w) Midnight",
    "region": "HK",
    "note": "",
    "price": 270400,
@@ -18340,7 +19361,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LW0005P] Air 15 (M5 32/2Tb) Midnight Рус",
+   "name": "Air 15 (M5 32/2Tb) Midnight Рус",
    "region": "SG",
    "note": "",
    "price": 270900,
@@ -18348,7 +19369,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LS000RJ] Air 15 (M5 32/2Tb/70w) Silver",
+   "name": "Air 15 (M5 32/2Tb/70w) Silver",
    "region": "HK",
    "note": "",
    "price": 270400,
@@ -18356,7 +19377,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LQ0005P] Air 15 (M5 32/2Tb) Silver Рус",
+   "name": "Air 15 (M5 32/2Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 270900,
@@ -18364,7 +19385,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LV000M5] Air 15 (M5 32/2Tb/70w) Starlight",
+   "name": "Air 15 (M5 32/2Tb/70w) Starlight",
    "region": "HK",
    "note": "",
    "price": 270400,
@@ -18372,7 +19393,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LT0005C] Air 15 (M5 32/2Tb) Starlight Рус",
+   "name": "Air 15 (M5 32/2Tb) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 270900,
@@ -18380,7 +19401,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1M2000Q9] Air 15 (M5 32/2Tb/70w) Sky Blue",
+   "name": "Air 15 (M5 32/2Tb/70w) Sky Blue",
    "region": "HK",
    "note": "",
    "price": 269900,
@@ -18388,7 +19409,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LZ0005A] Air 15 (M5 32/2Tb) Sky Blue Рус",
+   "name": "Air 15 (M5 32/2Tb) Sky Blue Рус",
    "region": "SG",
    "note": "",
    "price": 270900,
@@ -18396,7 +19417,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LW0005S] Air 15 (M5 32/4Tb) Midnight Рус",
+   "name": "Air 15 (M5 32/4Tb) Midnight Рус",
    "region": "SG",
    "note": "",
    "price": 363100,
@@ -18404,7 +19425,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LQ0005S] Air 15 (M5 32/4Tb) Silver Рус",
+   "name": "Air 15 (M5 32/4Tb) Silver Рус",
    "region": "SG",
    "note": "",
    "price": 363100,
@@ -18412,7 +19433,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LT0005D] Air 15 (M5 32/4Tb) Starlight Рус",
+   "name": "Air 15 (M5 32/4Tb) Starlight Рус",
    "region": "SG",
    "note": "",
    "price": 363100,
@@ -18420,7 +19441,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LT000ZX] Air 15 (M5 32/4Tb/70W) Starlight",
+   "name": "Air 15 (M5 32/4Tb/70W) Starlight",
    "region": "RU",
    "note": "",
    "price": 363600,
@@ -18428,7 +19449,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LZ0005D] Air 15 (M5 32/4Tb) Sky Blue Рус",
+   "name": "Air 15 (M5 32/4Tb) Sky Blue Рус",
    "region": "SG",
    "note": "",
    "price": 363100,
@@ -18436,7 +19457,7 @@
   },
   {
    "category": "Другое",
-   "name": "Air 15 M4 [Z1LZ0013D] Air 15 (M5 32/4Tb/70W) Sky Blue",
+   "name": "Air 15 (M5 32/4Tb/70W) Sky Blue",
    "region": "RU",
    "note": "",
    "price": 363600,
@@ -18516,190 +19537,6 @@
   },
   {
    "category": "Другое",
-   "name": "Garmin Instinct 3 50mm AMOLED Bolt Blue",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-03 Instinct 3 50mm AMOLED Fern Green",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct E (40mm) Black",
-   "region": "",
-   "note": "",
-   "price": 21400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct E (40mm) Electric Lime",
-   "region": "",
-   "note": "",
-   "price": 21400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct E (45mm) Electric Lime",
-   "region": "",
-   "note": "",
-   "price": 23000,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct Crossover Solar (45mm) Black",
-   "region": "",
-   "note": "",
-   "price": 46700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct Crossover Solar (45mm) Tactical Black",
-   "region": "",
-   "note": "",
-   "price": 45700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct Crossover Amoled (47mm) Tactical Black",
-   "region": "",
-   "note": "",
-   "price": 51900,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct 2x Solar TACTICAL Black",
-   "region": "",
-   "note": "",
-   "price": 33300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct 3 (45mm) Solar Black",
-   "region": "",
-   "note": "",
-   "price": 34300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct 3 (50mm) Amoled Black",
-   "region": "",
-   "note": "",
-   "price": 37400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct 3 (50mm) Amoled Neo Tropic",
-   "region": "",
-   "note": "",
-   "price": 37400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct 3 (50mm) Amoled TACTICAL Black",
-   "region": "",
-   "note": "",
-   "price": 43000,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03020-02 Instinct Crossover AMOLED Bronze/Sunburst with Cocoa Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 43300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03398-01 Instinct Crossover Solar Tidal Blue",
-   "region": "",
-   "note": "",
-   "price": 41200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02730-02 Instinct 3 50mm Solar Sunburst with Sunburst/Gray Band",
-   "region": "",
-   "note": "",
-   "price": 42800,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02935-02 Instinct Crossover AMOLED Charcoal with Charcoal Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 43300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03398-00 Instinct Crossover Solar Graphite",
-   "region": "",
-   "note": "",
-   "price": 41200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02730-01 Instinct 3 (45mm) Solar Sunburst/Gray Band",
-   "region": "",
-   "note": "",
-   "price": 33800,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02934-02 Instinct 3 (45mm) Amoled Bolt Blue / Black",
-   "region": "",
-   "note": "",
-   "price": 35300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02936-03 Instinct 3 (45mm) Amoled Black",
-   "region": "",
-   "note": "",
-   "price": 35300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02936-00 Instinct 3 (50mm) Solar Black",
-   "region": "",
-   "note": "",
-   "price": 35900,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02935-00 Instinct 3 (50mm) Solar TACTICAL Black",
-   "region": "",
-   "note": "",
-   "price": 42100,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Art: 010-02839-01 Lily 2 Classic (35mm) Dark Bronze with Mulberry Leather Band",
    "region": "",
    "note": "",
@@ -18712,62 +19549,6 @@
    "region": "",
    "note": "",
    "price": 29700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Линейка Quatix 8 47mm Amoled Sapphire Marine",
-   "region": "",
-   "note": "",
-   "price": 83000,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02904-51 Quatix 8 51mm Captain Blue Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 85000,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02905-91 Quatix 8 Pro 47mm Amoled Sapphire Marine",
-   "region": "",
-   "note": "",
-   "price": 108700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03198-51 Quatix 8 47mm Amoled Sapphire Titanium Grey with Blue Band",
-   "region": "",
-   "note": "",
-   "price": 79700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02904-51 Quatix 8 51mm Amoled Sapphire Titanium Grey with Blue Band",
-   "region": "",
-   "note": "",
-   "price": 86900,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin MARQ Adventurer Gen 2 (46mm) Damascus Steel Edition",
-   "region": "",
-   "note": "",
-   "price": 215300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03393-31 Garmin MARQ ATHLETE GEN 2 | 010-02648-41",
-   "region": "",
-   "note": "",
-   "price": 128800,
    "updated": "2024-09-15T06:41:00+00:00"
   },
   {
@@ -18796,102 +19577,6 @@
   },
   {
    "category": "Другое",
-   "name": "Garmin Enduro 3 (51mm) Sapphire Solar Carbon Gray DLC Titanium with Black Nylon Band",
-   "region": "",
-   "note": "",
-   "price": 62200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Линейка Epix Pro Gen 2 Sapphire (51mm) Carbon Gray Titanium with Black Band",
-   "region": "",
-   "note": "",
-   "price": 64600,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Вело-компьютеры и аксессуары Garmin Edge 550",
-   "region": "",
-   "note": "",
-   "price": 37100,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03022-01 Garmin Edge 840 Solar",
-   "region": "",
-   "note": "",
-   "price": 47400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02695-20 Garmin Edge 850",
-   "region": "",
-   "note": "",
-   "price": 47400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03023-00 Garmin Edge 1040 Solar",
-   "region": "",
-   "note": "",
-   "price": 54100,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02503-20 Garmin Edge 1050",
-   "region": "",
-   "note": "",
-   "price": 57700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02890-00 Garmin Varia UT800",
-   "region": "",
-   "note": "",
-   "price": 18100,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-01673-00 Garmin Varia RCT715",
-   "region": "",
-   "note": "",
-   "price": 32500,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02476-00 Garmin RALLY XC200",
-   "region": "",
-   "note": "",
-   "price": 77300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02388-04 Garmin RALLY RS200",
-   "region": "",
-   "note": "",
-   "price": 70100,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02388-02 Garmin RALLY RS210",
-   "region": "",
-   "note": "",
-   "price": 79900,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Approach S62 Black wt Black Band",
    "region": "",
    "note": "",
@@ -18912,118 +19597,6 @@
    "region": "",
    "note": "",
    "price": 15200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Active 2S (A2440) Black Leather",
-   "region": "",
-   "note": "",
-   "price": 10200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Active 3 Premium (A2559) Aero White",
-   "region": "",
-   "note": "",
-   "price": 13300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Active 3 Premium (A2559) Apex Silver",
-   "region": "",
-   "note": "",
-   "price": 13300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Active 3 Premium (A2559) Blue",
-   "region": "",
-   "note": "",
-   "price": 13300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Active Max (A2557) Black",
-   "region": "",
-   "note": "",
-   "price": 13300,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Balance 2 (A2430) Black",
-   "region": "",
-   "note": "",
-   "price": 18900,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Bip 6 (A2435) Black",
-   "region": "",
-   "note": "",
-   "price": 8000,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Bip Max (A2568) Carbon Gray",
-   "region": "",
-   "note": "",
-   "price": 9400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Bip Max (A2568) Silver",
-   "region": "",
-   "note": "",
-   "price": 9400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Cheetah 2 Pro (A2564) Titanium",
-   "region": "",
-   "note": "",
-   "price": 30700,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit Cheetah 2 Ultra (A2441) Titanium",
-   "region": "",
-   "note": "",
-   "price": 38400,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit T-Rex 3 Pro 44mm (A2549) Tactical Black",
-   "region": "",
-   "note": "",
-   "price": 26600,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit T-Rex 3 Pro 48mm (A2444) Tactical Black",
-   "region": "",
-   "note": "",
-   "price": 28200,
-   "updated": "2024-09-15T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "ПО ПРЕДЗАКАЗУ !!! ⌚ Amazfit T-Rex Ultra 2 (A2550) Black",
-   "region": "",
-   "note": "",
-   "price": 41600,
    "updated": "2024-09-15T06:41:00+00:00"
   },
   {
@@ -19214,7 +19787,7 @@
    "category": "Другое",
    "name": "20W Deppa - 900₽ 25W Deppa",
    "region": "",
-   "note": "₽",
+   "note": "",
    "price": 1400,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -19222,7 +19795,7 @@
    "category": "Другое",
    "name": "20W Deppa - 900₽ 33W Deppa",
    "region": "",
-   "note": "₽",
+   "note": "",
    "price": 1900,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -19230,7 +19803,7 @@
    "category": "Другое",
    "name": "20W Deppa - 900₽ 45W Deppa",
    "region": "",
-   "note": "₽",
+   "note": "",
    "price": 2100,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -19238,7 +19811,7 @@
    "category": "Другое",
    "name": "20W Deppa - 900₽ 65W Deppa",
    "region": "",
-   "note": "/3.300/3.500₽",
+   "note": "",
    "price": 3100,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -19294,7 +19867,7 @@
    "category": "Другое",
    "name": "Получите дополнительную гарантию от ! Huawei FreeClip 2S Blue",
    "region": "RU",
-   "note": "₽",
+   "note": "",
    "price": 15300,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -19302,7 +19875,7 @@
    "category": "Другое",
    "name": "Получите дополнительную гарантию от ! Huawei FreeClip 2S Silver",
    "region": "RU",
-   "note": "₽",
+   "note": "",
    "price": 15300,
    "updated": "2024-09-15T06:41:00+00:00"
   },
@@ -19444,422 +20017,6 @@
   },
   {
    "category": "Другое",
-   "name": "Garmin Venu 3S Soft Gold Ivory",
-   "region": "",
-   "note": "",
-   "price": 35600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02785-04 Venu 3S Soft Gold/French Gray",
-   "region": "",
-   "note": "",
-   "price": 34600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02785-02 Venu 3 Silver / White Stone",
-   "region": "",
-   "note": "",
-   "price": 33500,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02784-00 Venu X1 French Gray",
-   "region": "",
-   "note": "",
-   "price": 57700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02980-08 Venu 3 (45mm) Slate Gray wt Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 32300,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02784-01 Venu 3s (41mm) Slate Pebble wt Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 31300,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02785-00 Venu 4 (41mm) Lunar Gold wt Bone Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03013-00 Venu 4 (41mm) Silver wt Periwinkle Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03013-01 Venu 4 (41mm) Slate Gray wt Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 39700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03013-02 Venu 4 (41mm) Lunar Gold wt Bone Silicone Band + Light Sand Leather Band",
-   "region": "",
-   "note": "",
-   "price": 43800,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03013-03 Venu 4 (45mm) Slate Gray wt Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 38700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03014-01 Venu 4 (45mm) Silver wt Citron Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03014-02 Venu 4 (45mm) Slate Gray wt Black Silicone Band + Brown Leather Band",
-   "region": "",
-   "note": "",
-   "price": 43800,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03014-03 Venu X1 (51mm) Black Titanium wt Black Nylon Band",
-   "region": "",
-   "note": "",
-   "price": 56000,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02980-02 Venu X1 (51mm) Moss Titanium wt Moss Nylon Band",
-   "region": "",
-   "note": "",
-   "price": 56000,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Forerunner 55 White",
-   "region": "",
-   "note": "",
-   "price": 16000,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02562-01 Forerunner 55 Black",
-   "region": "",
-   "note": "",
-   "price": 19400,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02562-10 Forerunner 70 43 Black",
-   "region": "",
-   "note": "",
-   "price": 25100,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04307-00 Forerunner 165 43 Music Mist Gray/Whitestone",
-   "region": "",
-   "note": "",
-   "price": 29200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02863-31 Forerunner 165 43 Music Turquoise/Aqua",
-   "region": "",
-   "note": "",
-   "price": 26600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02863-32 Forerunner 165 43 Music Berry/Lilac",
-   "region": "",
-   "note": "",
-   "price": 28600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02863-33 Forerunner 165 AMOLED Black/Slate Gray",
-   "region": "",
-   "note": "",
-   "price": 20500,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02863-20 Forerunner 165 AMOLED White",
-   "region": "",
-   "note": "",
-   "price": 23200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02863-21 Forerunner 170 Music Red Pink/Mango",
-   "region": "",
-   "note": "",
-   "price": 26800,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03920-13 Forerunner 170 Music Black/Amp Yellow",
-   "region": "",
-   "note": "",
-   "price": 29900,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03920-10 Forerunner 170 Music Teal Green",
-   "region": "",
-   "note": "",
-   "price": 29900,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03920-12 Forerunner 170 Music Whitestone/Cloud Blue",
-   "region": "",
-   "note": "",
-   "price": 29900,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03920-11 Forerunner 170 Amoled Black witch Black/Amp Yellow Band",
-   "region": "",
-   "note": "",
-   "price": 24300,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03920-00 Forerunner 265 Amoled White",
-   "region": "",
-   "note": "",
-   "price": 33000,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-11 Forerunner 265 Black/Black",
-   "region": "",
-   "note": "",
-   "price": 33000,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-00 Forerunner 265 Amoled Aqua/ Black",
-   "region": "",
-   "note": "",
-   "price": 33000,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-11 Forerunner 265s White",
-   "region": "",
-   "note": "",
-   "price": 37400,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-02 Forerunner 265s Black",
-   "region": "",
-   "note": "",
-   "price": 37400,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-03 Forerunner 265s Pink",
-   "region": "",
-   "note": "",
-   "price": 37400,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-05 Forerunner 265S Whitestone / Neo Tropic Band",
-   "region": "",
-   "note": "",
-   "price": 38200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-14 Forerunner 265 Aqua/Black",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-02 Forerunner 265S Black/Amp Yellow",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02810-13 Forerunner 570 42 Slate Gray with Translucent Black Band",
-   "region": "",
-   "note": "",
-   "price": 40700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02970-00 Forerunner 570 42 Whitestone/Cloud Blue",
-   "region": "",
-   "note": "",
-   "price": 40700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02970-01 Forerunner 570 42 Bone/Raspberry/Mango",
-   "region": "",
-   "note": "",
-   "price": 43600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02970-02 Forerunner 570 47 Yellow/Turquoise",
-   "region": "",
-   "note": "",
-   "price": 38700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02971-01 Forerunner 570 47 Slate Gray with Translucent Black Band",
-   "region": "",
-   "note": "",
-   "price": 40700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02971-00 Forerunner 570 47 Indigo with Imperial Purple Band",
-   "region": "",
-   "note": "",
-   "price": 40700,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02971-42 Forerunner 570 47 Whitestone/Amp Yellow",
-   "region": "",
-   "note": "",
-   "price": 42600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02971-01 Forerunner 570 47 Imperial Purple/Indigo",
-   "region": "",
-   "note": "",
-   "price": 43600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02971-02 Forerunner 965 AMOLED White",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02809-01 Forerunner 965 Yellow",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02809-02 Forerunner 965 47 Amoled Black wt Black Band",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02809-10 Forerunner 970 Carbon Grey DLC Titanium / Black-Translucent Whitestone",
-   "region": "",
-   "note": "",
-   "price": 54600,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02969-00 Forerunner 970 47 Black",
-   "region": "",
-   "note": "",
-   "price": 54900,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02969-10 Forerunner 970 47 White",
-   "region": "",
-   "note": "",
-   "price": 55400,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02969-11 Forerunner 970 47 Soft Gold",
-   "region": "",
-   "note": "",
-   "price": 55400,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Descent Mk3i 43 Bronze PVD Titanium/French Gray",
    "region": "",
    "note": "",
@@ -19888,14 +20045,6 @@
    "region": "",
    "note": "",
    "price": 136300,
-   "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Линейка Garmin Vivoactive 5 Slate Black",
-   "region": "",
-   "note": "",
-   "price": 22200,
    "updated": "2024-08-29T07:40:34+00:00"
   },
   {
@@ -19945,14 +20094,6 @@
    "note": "",
    "price": 17400,
    "updated": "2024-08-29T07:40:34+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin Tactix 8 47 Amoled Sapphire Applied Ballistic Solver",
-   "region": "",
-   "note": "",
-   "price": 90000,
-   "updated": "2024-08-09T16:54:39+00:00"
   },
   {
    "category": "Другое",
@@ -20016,278 +20157,6 @@
    "region": "",
    "note": "",
    "price": 112100,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin Fenix 9 43 Amoled Titanium with Fog Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 90700,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04761-01 Garmin Fenix 9 43 Amoled Sapphire Titanium with Pebble Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 90700,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04762-10 Garmin Fenix 9 47 Amoled Titanium with Pebble Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 91700,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04762-01 Garmin Fenix 9 Pro 47 inReach Amoled Carbon Gray DLC Titanium Black/Pebble Gray Silicone",
-   "region": "",
-   "note": "",
-   "price": 110300,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04336-11 Garmin Fenix 9 Pro 47 inReach Amoled Titanium Graphite/Black Silicone",
-   "region": "",
-   "note": "",
-   "price": 110300,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04336-16 Garmin Fenix 9 Pro 47 Solar Titanium with Pebble Gray/Silver Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 110800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04338-06 Garmin Fenix 9 51 Titanium with Pebble Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 97900,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-04763-01 Garmin Fenix 9 Pro 51 Solar Titanium Graphite/Black Silicone",
-   "region": "",
-   "note": "",
-   "price": 117500,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin Fenix E 47 Slate Gray with Black Band",
-   "region": "",
-   "note": "",
-   "price": 46900,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03025-03 Garmin Fenix E 47 AMOLED Stainless Steel with Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 50500,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03025-00 Fenix 7X Pro 51 Sapphire Solar Titanium wt Fog Gray Band",
-   "region": "",
-   "note": "",
-   "price": 69800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02778-14 Fenix 8 43 AMOLED Silver with Whitestone Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 63400,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02903-00 Fenix 8 43 AMOLED Sapphire with Soft Gold Band",
-   "region": "",
-   "note": "",
-   "price": 73200,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02903-10 Fenix 8 43 Amoled Sapphire Soft Gold with Dark Sandstone Silicone Band + Soft Gold Leather Band",
-   "region": "",
-   "note": "",
-   "price": 92000,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02903-40 Fenix 8 43 Amoled Sapphire Carbon Gray DLC Titanium with Pebble Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 76800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02903-21 Garmin Fenix 8 47 Solar Sapphire Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 79400,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02906-11 Fenix 8 47 Amoled Sapphire Carbon Gray DLC Titanium with Pebble Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 80100,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02904-21 Fenix 8 47 Amoled Sapphire Titanium with Spark Orange Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 79700,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02904-11 Fenix 8 47 Solar Sapphire Titanium with Yellow Graphite Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 79100,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02906-21 Fenix 8 47 Amoled Slate Gray with Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 66500,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02904-00 Fenix 8 47 Solar Sapphire Carbon Gray Titanium with Black/Pebble Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 79100,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02906-11 Fenix 8 51 Amoled Sapphire Carbon Gray DLC Titanium with Pebble Gray Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 87300,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02905-20 Fenix 8 51 Amoled Sapphire Carbon Gray DLC Titanium with Spark Orange Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 86300,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02905-11 Fenix 8 51 Solar Sapphire Titanium with Yellow Graphite Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 82800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02907-20 Fenix 8 51 Solar Sapphire Carbon Gray Titanium with Black/Pebble Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 85800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02907-10 Fenix 8 51 Amoled Sapphire Bare Titanium Black with Chestnut Leather Band + Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 98600,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02905-40 Garmin Fenix 8 51 AMOLED Slate Gray / Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 74700,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-02905-00 Fenix 8 PRO 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 87300,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03198-01 Fenix 8 PRO 47 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 85800,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03198-11 Fenix 8 PRO 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 93500,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03199-01 Fenix 8 PRO 51 Amoled Sapphire (LTE) Graphite Titanium with Black Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 90400,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03199-11 Fenix 8 PRO 47 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 97600,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03198-40 Fenix 8 PRO 51 Amoled Sapphire (LTE) Carbon Gray Titanium with Chestnut Leather Band + Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 102300,
-   "updated": "2024-08-09T16:54:39+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Art: 010-03199-40 Fenix 8 PRO 51 MicroLED Sapphire (LTE) Carbon Gray Titanium with Black/Pebble Silicone Band",
-   "region": "",
-   "note": "",
-   "price": 162500,
    "updated": "2024-08-09T16:54:39+00:00"
   },
   {
@@ -20654,7 +20523,7 @@
    "category": "Другое",
    "name": "A37 12/256 Charcoal",
    "region": "MY",
-   "note": "*",
+   "note": "",
    "price": 30500,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20662,7 +20531,7 @@
    "category": "Другое",
    "name": "A37 12/256 GrayGreen",
    "region": "MY",
-   "note": "*",
+   "note": "",
    "price": 29900,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20670,7 +20539,7 @@
    "category": "Другое",
    "name": "A37 12/256 Lavender",
    "region": "MY",
-   "note": "*",
+   "note": "",
    "price": 30900,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20694,7 +20563,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/128 Gray",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 30800,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20702,7 +20571,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/128 Ice Blue",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 30800,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20710,7 +20579,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/128 Lilac",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 30800,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20718,7 +20587,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/128 Navy",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 30800,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20726,7 +20595,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/256 Gray",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 35300,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20734,7 +20603,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/256 Ice Blue",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 35300,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20742,7 +20611,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/256 Lilac",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 35300,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20750,7 +20619,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 8/256 Navy",
    "region": "AE",
-   "note": "*",
+   "note": "",
    "price": 35300,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -20774,7 +20643,7 @@
    "category": "Другое",
    "name": "A37 Blue — 30000* A57 12/256 Navy",
    "region": "MY",
-   "note": "*",
+   "note": "",
    "price": 40200,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -21390,7 +21259,7 @@
    "category": "Другое",
    "name": "Z Fold 8 Ultra 12/256Gb Graphite",
    "region": "RU",
-   "note": "*",
+   "note": "",
    "price": 132900,
    "updated": "2023-07-10T07:52:37+00:00"
   },
@@ -21872,30 +21741,6 @@
    "region": "",
    "note": "",
    "price": 27300,
-   "updated": "2023-04-11T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin Cirqa Black L-XL",
-   "region": "",
-   "note": "",
-   "price": 23200,
-   "updated": "2023-04-11T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin Cirqa Mauve S-M",
-   "region": "",
-   "note": "",
-   "price": 23200,
-   "updated": "2023-04-11T06:41:00+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Garmin Cirqa Captain Blue L-XL",
-   "region": "",
-   "note": "",
-   "price": 24300,
    "updated": "2023-04-11T06:41:00+00:00"
   },
   {
