@@ -182,7 +182,24 @@ def fetch_posts() -> list[dict]:
     return posts
 
 
-DEBUG_POST, DEBUG = 12970, {}
+def fetch_posts_api() -> list[dict]:
+    """Чтение канала от имени технического аккаунта: видит все посты, включая те,
+    что веб-версия не показывает («Please open Telegram to view this post»)."""
+    import asyncio
+    from telethon import TelegramClient
+    from telethon.sessions import StringSession
+
+    async def run():
+        posts = []
+        async with TelegramClient(StringSession(os.environ["TG_SESSION"]), int(os.environ["TG_API_ID"]),
+                                  os.environ["TG_API_HASH"]) as client:
+            async for msg in client.iter_messages(CHANNEL, limit=POSTS_TO_READ):
+                if msg.message:
+                    when = (msg.edit_date or msg.date)
+                    posts.append({"id": f"{CHANNEL}/{msg.id}", "time": when.isoformat(), "text": msg.message, "photos": []})
+        return posts
+
+    return asyncio.run(run())
 
 
 def fetch_single(num: int) -> dict | None:
@@ -196,10 +213,6 @@ def fetch_single(num: int) -> dict | None:
         return None
     soup = BeautifulSoup(r.text, "lxml")
     body = soup.select_one(".tgme_widget_message_text")
-    if num == DEBUG_POST:
-        err = soup.select_one(".tgme_widget_message_error, .message_media_not_supported")
-        DEBUG.update({"status": r.status_code, "has_text": bool(body), "photos": len(soup.select(".tgme_widget_message_photo_wrap")),
-                      "error": err.get_text(" ", strip=True)[:120] if err else "", "len": len(r.text)})
     if not body:
         return None
     for br in body.find_all("br"):
@@ -221,13 +234,7 @@ def build(posts: list[dict]) -> dict:
             it["updated"] = p["time"]
             items.append(it)
     items.sort(key=lambda x: CATEGORY_ORDER.index(x["category"]))
-    stats = {"posts": len(posts),
-             "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"])),
-             "photo_posts": sum(1 for p in posts if p.get("photos")),
-             "photos": sum(len(p.get("photos", [])) for p in posts),
-             "post_ids": sorted(int(p["id"].split("/")[-1] or 0) for p in posts)[:1] + sorted(int(p["id"].split("/")[-1] or 0) for p in posts)[-1:],
-
-             "photo_captions": [p["text"].strip().splitlines()[0][:40] if p["text"].strip() else "" for p in posts if p.get("photos")][:40]}
+    stats = {"posts": len(posts), "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"]))}
     return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "stats": stats, "items": items}
 
 
@@ -244,6 +251,11 @@ def main() -> int:
     if not CHANNEL or not MARKUP:
         print("Не заданы секреты SOURCE_CHANNEL и MARKUP.", file=sys.stderr)
         return 1
+    if os.environ.get("TG_SESSION"):
+        posts = fetch_posts_api()
+        data = build(posts)
+        data["stats"]["source"] = "api"
+        return save(data)
     posts = fetch_posts()
     seen = {int(p["id"].split("/")[-1] or 0) for p in posts}
     probe = {}
@@ -255,9 +267,12 @@ def main() -> int:
     data = build(posts)
     data["stats"]["probe"] = {k: v for k, v in probe.items() if v}
     data["stats"]["feed_max_id"] = max(seen) if seen else None
-    if DEBUG_POST not in probe:
-        fetch_single(DEBUG_POST)
-    data["stats"]["debug_post"] = DEBUG
+
+    data["stats"]["source"] = "web"
+    return save(data)
+
+
+def save(data: dict) -> int:
     prev = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"count": 0}
     if data["count"] == 0 or (prev.get("count") and data["count"] < prev["count"] * MAX_DROP):
         print(f"Подозрительно мало позиций: {data['count']} (было {prev.get('count')}). Прайс не обновлён.", file=sys.stderr)
