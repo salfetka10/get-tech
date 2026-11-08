@@ -29,22 +29,25 @@ OUT = ROOT / "data" / "prices.json"
 
 # Категории: первое совпадение по строке позиции вместе с заголовком блока. Порядок важен.
 CATEGORIES = [
-    ("Чехлы и аксессуары", r"\bcase\b|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател"),
-    ("iPhone", r"iphone"),
-    ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro"),
-    ("iPad", r"ipad"),
-    ("Apple Watch", r"apple watch|(?<!galaxy )(?<!redmi )watch (ultra|series|se)\b"),
-    ("AirPods", r"airpods"),
+    ("Чехлы и аксессуары", r"\bcase\b|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател|travel bag|\bблок\b"),
     ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|apple pencil|airtag|magsafe|apple tv|homepod|vision pro"),
-    ("Смартфоны", r"galaxy [asz]\d|galaxy z|samsung galaxy (?!tab|book|watch|buds)|redmi|poco|xiaomi \d|pixel \d|honor (?!magicbook|pad)|realme|oneplus|nothing phone|huawei (pura|mate|nova|p\d)|смартфон"),
-    ("Планшеты", r"galaxy tab|matepad|xiaomi pad|redmi pad|honor pad|планшет|lenovo tab"),
-    ("Ноутбуки", r"galaxy book|ноутбук|notebook|thinkpad|vivobook|zenbook|ideapad|legion|\brog\b|tuf gaming|matebook|magicbook|aspire|predator|nitro|pavilion|victus|omen|inspiron|xps|yoga"),
-    ("Телевизоры", r"^\d{2,3}\" |телевизор|\btv\b|oled\d|qled"),
-    ("Игровые приставки", r"playstation|\bps5\b|xbox|nintendo|switch 2|steam deck|dualsense"),
-    ("Наушники и колонки", r"buds|наушник|jbl|marshall|\bwh-|\bwf-|колонк|beats|станция|soundbar|саундбар"),
-    ("Часы и браслеты", r"watch|band \d|часы|garmin|fenix|forerunner|quatix|instinct|venu|epix|amazfit"),
-    ("Фото и видео", r"gopro|\bdji\b|insta360|фотоаппарат|камера|объектив|eos|alpha a\d|fujifilm"),
-    ("Красота и дом", r"dyson|пылесос|робот|фен\b|стайлер|air fryer|аэрогрил|очиститель|purifier|парогенератор|karcher|утюг|чайник|кофемашин|блендер|мультиварк|увлажнител"),
+    ("iPhone", r"iphone|^1[1-9](e| ?pro max| ?pro| ?plus| ?mini| ?air)? \d{2,4} ?(gb|tb)?\b|^air (1|2)?\d{2,3}gb|^iphone"),
+    ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro|^(air|pro) 1[3-6]\b|studio display|pro display|pro stand"),
+    ("iPad", r"ipad"),
+    ("Apple Watch", r"apple watch|(?<!galaxy )(?<!redmi )watch (ultra|series|se)\b|^watch (se )?\d|ultra \d 49|milanese|alpine loop|trail loop|ocean band|sport (band|loop)|\baw s\d|^s1\d 4\d"),
+    ("AirPods", r"airpods"),
+    ("Смартфоны", r"galaxy [asz]\d|galaxy z|samsung galaxy (?!tab|book|watch|buds)|^(s2\d|a\d{2}s?|z ?(flip|fold) ?\d)|redmi(?! pad| watch| buds)|poco|xiaomi \d|pixel \d|honor (?!magicbook|pad|watch)|realme|oneplus(?! watch)|nothing phone|huawei (pura|mate|nova|p\d)|vivo|oppo|смартфон"),
+    ("Планшеты", r"galaxy tab|samsung tab|matepad|xiaomi pad|redmi pad|honor pad|планшет|lenovo tab|kindle|электронн\w* книг"),
+    ("Ноутбуки", r"galaxy book|ноутбук|notebook|thinkpad|vivobook|zenbook|ideapad|legion|\brog\b|tuf gaming|matebook|magicbook|aspire|predator|nitro|pavilion|victus|omen|inspiron|xps|yoga|ryzen \d \d{4}[uh]|core (ultra )?\d \d{3}[uhv]"),
+    ("Телевизоры и проекторы", r"^\d{2,3}\" |телевизор|\btv\b|oled\d|qled|проектор|projector"),
+    ("Игровые приставки", r"playstation|\bps5\b|\bps disk|xbox|nintendo|switch 2|steam deck|dualsense|logitech g\d{2}\b|руль"),
+    ("Наушники и колонки", r"buds|наушник|jbl|marshall|\bwh-|\bwf-|колонк|beats|станция|soundbar|саундбар|bose|bowers|harman|sonos|\bb&o\b|sennheiser|logitech z\d"),
+    ("Часы и браслеты", r"watch|band \d|часы|garmin|fenix|forerunner|quatix|instinct|venu|epix|amazfit|marq|tactix|descent|vivosmart|vivoactive|index s2|fitbit|kospet"),
+    ("Фото и видео", r"gopro|\bdji\b|insta360|фотоаппарат|камера|объектив|eos|alpha a\d|fujifilm|instax"),
+    ("Гаджеты", r"умные очки|ray-ban|oakley meta|meta quest|ledger|криптокошел|датчик|умн\w* (розетк|лампа|дом)|яндекс"),
+    ("Красота и уход", r"dyson|фен\b|стайлер|\bhs0\d|airwrap|supersonic|medicube|массаж|эпилятор|бритв|триммер для|маска"),
+    ("Дом и кухня", r"пылесос|робот|air fryer|аэрогрил|очиститель|purifier|парогенератор|karcher|утюг|чайник|кофемашин|блендер|мультиварк|увлажнител|холодильник|стиральн|сушильн|посудомо|варочн|духов|вытяжк|кондиционер|сплит|водонагрев|\bewh\b|\brwh\b|обогрев|тепловая пушк|тепловые пушки|heater|вентилятор|fan\b|биокамин|микроволн|плит"),
+    ("Сад и инструмент", r"denzel|champion|газонокос|триммер|культиватор|шуруповерт|дрель|перфоратор|болгар|пила|генератор|мойка высокого"),
     ("Принтеры и расходники", r"принтер|мфу|pixma|i-sensys|laserjet|deskjet|smart tank|officejet|ecosys|pantum|xerox|\bepson\b|картридж|тонер|profiline|tsc "),
     ("Комплектующие", r"geforce|\brtx\b|radeon|socket|ddr\d|материнск|блок питания|\d{3,4}w |процессор|ryzen|core i\d|core ultra|кулер|корпус"),
     ("Накопители", r"\bssd\b|\bhdd\b|sata|nvme|m\.2|флешк|\busb-?c?\b.*\d+ ?(gb|tb)|^\d+ ?(gb|tb) |kingston|netac|sandisk|samsung t\d"),
@@ -53,14 +56,16 @@ CATEGORIES = [
 CATEGORY_ORDER = [c for c, _ in CATEGORIES] + ["Другое"]
 
 # цена: «-117.000» внутри строки (дальше могут быть флаги и пометки) или число в конце строки
-PRICE_DASH_RE = re.compile(r"[-–—:=]\s*(\d{1,3}(?:[ .,  ]\d{3})+)(?!\d)")
-PRICE_END_RE = re.compile(r"(\d{1,3}(?:[ .,  ]\d{3})+|\d{4,7})\s*(?:₽|р\.?|руб\.?)?\s*$", re.I)
+PRICE_DASH_RE = re.compile(r"(?<!\d)[-–—:=]\s*(\d{1,3}(?:[ .,  ]\d{3})+)(?!\d)")
+PRICE_END_RE = re.compile(r"(?<![\d/.,])(\d{1,3}(?:[ .,\u00a0\u202f]\d{3})+|\d{4,7})\s*(?:₽|р\.?|руб\.?)?[\s*!]*$", re.I)
+PRICE_ONLY_RE = re.compile(r"^\s*[-–—:=]?\s*(\d{1,3}(?:[ .,\u00a0\u202f]\d{3})+|\d{4,7})\s*(?:₽|р\.?|руб\.?)?[\s*!]*$", re.I)
 EMOJI_RE = re.compile("[\U0001F000-\U0001FAFF☀-➿️‍]+")
 FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
 
 
 SKU_RE = re.compile(r"\[[A-Z0-9/-]{4,}\]-?|^art:\s*[\d-]+", re.I)   # артикулы поставщика: [Z1EK000TE], Art: 010-02904-00
-SKIP_RE = re.compile(r"гаранти|год выпуска|замена|ремонт|доставк|скидк|левое ухо|правое ухо|\bbox\b|кейс отдельно", re.I)
+SKIP_RE = re.compile(r"гаранти|год выпуска|замена|ремонт|доставк|скидк|левое ухо|правое ухо|\bbox\b|кейс отдельно|месяц|@\w|\+7[\s(]?\d|гравировк|установка|от \d+ ?шт", re.I)
+NOISE_RE = re.compile(r"получите дополнительную гарантию от\s*!?|по предзаказу\s*!*|выдача в день заказа[^‼]*‼?|\bnew\b|\"new\"|новинка", re.I)
 
 
 def to_rub(s: str) -> int:
@@ -127,34 +132,65 @@ def join_name(header: str, line: str) -> str:
     return " ".join(words + [line])
 
 
+def find_price(line: str):
+    """Цена после тире («-117.000🇰🇷 (e sim)») или в конце строки («Cream 79.900*», «— 43500 🇯🇵»)."""
+    m = PRICE_DASH_RE.search(line)
+    if m:
+        return m
+    tail = re.sub(r"[\s*!]+$", "", FLAG_RE.sub("", EMOJI_RE.sub("", line)))
+    m = PRICE_END_RE.search(tail)
+    if m:
+        # координаты найденной цены в исходной строке: ищем то же число с конца
+        pos = line.rfind(m.group(1))
+        return _M(m.group(1), pos, pos + len(m.group(1))) if pos >= 0 else None
+    return None
+
+
+class _M:
+    def __init__(self, g, s, e):
+        self._g, self._s, self._e = g, s, e
+    def group(self, _=1): return self._g
+    def start(self): return self._s
+    def end(self): return self._e
+
+
 def parse_post(text: str) -> list[dict]:
-    """Строка с ценой = позиция. Строка без цены = заголовок блока для следующих строк."""
-    items, header = [], ""
+    """Строка с ценой = позиция. Строка без цены = заголовок блока для следующих строк.
+    Цена может стоять отдельной строкой под названием."""
+    items, header, pending = [], "", ""
+
+    def add(head_raw: str, price: int, line: str, after: str):
+        head = clean(NOISE_RE.sub(" ", SKU_RE.sub(" ", head_raw)))
+        if not head or SKIP_RE.search(head) or not MIN_PRICE <= price <= MAX_PRICE:
+            return
+        own = category(head) != "Другое"
+        name = pretty(head if own else join_name(header, head))
+        cat = category(name) if own else category(name + " " + header)
+        if cat == "iPhone" and "iphone" not in name.lower():
+            name = "iPhone " + name
+        if cat == "Mac" and re.match(r"(air|pro) 1[3-6]\b", name, re.I):
+            name = "MacBook " + name
+        items.append({"category": cat, "name": name, "region": regions(line), "note": note(after), "price": our_price(price)})
+
     for raw in text.splitlines():
         line = raw.strip()
         if not line:
             continue
-        m = PRICE_DASH_RE.search(line) or PRICE_END_RE.search(line)
+        only = PRICE_ONLY_RE.match(line)
+        if only and pending:
+            add(pending, to_rub(only.group(1)), pending, "")
+            pending = ""
+            continue
+        m = find_price(line)
         if not m:
-            h = clean(line)
-            if len(h) >= 3 and re.search(r"[a-zа-я]", h, re.I):
-                header = h
+            h = clean(NOISE_RE.sub(" ", line))
+            if items and "·" in line and len(h) > 10:          # строка характеристик под позицией
+                items[-1]["note"] = (items[-1]["note"] + " " + h).strip()[:140]
+            elif len(h) >= 3 and re.search(r"[a-zа-я]", h, re.I) and not SKIP_RE.search(h) and not re.fullmatch(r"[\d/. ]+", h):
+                header, pending = h, line
             continue
-        price = to_rub(m.group(1))
-        if not MIN_PRICE <= price <= MAX_PRICE:
-            continue
-        head = clean(SKU_RE.sub(" ", line[: m.start()]))
-        if not head or SKIP_RE.search(head):
-            continue
-        own = category(head) != "Другое"
-        name = pretty(head if own else join_name(header, head))
-        items.append({
-            "category": category(name) if own else category(name + " " + header),
-            "name": name,
-            "region": regions(line),
-            "note": note(line[m.end():]),
-            "price": our_price(price),
-        })
+        pending = ""
+        add(line[: m.start()], to_rub(m.group(1)), line, line[m.end():])
     return items
 
 
@@ -286,14 +322,6 @@ def build(posts: list[dict]) -> dict:
             items.append(it)
     items.sort(key=lambda x: CATEGORY_ORDER.index(x["category"]))
     stats = {"posts": len(posts), "with_prices": sum(1 for p in posts if p["text"] and parse_post(p["text"]))}
-    miss = []
-    for p in posts:
-        for ln in (p["text"] or "").splitlines():
-            if re.search(r"\d{1,3}[ .,]\d{3}\b|\b\d{4,6}\b", ln) and not parse_post(ln) and not SKIP_RE.search(ln):
-                miss.append(ln.strip()[:90])
-    stats["unparsed_count"] = len(miss)
-    stats["unparsed_sample"] = miss[:80]
-    stats["other_sample"] = [i["name"][:70] for i in items if i["category"] == "Другое"][::8][:110]
     return {"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "count": len(items), "stats": stats, "items": items}
 
 
