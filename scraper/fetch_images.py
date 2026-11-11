@@ -82,7 +82,7 @@ def candidates(model: str, color: str) -> list[str]:
     return list(dict.fromkeys(names))
 
 
-def unbg(im: Image.Image, thresh: int = 9) -> Image.Image:
+def unbg(im: Image.Image, thresh: int = 9, holes: bool = False) -> Image.Image:
     """Убирает ровный фон фото Apple: всё, что похоже на цвет фона и связано с краем кадра.
     Белые и серебристые корпуса не страдают — светлые места внутри контура техники с краем не связаны."""
     rgb = np.asarray(im.convert("RGB")).astype(np.int16)
@@ -91,13 +91,18 @@ def unbg(im: Image.Image, thresh: int = 9) -> Image.Image:
     labels, _ = ndimage.label(similar)
     edge = np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))
     bg = np.isin(labels, edge[edge > 0])
+    if holes:   # фон, запертый внутри контура (просвет под ремешком часов): крупные пятна точно в цвет фона
+        inner, _ = ndimage.label(np.abs(rgb - ref).sum(axis=2) <= 4)
+        sizes = np.bincount(inner.ravel())
+        big = np.flatnonzero(sizes > inner.size * 0.003)
+        bg |= np.isin(inner, big[big > 0])
     alpha = Image.fromarray((~bg * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(0.8))
     out = im.convert("RGB").convert("RGBA")
     out.putalpha(alpha)
     return out
 
 
-def cutout(body: bytes, path: pathlib.Path, height: int) -> str:
+def cutout(body: bytes, path: pathlib.Path, height: int, **tune) -> str:
     """Фото Apple → прозрачный фон → обрезка по контуру → WebP."""
     im = Image.open(io.BytesIO(body)).convert("RGBA")
     box = im.getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
@@ -110,7 +115,7 @@ def cutout(body: bytes, path: pathlib.Path, height: int) -> str:
         ref = np.median(px[3, im.width // 4: im.width * 3 // 4, :3], axis=0)
         flat = Image.new("RGBA", im.size, tuple(int(v) for v in ref) + (255,))
         flat.alpha_composite(im)                 # скруглённые уголки плитки заливаем её же фоном
-        im = unbg(flat)
+        im = unbg(flat, **tune)
         box = im.getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
         if box:
             pad = 8
@@ -190,16 +195,15 @@ FAMILIES = {
     "iPad mini": {"": ["ipad-mini-finish-select-202610-starlight-wifi"], "starlight": ["ipad-mini-finish-select-202610-starlight-wifi"],
                   "midnight": ["ipad-mini-finish-select-202610-midnight-wifi"],
                   **{c: [f"ipad-mini-finish-select-gallery-202410-{v}-wifi", f"ipad-mini-finish-select-202410-{v}-wifi"] for c, v in {"blue": "blue", "purple": "purple", "gray": "space-gray", "grey": "space-gray"}.items()}},
-    "Apple Watch Ultra": {"": ["watch-compare-ultra-4-202609"], "black": ["watch-case-49-titanium-black-ultra4"], "natural": ["watch-case-49-titanium-natural-ultra4"]},
-    "Apple Watch": {"": ["watch-compare-series-12-202609"], "black": ["watch-case-46-aluminum-black-nc-s12", "watch-case-42-aluminum-black-nc-s12"],
-                    "bronze": ["watch-case-46-aluminum-darkbronze-cell-s12", "watch-case-42-aluminum-darkbronze-cell-s12"],
-                    "light gold": ["watch-case-46-aluminum-lightgold-cell-s12"], "space gray": ["watch-case-46-aluminum-spacegray-cell-s12"],
-                    "natural": ["watch-case-46-titanium-natural-cell-s12"], "radiant gold": ["watch-case-46-titanium-radiantgold-cell-s12", "watch-case-42-titanium-radiantgold-cell-s12"]},
-    "Apple Watch SE": {"": ["watch-compare-se-3-202609"], "midnight": ["watch-case-44-aluminum-midnight-nc-se3"], "starlight": ["watch-case-44-aluminum-starlight-cell-se3"]},
+    "Apple Watch Ultra": {"": ["watch-compare-ultra-4-202609"]},
+    "Apple Watch": {"": ["watch-compare-series-12-202609"]},
+    "Apple Watch SE": {"": ["watch-compare-se-3-202609"]},
     "AirPods Max": _c("airpods-max-select-202409-{c}", {"": "midnight", "midnight": "midnight", "blue": "blue", "orange": "orange", "purple": "purple", "starlight": "starlight"}),
     "AirPods Pro": {"": ["airpods-pro-3-hero-select-202509"]},
-    "AirPods": {"": ["airpods-5-select-202609", "airpods-4-select-202409"]},
+    "AirPods": {"": ["airpods-5-hero-select-202609", "airpods-5-select-202609", "airpods-4-select-202409"]},
 }
+# Особые случаи вырезания фона: белый кейс на белом фоне, просвет под ремешком
+TUNE = {"watch-compare": {"holes": True}, "airpods-5-select": {"thresh": 3}, "airpods-4-select": {"thresh": 3}}
 
 
 def find_fam(job):
@@ -211,7 +215,8 @@ def find_fam(job):
     for name in names:
         body = try_get(CDN.format(name=name))
         if body:
-            return key, path, f"{name} ({cutout(body, path, 1000)})"
+            tune = next((v for k, v in TUNE.items() if name.startswith(k)), {})
+            return key, path, f"{name} ({cutout(body, path, 1000, **tune)})"
     return key, None, "не найдено"
 
 
