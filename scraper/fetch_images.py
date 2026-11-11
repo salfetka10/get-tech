@@ -13,10 +13,12 @@ from concurrent.futures import ThreadPoolExecutor
 import io
 
 import requests
-from PIL import Image, ImageChops, ImageDraw, ImageFilter
+import numpy as np
+from PIL import Image, ImageFilter
+from scipy import ndimage
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=1400&fmt=png-alpha"
+CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=2600&fmt=png-alpha"
 
 # модель → (код на CDN, месяцы выхода, размер экрана в названии файла)
 MODELS = {
@@ -81,43 +83,42 @@ def candidates(model: str, color: str) -> list[str]:
 
 
 def unbg(im: Image.Image, thresh: int = 9) -> Image.Image:
-    """Убирает ровный фон фото Apple: заливка от краёв по похожему цвету, мягкий край.
-    Белые и серебристые корпуса не страдают — закрашивается только фон, связанный с краем кадра."""
-    rgb = im.convert("RGB")
-    w, h = rgb.size
-    work, key = rgb.copy(), (255, 0, 255)
-    for x in range(0, w, max(1, w // 40)):
-        for y in (0, h - 1):
-            if work.getpixel((x, y)) != key:
-                ImageDraw.floodfill(work, (x, y), key, thresh=thresh)
-    for y in range(0, h, max(1, h // 40)):
-        for x in (0, w - 1):
-            if work.getpixel((x, y)) != key:
-                ImageDraw.floodfill(work, (x, y), key, thresh=thresh)
-    r, g, b = work.split()
-    bg = ImageChops.multiply(ImageChops.multiply(r.point(lambda v: 255 if v == 255 else 0), g.point(lambda v: 255 if v == 0 else 0)), b.point(lambda v: 255 if v == 255 else 0))
-    out = rgb.convert("RGBA")
-    out.putalpha(ImageChops.invert(bg).filter(ImageFilter.GaussianBlur(0.8)))
+    """Убирает ровный фон фото Apple: всё, что похоже на цвет фона и связано с краем кадра.
+    Белые и серебристые корпуса не страдают — светлые места внутри контура техники с краем не связаны."""
+    rgb = np.asarray(im.convert("RGB")).astype(np.int16)
+    ref = np.median(rgb[3, rgb.shape[1] // 4: rgb.shape[1] * 3 // 4], axis=0)   # цвет фона: середина верхней кромки
+    similar = np.abs(rgb - ref).sum(axis=2) <= thresh
+    labels, _ = ndimage.label(similar)
+    edge = np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))
+    bg = np.isin(labels, edge[edge > 0])
+    alpha = Image.fromarray((~bg * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(0.8))
+    out = im.convert("RGB").convert("RGBA")
+    out.putalpha(alpha)
     return out
 
 
 def cutout(body: bytes, path: pathlib.Path, height: int) -> str:
-    """PNG с прозрачным фоном → обрезка по контуру → WebP. Возвращает, был ли фон прозрачным."""
+    """Фото Apple → прозрачный фон → обрезка по контуру → WebP."""
     im = Image.open(io.BytesIO(body)).convert("RGBA")
-    alpha = im.getchannel("A")
-    clear = alpha.getextrema()[0] < 255
+    box = im.getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
+    if box:
+        im = im.crop(box)                         # убрали прозрачные поля вокруг плитки
+    alpha = np.asarray(im.getchannel("A"))
+    clear = (alpha < 16).mean() > 0.15           # фон действительно прозрачный, а не только уголки плитки
     if not clear:
-        im = unbg(im)
-        alpha = im.getchannel("A")
-    if True:
-        box = alpha.point(lambda a: 255 if a > 8 else 0).getbbox()
+        px = np.asarray(im)
+        ref = np.median(px[3, im.width // 4: im.width * 3 // 4, :3], axis=0)
+        flat = Image.new("RGBA", im.size, tuple(int(v) for v in ref) + (255,))
+        flat.alpha_composite(im)                 # скруглённые уголки плитки заливаем её же фоном
+        im = unbg(flat)
+        box = im.getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
         if box:
             pad = 8
             im = im.crop((max(0, box[0] - pad), max(0, box[1] - pad), min(im.width, box[2] + pad), min(im.height, box[3] + pad)))
     if im.height > height:
         im = im.resize((round(im.width * height / im.height), height), Image.LANCZOS)
     path.parent.mkdir(parents=True, exist_ok=True)
-    im.save(path, "WEBP", quality=84, method=6)
+    im.save(path, "WEBP", quality=86, method=6)
     return "прозрачный" if clear else "фон убран"
 
 
@@ -146,7 +147,7 @@ def find(job):
 
 # Картинки категорий из меню магазина Apple: «store-card-13-<категория>-nav-<год><месяц>»
 NAV = {"iPhone": "iphone", "Mac": "mac", "iPad": "ipad", "Apple Watch": "watch", "AirPods": "airpods", "Аксессуары Apple": "accessories"}
-NAV_CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=600&fmt=png-alpha"
+NAV_CDN = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/{name}?wid=1400&fmt=png-alpha"
 
 
 def find_nav(item):
@@ -159,7 +160,7 @@ def find_nav(item):
             name = f"store-card-13-{key}-nav-{year}{month:02d}"
             body = try_get(NAV_CDN.format(name=name))
             if body:
-                how = cutout(body, path, 360)
+                how = cutout(body, path, 640)
                 return cat, path, f"{name} ({how})"
     return cat, None, "не найдено"
 
