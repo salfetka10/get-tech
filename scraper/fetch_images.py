@@ -165,6 +165,56 @@ def find_nav(item):
     return cat, None, "не найдено"
 
 
+# Остальная техника Apple: одно фото на семейство и по фото на цвет, где Apple их показывает.
+# Названия картинок взяты со страниц магазина Apple (режим discover), первое найденное подходит.
+def _c(pattern: str, colors: dict) -> dict:
+    return {c: [pattern.format(c=v) for v in (vs if isinstance(vs, list) else [vs])] for c, vs in colors.items()}
+
+
+MBA = {"": "skyblue", "midnight": "midnight", "silver": "silver", "sky blue": "skyblue", "starlight": "starlight"}
+MBP = {"": "spaceblack", "black": "spaceblack", "silver": "silver"}
+FAMILIES = {
+    "MacBook Air 13": _c("mba13-{c}-select-202503", MBA),
+    "MacBook Air 15": _c("mba15-{c}-select-202503", {**MBA, "": "midnight"}),
+    "MacBook Pro 14": {c: [f"mbp14-{v}-select-202410", f"mbp14-{v}-cto-hero-202410"] for c, v in MBP.items()},
+    "MacBook Pro 16": {c: [f"mbp16-{v}-select-202410", f"mbp16-{v}-cto-hero-202410"] for c, v in MBP.items()},
+    "iMac": {**_c("imac-touch-id-{c}-selection-hero-202410", {"": "blue", "blue": "blue", "green": "green", "orange": "orange", "pink": "pink", "purple": "purple", "yellow": "yellow"}),
+             "silver": ["imac-touch-id-silver-selection-hero-202410", "imac-vesa-silver-selection-hero-202410"]},
+    "Mac mini": {"": ["mac-mini-summary-select-202608", "mac-mini-chip-unselect-202608-gallery-1"]},
+    "Mac Studio": {"": ["mac-studio-summary-select-202608", "mac-studio-chip-unselect-202608-gallery-1"]},
+    "Studio Display": {"": ["studio-display-gallery-1-202603", "studio-display-og-202603"]},
+    "iPad Pro": {"": ["ipad-pro-finish-select-202405-13inch-spaceblack"], "black": ["ipad-pro-finish-select-202405-13inch-spaceblack"],
+                 "silver": ["ipad-pro-finish-select-202405-13inch-silver-glossy-wifi"]},
+    "iPad Air": _c("ipad-air-finish-select-gallery-202405-11inch-{c}-wifi", {"": "blue", "blue": "blue", "purple": "purple", "starlight": "starlight", "grey": "space-gray", "gray": "space-gray"}),
+    "iPad": _c("ipad-finish-select-202503-{c}-wifi", {"": "blue", "blue": "blue", "pink": "pink", "silver": "silver", "yellow": "yellow"}),
+    "iPad mini": {"": ["ipad-mini-finish-select-202610-starlight-wifi"], "starlight": ["ipad-mini-finish-select-202610-starlight-wifi"],
+                  "midnight": ["ipad-mini-finish-select-202610-midnight-wifi"],
+                  **{c: [f"ipad-mini-finish-select-gallery-202410-{v}-wifi", f"ipad-mini-finish-select-202410-{v}-wifi"] for c, v in {"blue": "blue", "purple": "purple", "gray": "space-gray", "grey": "space-gray"}.items()}},
+    "Apple Watch Ultra": {"": ["watch-compare-ultra-4-202609"], "black": ["watch-case-49-titanium-black-ultra4"], "natural": ["watch-case-49-titanium-natural-ultra4"]},
+    "Apple Watch": {"": ["watch-compare-series-12-202609"], "black": ["watch-case-46-aluminum-black-nc-s12", "watch-case-42-aluminum-black-nc-s12"],
+                    "bronze": ["watch-case-46-aluminum-darkbronze-cell-s12", "watch-case-42-aluminum-darkbronze-cell-s12"],
+                    "light gold": ["watch-case-46-aluminum-lightgold-cell-s12"], "space gray": ["watch-case-46-aluminum-spacegray-cell-s12"],
+                    "natural": ["watch-case-46-titanium-natural-cell-s12"], "radiant gold": ["watch-case-46-titanium-radiantgold-cell-s12", "watch-case-42-titanium-radiantgold-cell-s12"]},
+    "Apple Watch SE": {"": ["watch-compare-se-3-202609"], "midnight": ["watch-case-44-aluminum-midnight-nc-se3"], "starlight": ["watch-case-44-aluminum-starlight-cell-se3"]},
+    "AirPods Max": _c("airpods-max-select-202409-{c}", {"": "midnight", "midnight": "midnight", "blue": "blue", "orange": "orange", "purple": "purple", "starlight": "starlight"}),
+    "AirPods Pro": {"": ["airpods-pro-3-hero-select-202509"]},
+    "AirPods": {"": ["airpods-5-select-202609", "airpods-4-select-202409"]},
+}
+
+
+def find_fam(job):
+    fam, color, names = job
+    path = ROOT / "img/apple/fam" / re.sub(r"\W+", "-", fam.lower()) / f"{color.replace(' ', '-') or 'default'}.webp"
+    key = f"fam|{fam}" + (f"|{color}" if color else "")
+    if path.exists():
+        return key, path, "есть"
+    for name in names:
+        body = try_get(CDN.format(name=name))
+        if body:
+            return key, path, f"{name} ({cutout(body, path, 1000)})"
+    return key, None, "не найдено"
+
+
 def main():
     jobs = [(m, c) for m, cs in model_colors().items() for c in sorted(cs)]
     found = {}
@@ -178,6 +228,11 @@ def main():
             print(f"категория {cat:16} {how}")
             if path:
                 found[f"nav|{cat}"] = str(path.relative_to(ROOT))
+    with ThreadPoolExecutor(8) as ex:
+        for key, path, how in ex.map(find_fam, [(f, c, n) for f, cs in FAMILIES.items() for c, n in cs.items()]):
+            print(f"{key:40} {how}")
+            if path:
+                found[key] = str(path.relative_to(ROOT))
     (ROOT / "data/images.json").write_text(json.dumps(found, ensure_ascii=False, indent=1, sort_keys=True))
     print(f"найдено {len(found)} из {len(jobs)}")
 
