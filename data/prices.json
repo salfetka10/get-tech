@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T15:08+00:00",
- "count": 3926,
+ "updated": "2026-11-11T22:14+00:00",
+ "count": 3932,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -10,11 +10,51 @@
  "items": [
   {
    "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Silver",
+   "region": "",
+   "note": "",
+   "price": 4700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Starlight",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Sky Blue",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Midnight",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "USB-C to MagSafe 3 Cable (2 m) Space Black",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
    "name": "Adapter Apple 20 w",
    "region": "EU",
    "note": "",
    "price": 1900,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -22,7 +62,7 @@
    "region": "",
    "note": "",
    "price": 2600,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -30,7 +70,7 @@
    "region": "",
    "note": "",
    "price": 4500,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -38,7 +78,7 @@
    "region": "",
    "note": "",
    "price": 5500,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -46,7 +86,7 @@
    "region": "",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -54,7 +94,279 @@
    "region": "",
    "note": "",
    "price": 5100,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7200,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 10900,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Black",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Magenta",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Taupe",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Case Blue",
+   "region": "",
+   "note": "",
+   "price": 20100,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Case Sand",
+   "region": "",
+   "note": "",
+   "price": 20100,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Folio Blue",
+   "region": "",
+   "note": "",
+   "price": 21700,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Folio Taupe",
+   "region": "",
+   "note": "",
+   "price": 21700,
+   "updated": "2026-11-11T19:18:14+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -295,38 +607,6 @@
    "note": "",
    "price": 20600,
    "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Case Blue",
-   "region": "",
-   "note": "",
-   "price": 20100,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Case Sand",
-   "region": "",
-   "note": "",
-   "price": 20100,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Folio Blue",
-   "region": "",
-   "note": "",
-   "price": 21700,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Folio Taupe",
-   "region": "",
-   "note": "",
-   "price": 21700,
-   "updated": "2026-11-11T13:09:51+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -714,246 +994,6 @@
   },
   {
    "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7200,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 10900,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Black",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Magenta",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Taupe",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
    "name": "Xiaomi Watch 5 Black Strap",
    "region": "",
    "note": "",
@@ -1047,46 +1087,6 @@
    "note": "",
    "price": 40200,
    "updated": "2026-11-11T11:17:57+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Silver",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Starlight",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Sky Blue",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Midnight",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "USB-C to MagSafe 3 Cable (2 m) Space Black",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-11T11:17:25+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -1394,11 +1394,51 @@
   },
   {
    "category": "Аксессуары Apple",
-   "name": "EarPods с разъёмом USB-C",
-   "region": "",
+   "name": "Magic Mouse Black USB-C",
+   "region": "US",
    "note": "",
-   "price": 3100,
-   "updated": "2026-11-11T13:53:02+00:00"
+   "price": 9600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Magic Mouse White USB-C",
+   "region": "US",
+   "note": "",
+   "price": 8100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Magic Keyboard USB-C White MXCL3",
+   "region": "US",
+   "note": "",
+   "price": 11600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Magic Keyboard Touch ID USB-C White MXCK3",
+   "region": "US",
+   "note": "",
+   "price": 16300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Magic Keyboard Touch ID Numeric USB-C Black MXK83",
+   "region": "US",
+   "note": "",
+   "price": 21200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Magic Keyboard Touch ID Numeric USB-C White MXK73",
+   "region": "US",
+   "note": "",
+   "price": 18600,
+   "updated": "2026-11-11T19:43:14+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -1406,7 +1446,7 @@
    "region": "",
    "note": "USB-C",
    "price": 7300,
-   "updated": "2026-11-11T13:53:02+00:00"
+   "updated": "2026-11-11T19:39:45+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -1414,7 +1454,7 @@
    "region": "",
    "note": "",
    "price": 10900,
-   "updated": "2026-11-11T13:53:02+00:00"
+   "updated": "2026-11-11T19:39:45+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -1422,6 +1462,14 @@
    "region": "",
    "note": "",
    "price": 8800,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "EarPods с разъёмом USB-C",
+   "region": "",
+   "note": "",
+   "price": 3100,
    "updated": "2026-11-11T13:53:02+00:00"
   },
   {
@@ -1482,30 +1530,6 @@
   },
   {
    "category": "Аксессуары Apple",
-   "name": "Magic Keyboard Touch ID USB-C White MXCK3",
-   "region": "US",
-   "note": "",
-   "price": 17000,
-   "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Magic Keyboard Touch ID Numeric USB-C Black MXK83",
-   "region": "US",
-   "note": "",
-   "price": 20500,
-   "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Magic Keyboard Touch ID Numeric USB-C White MXK73",
-   "region": "US",
-   "note": "",
-   "price": 20500,
-   "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
    "name": "⌨ Magic Keyboard Touch ID Numeric White USB-C(MXK73)",
    "region": "",
    "note": "",
@@ -1519,22 +1543,6 @@
    "note": "",
    "price": 11900,
    "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Magic Mouse Black USB-C",
-   "region": "US",
-   "note": "",
-   "price": 9300,
-   "updated": "2026-11-11T11:54:35+00:00"
-  },
-  {
-   "category": "Аксессуары Apple",
-   "name": "Magic Mouse White USB-C",
-   "region": "US",
-   "note": "",
-   "price": 8000,
-   "updated": "2026-11-11T11:54:35+00:00"
   },
   {
    "category": "Аксессуары Apple",
@@ -1609,1012 +1617,36 @@
    "updated": "2026-11-11T11:18:09+00:00"
   },
   {
-   "category": "Аксессуары Apple",
-   "name": "Magic Keyboard USB-C White MXCL3",
-   "region": "US",
-   "note": "",
-   "price": 11600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Silver",
-   "region": "HK, KR",
-   "note": "SIM + eSIM",
-   "price": 106700,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Silver",
-   "region": "AE, JP",
-   "note": "eSIM",
-   "price": 101000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 98400,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 95300,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 91200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 102000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Blue",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 100500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 256 Blue",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 91200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 134500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 115400,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 120600,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Orange",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 114900,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 111800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 125200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 114900,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 109700,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 157100,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 141700,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 139600,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 124700,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 150400,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 1TB Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 128800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 117000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Silver",
-   "region": "HK",
-   "note": "Новый, Обменка",
-   "price": 106100,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Silver",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 105100,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 105600,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 99700,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Blue",
-   "region": "HK, KR",
-   "note": "SIM + eSIM",
-   "price": 109700,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 256 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 102500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 146800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Silver",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 124200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Silver",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 115400,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 126200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "HK",
-   "note": "SIM + eSIM замена дисплея в СЦ",
-   "price": 110300,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 115900,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 111300,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 134500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 512 Blue",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 121100,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 170500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Silver",
-   "region": "KW, JP",
-   "note": "eSIM",
-   "price": 143200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Silver",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 135000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 161800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "KR, HK",
-   "note": "ASIS",
-   "price": 135000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 136000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 129800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 164800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM активирован",
-   "price": 158200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "KW, JP",
-   "note": "eSIM",
-   "price": 138600,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 134500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 1TB Blue (470 циклов, 89%)",
-   "region": "HK",
-   "note": "полный комплект Sim+eSIM",
-   "price": 108200,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 179800,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Silver",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 163300,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Orange",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 170500,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Orange",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 150900,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Orange",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 139100,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Blue",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 173600,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 152000,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro Max 2TB Blue (278 циклов, 96%)",
-   "region": "JP",
-   "note": "без eSIM",
-   "price": 123600,
-   "updated": "2026-11-11T14:45:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 66500,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 61300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 black",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 58200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 66500,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 White",
-   "region": "US",
-   "note": "eSIM",
-   "price": 60300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 63900,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "CN",
-   "note": "2sim",
-   "price": 61300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "US",
-   "note": "eSIM",
-   "price": 61100,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 58200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 81400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 71100,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Black",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 60800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 79900,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 White",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 70600,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Pink",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 79900,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Pink",
-   "region": "US",
-   "note": "eSIM",
-   "price": 67500,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 71800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Blue",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 White",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 72400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 White",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Sage",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Sage",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Lavender",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Lavender",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 75200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Lavender",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 92700,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 White",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 89100,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 White",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 87600,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Sage",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 94300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Sage",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 92200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 92700,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 89100,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 88600,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Lavender",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 97600,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Lavender",
-   "region": "US",
-   "note": "eSIM",
-   "price": 89100,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Lavender",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 85000,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 93800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 91200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Black",
-   "region": "JP, US",
-   "note": "eSIM активирован",
-   "price": 90200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 76800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 Gold",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 76800,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 White",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 78300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 Black",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 77300,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 Bluе",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 83200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 Gold",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 83200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 Black",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 90200,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 White",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 96400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB Blue",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 91700,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB Gold",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 94500,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB White",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 98400,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB Black",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 92700,
-   "updated": "2026-11-11T13:57:04+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 256 Star White",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 213300,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 256 Night Sky",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 213300,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 512 Star White",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 231800,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 512 Night Sky",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 235900,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 1TB Star White",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 320400,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 1TB Night Sky",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 321400,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 2TB Star White",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 345100,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Duo 2TB Night Sky",
-   "region": "JP, US, HK",
-   "note": "",
-   "price": 365700,
-   "updated": "2026-11-11T13:09:51+00:00"
-  },
-  {
    "category": "iPhone",
    "name": "iPhone 18 Pro 256 Black",
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 121600,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 256 Black",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 113000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 109700,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 256 Burgundy",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 123100,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 122600,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 256 Burgundy",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 111300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 110300,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2622,15 +1654,15 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 121100,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 256 Silver",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 111300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 110800,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2638,7 +1670,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 120600,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2646,7 +1678,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 111300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2654,23 +1686,23 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 109700,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 512 Black",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 141700,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 140600,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 512 Black",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 133400,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 131400,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2678,23 +1710,23 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 146300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 512 Burgundy",
    "region": "US",
    "note": "eSIM",
-   "price": 132900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 131900,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 512 Silver",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 152000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 151500,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2702,7 +1734,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 138100,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2710,7 +1742,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 145800,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2718,15 +1750,15 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 135000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 1Tb Black",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 189600,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 188500,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2734,7 +1766,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 165900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2742,7 +1774,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 187500,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2750,7 +1782,7 @@
    "region": "JP, US",
    "note": "е sim",
    "price": 177200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2758,7 +1790,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 191600,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2766,7 +1798,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 167900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2774,7 +1806,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 190100,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2782,7 +1814,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 165900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2790,7 +1822,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 235900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2798,7 +1830,7 @@
    "region": "JP, US",
    "note": "е sim",
    "price": 216900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2806,7 +1838,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 238000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2814,7 +1846,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 221500,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2822,7 +1854,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 239000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2830,7 +1862,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 218900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2838,7 +1870,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 233900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2846,7 +1878,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 218400,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2854,31 +1886,31 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 130300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 256 Black",
    "region": "US",
    "note": "е sim",
-   "price": 125200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 124700,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 256 Burgundy",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 137000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 136000,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 256 Burgundy",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 126700,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 125700,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2886,7 +1918,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 130900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2894,23 +1926,23 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 124200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 256 Glacier",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 133900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 133400,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 256 Glacier",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 129300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 128300,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2918,15 +1950,15 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 149900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Black",
    "region": "US",
    "note": "eSIM",
-   "price": 147300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 146300,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2934,39 +1966,39 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 143200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Burgundy",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 159700,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 158700,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 150900,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 154500,
-   "updated": "2026-11-11T12:19:30+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Silver",
    "region": "US",
    "note": "eSIM",
    "price": 149900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 154000,
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 149400,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2974,7 +2006,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 154000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2982,15 +2014,15 @@
    "region": "US",
    "note": "eSIM",
    "price": 145800,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 1Tb Black",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 195200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 194200,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -2998,7 +2030,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 187000,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3006,7 +2038,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 199900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3014,7 +2046,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 190600,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3022,7 +2054,7 @@
    "region": "HK, KR",
    "note": "SIM + eSIM",
    "price": 199400,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3030,7 +2062,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 194700,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3038,7 +2070,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 199900,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3046,7 +2078,7 @@
    "region": "US",
    "note": "е sim",
    "price": 191100,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3054,7 +2086,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 252400,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3062,7 +2094,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 245200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3070,7 +2102,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 266300,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3078,15 +2110,15 @@
    "region": "US",
    "note": "eSIM",
    "price": 252400,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 2Tb Silver",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 281200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "price": 258600,
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3094,7 +2126,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 246200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3102,7 +2134,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 252400,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "iPhone",
@@ -3110,23 +2142,983 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 245200,
-   "updated": "2026-11-11T12:19:30+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Silver",
+   "region": "HK, KR",
+   "note": "SIM + eSIM",
+   "price": 106100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Silver",
+   "region": "AE, JP",
+   "note": "eSIM",
+   "price": 100500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 98400,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 94800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 91200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 101700,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Blue",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 100000,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 256 Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 91200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 132400,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 114900,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 119500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Orange",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 114900,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 111800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 125200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 114900,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 512 Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 109700,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 157100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 141700,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 139600,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 124700,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 150400,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro 1TB Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 128800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 116400,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Silver",
+   "region": "HK",
+   "note": "Новый, Обменка",
+   "price": 106100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Silver",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 104600,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 105100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 99700,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Blue",
+   "region": "HK, KR",
+   "note": "SIM + eSIM",
+   "price": 109200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 256 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 102500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 146800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Silver",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 123100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Silver",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 115400,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 126200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "HK",
+   "note": "SIM + eSIM замена дисплея в СЦ",
+   "price": 110300,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 115900,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 111300,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 134500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 512 Blue",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 121100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 170500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "KW, JP",
+   "note": "eSIM",
+   "price": 143200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Silver",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 135000,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 161200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "KR, HK",
+   "note": "ASIS",
+   "price": 135000,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 136000,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 129800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 164800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM активирован",
+   "price": 158200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "KW, JP",
+   "note": "eSIM",
+   "price": 138600,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 134500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 1TB Blue (470 циклов, 89%)",
+   "region": "HK",
+   "note": "полный комплект Sim+eSIM",
+   "price": 108200,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 179800,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Silver",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 163300,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 170500,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 150900,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Orange",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 139100,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 173600,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 152000,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 Pro Max 2TB Blue (278 циклов, 96%)",
+   "region": "JP",
+   "note": "без eSIM",
+   "price": 123600,
+   "updated": "2026-11-11T19:24:10+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 66500,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 61300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 black",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 58200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 66500,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 White",
+   "region": "US",
+   "note": "eSIM",
+   "price": 60300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 63900,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "CN",
+   "note": "2sim",
+   "price": 61300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "US",
+   "note": "eSIM",
+   "price": 61100,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 58200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 81400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 71100,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Black",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 60800,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 79900,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 White",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 70600,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Pink",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 79900,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Pink",
+   "region": "US",
+   "note": "eSIM",
+   "price": 67500,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 71800,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Blue",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 White",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 72400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 White",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Sage",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Sage",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Lavender",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Lavender",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 75200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Lavender",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 92700,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 White",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 89100,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 White",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 87600,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Sage",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 94300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Sage",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 92200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 92700,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 89100,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 88600,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Lavender",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 97600,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Lavender",
+   "region": "US",
+   "note": "eSIM",
+   "price": 89100,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Lavender",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 85000,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 93800,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 91200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Black",
+   "region": "JP, US",
+   "note": "eSIM активирован",
+   "price": 90200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 Gold",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 White",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 78300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 Black",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 77300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 Bluе",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 83200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 Gold",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 83200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 Black",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 86100,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 White",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 92200,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB Blue",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 91700,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB Gold",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 94500,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB White",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 93300,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB Black",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 92700,
+   "updated": "2026-11-11T19:20:42+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 256 Star White",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 211200,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 256 Night Sky",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 211200,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 512 Star White",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 230800,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 512 Night Sky",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 233900,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 1TB Star White",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 322400,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 1TB Night Sky",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 318300,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 2TB Star White",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 345100,
+   "updated": "2026-11-11T19:18:14+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Duo 2TB Night Sky",
+   "region": "JP, US, HK",
+   "note": "",
+   "price": 365700,
+   "updated": "2026-11-11T19:18:14+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 16E 128 Black",
    "region": "US",
    "note": "",
-   "price": 46400,
-   "updated": "2026-11-11T10:27:25+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 128 Black",
-   "region": "US",
-   "note": "активирован",
-   "price": 40200,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "price": 45900,
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3134,7 +3126,7 @@
    "region": "CN",
    "note": "",
    "price": 50000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3142,7 +3134,7 @@
    "region": "CN",
    "note": "",
    "price": 49000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3150,7 +3142,7 @@
    "region": "IN",
    "note": "",
    "price": 58200,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3158,7 +3150,7 @@
    "region": "IN",
    "note": "",
    "price": 57700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3166,7 +3158,7 @@
    "region": "IN",
    "note": "",
    "price": 63400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3174,7 +3166,7 @@
    "region": "IN",
    "note": "активирован",
    "price": 61800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3182,7 +3174,7 @@
    "region": "IN",
    "note": "",
    "price": 62900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3190,7 +3182,7 @@
    "region": "US",
    "note": "",
    "price": 60800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3198,7 +3190,7 @@
    "region": "US",
    "note": "активирован",
    "price": 56200,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3206,7 +3198,7 @@
    "region": "IN",
    "note": "",
    "price": 62900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3214,7 +3206,7 @@
    "region": "US",
    "note": "",
    "price": 60800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3222,7 +3214,7 @@
    "region": "IN",
    "note": "",
    "price": 62900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3230,7 +3222,7 @@
    "region": "IN",
    "note": "",
    "price": 62900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3238,7 +3230,7 @@
    "region": "IN",
    "note": "",
    "price": 70600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3246,7 +3238,7 @@
    "region": "IN",
    "note": "",
    "price": 71900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3254,7 +3246,7 @@
    "region": "IN",
    "note": "",
    "price": 74200,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3262,7 +3254,7 @@
    "region": "IN",
    "note": "",
    "price": 70600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3270,7 +3262,7 @@
    "region": "IN",
    "note": "",
    "price": 71600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3278,7 +3270,7 @@
    "region": "IN",
    "note": "",
    "price": 80400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3286,7 +3278,7 @@
    "region": "IN",
    "note": "",
    "price": 84200,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3294,7 +3286,7 @@
    "region": "IN",
    "note": "",
    "price": 79900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3302,7 +3294,7 @@
    "region": "IN",
    "note": "",
    "price": 84000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3310,7 +3302,7 @@
    "region": "IN",
    "note": "",
    "price": 84000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3318,7 +3310,7 @@
    "region": "US",
    "note": "",
    "price": 82400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3326,7 +3318,7 @@
    "region": "CN",
    "note": "",
    "price": 89700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3334,7 +3326,7 @@
    "region": "US",
    "note": "",
    "price": 83700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3342,7 +3334,7 @@
    "region": "IN",
    "note": "активирован",
    "price": 85500,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3350,7 +3342,7 @@
    "region": "CN",
    "note": "",
    "price": 87600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3358,7 +3350,7 @@
    "region": "US",
    "note": "",
    "price": 90700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3366,7 +3358,7 @@
    "region": "IN",
    "note": "активирован",
    "price": 87600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3374,7 +3366,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3382,7 +3374,7 @@
    "region": "US",
    "note": "",
    "price": 76300,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3390,7 +3382,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3398,7 +3390,7 @@
    "region": "US",
    "note": "",
    "price": 76300,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3406,7 +3398,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3414,7 +3406,7 @@
    "region": "US",
    "note": "",
    "price": 76300,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3422,7 +3414,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3430,7 +3422,7 @@
    "region": "US",
    "note": "",
    "price": 76300,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3438,7 +3430,7 @@
    "region": "US",
    "note": "",
    "price": 80900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3446,7 +3438,7 @@
    "region": "US",
    "note": "",
    "price": 82400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3454,7 +3446,7 @@
    "region": "US",
    "note": "",
    "price": 80900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3462,7 +3454,7 @@
    "region": "US",
    "note": "",
    "price": 82400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3470,7 +3462,7 @@
    "region": "US",
    "note": "",
    "price": 80900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3478,7 +3470,7 @@
    "region": "US",
    "note": "",
    "price": 82400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3486,7 +3478,7 @@
    "region": "US",
    "note": "",
    "price": 80900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3494,7 +3486,7 @@
    "region": "CA",
    "note": "",
    "price": 118500,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3502,7 +3494,7 @@
    "region": "CA",
    "note": "",
    "price": 121100,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3510,7 +3502,7 @@
    "region": "KW",
    "note": "",
    "price": 127800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3518,7 +3510,7 @@
    "region": "US",
    "note": "активирован",
    "price": 114900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3526,7 +3518,7 @@
    "region": "KW",
    "note": "",
    "price": 99400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3534,7 +3526,7 @@
    "region": "US",
    "note": "",
    "price": 96400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3542,7 +3534,7 @@
    "region": "AE",
    "note": "",
    "price": 115900,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3550,7 +3542,7 @@
    "region": "US",
    "note": "",
    "price": 97400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3558,7 +3550,7 @@
    "region": "IN",
    "note": "активирован",
    "price": 101000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3566,7 +3558,7 @@
    "region": "US",
    "note": "",
    "price": 97400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3574,7 +3566,7 @@
    "region": "HK",
    "note": "",
    "price": 88600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3582,7 +3574,7 @@
    "region": "HK",
    "note": "",
    "price": 88600,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3590,7 +3582,7 @@
    "region": "HK",
    "note": "2sim",
    "price": 123100,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3598,7 +3590,7 @@
    "region": "US",
    "note": "",
    "price": 110800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3606,7 +3598,7 @@
    "region": "US",
    "note": "",
    "price": 110800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3614,7 +3606,7 @@
    "region": "US",
    "note": "",
    "price": 110800,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3622,7 +3614,7 @@
    "region": "US",
    "note": "активирован",
    "price": 102000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3630,7 +3622,7 @@
    "region": "KW",
    "note": "",
    "price": 114400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3638,7 +3630,7 @@
    "region": "US",
    "note": "активирован",
    "price": 102000,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3646,7 +3638,7 @@
    "region": "KW",
    "note": "",
    "price": 117500,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3654,7 +3646,7 @@
    "region": "KW",
    "note": "",
    "price": 128300,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3662,7 +3654,7 @@
    "region": "US",
    "note": "активирован",
    "price": 109700,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3670,7 +3662,7 @@
    "region": "HK",
    "note": "без Dual Sim",
    "price": 82400,
-   "updated": "2026-11-11T10:27:25+00:00"
+   "updated": "2026-11-11T19:09:04+00:00"
   },
   {
    "category": "iPhone",
@@ -3943,6 +3935,694 @@
    "note": "без Dual Sim",
    "price": 67000,
    "updated": "2026-11-11T10:14:56+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/256) Indigo",
+   "region": "HK, US",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/256) Silver",
+   "region": "HK, US",
+   "note": "",
+   "price": 64900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/256) Blush",
+   "region": "HK, US",
+   "note": "",
+   "price": 64900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/256) Citrus",
+   "region": "HK, US",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/512/Touch ID) Indigo",
+   "region": "IN, US",
+   "note": "",
+   "price": 75800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/512/Touch ID) Silver",
+   "region": "IN, US",
+   "note": "",
+   "price": 76300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/512/Touch ID) Blush",
+   "region": "IN, US",
+   "note": "",
+   "price": 76800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air NEO (8/512/Touch ID) Citrus",
+   "region": "IN, US",
+   "note": "",
+   "price": 74200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/512GB) Starlight",
+   "region": "US",
+   "note": "",
+   "price": 114400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/512GB) Midnight",
+   "region": "US",
+   "note": "",
+   "price": 115900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/512GB) Silver",
+   "region": "US",
+   "note": "",
+   "price": 117000,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/512GB) Sky Blue",
+   "region": "US",
+   "note": "",
+   "price": 114400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/1TB) Starlight",
+   "region": "US",
+   "note": "",
+   "price": 139600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/1TB) Midnight",
+   "region": "US",
+   "note": "",
+   "price": 139600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/1TB) Silver",
+   "region": "US",
+   "note": "",
+   "price": 143700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 16/1TB) Sky Blue",
+   "region": "US",
+   "note": "",
+   "price": 139600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 24/1TB) Starlight",
+   "region": "US",
+   "note": "",
+   "price": 159700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 24/1TB) Midnight",
+   "region": "US",
+   "note": "",
+   "price": 159700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 24/1TB) Silver",
+   "region": "US",
+   "note": "",
+   "price": 159700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 24/1TB) Sky Blue",
+   "region": "US",
+   "note": "",
+   "price": 159700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M4 24/512GB) Starlight",
+   "region": "US",
+   "note": "",
+   "price": 149400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M4 24/512GB) Sky Blue",
+   "region": "US",
+   "note": "",
+   "price": 154500,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/512/70w) Midnight",
+   "region": "HK",
+   "note": "",
+   "price": 174600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/512/70w) Silver",
+   "region": "HK",
+   "note": "",
+   "price": 174600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/512/70w) Starlight",
+   "region": "HK",
+   "note": "",
+   "price": 174600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/512) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 175100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/512/70w) Sky Blue",
+   "region": "HK",
+   "note": "",
+   "price": 174600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/1Tb/70w) Midnight",
+   "region": "HK",
+   "note": "",
+   "price": 203500,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/1Tb/70w) Silver",
+   "region": "HK",
+   "note": "",
+   "price": 203500,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/1Tb/70w) Starlight",
+   "region": "HK",
+   "note": "",
+   "price": 203500,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/1Tb) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 204000,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/1Tb/70w) Sky Blue",
+   "region": "HK",
+   "note": "",
+   "price": 203500,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/2Tb/70w) Midnight",
+   "region": "HK",
+   "note": "",
+   "price": 249800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/2Tb/70w) Silver",
+   "region": "HK",
+   "note": "",
+   "price": 249800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/2Tb/70w) Starlight",
+   "region": "HK",
+   "note": "",
+   "price": 249800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/2Tb) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 248300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/2Tb/70w) Sky Blue",
+   "region": "HK",
+   "note": "",
+   "price": 249800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/4Tb/70W) Silver",
+   "region": "RU",
+   "note": "",
+   "price": 341000,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 (M5 32/4Tb) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 341000,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Silver (M3, 8GB, 256GB)",
+   "region": "US",
+   "note": "с гравировкой",
+   "price": 105100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVH4 Air 15 Midnight (M5, 16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 132400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVQ4 Air 15 Sky Blue (M5, 16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 131900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVD4 Air 15 Starlight (M5, 16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 132400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDV94 Air 15 Silver (M5, 16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 133400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVK4 Air 15 Midnight (M5, 16GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 155100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVE4 Air 15 Starlight (M5, 16GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 155100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVT4 Air 15 Sky Blue (M5, 16GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 154500,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVA4 Air 15 Silver (M5, 16GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 156600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVN4 Air 15 Midnight (M5, 24GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 174100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVC4 Air 15 Silver (M5, 24GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 177200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVU4 Air 15 Sky Blue M5, 24GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 177700,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 M4 MDVF4 Air 15 Starlight (M5, 24GB, 1TB)",
+   "region": "US",
+   "note": "",
+   "price": 174100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Starlight (16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 140100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 M4 [MW1М3] Air 15 Midnight (16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 142200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Sky Blue (16GB, 512GB)",
+   "region": "US",
+   "note": "",
+   "price": 142200,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/512/70w) Midnight",
+   "region": "HK",
+   "note": "",
+   "price": 197300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/512/70w) Silver",
+   "region": "HK",
+   "note": "",
+   "price": 197300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/512/70w) Starlight",
+   "region": "HK",
+   "note": "",
+   "price": 197300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/512) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 197800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/512/70w) Sky Blue",
+   "region": "HK",
+   "note": "",
+   "price": 197300,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/1Tb/70w) Midnight",
+   "region": "HK",
+   "note": "",
+   "price": 226100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/1Tb/70w) Silver",
+   "region": "HK",
+   "note": "",
+   "price": 226100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/1Tb/70w) Starlight",
+   "region": "HK",
+   "note": "",
+   "price": 226100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/1Tb/70w) Sky Blue",
+   "region": "HK",
+   "note": "",
+   "price": 226100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb/70w) Midnight",
+   "region": "HK",
+   "note": "",
+   "price": 270400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb) Midnight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 270900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb/70w) Silver",
+   "region": "HK",
+   "note": "",
+   "price": 270400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 270900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb/70w) Starlight",
+   "region": "HK",
+   "note": "",
+   "price": 270400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 270900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb/70w) Sky Blue",
+   "region": "HK",
+   "note": "",
+   "price": 269900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/2Tb) Sky Blue Рус",
+   "region": "SG",
+   "note": "",
+   "price": 270900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/4Tb) Midnight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 363100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/4Tb) Silver Рус",
+   "region": "SG",
+   "note": "",
+   "price": 363100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/4Tb) Starlight Рус",
+   "region": "SG",
+   "note": "",
+   "price": 363100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/4Tb/70W) Starlight",
+   "region": "RU",
+   "note": "",
+   "price": 363600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/4Tb) Sky Blue Рус",
+   "region": "SG",
+   "note": "",
+   "price": 363100,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 (M5 32/4Tb/70W) Sky Blue",
+   "region": "RU",
+   "note": "",
+   "price": 363600,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 Midnight (M4, 16GB, 1TB) Z1CY000YL",
+   "region": "IN",
+   "note": "",
+   "price": 147900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 Silver (M4, 16GB, 1TB) Z1CT00238",
+   "region": "IN",
+   "note": "",
+   "price": 149900,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 Starlight (M4, 16GB, 1TB) Z1CW000GS",
+   "region": "IN",
+   "note": "",
+   "price": 144800,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 13 Starlight (M4, 24GB, 1TB) Z1CW000R0-Z1CW000GW",
+   "region": "IN",
+   "note": "",
+   "price": 165400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Midnight (M4, 16GB, 1TB) Z1DH000Q5",
+   "region": "IN",
+   "note": "",
+   "price": 155400,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Starlight (M4, 16GB, 1TB) Z1DF0004Z",
+   "region": "IN",
+   "note": "",
+   "price": 160000,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Sky Blue (M4, 16GB, 1TB) Z1HE0004Z",
+   "region": "IN",
+   "note": "",
+   "price": 160000,
+   "updated": "2026-11-11T19:43:14+00:00"
+  },
+  {
+   "category": "Mac",
+   "name": "MacBook Air 15 Sky Blue (M4, 24GB, 1TB) Z1HF001EF",
+   "region": "IN",
+   "note": "",
+   "price": 175500,
+   "updated": "2026-11-11T19:43:14+00:00"
   },
   {
    "category": "Mac",
@@ -5250,694 +5930,6 @@
   },
   {
    "category": "Mac",
-   "name": "MacBook Air NEO (8/256) Indigo",
-   "region": "HK, US",
-   "note": "",
-   "price": 65500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/256) Silver",
-   "region": "HK, US",
-   "note": "",
-   "price": 66000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/256) Blush",
-   "region": "HK, US",
-   "note": "",
-   "price": 66500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/256) Citrus",
-   "region": "HK, US",
-   "note": "",
-   "price": 65500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/512/Touch ID) Indigo",
-   "region": "IN, US",
-   "note": "",
-   "price": 76800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/512/Touch ID) Silver",
-   "region": "IN, US",
-   "note": "",
-   "price": 76300,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/512/Touch ID) Blush",
-   "region": "IN, US",
-   "note": "",
-   "price": 76800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air NEO (8/512/Touch ID) Citrus",
-   "region": "IN, US",
-   "note": "",
-   "price": 75200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/512GB) Starlight",
-   "region": "US",
-   "note": "",
-   "price": 114400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/512GB) Midnight",
-   "region": "US",
-   "note": "",
-   "price": 117000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/512GB) Silver",
-   "region": "US",
-   "note": "",
-   "price": 117000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/512GB) Sky Blue",
-   "region": "US",
-   "note": "",
-   "price": 116400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/1TB) Starlight",
-   "region": "US",
-   "note": "",
-   "price": 139600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/1TB) Midnight",
-   "region": "US",
-   "note": "",
-   "price": 139600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/1TB) Silver",
-   "region": "US",
-   "note": "",
-   "price": 143700,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 16/1TB) Sky Blue",
-   "region": "US",
-   "note": "",
-   "price": 139600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 24/1TB) Starlight",
-   "region": "US",
-   "note": "",
-   "price": 159700,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 24/1TB) Midnight",
-   "region": "US",
-   "note": "",
-   "price": 159700,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 24/1TB) Silver",
-   "region": "US",
-   "note": "",
-   "price": 159700,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 24/1TB) Sky Blue",
-   "region": "US",
-   "note": "",
-   "price": 159700,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M4 24/512GB) Starlight",
-   "region": "US",
-   "note": "",
-   "price": 149400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M4 24/512GB) Sky Blue",
-   "region": "US",
-   "note": "",
-   "price": 154500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/512/70w) Midnight",
-   "region": "HK",
-   "note": "",
-   "price": 174600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/512/70w) Silver",
-   "region": "HK",
-   "note": "",
-   "price": 174600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/512/70w) Starlight",
-   "region": "HK",
-   "note": "",
-   "price": 174600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/512) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 175100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/512/70w) Sky Blue",
-   "region": "HK",
-   "note": "",
-   "price": 174600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/1Tb/70w) Midnight",
-   "region": "HK",
-   "note": "",
-   "price": 203500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/1Tb/70w) Silver",
-   "region": "HK",
-   "note": "",
-   "price": 203500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/1Tb/70w) Starlight",
-   "region": "HK",
-   "note": "",
-   "price": 203500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/1Tb) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 204000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/1Tb/70w) Sky Blue",
-   "region": "HK",
-   "note": "",
-   "price": 203500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/2Tb/70w) Midnight",
-   "region": "HK",
-   "note": "",
-   "price": 249800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/2Tb/70w) Silver",
-   "region": "HK",
-   "note": "",
-   "price": 249800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/2Tb/70w) Starlight",
-   "region": "HK",
-   "note": "",
-   "price": 249800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/2Tb) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 248300,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/2Tb/70w) Sky Blue",
-   "region": "HK",
-   "note": "",
-   "price": 249800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/4Tb/70W) Silver",
-   "region": "RU",
-   "note": "",
-   "price": 341000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 (M5 32/4Tb) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 341000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Silver (M3, 8GB, 256GB)",
-   "region": "US",
-   "note": "с гравировкой",
-   "price": 105100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVH4 Air 15 Midnight (M5, 16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 132400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVQ4 Air 15 Sky Blue (M5, 16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 131900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVD4 Air 15 Starlight (M5, 16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 132400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDV94 Air 15 Silver (M5, 16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 133400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVK4 Air 15 Midnight (M5, 16GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 155100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVE4 Air 15 Starlight (M5, 16GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 155100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVT4 Air 15 Sky Blue (M5, 16GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 154500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVA4 Air 15 Silver (M5, 16GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 156600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVN4 Air 15 Midnight (M5, 24GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 174100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVC4 Air 15 Silver (M5, 24GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 177200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVU4 Air 15 Sky Blue M5, 24GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 177700,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 M4 MDVF4 Air 15 Starlight (M5, 24GB, 1TB)",
-   "region": "US",
-   "note": "",
-   "price": 174100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Starlight (16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 140100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 M4 [MW1М3] Air 15 Midnight (16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 142200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Sky Blue (16GB, 512GB)",
-   "region": "US",
-   "note": "",
-   "price": 142200,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/512/70w) Midnight",
-   "region": "HK",
-   "note": "",
-   "price": 197300,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/512/70w) Silver",
-   "region": "HK",
-   "note": "",
-   "price": 197300,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/512/70w) Starlight",
-   "region": "HK",
-   "note": "",
-   "price": 197300,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/512) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 197800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/512/70w) Sky Blue",
-   "region": "HK",
-   "note": "",
-   "price": 197300,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/1Tb/70w) Midnight",
-   "region": "HK",
-   "note": "",
-   "price": 226100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/1Tb/70w) Silver",
-   "region": "HK",
-   "note": "",
-   "price": 226100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/1Tb/70w) Starlight",
-   "region": "HK",
-   "note": "",
-   "price": 226100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/1Tb/70w) Sky Blue",
-   "region": "HK",
-   "note": "",
-   "price": 226100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb/70w) Midnight",
-   "region": "HK",
-   "note": "",
-   "price": 270400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb) Midnight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 270900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb/70w) Silver",
-   "region": "HK",
-   "note": "",
-   "price": 270400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 270900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb/70w) Starlight",
-   "region": "HK",
-   "note": "",
-   "price": 270400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 270900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb/70w) Sky Blue",
-   "region": "HK",
-   "note": "",
-   "price": 269900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/2Tb) Sky Blue Рус",
-   "region": "SG",
-   "note": "",
-   "price": 270900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/4Tb) Midnight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 363100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/4Tb) Silver Рус",
-   "region": "SG",
-   "note": "",
-   "price": 363100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/4Tb) Starlight Рус",
-   "region": "SG",
-   "note": "",
-   "price": 363100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/4Tb/70W) Starlight",
-   "region": "RU",
-   "note": "",
-   "price": 363600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/4Tb) Sky Blue Рус",
-   "region": "SG",
-   "note": "",
-   "price": 363100,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 (M5 32/4Tb/70W) Sky Blue",
-   "region": "RU",
-   "note": "",
-   "price": 363600,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 Midnight (M4, 16GB, 1TB) Z1CY000YL",
-   "region": "IN",
-   "note": "",
-   "price": 147900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 Silver (M4, 16GB, 1TB) Z1CT00238",
-   "region": "IN",
-   "note": "",
-   "price": 149900,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 Starlight (M4, 16GB, 1TB) Z1CW000GS",
-   "region": "IN",
-   "note": "",
-   "price": 144800,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 13 Starlight (M4, 24GB, 1TB) Z1CW000R0-Z1CW000GW",
-   "region": "IN",
-   "note": "",
-   "price": 165400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Midnight (M4, 16GB, 1TB) Z1DH000Q5",
-   "region": "IN",
-   "note": "",
-   "price": 155400,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Starlight (M4, 16GB, 1TB) Z1DF0004Z",
-   "region": "IN",
-   "note": "",
-   "price": 160000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Sky Blue (M4, 16GB, 1TB) Z1HE0004Z",
-   "region": "IN",
-   "note": "",
-   "price": 160000,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook Air 15 Sky Blue (M4, 24GB, 1TB) Z1HF001EF",
-   "region": "IN",
-   "note": "",
-   "price": 175500,
-   "updated": "2026-11-11T11:17:25+00:00"
-  },
-  {
-   "category": "Mac",
    "name": "MacBook Pro 13 TB (M1 8c CPU/8c GPU/16/512) Grey",
    "region": "US",
    "note": "",
@@ -6055,6 +6047,302 @@
    "note": "",
    "price": 613900,
    "updated": "2026-11-11T11:17:12+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 10 64 Silver LTE",
+   "region": "US",
+   "note": "",
+   "price": 33500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 10 64 Blue LTE",
+   "region": "US",
+   "note": "",
+   "price": 33500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Silver Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 40000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Pink Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 40000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Blue Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 39700,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Yellow Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 40000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Blue LTE",
+   "region": "US",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Blue LTE",
+   "region": "US",
+   "note": "распакован",
+   "price": 46400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Silver LTE",
+   "region": "US",
+   "note": "",
+   "price": 51000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 128 Yellow LTE",
+   "region": "US",
+   "note": "",
+   "price": 51500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 256 Silver Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 51500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 256 Pink Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 51000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 256 Blue Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 50500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 2025 256 Yellow Wi-Fi",
+   "region": "US",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad 11 512 Blue WIFI 2025",
+   "region": "US",
+   "note": "",
+   "price": 67000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 5 256 LTE Grey",
+   "region": "IN",
+   "note": "",
+   "price": 33000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 6 64 Wi-Fi Pink",
+   "region": "US",
+   "note": "",
+   "price": 36100,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 6 64 Wi-Fi Purple",
+   "region": "US, CA",
+   "note": "",
+   "price": 36600,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 6 64 LTE Starlight",
+   "region": "IN",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 6 64 LTE Purple",
+   "region": "IN",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 6 64 LTE Pink",
+   "region": "IN",
+   "note": "",
+   "price": 39700,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 6 256 Wi-Fi Purple",
+   "region": "US",
+   "note": "",
+   "price": 46400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Purple WiFi",
+   "region": "US",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Starlight WiFi",
+   "region": "US",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Grey WiFi",
+   "region": "US",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Blue Wi fi",
+   "region": "US",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Gray LTE",
+   "region": "US",
+   "note": "",
+   "price": 69300,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Blue LTE",
+   "region": "US",
+   "note": "",
+   "price": 70000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 128 Purple LTE",
+   "region": "US",
+   "note": "",
+   "price": 70000,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 256 Purple WiFi",
+   "region": "US",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 256 Starlight WiFi",
+   "region": "US",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 256 Grey WiFi",
+   "region": "US",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 256 Blue WiFi",
+   "region": "US",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 7 256 LTE Blue",
+   "region": "US",
+   "note": "",
+   "price": 84400,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad mini 7 256 LTE Purple",
+   "region": "US",
+   "note": "",
+   "price": 86500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 256 LTE Gray",
+   "region": "US",
+   "note": "",
+   "price": 86500,
+   "updated": "2026-11-11T19:39:45+00:00"
+  },
+  {
+   "category": "iPad",
+   "name": "iPad Mini 7 256 LTE Starlight",
+   "region": "US",
+   "note": "",
+   "price": 85400,
+   "updated": "2026-11-11T19:39:45+00:00"
   },
   {
    "category": "iPad",
@@ -7295,302 +7583,6 @@
    "note": "",
    "price": 140600,
    "updated": "2026-11-11T11:18:09+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 10 64 Silver LTE",
-   "region": "US",
-   "note": "",
-   "price": 33500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 10 64 Blue LTE",
-   "region": "US",
-   "note": "",
-   "price": 33500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Silver Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 40400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Pink Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 40400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Blue Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Yellow Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Blue LTE",
-   "region": "US",
-   "note": "",
-   "price": 49000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Blue LTE",
-   "region": "US",
-   "note": "распакован",
-   "price": 46400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Silver LTE",
-   "region": "US",
-   "note": "",
-   "price": 51000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 128 Yellow LTE",
-   "region": "US",
-   "note": "",
-   "price": 51500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 256 Silver Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 51500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 256 Pink Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 51000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 256 Blue Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 50500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 2025 256 Yellow Wi-Fi",
-   "region": "US",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad 11 512 Blue WIFI 2025",
-   "region": "US",
-   "note": "",
-   "price": 67000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 5 256 LTE Grey",
-   "region": "IN",
-   "note": "",
-   "price": 33000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 6 64 Wi-Fi Pink",
-   "region": "US",
-   "note": "",
-   "price": 36100,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 6 64 Wi-Fi Purple",
-   "region": "US, CA",
-   "note": "",
-   "price": 36600,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 6 64 LTE Starlight",
-   "region": "IN",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 6 64 LTE Purple",
-   "region": "IN",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 6 64 LTE Pink",
-   "region": "IN",
-   "note": "",
-   "price": 39700,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 6 256 Wi-Fi Purple",
-   "region": "US",
-   "note": "",
-   "price": 46400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Purple WiFi",
-   "region": "US",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Starlight WiFi",
-   "region": "US",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Grey WiFi",
-   "region": "US",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Blue Wi fi",
-   "region": "US",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Gray LTE",
-   "region": "US",
-   "note": "",
-   "price": 69300,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Blue LTE",
-   "region": "US",
-   "note": "",
-   "price": 70000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 128 Purple LTE",
-   "region": "US",
-   "note": "",
-   "price": 70000,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 256 Purple WiFi",
-   "region": "US",
-   "note": "",
-   "price": 64400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 256 Starlight WiFi",
-   "region": "US",
-   "note": "",
-   "price": 64400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 256 Grey WiFi",
-   "region": "US",
-   "note": "",
-   "price": 64400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 256 Blue WiFi",
-   "region": "US",
-   "note": "",
-   "price": 64400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 7 256 LTE Blue",
-   "region": "US",
-   "note": "",
-   "price": 84400,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad mini 7 256 LTE Purple",
-   "region": "US",
-   "note": "",
-   "price": 86500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 256 LTE Gray",
-   "region": "US",
-   "note": "",
-   "price": 86500,
-   "updated": "2026-11-11T11:17:41+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Mini 7 256 LTE Starlight",
-   "region": "US",
-   "note": "",
-   "price": 85400,
-   "updated": "2026-11-11T11:17:41+00:00"
   },
   {
    "category": "Apple Watch",
@@ -24690,6 +24682,374 @@
   },
   {
    "category": "Гаджеты",
+   "name": "Meta WAYFARER Ray-Ban Gen3 RW4011 Matte Black / Clear (M)",
+   "region": "",
+   "note": "",
+   "price": 42300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta WAYFARER Ray-Ban Gen3 RW4011 Matte Black / Clear (L)",
+   "region": "",
+   "note": "",
+   "price": 42300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta WAYFARER Ray-Ban Gen3 RW4011 Shiny Black / Transition Grey( L)",
+   "region": "",
+   "note": "",
+   "price": 44300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta ZENA Ray-Ban Gen3 RW4015 Milky Grey Lilac / TRS Copper",
+   "region": "",
+   "note": "",
+   "price": 50500,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta ZENA Ray-Ban Gen3 RW4015 RW4015 Havana / Gradient Brown",
+   "region": "",
+   "note": "",
+   "price": 50500,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta ZENA Ray-Ban Gen3 RW4015 Shiny Black / Clear",
+   "region": "",
+   "note": "",
+   "price": 48500,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta ZENA Ray-Ban Gen3 RW4015 Shiny Black / Grey",
+   "region": "",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Starfire Kylie Jenner Classic Black/Black",
+   "region": "",
+   "note": "",
+   "price": 43300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Starfire Kylie Edition Classic Black/Clear Grey Transitions",
+   "region": "",
+   "note": "",
+   "price": 50500,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Fury Mahogany/Green",
+   "region": "",
+   "note": "",
+   "price": 43300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Fury Racing Green/Light Blue Atlantic",
+   "region": "",
+   "note": "",
+   "price": 42800,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Fury Sanstone/ Dark Amber",
+   "region": "",
+   "note": "",
+   "price": 42300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Fury Classik Black/Brown Gradient",
+   "region": "",
+   "note": "",
+   "price": 42800,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Умные очки RayBan Meta Fury Classik Black/Polar Grey",
+   "region": "",
+   "note": "",
+   "price": 42300,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen2 Matte Black Clear RW4012 (размер M)",
+   "region": "",
+   "note": "",
+   "price": 36100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen2 Matte Black Clear RW4012 (размер L)",
+   "region": "",
+   "note": "",
+   "price": 35100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen 2 SIZE 50 (M) RW4012 Matte Black / Transitions® Grey",
+   "region": "",
+   "note": "",
+   "price": 36100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen 2 SIZE 50 (M) RW4012 Matte Black / Transitions® Grey",
+   "region": "",
+   "note": "раскрыты",
+   "price": 32500,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen 2 SIZE 53 (L) RW4012 Matte Black / Transitions® Grey",
+   "region": "",
+   "note": "",
+   "price": 36600,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Black/Graphite Green Transitions RW4012 (размер M)",
+   "region": "",
+   "note": "",
+   "price": 37600,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Black/Graphite Green Transitions RW4012 (размер L)",
+   "region": "",
+   "note": "",
+   "price": 37600,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Transp, Gray / Sapphire Transitions RW4012 (размер M)",
+   "region": "",
+   "note": "",
+   "price": 38200,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Cosmic Blue/ Transitions Sapphire (Размер М)",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Wayfarer Gen 2 RW",
+   "region": "",
+   "note": "",
+   "price": 4200,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Wayfarer Gen 2 RW4012 Shiny Black G15 Green Size 50(M)",
+   "region": "",
+   "note": "",
+   "price": 32000,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Wayfarer Gen 2 RW4012 Shiny Black G15 Green Size 53(L)",
+   "region": "",
+   "note": "",
+   "price": 32000,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Gen 2 Headliner Matte Black / Clear",
+   "region": "",
+   "note": "",
+   "price": 37100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Headliner RW4013 Shiny Black G15 Green (L) Gen2",
+   "region": "",
+   "note": "",
+   "price": 31500,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Headliner RW4013 Mate Black Polar Gradient Graphite (L)",
+   "region": "",
+   "note": "",
+   "price": 36100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Skyler Gen 2 RW",
+   "region": "",
+   "note": "",
+   "price": 4200,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Skyler Gen 2 RW4012 Shiny Black/ G15 Green L (52)",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Display Shiny Sand Standart/Sable Sabbia Size - 1",
+   "region": "",
+   "note": "",
+   "price": 97900,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Display Shiny Sand Standart/Sable Sabbia Size - 3",
+   "region": "",
+   "note": "",
+   "price": 97900,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Display Shiny Black Standart/Black Band Size - 1",
+   "region": "",
+   "note": "",
+   "price": 106100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Display Shiny Black Standart/Black Band Size - 3",
+   "region": "",
+   "note": "",
+   "price": 106100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Ray-Ban Meta Display Shiny Black Large /Black Band Size - 3",
+   "region": "",
+   "note": "",
+   "price": 106100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta HSTN 00W8002 Warm Grey/Prizm Ruby 145-51",
+   "region": "",
+   "note": "",
+   "price": 47900,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta HSTN 00W8002 Black/Prizm Black Polarized 145-51 C 80020351",
+   "region": "",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta HSTN 00W8002 Clear/Transitions Grey 145-51 C 80020551",
+   "region": "",
+   "note": "",
+   "price": 53100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta HSTN 00W8002 Lichte Сurry/Transitions Brown 145-51",
+   "region": "",
+   "note": "",
+   "price": 53100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta HSTN 00W8002 Black/Transitions Amethyst 145-51",
+   "region": "",
+   "note": "",
+   "price": 47400,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta Vanguard OW8001 (White) (линзы - Prizm Black) S52",
+   "region": "",
+   "note": "",
+   "price": 53600,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta Vanguard OW8001 (White) (линзы - Prizm Sapphire) S52",
+   "region": "",
+   "note": "",
+   "price": 56700,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta Vanguard OW8001 (Black) (линзы - Prizm 24K) S52",
+   "region": "",
+   "note": "",
+   "price": 54600,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta Vanguard OW8001 (White) (линзы - Prizm Rose Gold) S52",
+   "region": "",
+   "note": "",
+   "price": 54600,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Oakley Meta Vanguard OW8001 (Black) (линзы - Prizm Transitions Ember) S52",
+   "region": "",
+   "note": "",
+   "price": 61800,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Гаджеты",
    "name": "Криптокошелек Ledger Nano S Plus Matte Black",
    "region": "",
    "note": "",
@@ -24783,318 +25143,6 @@
    "note": "",
    "price": 59800,
    "updated": "2026-11-11T13:53:35+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Starfire Kylie Jenner Classic Black/Black",
-   "region": "",
-   "note": "",
-   "price": 43300,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Starfire Kylie Edition Classic Black/Clear Grey Transitions",
-   "region": "",
-   "note": "",
-   "price": 50500,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Fury Mahogany/Green",
-   "region": "",
-   "note": "",
-   "price": 43300,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Fury Racing Green/Light Blue Atlantic",
-   "region": "",
-   "note": "",
-   "price": 42800,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Fury Sanstone/ Dark Amber",
-   "region": "",
-   "note": "",
-   "price": 42300,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Fury Classik Black/Brown Gradient",
-   "region": "",
-   "note": "",
-   "price": 42800,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Умные очки RayBan Meta Fury Classik Black/Polar Grey",
-   "region": "",
-   "note": "",
-   "price": 42300,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen2 Matte Black Clear RW4012 (размер M)",
-   "region": "",
-   "note": "",
-   "price": 36100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen2 Matte Black Clear RW4012 (размер L)",
-   "region": "",
-   "note": "",
-   "price": 35100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen 2 SIZE 50 (M) RW4012 Matte Black / Transitions® Grey",
-   "region": "",
-   "note": "",
-   "price": 36100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen 2 SIZE 50 (M) RW4012 Matte Black / Transitions® Grey",
-   "region": "",
-   "note": "раскрыты",
-   "price": 32500,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen 2 SIZE 53 (L) RW4012 Matte Black / Transitions® Grey",
-   "region": "",
-   "note": "",
-   "price": 36600,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Black/Graphite Green Transitions RW4012 (размер M)",
-   "region": "",
-   "note": "",
-   "price": 37600,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Black/Graphite Green Transitions RW4012 (размер L)",
-   "region": "",
-   "note": "",
-   "price": 37600,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Transp, Gray / Sapphire Transitions RW4012 (размер M)",
-   "region": "",
-   "note": "",
-   "price": 38200,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen2 Shiny Cosmic Blue/ Transitions Sapphire (Размер М)",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Wayfarer Gen 2 RW",
-   "region": "",
-   "note": "",
-   "price": 4200,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Wayfarer Gen 2 RW4012 Shiny Black G15 Green Size 50(M)",
-   "region": "",
-   "note": "",
-   "price": 32000,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Wayfarer Gen 2 RW4012 Shiny Black G15 Green Size 53(L)",
-   "region": "",
-   "note": "",
-   "price": 32000,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Gen 2 Headliner Matte Black / Clear",
-   "region": "",
-   "note": "",
-   "price": 37100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Headliner RW4013 Shiny Black G15 Green (L) Gen2",
-   "region": "",
-   "note": "",
-   "price": 31500,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Headliner RW4013 Mate Black Polar Gradient Graphite (L)",
-   "region": "",
-   "note": "",
-   "price": 36100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Skyler Gen 2 RW",
-   "region": "",
-   "note": "",
-   "price": 4200,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Skyler Gen 2 RW4012 Shiny Black/ G15 Green L (52)",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Display Shiny Sand Standart/Sable Sabbia Size - 1",
-   "region": "",
-   "note": "",
-   "price": 97900,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Display Shiny Sand Standart/Sable Sabbia Size - 3",
-   "region": "",
-   "note": "",
-   "price": 97900,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Display Shiny Black Standart/Black Band Size - 1",
-   "region": "",
-   "note": "",
-   "price": 106100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Display Shiny Black Standart/Black Band Size - 3",
-   "region": "",
-   "note": "",
-   "price": 106100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Ray-Ban Meta Display Shiny Black Large /Black Band Size - 3",
-   "region": "",
-   "note": "",
-   "price": 106100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta HSTN 00W8002 Warm Grey/Prizm Ruby 145-51",
-   "region": "",
-   "note": "",
-   "price": 47900,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta HSTN 00W8002 Black/Prizm Black Polarized 145-51 C 80020351",
-   "region": "",
-   "note": "",
-   "price": 49000,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta HSTN 00W8002 Clear/Transitions Grey 145-51 C 80020551",
-   "region": "",
-   "note": "",
-   "price": 53100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta HSTN 00W8002 Lichte Сurry/Transitions Brown 145-51",
-   "region": "",
-   "note": "",
-   "price": 53100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta HSTN 00W8002 Black/Transitions Amethyst 145-51",
-   "region": "",
-   "note": "",
-   "price": 47400,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta Vanguard OW8001 (White) (линзы - Prizm Black) S52",
-   "region": "",
-   "note": "",
-   "price": 53600,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta Vanguard OW8001 (White) (линзы - Prizm Sapphire) S52",
-   "region": "",
-   "note": "",
-   "price": 56700,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta Vanguard OW8001 (Black) (линзы - Prizm 24K) S52",
-   "region": "",
-   "note": "",
-   "price": 54600,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta Vanguard OW8001 (White) (линзы - Prizm Rose Gold) S52",
-   "region": "",
-   "note": "",
-   "price": 54600,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Oakley Meta Vanguard OW8001 (Black) (линзы - Prizm Transitions Ember) S52",
-   "region": "",
-   "note": "",
-   "price": 61800,
-   "updated": "2026-11-11T13:10:57+00:00"
   },
   {
    "category": "Гаджеты",
@@ -30558,7 +30606,31 @@
    "region": "",
    "note": "",
    "price": 2100,
-   "updated": "2026-11-11T14:45:25+00:00"
+   "updated": "2026-11-11T19:38:43+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "Matte Black Polarized Gradient Graphite Lenses Размер M (50)",
+   "region": "",
+   "note": "",
+   "price": 37100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "Matte Black Polarized Gradient Graphite Lenses Размер L (53)",
+   "region": "",
+   "note": "",
+   "price": 37100,
+   "updated": "2026-11-11T16:34:33+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "Matte Black Polarized Gradient Graphite Lenses Размер L (52)",
+   "region": "",
+   "note": "",
+   "price": 37100,
+   "updated": "2026-11-11T16:34:33+00:00"
   },
   {
    "category": "Другое",
@@ -31015,30 +31087,6 @@
    "note": "",
    "price": 6200,
    "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Matte Black Polarized Gradient Graphite Lenses Размер M (50)",
-   "region": "",
-   "note": "",
-   "price": 37100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Matte Black Polarized Gradient Graphite Lenses Размер L (53)",
-   "region": "",
-   "note": "",
-   "price": 37100,
-   "updated": "2026-11-11T13:10:57+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Matte Black Polarized Gradient Graphite Lenses Размер L (52)",
-   "region": "",
-   "note": "",
-   "price": 37100,
-   "updated": "2026-11-11T13:10:57+00:00"
   },
   {
    "category": "Другое",
