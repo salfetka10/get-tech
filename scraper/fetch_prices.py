@@ -29,10 +29,10 @@ OUT = ROOT / "data" / "prices.json"
 
 # Категории: первое совпадение по строке позиции вместе с заголовком блока. Порядок важен.
 CATEGORIES = [
-    ("Чехлы и аксессуары", r"\bcase\b|folio|sleeve|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател|travel bag|\bблок\b"),
-    ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|apple pencil|airtag|magsafe|apple tv|homepod|vision pro"),
+    ("Чехлы и аксессуары", r"\bcase\b|folio|sleeve|deppo|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател|travel bag|\bблок\b"),
+    ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|pencil|earpods|airtag|magsafe|apple tv|homepod|vision pro"),
     ("iPhone", r"iphone|^1[1-9](e| ?pro max| ?pro| ?plus| ?mini| ?air)? \d{1,4} ?(gb|tb)?\b|^air (1|2)?\d{2,3}gb|^iphone"),
-    ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro|^(air|pro) 1[3-6]\b|studio display|pro display|pro stand"),
+    ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro|^(air|pro) 1[3-6]\b|studio display|pro display|pro stand\b"),
     ("iPad", r"ipad"),
     ("Apple Watch", r"apple watch|(?<!galaxy )(?<!redmi )watch (ultra|series|se)\b|^watch (se )?\d|ultra \d 49|milanese|alpine loop|trail loop|ocean band|sport (band|loop)|\baw s\d|^s1\d 4\d"),
     ("AirPods", r"airpods"),
@@ -320,6 +320,9 @@ def build(posts: list[dict]) -> dict:
     for p in posts:
         for it in parse_post(p["text"]):
             key = (it["name"] + "|" + it["region"] + "|" + it["note"]).lower()
+            # одно слово-семейство («MacBook», «iPad») без модели: это заголовок блока, а не позиция
+            if re.fullmatch(r"(macbook|imac|ipad|iphone|airpods|apple watch|watch)", it["name"].strip(), re.I):
+                continue
             if key in seen:
                 continue
             seen.add(key)
