@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T00:36+00:00",
- "count": 3929,
+ "updated": "2026-11-11T07:06+00:00",
+ "count": 3932,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -14,7 +14,7 @@
    "region": "EU",
    "note": "",
    "price": 1900,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -22,7 +22,7 @@
    "region": "",
    "note": "",
    "price": 2600,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -30,7 +30,7 @@
    "region": "",
    "note": "",
    "price": 4500,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -38,7 +38,7 @@
    "region": "",
    "note": "",
    "price": 5500,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -46,7 +46,7 @@
    "region": "",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -54,7 +54,39 @@
    "region": "",
    "note": "",
    "price": 5100,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Case Blue",
+   "region": "",
+   "note": "",
+   "price": 20100,
+   "updated": "2026-11-11T06:57:25+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Case Sand",
+   "region": "",
+   "note": "",
+   "price": 20100,
+   "updated": "2026-11-11T06:57:25+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Folio Blue",
+   "region": "",
+   "note": "",
+   "price": 21700,
+   "updated": "2026-11-11T06:57:25+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Duo Folio Taupe",
+   "region": "",
+   "note": "",
+   "price": 21700,
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -62,7 +94,7 @@
    "region": "",
    "note": "",
    "price": 7200,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -70,7 +102,7 @@
    "region": "",
    "note": "",
    "price": 9800,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -78,7 +110,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -86,7 +118,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -94,7 +126,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -102,7 +134,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -110,7 +142,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -118,7 +150,7 @@
    "region": "",
    "note": "",
    "price": 9800,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -126,7 +158,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -134,7 +166,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -142,7 +174,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -150,7 +182,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -158,7 +190,7 @@
    "region": "",
    "note": "",
    "price": 8800,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -166,7 +198,7 @@
    "region": "",
    "note": "",
    "price": 8800,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -174,7 +206,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -182,7 +214,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -190,7 +222,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -198,15 +230,15 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
    "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
    "region": "",
    "note": "",
-   "price": 12400,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "price": 10900,
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -214,7 +246,7 @@
    "region": "",
    "note": "",
    "price": 9800,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -222,7 +254,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -230,7 +262,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -238,7 +270,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -246,7 +278,7 @@
    "region": "",
    "note": "",
    "price": 8300,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -254,7 +286,7 @@
    "region": "",
    "note": "",
    "price": 6200,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -262,7 +294,7 @@
    "region": "",
    "note": "",
    "price": 6200,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -270,7 +302,7 @@
    "region": "",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -278,7 +310,7 @@
    "region": "",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -286,7 +318,7 @@
    "region": "",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -294,7 +326,7 @@
    "region": "",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-10T15:58:05+00:00"
+   "updated": "2026-11-11T06:48:30+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -302,7 +334,7 @@
    "region": "",
    "note": "",
    "price": 2100,
-   "updated": "2026-11-10T15:57:19+00:00"
+   "updated": "2026-11-11T06:15:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -383,38 +415,6 @@
    "note": "",
    "price": 105100,
    "updated": "2026-11-10T15:27:23+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Case Blue",
-   "region": "",
-   "note": "",
-   "price": 20100,
-   "updated": "2026-11-10T13:51:01+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Case Sand",
-   "region": "",
-   "note": "",
-   "price": 20100,
-   "updated": "2026-11-10T13:51:01+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Folio Blue",
-   "region": "",
-   "note": "",
-   "price": 21700,
-   "updated": "2026-11-10T13:51:01+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Duo Folio Taupe",
-   "region": "",
-   "note": "",
-   "price": 21700,
-   "updated": "2026-11-10T13:51:01+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -1594,1803 +1594,11 @@
   },
   {
    "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 121600,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Black",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 113000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 123100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 113900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 121100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 112800,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 120600,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 112800,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 256 Glacier",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 111800,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 144800,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Black",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 134500,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 147900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 135000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 152000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 138100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 147900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 512 Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 136000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 189600,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Black",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 170000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 187500,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Burgundy",
-   "region": "JP, US",
-   "note": "е sim",
-   "price": 179300,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 191600,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 172100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 190100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 1Tb Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 167900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 235900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Black",
-   "region": "JP, US",
-   "note": "е sim",
-   "price": 216900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 238000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 221500,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 239000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 218900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 233900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro 2Tb Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 219400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 130300,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Black",
-   "region": "US",
-   "note": "е sim",
-   "price": 127300,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 137000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 127800,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 130900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Silver",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 125700,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 133900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 256 Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 128300,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 151500,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 147900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Black",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 143200,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 159700,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 154000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 154500,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Silver",
-   "region": "US",
-   "note": "eSIM",
-   "price": 149900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 154000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 512 Glacier",
-   "region": "US",
-   "note": "eSIM",
-   "price": 149400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 200400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 187000,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 200900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Burgundy",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 190600,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Silver",
-   "region": "HK, KR",
-   "note": "SIM + eSIM",
-   "price": 200400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Silver",
-   "region": "US",
-   "note": "eSIM",
-   "price": 194700,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 200400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 1Tb Glacier",
-   "region": "US",
-   "note": "е sim",
-   "price": 191100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Black",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 252400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 223600,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Burgundy",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 266300,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Burgundy",
-   "region": "US",
-   "note": "eSIM",
-   "price": 256500,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Silver",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 281200,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Silver",
-   "region": "US",
-   "note": "eSIM",
-   "price": 234900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Glacier",
-   "region": "KR, HK",
-   "note": "SIM + eSIM",
-   "price": 252400,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 18 Pro Max 2Tb Glacier",
-   "region": "JP, US",
-   "note": "eSIM",
-   "price": 234900,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 128 Green",
-   "region": "US",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 128 Red",
-   "region": "US",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 128 Pink",
-   "region": "US",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 128 Blue",
-   "region": "US",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 128 Midnight",
-   "region": "US",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 128 Midnight CPO",
-   "region": "JP",
-   "note": "",
-   "price": 44900,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 512 Midnight CPO",
-   "region": "AE",
-   "note": "",
-   "price": 49000,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 13 512 Starlight CPO",
-   "region": "AE",
-   "note": "",
-   "price": 49000,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 512 Purple",
-   "region": "IN",
-   "note": "",
-   "price": 60800,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 512 Midnight",
-   "region": "BR",
-   "note": "",
-   "price": 60300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Plus 128 Midnight eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 46900,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Plus 128 Yellow eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 45900,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Plus 256 Red",
-   "region": "AE",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Plus 512 Starlight",
-   "region": "CA",
-   "note": "",
-   "price": 65500,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Plus 512 Blue",
-   "region": "EU",
-   "note": "",
-   "price": 65500,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Pro Max 1TB Silver CPO",
-   "region": "AE",
-   "note": "",
-   "price": 72700,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 14 Pro Max 1TB Purple CPO",
-   "region": "AE",
-   "note": "",
-   "price": 72700,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 128 Black",
-   "region": "IN",
-   "note": "",
-   "price": 54300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 128 Black",
-   "region": "US",
-   "note": "",
-   "price": 51000,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 128 Blue",
-   "region": "IN",
-   "note": "",
-   "price": 54300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 128 Green",
-   "region": "AE",
-   "note": "",
-   "price": 59500,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 256 Black",
-   "region": "IN",
-   "note": "",
-   "price": 64400,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 256 Black",
-   "region": "IN",
-   "note": "активирован",
-   "price": 60300,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 256 Blue",
-   "region": "IN",
-   "note": "",
-   "price": 66700,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 256 Blue",
-   "region": "IN",
-   "note": "активирован",
-   "price": 61800,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 512 Blue",
-   "region": "IN",
-   "note": "",
-   "price": 74200,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 512 Green",
-   "region": "IN",
-   "note": "",
-   "price": 74100,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 512 Yellow",
-   "region": "IN",
-   "note": "",
-   "price": 74700,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Plus 128 Pink",
-   "region": "IN",
-   "note": "",
-   "price": 62400,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Plus 512 Green",
-   "region": "JP, CA",
-   "note": "",
-   "price": 67500,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Pro Max 256 Blue",
-   "region": "JP, KW",
-   "note": "",
-   "price": 88100,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 15 Pro Max 1TB Black (361 цикл, 92%)",
-   "region": "CN",
-   "note": "без Dual Sim",
-   "price": 72100,
-   "updated": "2026-11-10T15:57:19+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 66500,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 61300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 black",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 58200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 66500,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 White",
-   "region": "US",
-   "note": "eSIM",
-   "price": 60300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 63900,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "CN",
-   "note": "2sim",
-   "price": 61300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "US",
-   "note": "eSIM",
-   "price": 61100,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 256 Pink",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 58200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 81400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 71100,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Black",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 60800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 79900,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 White",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 70600,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Pink",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 79900,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17e 512 Pink",
-   "region": "US",
-   "note": "eSIM",
-   "price": 67500,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 71800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Blue",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 White",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 72400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 White",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Sage",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Sage",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Lavender",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 76600,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Lavender",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 75200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 256 Lavender",
-   "region": "US",
-   "note": "eSIM",
-   "price": 74400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone",
-   "region": "",
-   "note": "",
-   "price": 18100,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 White",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 92700,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 White",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 89100,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 White",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 87600,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Sage",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 94300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Sage",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 92200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 92700,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Blue",
-   "region": "IN",
-   "note": "SIM + eSIM активирован",
-   "price": 89100,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 88600,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Lavender",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 97600,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Lavender",
-   "region": "US",
-   "note": "eSIM",
-   "price": 89100,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Lavender",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 85000,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Black",
-   "region": "IN",
-   "note": "SIM + eSIM",
-   "price": 93800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Black",
-   "region": "US",
-   "note": "eSIM",
-   "price": 91200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 512 Black",
-   "region": "JP, US",
-   "note": "eSIM активирован",
-   "price": 90200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 Blue",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 76800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 Gold",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 76800,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 White",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 78300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 256 Black",
-   "region": "US, JP",
-   "note": "eSIM",
-   "price": 77300,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 Bluе",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 83200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 Gold",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 83200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 Black",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 90200,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 512 White",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 96400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB Blue",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 91700,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB Gold",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 94500,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB White",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 98400,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone Air 1TB Black",
-   "region": "JP",
-   "note": "eSIM",
-   "price": 94500,
-   "updated": "2026-11-10T15:57:07+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 128 Black",
-   "region": "US",
-   "note": "",
-   "price": 46400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 128 Black",
-   "region": "US",
-   "note": "активирован",
-   "price": 40200,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 256 Black",
-   "region": "CN",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 256 White",
-   "region": "CN",
-   "note": "",
-   "price": 49000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 512 Black",
-   "region": "IN",
-   "note": "",
-   "price": 58200,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16E 512 White",
-   "region": "IN",
-   "note": "",
-   "price": 57700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Teal",
-   "region": "IN",
-   "note": "",
-   "price": 63400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Teal",
-   "region": "IN",
-   "note": "активирован",
-   "price": 61800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Black",
-   "region": "IN",
-   "note": "",
-   "price": 62900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Black",
-   "region": "US",
-   "note": "",
-   "price": 60800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Pink",
-   "region": "IN",
-   "note": "",
-   "price": 62900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Pink",
-   "region": "US",
-   "note": "",
-   "price": 60800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 White",
-   "region": "IN",
-   "note": "",
-   "price": 62900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 128 Ultramarine",
-   "region": "IN",
-   "note": "",
-   "price": 62900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 256 Ultramarine",
-   "region": "US",
-   "note": "",
-   "price": 66000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 128 Black",
-   "region": "IN",
-   "note": "",
-   "price": 70600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 128 Pink",
-   "region": "IN",
-   "note": "",
-   "price": 71900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 128 Ultramarine",
-   "region": "IN",
-   "note": "",
-   "price": 70600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 128 Teal",
-   "region": "IN",
-   "note": "",
-   "price": 71600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 256 White",
-   "region": "IN",
-   "note": "",
-   "price": 80400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 256 Black",
-   "region": "IN",
-   "note": "",
-   "price": 84200,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 256 Teal",
-   "region": "IN",
-   "note": "",
-   "price": 79900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 256 Ultramarine",
-   "region": "IN",
-   "note": "",
-   "price": 84000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 256 Pink",
-   "region": "IN",
-   "note": "",
-   "price": 84000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Plus 512 Pink",
-   "region": "US",
-   "note": "",
-   "price": 82400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Desert",
-   "region": "CN",
-   "note": "",
-   "price": 89700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Desert",
-   "region": "US",
-   "note": "",
-   "price": 83700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Desert",
-   "region": "IN",
-   "note": "активирован",
-   "price": 85500,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Black",
-   "region": "US",
-   "note": "",
-   "price": 90700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Black",
-   "region": "IN",
-   "note": "активирован",
-   "price": 87600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Black eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 74700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Black eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 76300,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 White eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 74700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 White eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 76300,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Natural eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 74700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Natural eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 76300,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Desert eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 74700,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 128 Desert eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 76300,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 Black eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 80900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 Black eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 82400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 White eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 80900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 White eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 82400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 Natural eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 80900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 Natural eSim CPO (Ориг. упаковка)",
-   "region": "US",
-   "note": "",
-   "price": 82400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 256 Desert eSim CPO",
-   "region": "US",
-   "note": "",
-   "price": 80900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 512 Desert",
-   "region": "CA",
-   "note": "",
-   "price": 118500,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 512 White",
-   "region": "CA",
-   "note": "",
-   "price": 121100,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 1Tb White",
-   "region": "KW",
-   "note": "",
-   "price": 127800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro 1Tb Natural",
-   "region": "US",
-   "note": "активирован",
-   "price": 114900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 256 Desert",
-   "region": "KW",
-   "note": "",
-   "price": 99400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 256 Desert",
-   "region": "US",
-   "note": "",
-   "price": 96400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 White",
-   "region": "AE",
-   "note": "",
-   "price": 115900,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 White",
-   "region": "US",
-   "note": "",
-   "price": 97400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 Natural",
-   "region": "IN",
-   "note": "активирован",
-   "price": 101000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 Natural",
-   "region": "US",
-   "note": "",
-   "price": 97400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 Black",
-   "region": "US",
-   "note": "",
-   "price": 96400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 Black CPO",
-   "region": "HK",
-   "note": "",
-   "price": 88600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 256 White CPO",
-   "region": "HK",
-   "note": "",
-   "price": 88600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 512 White",
-   "region": "HK",
-   "note": "2sim",
-   "price": 123100,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 512 White",
-   "region": "US",
-   "note": "",
-   "price": 110800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 512 Natural",
-   "region": "US",
-   "note": "",
-   "price": 110800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 512 Black",
-   "region": "US",
-   "note": "",
-   "price": 110800,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 512 Black",
-   "region": "US",
-   "note": "активирован",
-   "price": 102000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 512 Desert",
-   "region": "KW",
-   "note": "",
-   "price": 114400,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Prо Maх 512 Desert",
-   "region": "US",
-   "note": "активирован",
-   "price": 102000,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 1Tb Deser",
-   "region": "KW",
-   "note": "",
-   "price": 117500,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 1TB White",
-   "region": "KW",
-   "note": "",
-   "price": 128300,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 1TB Natural",
-   "region": "KW",
-   "note": "",
-   "price": 117500,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 1TB Natural",
-   "region": "US",
-   "note": "активирован",
-   "price": 109200,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 16 Pro Max 1Tb Black (365 циклов, 93%)",
-   "region": "HK",
-   "note": "без Dual Sim",
-   "price": 87600,
-   "updated": "2026-11-10T15:51:37+00:00"
-  },
-  {
-   "category": "iPhone",
    "name": "iPhone 17 Pro 256 Silver",
    "region": "HK, KR",
    "note": "SIM + eSIM",
    "price": 106700,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3398,7 +1606,7 @@
    "region": "AE, JP",
    "note": "eSIM",
    "price": 101000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3406,7 +1614,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 98400,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3414,7 +1622,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 95300,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3422,15 +1630,15 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 91200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro 256 Blue",
    "region": "KR, HK",
-   "note": "1sim+e sim6",
-   "price": 102500,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "note": "SIM + eSIM",
+   "price": 102000,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3438,7 +1646,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 100500,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3446,15 +1654,15 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 91200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro 512 Silver",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 140600,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 134500,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3462,15 +1670,15 @@
    "region": "JP",
    "note": "eSIM",
    "price": 115400,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro 512 Orange",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 119000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 122100,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3478,7 +1686,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 114900,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3486,7 +1694,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 111800,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3494,7 +1702,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 125200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3502,7 +1710,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 114900,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3510,7 +1718,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 109700,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3518,7 +1726,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 157100,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3526,7 +1734,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 141700,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3534,15 +1742,15 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 139600,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro 1TB Orange",
    "region": "US, JP",
    "note": "eSIM",
-   "price": 123600,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 124700,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3550,7 +1758,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 150400,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3558,7 +1766,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 128800,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3566,7 +1774,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 117000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3574,7 +1782,7 @@
    "region": "HK",
    "note": "Новый, Обменка",
    "price": 106100,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3582,7 +1790,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 105100,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3590,7 +1798,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 105600,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3598,7 +1806,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 99700,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3606,7 +1814,7 @@
    "region": "HK, KR",
    "note": "SIM + eSIM",
    "price": 109700,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3614,23 +1822,23 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 101500,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 512 Silver",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 147300,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 146800,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 512 Silver",
    "region": "US, JP",
    "note": "eSIM",
-   "price": 126200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 124200,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3638,7 +1846,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 115400,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3646,7 +1854,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 126200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3654,15 +1862,15 @@
    "region": "HK",
    "note": "SIM + eSIM замена дисплея в СЦ",
    "price": 110300,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 512 Orange",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 114900,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 115900,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3670,23 +1878,23 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 111300,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 512 Blue",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 133400,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 134500,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 512 Blue",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 120000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 121100,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3694,23 +1902,23 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 170500,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 1TB Silver",
    "region": "KW, JP",
    "note": "eSIM",
-   "price": 141200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 143200,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 1TB Silver",
    "region": "US",
    "note": "eSIM активирован",
-   "price": 132900,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 135000,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3718,7 +1926,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 161800,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3726,23 +1934,23 @@
    "region": "KR, HK",
    "note": "ASIS",
    "price": 135000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 1TB Orange",
    "region": "US, JP",
    "note": "eSIM",
-   "price": 135000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 136000,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 1TB Orange",
    "region": "US",
    "note": "eSIM активирован",
-   "price": 127800,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 129800,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3750,7 +1958,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 164800,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3758,7 +1966,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM активирован",
    "price": 158200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3766,15 +1974,15 @@
    "region": "KW, JP",
    "note": "eSIM",
    "price": 138600,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 17 Pro Max 1TB Blue",
    "region": "US",
    "note": "eSIM активирован",
-   "price": 131400,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "price": 134500,
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3782,7 +1990,7 @@
    "region": "HK",
    "note": "полный комплект Sim+eSIM",
    "price": 108200,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3790,7 +1998,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 178800,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3798,7 +2006,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 163300,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3806,7 +2014,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 170500,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3814,7 +2022,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 150900,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3822,7 +2030,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 139100,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3830,7 +2038,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 173600,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3838,7 +2046,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 152000,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3846,7 +2054,7 @@
    "region": "JP",
    "note": "без eSIM",
    "price": 133900,
-   "updated": "2026-11-10T14:30:05+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "iPhone",
@@ -3854,7 +2062,7 @@
    "region": "JP, US, HK",
    "note": "",
    "price": 216300,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
@@ -3862,7 +2070,7 @@
    "region": "JP, US, HK",
    "note": "",
    "price": 217400,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
@@ -3870,47 +2078,1871 @@
    "region": "JP, US, HK",
    "note": "",
    "price": 231800,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone Duo 512 Night Sky",
    "region": "JP, US, HK",
    "note": "",
-   "price": 236900,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "price": 235900,
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone Duo 1TB Star White",
    "region": "JP, US, HK",
    "note": "",
-   "price": 323500,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "price": 320400,
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone Duo 1TB Night Sky",
    "region": "JP, US, HK",
    "note": "",
-   "price": 331700,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "price": 321400,
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone Duo 2TB Star White",
    "region": "JP, US, HK",
    "note": "",
-   "price": 345100,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "price": 334800,
+   "updated": "2026-11-11T06:57:25+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone Duo 2TB Night Sky",
    "region": "JP, US, HK",
    "note": "",
-   "price": 350200,
-   "updated": "2026-11-10T13:51:01+00:00"
+   "price": 355400,
+   "updated": "2026-11-11T06:57:25+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 121600,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Black",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 113000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 123100,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 112300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 121100,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 112300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 120600,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 112300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 256 Glacier",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 111800,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 141700,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Black",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 134500,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 146300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Burgundy",
+   "region": "US",
+   "note": "eSIM",
+   "price": 132900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 152000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 138100,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 145800,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 512 Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 136000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 189600,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Black",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 170000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 187500,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Burgundy",
+   "region": "JP, US",
+   "note": "е sim",
+   "price": 179300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 191600,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 172100,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 190100,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 1Tb Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 167900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 235900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Black",
+   "region": "JP, US",
+   "note": "е sim",
+   "price": 216900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 238000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 221500,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 239000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 218900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 233900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro 2Tb Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 218400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 130300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Black",
+   "region": "US",
+   "note": "е sim",
+   "price": 126700,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 137000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 126700,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 130900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Silver",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 125700,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 133900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 256 Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 128300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 149900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 147300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Black",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 143200,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 159700,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Burgundy",
+   "region": "US",
+   "note": "eSIM",
+   "price": 154000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 154500,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 149900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 154000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 512 Glacier",
+   "region": "US",
+   "note": "eSIM",
+   "price": 149400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 200400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 187000,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 199900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Burgundy",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 149400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Silver",
+   "region": "HK, KR",
+   "note": "SIM + eSIM",
+   "price": 200400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 194700,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 200400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 1Tb Glacier",
+   "region": "US",
+   "note": "е sim",
+   "price": 191100,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Black",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 252400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 223600,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Burgundy",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 266300,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Burgundy",
+   "region": "US",
+   "note": "eSIM",
+   "price": 256500,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Silver",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 281200,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Silver",
+   "region": "US",
+   "note": "eSIM",
+   "price": 234900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Glacier",
+   "region": "KR, HK",
+   "note": "SIM + eSIM",
+   "price": 252400,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 18 Pro Max 2Tb Glacier",
+   "region": "JP, US",
+   "note": "eSIM",
+   "price": 234900,
+   "updated": "2026-11-11T06:48:30+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 128 Green",
+   "region": "US",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 128 Red",
+   "region": "US",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 128 Pink",
+   "region": "US",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 128 Blue",
+   "region": "US",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 128 Midnight",
+   "region": "US",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 128 Midnight CPO",
+   "region": "JP",
+   "note": "",
+   "price": 44900,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 512 Midnight CPO",
+   "region": "AE",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 13 512 Starlight CPO",
+   "region": "AE",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 512 Purple",
+   "region": "IN",
+   "note": "",
+   "price": 60800,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 512 Midnight",
+   "region": "BR",
+   "note": "",
+   "price": 60300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Plus 128 Midnight eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 46900,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Plus 128 Yellow eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 45900,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Plus 256 Red",
+   "region": "AE",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Plus 512 Starlight",
+   "region": "CA",
+   "note": "",
+   "price": 65500,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Plus 512 Blue",
+   "region": "EU",
+   "note": "",
+   "price": 65500,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Pro Max 1TB Silver CPO",
+   "region": "AE",
+   "note": "",
+   "price": 72700,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 14 Pro Max 1TB Purple CPO",
+   "region": "AE",
+   "note": "",
+   "price": 72700,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 128 Black",
+   "region": "IN",
+   "note": "",
+   "price": 54300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 128 Black",
+   "region": "US",
+   "note": "",
+   "price": 51000,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 128 Black",
+   "region": "US",
+   "note": "активирован",
+   "price": 46900,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 128 Blue",
+   "region": "IN",
+   "note": "",
+   "price": 54300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 128 Green",
+   "region": "AE",
+   "note": "",
+   "price": 59500,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 256 Black",
+   "region": "IN",
+   "note": "",
+   "price": 64400,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 256 Black",
+   "region": "IN",
+   "note": "активирован",
+   "price": 60300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 256 Blue",
+   "region": "IN",
+   "note": "",
+   "price": 66700,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 256 Blue",
+   "region": "IN",
+   "note": "активирован",
+   "price": 61800,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 512 Blue",
+   "region": "IN",
+   "note": "",
+   "price": 74200,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 512 Green",
+   "region": "IN",
+   "note": "",
+   "price": 74100,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 512 Yellow",
+   "region": "IN",
+   "note": "",
+   "price": 74700,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 Plus 128 Pink",
+   "region": "IN",
+   "note": "",
+   "price": 62400,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 Plus 512 Green",
+   "region": "JP, CA",
+   "note": "",
+   "price": 67500,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 Pro Max 256 White",
+   "region": "US",
+   "note": "активирован",
+   "price": 77300,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 Pro Max 256 Blue",
+   "region": "JP, KW",
+   "note": "",
+   "price": 88100,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 15 Pro Max 1TB Black (361 цикл, 92%)",
+   "region": "CN",
+   "note": "без Dual Sim",
+   "price": 72100,
+   "updated": "2026-11-11T06:15:43+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 66500,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 61300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 black",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 58200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 66500,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 White",
+   "region": "US",
+   "note": "eSIM",
+   "price": 60300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 63900,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "CN",
+   "note": "2sim",
+   "price": 61300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "US",
+   "note": "eSIM",
+   "price": 61100,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 256 Pink",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 58200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 81400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 71100,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Black",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 60800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 79900,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 White",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 70600,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Pink",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 79900,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17e 512 Pink",
+   "region": "US",
+   "note": "eSIM",
+   "price": 67500,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 71800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Blue",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 White",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 72400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 White",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Sage",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Sage",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Lavender",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Lavender",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 75200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 256 Lavender",
+   "region": "US",
+   "note": "eSIM",
+   "price": 74400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone",
+   "region": "",
+   "note": "",
+   "price": 18100,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 White",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 92700,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 White",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 89100,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 White",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 87600,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Sage",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 94300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Sage",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 92200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 92700,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Blue",
+   "region": "IN",
+   "note": "SIM + eSIM активирован",
+   "price": 89100,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 88600,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Lavender",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 97600,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Lavender",
+   "region": "US",
+   "note": "eSIM",
+   "price": 89100,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Lavender",
+   "region": "US",
+   "note": "eSIM активирован",
+   "price": 85000,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Black",
+   "region": "IN",
+   "note": "SIM + eSIM",
+   "price": 93800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Black",
+   "region": "US",
+   "note": "eSIM",
+   "price": 91200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 17 512 Black",
+   "region": "JP, US",
+   "note": "eSIM активирован",
+   "price": 90200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 Blue",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 Gold",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 76800,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 White",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 78300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 256 Black",
+   "region": "US, JP",
+   "note": "eSIM",
+   "price": 77300,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 Bluе",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 83200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 Gold",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 83200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 Black",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 90200,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 512 White",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 96400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB Blue",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 91700,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB Gold",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 94500,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB White",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 98400,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone Air 1TB Black",
+   "region": "JP",
+   "note": "eSIM",
+   "price": 94500,
+   "updated": "2026-11-11T06:14:34+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16E 128 Black",
+   "region": "US",
+   "note": "",
+   "price": 46400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16E 128 Black",
+   "region": "US",
+   "note": "активирован",
+   "price": 40200,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16E 256 Black",
+   "region": "CN",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16E 256 White",
+   "region": "CN",
+   "note": "",
+   "price": 49000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16E 512 Black",
+   "region": "IN",
+   "note": "",
+   "price": 58200,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16E 512 White",
+   "region": "IN",
+   "note": "",
+   "price": 57700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Teal",
+   "region": "IN",
+   "note": "",
+   "price": 63400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Teal",
+   "region": "IN",
+   "note": "активирован",
+   "price": 61800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Black",
+   "region": "IN",
+   "note": "",
+   "price": 62900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Black",
+   "region": "US",
+   "note": "",
+   "price": 60800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Black",
+   "region": "US",
+   "note": "активирован",
+   "price": 56200,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Pink",
+   "region": "IN",
+   "note": "",
+   "price": 62900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Pink",
+   "region": "US",
+   "note": "",
+   "price": 60800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 White",
+   "region": "IN",
+   "note": "",
+   "price": 62900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 128 Ultramarine",
+   "region": "IN",
+   "note": "",
+   "price": 62900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 256 Ultramarine",
+   "region": "US",
+   "note": "",
+   "price": 66000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 128 Black",
+   "region": "IN",
+   "note": "",
+   "price": 70600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 128 Pink",
+   "region": "IN",
+   "note": "",
+   "price": 71900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 128 White",
+   "region": "IN",
+   "note": "",
+   "price": 74200,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 128 Ultramarine",
+   "region": "IN",
+   "note": "",
+   "price": 70600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 128 Teal",
+   "region": "IN",
+   "note": "",
+   "price": 71600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 256 White",
+   "region": "IN",
+   "note": "",
+   "price": 80400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 256 Black",
+   "region": "IN",
+   "note": "",
+   "price": 84200,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 256 Teal",
+   "region": "IN",
+   "note": "",
+   "price": 79900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 256 Ultramarine",
+   "region": "IN",
+   "note": "",
+   "price": 84000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 256 Pink",
+   "region": "IN",
+   "note": "",
+   "price": 84000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Plus 512 Pink",
+   "region": "US",
+   "note": "",
+   "price": 82400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Desert",
+   "region": "CN",
+   "note": "",
+   "price": 89700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Desert",
+   "region": "US",
+   "note": "",
+   "price": 83700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Desert",
+   "region": "IN",
+   "note": "активирован",
+   "price": 85500,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо 128 White",
+   "region": "CN",
+   "note": "",
+   "price": 87600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Black",
+   "region": "US",
+   "note": "",
+   "price": 90700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Black",
+   "region": "IN",
+   "note": "активирован",
+   "price": 87600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Black eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 74700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Black eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 76300,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 White eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 74700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 White eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 76300,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Natural eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 74700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Natural eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 76300,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Desert eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 74700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 128 Desert eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 76300,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 Black eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 80900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 Black eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 82400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 White eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 80900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 White eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 82400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 Natural eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 80900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 Natural eSim CPO (Ориг. упаковка)",
+   "region": "US",
+   "note": "",
+   "price": 82400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 256 Desert eSim CPO",
+   "region": "US",
+   "note": "",
+   "price": 80900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 512 Desert",
+   "region": "CA",
+   "note": "",
+   "price": 118500,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 512 White",
+   "region": "CA",
+   "note": "",
+   "price": 121100,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 1Tb White",
+   "region": "KW",
+   "note": "",
+   "price": 127800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro 1Tb Natural",
+   "region": "US",
+   "note": "активирован",
+   "price": 114900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 256 Desert",
+   "region": "KW",
+   "note": "",
+   "price": 99400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 256 Desert",
+   "region": "US",
+   "note": "",
+   "price": 96400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 White",
+   "region": "AE",
+   "note": "",
+   "price": 115900,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 White",
+   "region": "US",
+   "note": "",
+   "price": 97400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 Natural",
+   "region": "IN",
+   "note": "активирован",
+   "price": 101000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 Natural",
+   "region": "US",
+   "note": "",
+   "price": 97400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 Black",
+   "region": "US",
+   "note": "",
+   "price": 96400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 Black CPO",
+   "region": "HK",
+   "note": "",
+   "price": 88600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 256 White CPO",
+   "region": "HK",
+   "note": "",
+   "price": 88600,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 512 White",
+   "region": "HK",
+   "note": "2sim",
+   "price": 123100,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 512 White",
+   "region": "US",
+   "note": "",
+   "price": 110800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 512 Natural",
+   "region": "US",
+   "note": "",
+   "price": 110800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 512 Black",
+   "region": "US",
+   "note": "",
+   "price": 110800,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 512 Black",
+   "region": "US",
+   "note": "активирован",
+   "price": 102000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 512 Desert",
+   "region": "KW",
+   "note": "",
+   "price": 114400,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Prо Maх 512 Desert",
+   "region": "US",
+   "note": "активирован",
+   "price": 102000,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 1Tb Deser",
+   "region": "KW",
+   "note": "",
+   "price": 117500,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 1TB White",
+   "region": "KW",
+   "note": "",
+   "price": 128300,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 1TB Natural",
+   "region": "US",
+   "note": "активирован",
+   "price": 109700,
+   "updated": "2026-11-11T06:12:53+00:00"
+  },
+  {
+   "category": "iPhone",
+   "name": "iPhone 16 Pro Max 1Tb Black (365 циклов, 93%)",
+   "region": "HK",
+   "note": "без Dual Sim",
+   "price": 87600,
+   "updated": "2026-11-11T06:12:53+00:00"
   },
   {
    "category": "Mac",
@@ -30566,15 +30598,7 @@
    "region": "",
    "note": "",
    "price": 2100,
-   "updated": "2026-11-10T15:58:05+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "16 Prо 128 White",
-   "region": "CN",
-   "note": "",
-   "price": 87600,
-   "updated": "2026-11-10T15:51:37+00:00"
+   "updated": "2026-11-11T06:58:34+00:00"
   },
   {
    "category": "Другое",
