@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T12:03+00:00",
- "count": 3929,
+ "updated": "2026-11-11T12:13+00:00",
+ "count": 3926,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -55,6 +55,30 @@
    "note": "",
    "price": 17000,
    "updated": "2026-11-11T11:20:05+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "AirPods Pro 2 DEPPO",
+   "region": "",
+   "note": "с шумоподавлением",
+   "price": 3700,
+   "updated": "2026-11-11T11:19:18+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "AirPods NEO DEPPO",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-11T11:19:18+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "AirPods STEREO Max DEPPO",
+   "region": "",
+   "note": "",
+   "price": 4700,
+   "updated": "2026-11-11T11:19:18+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -1386,6 +1410,22 @@
   },
   {
    "category": "Аксессуары Apple",
+   "name": "EarPods с разъёмом USB-C",
+   "region": "",
+   "note": "",
+   "price": 3100,
+   "updated": "2026-11-11T11:19:07+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Pencil",
+   "region": "",
+   "note": "USB-C",
+   "price": 7300,
+   "updated": "2026-11-11T11:19:07+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
    "name": "Apple Pencil Pro",
    "region": "",
    "note": "",
@@ -1575,6 +1615,30 @@
    "note": "",
    "price": 11600,
    "updated": "2026-11-11T11:17:25+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Pencil Wash",
+   "region": "EU",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-10T15:27:23+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Pencilvac Vacuum Cleaner SV50 FC Black",
+   "region": "EU",
+   "note": "",
+   "price": 51000,
+   "updated": "2026-11-10T15:27:23+00:00"
+  },
+  {
+   "category": "Аксессуары Apple",
+   "name": "Pencilvac Vacuum Cleaner SV50 FC Black",
+   "region": "HK",
+   "note": "",
+   "price": 44900,
+   "updated": "2026-11-10T15:27:23+00:00"
   },
   {
    "category": "iPhone",
@@ -3166,14 +3230,6 @@
    "region": "US",
    "note": "eSIM",
    "price": 74400,
-   "updated": "2026-11-11T10:14:45+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone",
-   "region": "",
-   "note": "",
-   "price": 18100,
    "updated": "2026-11-11T10:14:45+00:00"
   },
   {
@@ -6025,46 +6081,6 @@
    "updated": "2026-11-11T11:17:12+00:00"
   },
   {
-   "category": "Mac",
-   "name": "DJI Osmo Pocket 4 Pro Standard",
-   "region": "",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-10T12:25:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "DJI Osmo Action 4 Pro Standard",
-   "region": "",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-10T12:25:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "DJI Osmo Action 5 Pro Standard",
-   "region": "",
-   "note": "",
-   "price": 30400,
-   "updated": "2026-11-10T12:25:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "Insta360 Luna Pro Standard Combo",
-   "region": "",
-   "note": "",
-   "price": 51500,
-   "updated": "2026-11-10T12:25:16+00:00"
-  },
-  {
-   "category": "Mac",
-   "name": "MacBook",
-   "region": "",
-   "note": "",
-   "price": 2100,
-   "updated": "2026-06-14T07:26:17+00:00"
-  },
-  {
    "category": "iPad",
    "name": "iPad Air 11 (M3) 2025 128 LTE Blue",
    "region": "US",
@@ -6935,14 +6951,6 @@
    "note": "",
    "price": 171000,
    "updated": "2026-11-11T11:18:25+00:00"
-  },
-  {
-   "category": "iPad",
-   "name": "iPad Pencil",
-   "region": "",
-   "note": "USB-C",
-   "price": 7300,
-   "updated": "2026-11-11T11:18:09+00:00"
   },
   {
    "category": "iPad",
@@ -8519,38 +8527,6 @@
    "note": "новые, распакована упаковка",
    "price": 31200,
    "updated": "2026-11-11T10:08:08+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods Pro 2 DEPPO",
-   "region": "",
-   "note": "с шумоподавлением",
-   "price": 3700,
-   "updated": "2026-11-11T11:19:18+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods NEO DEPPO",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-11T11:19:18+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods STEREO Max DEPPO",
-   "region": "",
-   "note": "",
-   "price": 4700,
-   "updated": "2026-11-11T11:19:18+00:00"
-  },
-  {
-   "category": "AirPods",
-   "name": "AirPods EarPods с разъёмом USB-C",
-   "region": "",
-   "note": "",
-   "price": 3100,
-   "updated": "2026-11-11T11:19:07+00:00"
   },
   {
    "category": "AirPods",
@@ -24106,6 +24082,14 @@
   },
   {
    "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 4 Pro Standard",
+   "region": "",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-10T12:25:16+00:00"
+  },
+  {
+   "category": "Фото и видео",
    "name": "DJI Osmo Pocket 4 Pro Vlog Combo",
    "region": "",
    "note": "",
@@ -24118,6 +24102,22 @@
    "region": "",
    "note": "",
    "price": 19500,
+   "updated": "2026-11-10T12:25:16+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 4 Pro Standard",
+   "region": "",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-10T12:25:16+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 5 Pro Standard",
+   "region": "",
+   "note": "",
+   "price": 30400,
    "updated": "2026-11-10T12:25:16+00:00"
   },
   {
@@ -24462,6 +24462,14 @@
    "region": "",
    "note": "",
    "price": 38200,
+   "updated": "2026-11-10T12:25:16+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Luna Pro Standard Combo",
+   "region": "",
+   "note": "",
+   "price": 51500,
    "updated": "2026-11-10T12:25:16+00:00"
   },
   {
@@ -30634,14 +30642,6 @@
   },
   {
    "category": "Другое",
-   "name": "Pencil",
-   "region": "",
-   "note": "USB-C",
-   "price": 7300,
-   "updated": "2026-11-11T11:19:07+00:00"
-  },
-  {
-   "category": "Другое",
    "name": "Зарядка Apple Мультипорт USB-C to Digital MUF82",
    "region": "",
    "note": "",
@@ -30774,30 +30774,6 @@
    "region": "GB",
    "note": "",
    "price": 66000,
-   "updated": "2026-11-10T15:27:23+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gen5 SV23 Absolute Pencil Wash",
-   "region": "EU",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-10T15:27:23+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gen5 SV23 Absolute Pencilvac Vacuum Cleaner SV50 FC Black",
-   "region": "EU",
-   "note": "",
-   "price": 51000,
-   "updated": "2026-11-10T15:27:23+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Gen5 SV23 Absolute Pencilvac Vacuum Cleaner SV50 FC Black",
-   "region": "HK",
-   "note": "",
-   "price": 44900,
    "updated": "2026-11-10T15:27:23+00:00"
   },
   {
