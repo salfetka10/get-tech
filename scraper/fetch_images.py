@@ -182,5 +182,26 @@ def main():
     print(f"найдено {len(found)} из {len(jobs)}")
 
 
+# Разведка: какие картинки Apple показывает на страницах своего магазина. Печатает названия в журнал.
+PAGES = ["buy-mac/macbook-air", "buy-mac/macbook-pro", "buy-mac/imac", "buy-mac/mac-mini", "buy-mac/mac-studio", "buy-mac/studio-display",
+         "buy-mac", "buy-ipad/ipad-pro", "buy-ipad/ipad-air", "buy-ipad/ipad", "buy-ipad/ipad-mini", "buy-ipad",
+         "buy-watch/apple-watch", "buy-watch/apple-watch-ultra", "buy-watch/apple-watch-se", "buy-watch",
+         "buy-airpods", "select-airpods", "accessories/all/headphones-speakers", "mac/accessories", "ipad/accessories"]
+
+
+def discover():
+    ua = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15", "Accept-Language": "en-US,en;q=0.9"}
+    for page in PAGES:
+        try:
+            r = requests.get("https://www.apple.com/shop/" + page, headers=ua, timeout=30)
+        except requests.RequestException as e:
+            print(f"== {page}: {e}")
+            continue
+        names = sorted(set(re.findall(r"as-images\.apple\.com/is/([A-Za-z0-9_\-]+)", r.text)))
+        print(f"== {page}: HTTP {r.status_code}, {len(r.text)} байт, {len(names)} картинок")
+        print(" ".join(names))
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    discover() if sys.argv[1:] == ["discover"] else main()

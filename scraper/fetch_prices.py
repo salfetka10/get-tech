@@ -30,7 +30,7 @@ OUT = ROOT / "data" / "prices.json"
 # Категории: первое совпадение по строке позиции вместе с заголовком блока. Порядок важен.
 CATEGORIES = [
     ("Чехлы и аксессуары", r"\bcase\b|folio|sleeve|deppo|чехол|strap|ремеш|стекло|плёнк|пленк|кабель|cable|адаптер|adapter|зарядн|charger|power ?bank|magsafe (?!battery)|подставк|держател|travel bag|\bблок\b"),
-    ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|pencil|earpods|airtag|magsafe|apple tv|homepod|vision pro"),
+    ("Аксессуары Apple", r"magic (mouse|keyboard|trackpad)|pencil\b(?! wash)|earpods|airtag|magsafe|apple tv|homepod|vision pro"),
     ("iPhone", r"iphone|^1[1-9](e| ?pro max| ?pro| ?plus| ?mini| ?air)? \d{1,4} ?(gb|tb)?\b|^air (1|2)?\d{2,3}gb|^iphone"),
     ("Mac", r"macbook|imac|mac ?mini|mac ?studio|mac ?pro|^(air|pro) 1[3-6]\b|studio display|pro display|pro stand\b"),
     ("iPad", r"ipad"),

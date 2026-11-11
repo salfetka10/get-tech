@@ -2,6 +2,10 @@ name: Фото техники
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "пусто — скачать фото, discover — показать названия картинок на страницах Apple"
+        default: ""
 
 permissions:
   contents: write
@@ -15,7 +19,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests==2.32.3 pillow==11.0.0 numpy==2.1.3 scipy==1.14.1
-      - run: python scraper/fetch_images.py
+      - run: python scraper/fetch_images.py ${{ inputs.mode }}
       - name: Сохранить фото
         run: |
           git config user.name "get-tech-bot"
