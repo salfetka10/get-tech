@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T03:19+00:00",
- "count": 3932,
+ "updated": "2026-11-12T11:46+00:00",
+ "count": 3930,
  "stats": {
   "posts": 100,
   "with_prices": 67,
@@ -8,6 +8,382 @@
   "without_text": 2
  },
  "items": [
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Apple 20 w",
+   "region": "EU",
+   "note": "",
+   "price": 1900,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Apple 35W",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter MacBook Apple USB-C 35W",
+   "region": "",
+   "note": "",
+   "price": 4500,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Adapter Dynamic Power 40–60W (2026)",
+   "region": "",
+   "note": "",
+   "price": 5500,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Зарядка Apple MagSafe (1м) 25w",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Зарядка Apple MagSafe (2м) 25w",
+   "region": "",
+   "note": "",
+   "price": 5100,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7200,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
+   "region": "",
+   "note": "",
+   "price": 10900,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Black",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Burgundy",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Magenta",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "iPhone Wrist Strap - Taupe",
+   "region": "",
+   "note": "",
+   "price": 4400,
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI Mic 3 (2TX + 1RX + Charging Case)",
+   "region": "",
+   "note": "",
+   "price": 22700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI Mic Mini 2 (2TX + 1 RX + Charging Case)",
+   "region": "",
+   "note": "",
+   "price": 9300,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI Mic Mini (2TX + 1 RX + Charging Case)",
+   "region": "",
+   "note": "",
+   "price": 7800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "DJI 65W Car Charger",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Alientech Deimox Cable 20M (2x)",
+   "region": "",
+   "note": "",
+   "price": 28900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 25W Type-C Black/White",
+   "region": "",
+   "note": "",
+   "price": 1300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 45W Type-C Black/White",
+   "region": "",
+   "note": "",
+   "price": 1900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 45W Type-C with cable Black/White",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Подставка для PS5 Slim/ Pro",
+   "region": "",
+   "note": "",
+   "price": 2900,
+   "updated": "2026-11-12T06:36:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Case",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T06:36:43+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Nintendo Switch 2 Carrying Case and Screen Protector",
+   "region": "",
+   "note": "",
+   "price": 6200,
+   "updated": "2026-11-12T06:36:43+00:00"
+  },
   {
    "category": "Чехлы и аксессуары",
    "name": "USB-C to MagSafe 3 Cable (2 m) Silver",
@@ -47,294 +423,6 @@
    "note": "",
    "price": 5200,
    "updated": "2026-11-11T19:43:14+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter Apple 20 w",
-   "region": "EU",
-   "note": "",
-   "price": 1900,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter Apple 35W",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter MacBook Apple USB-C 35W",
-   "region": "",
-   "note": "",
-   "price": 4500,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Adapter Dynamic Power 40–60W (2026)",
-   "region": "",
-   "note": "",
-   "price": 5500,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Зарядка Apple MagSafe (1м) 25w",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Зарядка Apple MagSafe (2м) 25w",
-   "region": "",
-   "note": "",
-   "price": 5100,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7200,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Magenta",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Olive",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Crisp Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Navy Blue",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Silicone Case with MagSafe - Black",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Burgundy",
-   "region": "",
-   "note": "",
-   "price": 10900,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Mulberry",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Olive",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Taupe",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max TechWoven Case with MagSafe – Black",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone 18 Pro Max Clear Case with MagSafe",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Black",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Burgundy",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Magenta",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T19:38:43+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "iPhone Wrist Strap - Taupe",
-   "region": "",
-   "note": "",
-   "price": 4400,
-   "updated": "2026-11-11T19:38:43+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -447,30 +535,6 @@
    "note": "",
    "price": 105100,
    "updated": "2026-11-11T14:21:38+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Подставка для PS5 Slim/ Pro",
-   "region": "",
-   "note": "",
-   "price": 2900,
-   "updated": "2026-11-11T13:53:35+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Case",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T13:53:35+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Nintendo Switch 2 Carrying Case and Screen Protector",
-   "region": "",
-   "note": "",
-   "price": 6200,
-   "updated": "2026-11-11T13:53:35+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -607,46 +671,6 @@
    "note": "",
    "price": 20600,
    "updated": "2026-11-11T13:53:02+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "DJI Mic 3 (2TX + 1RX + Charging Case)",
-   "region": "",
-   "note": "",
-   "price": 22700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "DJI Mic Mini 2 (2TX + 1 RX + Charging Case)",
-   "region": "",
-   "note": "",
-   "price": 9300,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "DJI Mic Mini (2TX + 1 RX + Charging Case)",
-   "region": "",
-   "note": "",
-   "price": 7800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "DJI 65W Car Charger",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Alientech Deimox Cable 20M (2x)",
-   "region": "",
-   "note": "",
-   "price": 28900,
-   "updated": "2026-11-11T13:07:38+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -1111,30 +1135,6 @@
    "note": "",
    "price": 51000,
    "updated": "2026-11-11T10:08:08+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Блок Samsung 25W Type-C Black/White",
-   "region": "",
-   "note": "",
-   "price": 1300,
-   "updated": "2026-11-11T09:51:13+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Блок Samsung 45W Type-C Black/White",
-   "region": "",
-   "note": "",
-   "price": 1900,
-   "updated": "2026-11-11T09:51:13+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Блок Samsung 45W Type-C with cable Black/White",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-11T09:51:13+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -1622,7 +1622,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 121600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1630,7 +1630,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 109700,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1638,7 +1638,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 122600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1646,7 +1646,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 110300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1654,7 +1654,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 121100,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1662,7 +1662,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 110800,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1670,7 +1670,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 120600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1678,7 +1678,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 111300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1686,7 +1686,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 109700,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1694,7 +1694,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 140600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1702,7 +1702,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 131400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1710,7 +1710,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 146300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1718,7 +1718,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 131900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1726,7 +1726,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 151500,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1734,7 +1734,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 138100,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1742,7 +1742,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 145800,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1750,7 +1750,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 135000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1758,7 +1758,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 188500,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1766,7 +1766,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 165900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1774,7 +1774,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 187500,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1782,7 +1782,7 @@
    "region": "JP, US",
    "note": "е sim",
    "price": 177200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1790,7 +1790,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 191600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1798,7 +1798,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 167900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1806,7 +1806,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 190100,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1814,39 +1814,39 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 165900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 2Tb Black",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 235900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 231800,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 2Tb Black",
    "region": "JP, US",
    "note": "е sim",
-   "price": 216900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 211700,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 2Tb Burgundy",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 238000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 234900,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 2Tb Burgundy",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 221500,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 216300,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1854,15 +1854,15 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 239000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 2Tb Silver",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 218900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 216900,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1870,15 +1870,15 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 233900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro 2Tb Glacier",
    "region": "JP, US",
    "note": "eSIM",
-   "price": 218400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 216300,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1886,7 +1886,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 130300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1894,7 +1894,7 @@
    "region": "US",
    "note": "е sim",
    "price": 124700,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1902,7 +1902,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 136000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1910,7 +1910,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 125700,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1918,7 +1918,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 130900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1926,7 +1926,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 124200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1934,7 +1934,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 133400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1942,23 +1942,23 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 128300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Black",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 149900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 150900,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Black",
    "region": "US",
    "note": "eSIM",
-   "price": 146300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 147300,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1966,7 +1966,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 143200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1974,7 +1974,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 158700,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1982,15 +1982,15 @@
    "region": "US",
    "note": "eSIM",
    "price": 149900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Silver",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 154000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 155100,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -1998,23 +1998,23 @@
    "region": "US",
    "note": "eSIM",
    "price": 149400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Glacier",
    "region": "KR, HK",
    "note": "SIM + eSIM",
-   "price": 154000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 156100,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
    "name": "iPhone 18 Pro Max 512 Glacier",
    "region": "US",
    "note": "eSIM",
-   "price": 145800,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "price": 148900,
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2022,7 +2022,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 194200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2030,7 +2030,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 187000,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2038,7 +2038,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 199900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2046,7 +2046,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 190600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2054,7 +2054,7 @@
    "region": "HK, KR",
    "note": "SIM + eSIM",
    "price": 199400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2062,7 +2062,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 194700,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2070,7 +2070,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 199900,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2078,7 +2078,7 @@
    "region": "US",
    "note": "е sim",
    "price": 191100,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2086,7 +2086,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 252400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2094,7 +2094,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 245200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2102,7 +2102,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 266300,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2110,7 +2110,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 252400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2118,7 +2118,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 258600,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2126,7 +2126,7 @@
    "region": "US",
    "note": "eSIM",
    "price": 246200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2134,7 +2134,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 252400,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2142,7 +2142,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 245200,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
   },
   {
    "category": "iPhone",
@@ -2150,7 +2150,7 @@
    "region": "HK, KR",
    "note": "SIM + eSIM",
    "price": 106100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2158,7 +2158,7 @@
    "region": "AE, JP",
    "note": "eSIM",
    "price": 100500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2166,7 +2166,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 98400,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2174,7 +2174,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 94800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2182,7 +2182,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 91200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2190,7 +2190,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 101700,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2198,7 +2198,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 100000,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2206,7 +2206,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 91200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2214,7 +2214,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 132400,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2222,7 +2222,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 114900,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2230,7 +2230,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 119500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2238,7 +2238,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 114900,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2246,7 +2246,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 111800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2254,7 +2254,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 125200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2262,15 +2262,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 114900,
-   "updated": "2026-11-11T19:24:10+00:00"
-  },
-  {
-   "category": "iPhone",
-   "name": "iPhone 17 Pro 512 Blue",
-   "region": "US",
-   "note": "eSIM активирован",
-   "price": 109700,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2278,7 +2270,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 157100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2286,7 +2278,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 141700,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2294,7 +2286,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 139600,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2302,7 +2294,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 124700,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2310,7 +2302,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 150400,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2318,7 +2310,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 128800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2326,7 +2318,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 116400,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2334,7 +2326,7 @@
    "region": "HK",
    "note": "Новый, Обменка",
    "price": 106100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2342,7 +2334,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 104600,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2350,7 +2342,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 105100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2358,7 +2350,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 99700,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2366,7 +2358,7 @@
    "region": "HK, KR",
    "note": "SIM + eSIM",
    "price": 109200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2374,7 +2366,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 102500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2382,7 +2374,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 146800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2390,7 +2382,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 123100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2398,7 +2390,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 115400,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2406,7 +2398,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 126200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2414,7 +2406,7 @@
    "region": "HK",
    "note": "SIM + eSIM замена дисплея в СЦ",
    "price": 110300,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2422,7 +2414,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 115900,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2430,7 +2422,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 111300,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2438,7 +2430,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 134500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2446,7 +2438,7 @@
    "region": "JP, US",
    "note": "eSIM",
    "price": 121100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2454,7 +2446,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 170500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2462,7 +2454,7 @@
    "region": "KW, JP",
    "note": "eSIM",
    "price": 143200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2470,7 +2462,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 135000,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2478,7 +2470,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 161200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2486,7 +2478,7 @@
    "region": "KR, HK",
    "note": "ASIS",
    "price": 135000,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2494,7 +2486,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 136000,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2502,7 +2494,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 129800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2510,7 +2502,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 164800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2518,7 +2510,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM активирован",
    "price": 158200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2526,7 +2518,7 @@
    "region": "KW, JP",
    "note": "eSIM",
    "price": 138600,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2534,7 +2526,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 134500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2542,7 +2534,7 @@
    "region": "HK",
    "note": "полный комплект Sim+eSIM",
    "price": 108200,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2550,7 +2542,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 179800,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2558,7 +2550,7 @@
    "region": "JP",
    "note": "eSIM",
    "price": 163300,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2566,7 +2558,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 170500,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2574,7 +2566,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 150900,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2582,7 +2574,7 @@
    "region": "US",
    "note": "eSIM активирован",
    "price": 139100,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2590,7 +2582,7 @@
    "region": "KR, HK",
    "note": "SIM + eSIM",
    "price": 173600,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2598,7 +2590,7 @@
    "region": "US, JP",
    "note": "eSIM",
    "price": 152000,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -2606,7 +2598,7 @@
    "region": "JP",
    "note": "без eSIM",
    "price": 123600,
-   "updated": "2026-11-11T19:24:10+00:00"
+   "updated": "2026-11-12T07:13:30+00:00"
   },
   {
    "category": "iPhone",
@@ -7590,7 +7582,7 @@
    "region": "AU",
    "note": "",
    "price": 89700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7598,7 +7590,7 @@
    "region": "AU",
    "note": "",
    "price": 89700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7606,7 +7598,7 @@
    "region": "AU",
    "note": "",
    "price": 88100,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7614,7 +7606,7 @@
    "region": "AU",
    "note": "",
    "price": 88100,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7622,7 +7614,7 @@
    "region": "AU",
    "note": "",
    "price": 88100,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7630,7 +7622,7 @@
    "region": "AU",
    "note": "",
    "price": 71600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7638,7 +7630,7 @@
    "region": "AU",
    "note": "",
    "price": 71600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7646,15 +7638,15 @@
    "region": "AU",
    "note": "",
    "price": 71600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
    "name": "Ultra 4 49mm Natural Titanium Alpine Loop Desert L",
    "region": "AU",
    "note": "",
-   "price": 71600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "price": 73700,
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7662,7 +7654,7 @@
    "region": "AU",
    "note": "",
    "price": 72700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7670,7 +7662,7 @@
    "region": "AU",
    "note": "",
    "price": 72700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7678,7 +7670,7 @@
    "region": "AU",
    "note": "",
    "price": 69600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7686,7 +7678,7 @@
    "region": "AU",
    "note": "",
    "price": 72100,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7694,7 +7686,7 @@
    "region": "AU",
    "note": "",
    "price": 72100,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7702,7 +7694,7 @@
    "region": "AU",
    "note": "",
    "price": 71600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7710,7 +7702,7 @@
    "region": "AU",
    "note": "",
    "price": 70600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7718,7 +7710,7 @@
    "region": "AU",
    "note": "",
    "price": 70600,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7726,7 +7718,7 @@
    "region": "US",
    "note": "",
    "price": 76800,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7734,7 +7726,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7742,7 +7734,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7750,7 +7742,7 @@
    "region": "US",
    "note": "",
    "price": 61800,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7758,7 +7750,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7766,7 +7758,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7774,7 +7766,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7782,7 +7774,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7790,7 +7782,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7798,7 +7790,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7806,7 +7798,7 @@
    "region": "US",
    "note": "",
    "price": 74700,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7814,7 +7806,7 @@
    "region": "US",
    "note": "",
    "price": 77300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7822,7 +7814,7 @@
    "region": "US",
    "note": "",
    "price": 61800,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7830,7 +7822,7 @@
    "region": "US",
    "note": "",
    "price": 64400,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7838,7 +7830,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7846,7 +7838,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7854,7 +7846,7 @@
    "region": "US",
    "note": "",
    "price": 62400,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7862,7 +7854,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7870,7 +7862,7 @@
    "region": "US",
    "note": "",
    "price": 61300,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7878,7 +7870,7 @@
    "region": "US",
    "note": "",
    "price": 58800,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7886,7 +7878,7 @@
    "region": "US",
    "note": "",
    "price": 58800,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7894,7 +7886,7 @@
    "region": "US",
    "note": "",
    "price": 62400,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -7902,7 +7894,7 @@
    "region": "US",
    "note": "",
    "price": 65500,
-   "updated": "2026-11-11T10:08:28+00:00"
+   "updated": "2026-11-12T08:35:58+00:00"
   },
   {
    "category": "Apple Watch",
@@ -8615,6 +8607,590 @@
    "note": "",
    "price": 39400,
    "updated": "2026-11-11T13:53:02+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 4/64 Black",
+   "region": "AE",
+   "note": "",
+   "price": 11800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 4/64 Green",
+   "region": "AE",
+   "note": "",
+   "price": 11800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 4/64 Violet",
+   "region": "AE",
+   "note": "",
+   "price": 11800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 4/128 Black",
+   "region": "AE",
+   "note": "",
+   "price": 13900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 4/128 Green",
+   "region": "ZA",
+   "note": "",
+   "price": 13900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 4/128 Violet",
+   "region": "RU",
+   "note": "",
+   "price": 13900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07 6/128 Green",
+   "region": "AE",
+   "note": "",
+   "price": 15000,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07s 4/64 Black",
+   "region": "AE",
+   "note": "",
+   "price": 12600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07s 4/64 Green",
+   "region": "AE",
+   "note": "",
+   "price": 12600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07s 4/64 Violet",
+   "region": "AE",
+   "note": "",
+   "price": 12600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07s 4/128 Black",
+   "region": "RU",
+   "note": "",
+   "price": 14400,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07s 4/128 Green",
+   "region": "KZ",
+   "note": "",
+   "price": 14500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A07s 4/128 Violet",
+   "region": "KZ",
+   "note": "",
+   "price": 14500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 4/128 Green",
+   "region": "RU",
+   "note": "",
+   "price": 15300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 4/128 Silver",
+   "region": "RU",
+   "note": "",
+   "price": 15300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 4/128 Navy",
+   "region": "RU",
+   "note": "",
+   "price": 15300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 4/64 Navy",
+   "region": "RU",
+   "note": "",
+   "price": 12900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 4/64 Green",
+   "region": "RU",
+   "note": "",
+   "price": 12900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 6/128 Navy",
+   "region": "RU",
+   "note": "",
+   "price": 17500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 6/128 Silver",
+   "region": "RU",
+   "note": "",
+   "price": 17500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A08 6/128 Green",
+   "region": "RU",
+   "note": "",
+   "price": 17500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A16 4/128 Green",
+   "region": "TH",
+   "note": "",
+   "price": 15600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 4/128 Black",
+   "region": "AE",
+   "note": "",
+   "price": 16500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 4/128 Gray",
+   "region": "AE",
+   "note": "",
+   "price": 16400,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 4/128 Light Blue",
+   "region": "AE",
+   "note": "",
+   "price": 16400,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 6/128 Blue",
+   "region": "RU",
+   "note": "",
+   "price": 18000,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 6/128 Gray",
+   "region": "RU",
+   "note": "",
+   "price": 18000,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 8/256 Black",
+   "region": "RU",
+   "note": "",
+   "price": 21500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 8/256 Gray",
+   "region": "RU",
+   "note": "",
+   "price": 21500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A17 8/256 Light Blue",
+   "region": "RU",
+   "note": "",
+   "price": 21500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 4/128 Blue",
+   "region": "RU",
+   "note": "",
+   "price": 18100,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 4/128 Grey",
+   "region": "RU",
+   "note": "",
+   "price": 18100,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 4/128 Black",
+   "region": "RU",
+   "note": "",
+   "price": 18100,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 6/128 Black",
+   "region": "RU",
+   "note": "",
+   "price": 20500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 6/128 Gray",
+   "region": "RU",
+   "note": "",
+   "price": 20500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 6/128 Blue",
+   "region": "RU",
+   "note": "",
+   "price": 20500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 8/256 Black",
+   "region": "RU",
+   "note": "",
+   "price": 24700,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 8/256 Blue",
+   "region": "RU",
+   "note": "",
+   "price": 24700,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A18 8/256 Gray",
+   "region": "RU",
+   "note": "",
+   "price": 24700,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 6/128 Black",
+   "region": "EU",
+   "note": "",
+   "price": 23200,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 6/128 Blue",
+   "region": "KZ",
+   "note": "",
+   "price": 23400,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 6/128 Green",
+   "region": "ZA",
+   "note": "",
+   "price": 23100,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 6/128 Pink",
+   "region": "AE",
+   "note": "",
+   "price": 23200,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 8/256 Black",
+   "region": "RU",
+   "note": "",
+   "price": 27300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 8/256 Blue",
+   "region": "MY",
+   "note": "",
+   "price": 27300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A27 8/256 Pink",
+   "region": "MY",
+   "note": "",
+   "price": 27300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/128 Charcoal",
+   "region": "KZ",
+   "note": "",
+   "price": 26600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/128 GrayGreen",
+   "region": "KZ",
+   "note": "",
+   "price": 26600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/128 White",
+   "region": "KZ",
+   "note": "",
+   "price": 26600,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/256 Charcoal",
+   "region": "RU",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/256 GrayGreen",
+   "region": "RU",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/256 Lavander",
+   "region": "RU",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 8/256 White",
+   "region": "RU",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 12/256 Charcoal",
+   "region": "MY",
+   "note": "",
+   "price": 30500,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 12/256 GrayGreen",
+   "region": "MY",
+   "note": "",
+   "price": 29900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 12/256 Lavender",
+   "region": "MY",
+   "note": "",
+   "price": 30900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A37 12/256 Blue",
+   "region": "MY",
+   "note": "",
+   "price": 30900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A56 8/128 Light Gray",
+   "region": "EU",
+   "note": "",
+   "price": 30300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A56 8/256 Graphite",
+   "region": "AE",
+   "note": "",
+   "price": 33000,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/128 Gray",
+   "region": "AE",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/128 Ice Blue",
+   "region": "AE",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/128 Lilac",
+   "region": "AE",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/128 Navy",
+   "region": "AE",
+   "note": "",
+   "price": 30800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/256 Gray",
+   "region": "AE",
+   "note": "",
+   "price": 35300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/256 Ice Blue",
+   "region": "AE",
+   "note": "",
+   "price": 35300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/256 Lilac",
+   "region": "AE",
+   "note": "",
+   "price": 35300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 8/256 Navy",
+   "region": "AE",
+   "note": "",
+   "price": 35300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 12/256 Gray",
+   "region": "AE",
+   "note": "",
+   "price": 41800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 12/256 Ice Blue",
+   "region": "AE",
+   "note": "",
+   "price": 41800,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 12/256 Navy",
+   "region": "MY",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 12/512 Gray",
+   "region": "MY",
+   "note": "",
+   "price": 44900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 12/512 Navy",
+   "region": "MY",
+   "note": "",
+   "price": 44900,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "A57 12/512 Ice Blue",
+   "region": "MY",
+   "note": "",
+   "price": 44900,
+   "updated": "2026-11-12T08:01:00+00:00"
   },
   {
    "category": "Смартфоны",
@@ -12394,590 +12970,6 @@
   },
   {
    "category": "Смартфоны",
-   "name": "A07 4/64 Black",
-   "region": "AE",
-   "note": "",
-   "price": 11800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07 4/64 Green",
-   "region": "AE",
-   "note": "",
-   "price": 11800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07 4/64 Violet",
-   "region": "AE",
-   "note": "",
-   "price": 11800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07 4/128 Black",
-   "region": "AE",
-   "note": "",
-   "price": 13900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07 4/128 Green",
-   "region": "ZA",
-   "note": "",
-   "price": 13900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07 4/128 Violet",
-   "region": "RU",
-   "note": "",
-   "price": 13900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07 6/128 Green",
-   "region": "AE",
-   "note": "",
-   "price": 15000,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07s 4/64 Black",
-   "region": "AE",
-   "note": "",
-   "price": 12600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07s 4/64 Green",
-   "region": "AE",
-   "note": "",
-   "price": 12600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07s 4/64 Violet",
-   "region": "AE",
-   "note": "",
-   "price": 12600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07s 4/128 Black",
-   "region": "RU",
-   "note": "",
-   "price": 14400,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07s 4/128 Green",
-   "region": "KZ",
-   "note": "",
-   "price": 14500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A07s 4/128 Violet",
-   "region": "KZ",
-   "note": "",
-   "price": 14500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 4/128 Green",
-   "region": "RU",
-   "note": "",
-   "price": 15300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 4/128 Silver",
-   "region": "RU",
-   "note": "",
-   "price": 15300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 4/128 Navy",
-   "region": "RU",
-   "note": "",
-   "price": 15300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 4/64 Navy",
-   "region": "RU",
-   "note": "",
-   "price": 12900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 4/64 Green",
-   "region": "RU",
-   "note": "",
-   "price": 12900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 6/128 Navy",
-   "region": "RU",
-   "note": "",
-   "price": 17500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 6/128 Silver",
-   "region": "RU",
-   "note": "",
-   "price": 17500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A08 6/128 Green",
-   "region": "RU",
-   "note": "",
-   "price": 17500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A16 4/128 Green",
-   "region": "TH",
-   "note": "",
-   "price": 15600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 4/128 Black",
-   "region": "AE",
-   "note": "",
-   "price": 16500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 4/128 Gray",
-   "region": "AE",
-   "note": "",
-   "price": 16400,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 4/128 Light Blue",
-   "region": "AE",
-   "note": "",
-   "price": 16400,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 6/128 Blue",
-   "region": "RU",
-   "note": "",
-   "price": 18000,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 6/128 Gray",
-   "region": "RU",
-   "note": "",
-   "price": 18000,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 8/256 Black",
-   "region": "RU",
-   "note": "",
-   "price": 21500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 8/256 Gray",
-   "region": "RU",
-   "note": "",
-   "price": 21500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A17 8/256 Light Blue",
-   "region": "RU",
-   "note": "",
-   "price": 21500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 4/128 Blue",
-   "region": "RU",
-   "note": "",
-   "price": 18100,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 4/128 Grey",
-   "region": "RU",
-   "note": "",
-   "price": 18100,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 4/128 Black",
-   "region": "RU",
-   "note": "",
-   "price": 18100,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 6/128 Black",
-   "region": "RU",
-   "note": "",
-   "price": 20500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 6/128 Gray",
-   "region": "RU",
-   "note": "",
-   "price": 20500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 6/128 Blue",
-   "region": "RU",
-   "note": "",
-   "price": 20500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 8/256 Black",
-   "region": "RU",
-   "note": "",
-   "price": 24700,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 8/256 Blue",
-   "region": "RU",
-   "note": "",
-   "price": 24700,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A18 8/256 Gray",
-   "region": "RU",
-   "note": "",
-   "price": 24700,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 6/128 Black",
-   "region": "EU",
-   "note": "",
-   "price": 23200,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 6/128 Blue",
-   "region": "KZ",
-   "note": "",
-   "price": 23400,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 6/128 Green",
-   "region": "ZA",
-   "note": "",
-   "price": 23100,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 6/128 Pink",
-   "region": "AE",
-   "note": "",
-   "price": 23200,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 8/256 Black",
-   "region": "RU",
-   "note": "",
-   "price": 27300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 8/256 Blue",
-   "region": "MY",
-   "note": "",
-   "price": 27300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A27 8/256 Pink",
-   "region": "MY",
-   "note": "",
-   "price": 27300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/128 Charcoal",
-   "region": "KZ",
-   "note": "",
-   "price": 26600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/128 GrayGreen",
-   "region": "KZ",
-   "note": "",
-   "price": 26600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/128 White",
-   "region": "KZ",
-   "note": "",
-   "price": 26600,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/256 Charcoal",
-   "region": "RU",
-   "note": "",
-   "price": 29800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/256 GrayGreen",
-   "region": "RU",
-   "note": "",
-   "price": 29800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/256 Lavander",
-   "region": "RU",
-   "note": "",
-   "price": 29800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 8/256 White",
-   "region": "RU",
-   "note": "",
-   "price": 29800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 12/256 Charcoal",
-   "region": "MY",
-   "note": "",
-   "price": 30500,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 12/256 GrayGreen",
-   "region": "MY",
-   "note": "",
-   "price": 29900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 12/256 Lavender",
-   "region": "MY",
-   "note": "",
-   "price": 30900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A37 12/256 Blue",
-   "region": "MY",
-   "note": "",
-   "price": 30900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A56 8/128 Light Gray",
-   "region": "EU",
-   "note": "",
-   "price": 30300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A56 8/256 Graphite",
-   "region": "AE",
-   "note": "",
-   "price": 33000,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/128 Gray",
-   "region": "AE",
-   "note": "",
-   "price": 30800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/128 Ice Blue",
-   "region": "AE",
-   "note": "",
-   "price": 30800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/128 Lilac",
-   "region": "AE",
-   "note": "",
-   "price": 30800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/128 Navy",
-   "region": "AE",
-   "note": "",
-   "price": 30800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/256 Gray",
-   "region": "AE",
-   "note": "",
-   "price": 35300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/256 Ice Blue",
-   "region": "AE",
-   "note": "",
-   "price": 35300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/256 Lilac",
-   "region": "AE",
-   "note": "",
-   "price": 35300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 8/256 Navy",
-   "region": "AE",
-   "note": "",
-   "price": 35300,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 12/256 Gray",
-   "region": "AE",
-   "note": "",
-   "price": 41800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 12/256 Ice Blue",
-   "region": "AE",
-   "note": "",
-   "price": 41800,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 12/256 Navy",
-   "region": "MY",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 12/512 Gray",
-   "region": "MY",
-   "note": "",
-   "price": 44900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 12/512 Navy",
-   "region": "MY",
-   "note": "",
-   "price": 44900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "A57 12/512 Ice Blue",
-   "region": "MY",
-   "note": "",
-   "price": 44900,
-   "updated": "2026-11-11T09:50:41+00:00"
-  },
-  {
-   "category": "Смартфоны",
    "name": "Vivoactive 5 Slate Black",
    "region": "",
    "note": "",
@@ -13719,6 +13711,22 @@
    "note": "",
    "price": 53800,
    "updated": "2026-11-11T13:53:12+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "Asus Rog Xbox Ally 512 ГБ",
+   "region": "",
+   "note": "",
+   "price": 64900,
+   "updated": "2026-11-12T06:36:43+00:00"
+  },
+  {
+   "category": "Ноутбуки",
+   "name": "ASUS ROG ALLY XBOX 1TB",
+   "region": "",
+   "note": "",
+   "price": 118500,
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Ноутбуки",
@@ -14975,22 +14983,6 @@
    "note": "",
    "price": 193700,
    "updated": "2026-11-11T14:21:08+00:00"
-  },
-  {
-   "category": "Ноутбуки",
-   "name": "Asus Rog Xbox Ally 512 ГБ",
-   "region": "",
-   "note": "",
-   "price": 64900,
-   "updated": "2026-11-11T13:53:35+00:00"
-  },
-  {
-   "category": "Ноутбуки",
-   "name": "ASUS ROG ALLY XBOX 1TB",
-   "region": "",
-   "note": "",
-   "price": 118500,
-   "updated": "2026-11-11T13:53:35+00:00"
   },
   {
    "category": "Ноутбуки",
@@ -18662,15 +18654,15 @@
    "region": "",
    "note": "",
    "price": 77300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
    "name": "PlayStation 5 Slim (DISK 1 TB) 2 рев",
    "region": "KW, JP",
    "note": "",
-   "price": 70600,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "price": 71600,
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18678,7 +18670,7 @@
    "region": "KW, JP",
    "note": "",
    "price": 66000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18686,7 +18678,7 @@
    "region": "KW, JP",
    "note": "",
    "price": 69100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18694,7 +18686,7 @@
    "region": "KW, JP",
    "note": "",
    "price": 125200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18702,7 +18694,7 @@
    "region": "AE",
    "note": "",
    "price": 4400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18710,7 +18702,7 @@
    "region": "EU",
    "note": "",
    "price": 3000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18718,7 +18710,7 @@
    "region": "",
    "note": "",
    "price": 9500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18726,7 +18718,7 @@
    "region": "",
    "note": "",
    "price": 28400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18734,7 +18726,7 @@
    "region": "",
    "note": "",
    "price": 6200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18742,7 +18734,7 @@
    "region": "",
    "note": "",
    "price": 23200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18750,7 +18742,7 @@
    "region": "",
    "note": "",
    "price": 23700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18758,7 +18750,7 @@
    "region": "",
    "note": "",
    "price": 37100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18766,7 +18758,7 @@
    "region": "",
    "note": "",
    "price": 38700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18774,7 +18766,7 @@
    "region": "",
    "note": "",
    "price": 14000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18782,7 +18774,7 @@
    "region": "",
    "note": "",
    "price": 14000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18790,7 +18782,7 @@
    "region": "JP",
    "note": "",
    "price": 80400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18798,7 +18790,7 @@
    "region": "",
    "note": "",
    "price": 75000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18806,7 +18798,7 @@
    "region": "",
    "note": "",
    "price": 50500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18814,7 +18806,7 @@
    "region": "",
    "note": "",
    "price": 48500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18822,7 +18814,7 @@
    "region": "",
    "note": "",
    "price": 5900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18830,7 +18822,7 @@
    "region": "",
    "note": "",
    "price": 5900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18838,7 +18830,7 @@
    "region": "",
    "note": "",
    "price": 49000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18846,7 +18838,7 @@
    "region": "",
    "note": "",
    "price": 18600,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18854,7 +18846,7 @@
    "region": "",
    "note": "",
    "price": 18600,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18862,7 +18854,7 @@
    "region": "",
    "note": "",
    "price": 18600,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18870,7 +18862,7 @@
    "region": "GB",
    "note": "",
    "price": 80900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18878,7 +18870,7 @@
    "region": "GB",
    "note": "",
    "price": 99400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18886,7 +18878,7 @@
    "region": "",
    "note": "",
    "price": 22000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18894,7 +18886,7 @@
    "region": "",
    "note": "",
    "price": 148400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18902,7 +18894,7 @@
    "region": "",
    "note": "",
    "price": 133900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18910,7 +18902,7 @@
    "region": "",
    "note": "",
    "price": 20100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18918,7 +18910,7 @@
    "region": "",
    "note": "",
    "price": 12900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18926,7 +18918,7 @@
    "region": "HK",
    "note": "",
    "price": 28900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18934,7 +18926,7 @@
    "region": "HK",
    "note": "",
    "price": 28900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18942,7 +18934,7 @@
    "region": "",
    "note": "",
    "price": 8100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18950,7 +18942,7 @@
    "region": "",
    "note": "",
    "price": 6800,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18958,7 +18950,7 @@
    "region": "",
    "note": "",
    "price": 7500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18966,7 +18958,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18974,7 +18966,7 @@
    "region": "",
    "note": "",
    "price": 7500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18982,7 +18974,7 @@
    "region": "",
    "note": "",
    "price": 6800,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18990,7 +18982,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -18998,7 +18990,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19006,7 +18998,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19014,7 +19006,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19022,7 +19014,7 @@
    "region": "",
    "note": "",
    "price": 6800,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19030,7 +19022,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19038,7 +19030,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19046,7 +19038,7 @@
    "region": "",
    "note": "",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19054,7 +19046,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19062,7 +19054,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19070,7 +19062,7 @@
    "region": "",
    "note": "",
    "price": 7300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19078,7 +19070,7 @@
    "region": "",
    "note": "",
    "price": 8800,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19086,7 +19078,7 @@
    "region": "",
    "note": "",
    "price": 11400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19094,7 +19086,7 @@
    "region": "",
    "note": "",
    "price": 11900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19102,7 +19094,7 @@
    "region": "",
    "note": "",
    "price": 19100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19110,7 +19102,7 @@
    "region": "",
    "note": "",
    "price": 19100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19118,7 +19110,7 @@
    "region": "",
    "note": "",
    "price": 5300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19126,7 +19118,7 @@
    "region": "",
    "note": "суб",
    "price": 4200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19134,7 +19126,7 @@
    "region": "",
    "note": "без",
    "price": 3900,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19142,7 +19134,7 @@
    "region": "",
    "note": "суб",
    "price": 3700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19150,7 +19142,7 @@
    "region": "",
    "note": "рус",
    "price": 6500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19158,7 +19150,7 @@
    "region": "",
    "note": "суб",
    "price": 3600,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19166,7 +19158,7 @@
    "region": "",
    "note": "суб",
    "price": 4700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19174,7 +19166,7 @@
    "region": "",
    "note": "суб",
    "price": 7300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19182,7 +19174,7 @@
    "region": "",
    "note": "без",
    "price": 5700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19190,7 +19182,7 @@
    "region": "",
    "note": "суб",
    "price": 3400,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19198,7 +19190,7 @@
    "region": "",
    "note": "рус",
    "price": 5000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19206,7 +19198,7 @@
    "region": "",
    "note": "без",
    "price": 4800,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19214,7 +19206,7 @@
    "region": "",
    "note": "без",
    "price": 6500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19222,7 +19214,7 @@
    "region": "",
    "note": "рус",
    "price": 6200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19230,7 +19222,7 @@
    "region": "",
    "note": "рус",
    "price": 6500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19238,7 +19230,7 @@
    "region": "",
    "note": "рус",
    "price": 5000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19246,7 +19238,7 @@
    "region": "",
    "note": "суб",
    "price": 4200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19254,7 +19246,7 @@
    "region": "",
    "note": "рус",
    "price": 5200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19262,7 +19254,7 @@
    "region": "",
    "note": "рус",
    "price": 4700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19270,7 +19262,7 @@
    "region": "",
    "note": "рус",
    "price": 5300,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19278,7 +19270,7 @@
    "region": "",
    "note": "рус",
    "price": 5200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19286,7 +19278,7 @@
    "region": "",
    "note": "суб",
    "price": 5700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19294,7 +19286,7 @@
    "region": "",
    "note": "суб",
    "price": 5100,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19302,7 +19294,7 @@
    "region": "",
    "note": "без",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19310,7 +19302,7 @@
    "region": "",
    "note": "рус",
    "price": 6700,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19318,7 +19310,7 @@
    "region": "",
    "note": "суб",
    "price": 6500,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19326,7 +19318,7 @@
    "region": "",
    "note": "суб",
    "price": 7800,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19334,7 +19326,7 @@
    "region": "",
    "note": "рус",
    "price": 4200,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -19342,7 +19334,7 @@
    "region": "",
    "note": "суб",
    "price": 4000,
-   "updated": "2026-11-11T13:53:35+00:00"
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Игровые приставки",
@@ -23706,6 +23698,734 @@
   },
   {
    "category": "Фото и видео",
+   "name": "DJI Power 1000 Mini",
+   "region": "CN",
+   "note": "",
+   "price": 36100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Power 1000v2",
+   "region": "CN",
+   "note": "",
+   "price": 46400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Power 2000",
+   "region": "CN",
+   "note": "",
+   "price": 84500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow River 3",
+   "region": "EU",
+   "note": "",
+   "price": 21700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow River 3 plus",
+   "region": "EU",
+   "note": "",
+   "price": 34600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow Delta 3 Classic",
+   "region": "EU",
+   "note": "",
+   "price": 52600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow Delta 3 Delta 1500",
+   "region": "CN",
+   "note": "",
+   "price": 66000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow Delta 3",
+   "region": "EU",
+   "note": "",
+   "price": 66000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow Delta 3 Max",
+   "region": "EU",
+   "note": "",
+   "price": 86600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI EcoFlow Delta 3 Ultra PLus",
+   "region": "EU",
+   "note": "",
+   "price": 189600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 3 Standard",
+   "region": "",
+   "note": "",
+   "price": 30900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 3 Creator Combo",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 4 Standard",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 4 Creator Combo",
+   "region": "",
+   "note": "",
+   "price": 47400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 4 Pro Standard",
+   "region": "",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Pocket 4 Pro Vlog Combo",
+   "region": "",
+   "note": "",
+   "price": 62400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 4",
+   "region": "",
+   "note": "",
+   "price": 19500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 4 Pro Standard",
+   "region": "",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 5 Pro Standard",
+   "region": "",
+   "note": "",
+   "price": 30400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 6 Standard",
+   "region": "",
+   "note": "",
+   "price": 35100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 6 Adventure Combo",
+   "region": "",
+   "note": "",
+   "price": 44900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo 360 Standard Combo",
+   "region": "",
+   "note": "",
+   "price": 26700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo 360 Adventure Combo",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile SE",
+   "region": "",
+   "note": "",
+   "price": 8800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 6",
+   "region": "",
+   "note": "",
+   "price": 9800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 7",
+   "region": "",
+   "note": "",
+   "price": 8300,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 7P Black",
+   "region": "",
+   "note": "",
+   "price": 10900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 8",
+   "region": "",
+   "note": "",
+   "price": 11200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 8 Tracker",
+   "region": "",
+   "note": "",
+   "price": 12200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 8P Black",
+   "region": "",
+   "note": "",
+   "price": 14400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 8P Tracker Black",
+   "region": "",
+   "note": "",
+   "price": 17600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Mobile 8P Creator Combo Black",
+   "region": "",
+   "note": "",
+   "price": 20600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Mic 3 (1 TX + 1 RX)",
+   "region": "",
+   "note": "",
+   "price": 17600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Mic Mini Transmitter Black",
+   "region": "",
+   "note": "",
+   "price": 5500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Mic Mini Transmitter White",
+   "region": "",
+   "note": "",
+   "price": 6000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Mic 3 Transmitter",
+   "region": "",
+   "note": "",
+   "price": 10900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X2",
+   "region": "",
+   "note": "",
+   "price": 20600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X3",
+   "region": "",
+   "note": "",
+   "price": 24800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4",
+   "region": "",
+   "note": "",
+   "price": 28900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4 Starter Bundle",
+   "region": "",
+   "note": "",
+   "price": 27300,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4 Moto Bundle",
+   "region": "",
+   "note": "",
+   "price": 29900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4 Air Lite Black",
+   "region": "",
+   "note": "",
+   "price": 30900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4 Air Lite White",
+   "region": "",
+   "note": "",
+   "price": 30900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4 Air 8K Starter Bundle Black",
+   "region": "",
+   "note": "",
+   "price": 36600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X4 Air 8K Starter Bundle White",
+   "region": "",
+   "note": "",
+   "price": 36600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X5 Black",
+   "region": "",
+   "note": "",
+   "price": 38200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X5 White",
+   "region": "",
+   "note": "",
+   "price": 39200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X5 Essentials Bundle",
+   "region": "",
+   "note": "",
+   "price": 49500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X5 Starter Bundle",
+   "region": "",
+   "note": "",
+   "price": 43800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X6 8 К black",
+   "region": "",
+   "note": "",
+   "price": 52600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 X6 8 К white Essential",
+   "region": "",
+   "note": "",
+   "price": 80400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO 3S 64GB Black",
+   "region": "",
+   "note": "",
+   "price": 23700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO 3S 128GB Black",
+   "region": "",
+   "note": "",
+   "price": 25800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO 3S 128GB White",
+   "region": "",
+   "note": "",
+   "price": 25800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO Ultra White",
+   "region": "",
+   "note": "",
+   "price": 35100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO Ultra Black",
+   "region": "",
+   "note": "",
+   "price": 35100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO Ultra Creator Bundle Black",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 GO Ultra Creator Bundle White",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Ace Pro",
+   "region": "",
+   "note": "",
+   "price": 26800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Ace Pro 2 (1 Battery)",
+   "region": "",
+   "note": "",
+   "price": 35100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Ace Pro 2 + 2 Batteries",
+   "region": "",
+   "note": "",
+   "price": 38200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Luna Pro Standard Combo",
+   "region": "",
+   "note": "",
+   "price": 51500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Luna Ultra Standard Combo White",
+   "region": "",
+   "note": "",
+   "price": 57700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Luna Ultra Creator Combo Black",
+   "region": "",
+   "note": "",
+   "price": 69100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Luna Ultra Creator Combo White",
+   "region": "",
+   "note": "",
+   "price": 72100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Flow 2 AI Gimbal Stabilizer Stone Grey",
+   "region": "",
+   "note": "",
+   "price": 12400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Flow 2 AI Gimbal Stabilizer Summit White",
+   "region": "",
+   "note": "",
+   "price": 12400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Flow 2 Gimbal Stabilizer Stone Grey",
+   "region": "",
+   "note": "",
+   "price": 12400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Flow 2 Gimbal Stabilizer Summit White",
+   "region": "",
+   "note": "",
+   "price": 12400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Selfie Invisible Stick 114",
+   "region": "",
+   "note": "",
+   "price": 5200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Insta360 Motorcycle U-Bolt Mount",
+   "region": "",
+   "note": "",
+   "price": 9600,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Air Unit O4 Pro",
+   "region": "",
+   "note": "",
+   "price": 23700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Goggles 3",
+   "region": "",
+   "note": "",
+   "price": 51500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Goggles N3",
+   "region": "",
+   "note": "",
+   "price": 28900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 4",
+   "region": "",
+   "note": "",
+   "price": 33000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 4 Mini",
+   "region": "",
+   "note": "",
+   "price": 30900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 4 Mini Combo",
+   "region": "",
+   "note": "",
+   "price": 35100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 4 Combo",
+   "region": "",
+   "note": "",
+   "price": 84500,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 4 Pro",
+   "region": "",
+   "note": "",
+   "price": 69100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 5",
+   "region": "",
+   "note": "",
+   "price": 47400,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin RS 5 Combo",
+   "region": "",
+   "note": "",
+   "price": 55700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Ronin 4D Hand Grips Combo",
+   "region": "",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI SDR Transmission Transmitter",
+   "region": "",
+   "note": "",
+   "price": 28900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI SDR Transmission Receiver Grey",
+   "region": "",
+   "note": "",
+   "price": 28900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Battery TB30",
+   "region": "",
+   "note": "",
+   "price": 27900,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Лопасти DJI Mavic 3T (2A + 2B)",
+   "region": "",
+   "note": "",
+   "price": 4700,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Лопасти DJI Mavic 3 (2A + 2B)",
+   "region": "",
+   "note": "",
+   "price": 4200,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "Лопасти DJI Matrice 30 (2A + 2B)",
+   "region": "",
+   "note": "",
+   "price": 7300,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 5 Pro Adventure Combo Alientech Duo3",
+   "region": "",
+   "note": "",
+   "price": 72100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 5 Pro Adventure Combo TBS 2 Pro V4",
+   "region": "",
+   "note": "",
+   "price": 26800,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
+   "name": "DJI Osmo Action 5 Pro Adventure Combo Детектор обнаружения дронов",
+   "region": "",
+   "note": "",
+   "price": 106100,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Фото и видео",
    "name": "Фотоаппараты Nikon D850 Body",
    "region": "",
    "note": "",
@@ -23938,747 +24658,35 @@
   },
   {
    "category": "Фото и видео",
-   "name": "DJI Power 1000 Mini",
-   "region": "CN",
-   "note": "",
-   "price": 36100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Power 1000v2",
-   "region": "CN",
-   "note": "",
-   "price": 46400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Power 2000",
-   "region": "CN",
-   "note": "",
-   "price": 84500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow River 3",
-   "region": "EU",
-   "note": "",
-   "price": 21700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow River 3 plus",
-   "region": "EU",
-   "note": "",
-   "price": 34600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow Delta 3 Classic",
-   "region": "EU",
-   "note": "",
-   "price": 52600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow Delta 3 Delta 1500",
-   "region": "CN",
-   "note": "",
-   "price": 66000,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow Delta 3",
-   "region": "EU",
-   "note": "",
-   "price": 66000,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow Delta 3 Max",
-   "region": "EU",
-   "note": "",
-   "price": 86600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI EcoFlow Delta 3 Ultra PLus",
-   "region": "EU",
-   "note": "",
-   "price": 189600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Pocket 3 Standard",
-   "region": "",
-   "note": "",
-   "price": 30900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Pocket 3 Creator Combo",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Pocket 4 Standard",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Pocket 4 Creator Combo",
-   "region": "",
-   "note": "",
-   "price": 47400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Pocket 4 Pro Standard",
-   "region": "",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Pocket 4 Pro Vlog Combo",
-   "region": "",
-   "note": "",
-   "price": 62400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Action 4",
-   "region": "",
-   "note": "",
-   "price": 19500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Action 4 Pro Standard",
-   "region": "",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Action 5 Pro Standard",
-   "region": "",
-   "note": "",
-   "price": 30400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Action 5 Pro Adventure Combo",
-   "region": "",
-   "note": "",
-   "price": 33400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Action 6 Standard",
-   "region": "",
-   "note": "",
-   "price": 35100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Action 6 Adventure Combo",
-   "region": "",
-   "note": "",
-   "price": 41800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo 360 Standard Combo",
-   "region": "",
-   "note": "",
-   "price": 26700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo 360 Adventure Combo",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile SE",
-   "region": "",
-   "note": "",
-   "price": 8800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 6",
-   "region": "",
-   "note": "",
-   "price": 9800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 7",
-   "region": "",
-   "note": "",
-   "price": 8300,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 7P Black",
-   "region": "",
-   "note": "",
-   "price": 10900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 8",
-   "region": "",
-   "note": "",
-   "price": 11200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 8 Tracker",
-   "region": "",
-   "note": "",
-   "price": 12200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 8P Black",
-   "region": "",
-   "note": "",
-   "price": 14400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 8P Tracker Black",
-   "region": "",
-   "note": "",
-   "price": 17600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo Mobile 8P Creator Combo Black",
-   "region": "",
-   "note": "",
-   "price": 20600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Mic 3 (1 TX + 1 RX)",
-   "region": "",
-   "note": "",
-   "price": 17600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Mic Mini Transmitter Black",
-   "region": "",
-   "note": "",
-   "price": 5500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Mic Mini Transmitter White",
-   "region": "",
-   "note": "",
-   "price": 6000,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Mic 3 Transmitter",
-   "region": "",
-   "note": "",
-   "price": 10900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X2",
-   "region": "",
-   "note": "",
-   "price": 20600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X3",
-   "region": "",
-   "note": "",
-   "price": 24800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4",
-   "region": "",
-   "note": "",
-   "price": 28900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4 Starter Bundle",
-   "region": "",
-   "note": "",
-   "price": 27300,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4 Moto Bundle",
-   "region": "",
-   "note": "",
-   "price": 29900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4 Air Lite Black",
-   "region": "",
-   "note": "",
-   "price": 30900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4 Air Lite White",
-   "region": "",
-   "note": "",
-   "price": 30900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4 Air 8K Starter Bundle Black",
-   "region": "",
-   "note": "",
-   "price": 36600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X4 Air 8K Starter Bundle White",
-   "region": "",
-   "note": "",
-   "price": 36600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X5 Black",
-   "region": "",
-   "note": "",
-   "price": 38200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X5 White",
-   "region": "",
-   "note": "",
-   "price": 39200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X5 Essentials Bundle",
-   "region": "",
-   "note": "",
-   "price": 49500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X5 Starter Bundle",
-   "region": "",
-   "note": "",
-   "price": 43800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X6 8 К black",
-   "region": "",
-   "note": "",
-   "price": 52600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 X6 8 К white Essential",
-   "region": "",
-   "note": "",
-   "price": 80400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO 3S 64GB Black",
-   "region": "",
-   "note": "",
-   "price": 23700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO 3S 128GB Black",
-   "region": "",
-   "note": "",
-   "price": 25800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO 3S 128GB White",
-   "region": "",
-   "note": "",
-   "price": 25800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO Ultra White",
-   "region": "",
-   "note": "",
-   "price": 35100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO Ultra Black",
-   "region": "",
-   "note": "",
-   "price": 35100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO Ultra Creator Bundle Black",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 GO Ultra Creator Bundle White",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Ace Pro",
-   "region": "",
-   "note": "",
-   "price": 26800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Ace Pro 2 (1 Battery)",
-   "region": "",
-   "note": "",
-   "price": 35100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Ace Pro 2 + 2 Batteries",
-   "region": "",
-   "note": "",
-   "price": 38200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Luna Pro Standard Combo",
-   "region": "",
-   "note": "",
-   "price": 51500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Luna Ultra Standard Combo White",
-   "region": "",
-   "note": "",
-   "price": 57700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Luna Ultra Creator Combo Black",
-   "region": "",
-   "note": "",
-   "price": 69100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Luna Ultra Creator Combo White",
-   "region": "",
-   "note": "",
-   "price": 72100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Flow 2 AI Gimbal Stabilizer Stone Grey",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Flow 2 AI Gimbal Stabilizer Summit White",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Flow 2 Gimbal Stabilizer Stone Grey",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Flow 2 Gimbal Stabilizer Summit White",
-   "region": "",
-   "note": "",
-   "price": 12400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Selfie Invisible Stick 114",
-   "region": "",
-   "note": "",
-   "price": 5200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Insta360 Motorcycle U-Bolt Mount",
-   "region": "",
-   "note": "",
-   "price": 9600,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Air Unit O4 Pro",
-   "region": "",
-   "note": "",
-   "price": 23700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Goggles 3",
-   "region": "",
-   "note": "",
-   "price": 51500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Goggles N3",
-   "region": "",
-   "note": "",
-   "price": 28900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 4",
-   "region": "",
-   "note": "",
-   "price": 33000,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 4 Mini",
-   "region": "",
-   "note": "",
-   "price": 30900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 4 Mini Combo",
-   "region": "",
-   "note": "",
-   "price": 35100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 4 Combo",
-   "region": "",
-   "note": "",
-   "price": 84500,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 4 Pro",
-   "region": "",
-   "note": "",
-   "price": 69100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 5",
-   "region": "",
-   "note": "",
-   "price": 47400,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin RS 5 Combo",
-   "region": "",
-   "note": "",
-   "price": 55700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Ronin 4D Hand Grips Combo",
-   "region": "",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI SDR Transmission Transmitter",
-   "region": "",
-   "note": "",
-   "price": 28900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI SDR Transmission Receiver Grey",
-   "region": "",
-   "note": "",
-   "price": 28900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Battery TB30",
-   "region": "",
-   "note": "",
-   "price": 27900,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Лопасти DJI Mavic 3T (2A + 2B)",
-   "region": "",
-   "note": "",
-   "price": 4700,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Лопасти DJI Mavic 3 (2A + 2B)",
-   "region": "",
-   "note": "",
-   "price": 4200,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "Лопасти DJI Matrice 30 (2A + 2B)",
-   "region": "",
-   "note": "",
-   "price": 7300,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo — компактная камера с профессиональной стабилизацией Alientech Duo3",
-   "region": "",
-   "note": "",
-   "price": 72100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo — компактная камера с профессиональной стабилизацией TBS 2 Pro V4",
-   "region": "",
-   "note": "",
-   "price": 26800,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
-   "name": "DJI Osmo — компактная камера с профессиональной стабилизацией Детектор обнаружения дронов",
-   "region": "",
-   "note": "",
-   "price": 106100,
-   "updated": "2026-11-11T13:07:38+00:00"
-  },
-  {
-   "category": "Фото и видео",
    "name": "Яндекс IP-камера",
    "region": "RU",
    "note": "",
    "price": 5700,
    "updated": "2026-11-10T11:55:12+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta Quest 3S 128",
+   "region": "",
+   "note": "",
+   "price": 33500,
+   "updated": "2026-11-12T06:36:43+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta Quest 3S 256",
+   "region": "",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-12T06:36:43+00:00"
+  },
+  {
+   "category": "Гаджеты",
+   "name": "Meta Quest 3 512",
+   "region": "",
+   "note": "",
+   "price": 59800,
+   "updated": "2026-11-12T06:36:43+00:00"
   },
   {
    "category": "Гаджеты",
@@ -25119,30 +25127,6 @@
    "note": "",
    "price": 27300,
    "updated": "2026-11-11T14:23:28+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Meta Quest 3S 128",
-   "region": "",
-   "note": "",
-   "price": 33500,
-   "updated": "2026-11-11T13:53:35+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Meta Quest 3S 256",
-   "region": "",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-11T13:53:35+00:00"
-  },
-  {
-   "category": "Гаджеты",
-   "name": "Meta Quest 3 512",
-   "region": "",
-   "note": "",
-   "price": 59800,
-   "updated": "2026-11-11T13:53:35+00:00"
   },
   {
    "category": "Гаджеты",
@@ -28778,6 +28762,14 @@
   },
   {
    "category": "Комплектующие",
+   "name": "РЭБ Рюкзак 200W (5 каналов)",
+   "region": "",
+   "note": "",
+   "price": 137000,
+   "updated": "2026-11-12T09:52:52+00:00"
+  },
+  {
+   "category": "Комплектующие",
    "name": "Gigabyte GeForce RTX 3060 Gaming OC 12G (GV-N3060GAMING OC-12GD)",
    "region": "",
    "note": "",
@@ -28823,14 +28815,6 @@
    "note": "",
    "price": 223600,
    "updated": "2026-11-11T14:21:08+00:00"
-  },
-  {
-   "category": "Комплектующие",
-   "name": "РЭБ Рюкзак 200W (5 каналов)",
-   "region": "",
-   "note": "",
-   "price": 137000,
-   "updated": "2026-11-11T13:07:38+00:00"
   },
   {
    "category": "Комплектующие",
@@ -30606,7 +30590,23 @@
    "region": "",
    "note": "",
    "price": 2100,
-   "updated": "2026-11-11T19:38:43+00:00"
+   "updated": "2026-11-12T11:43:55+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "Samsung Earphones Type-C Black",
+   "region": "",
+   "note": "",
+   "price": 2300,
+   "updated": "2026-11-12T08:01:00+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "Samsung Earphones Type-C White",
+   "region": "",
+   "note": "",
+   "price": 2300,
+   "updated": "2026-11-12T08:01:00+00:00"
   },
   {
    "category": "Другое",
@@ -31151,22 +31151,6 @@
    "note": "",
    "price": 363600,
    "updated": "2026-11-11T11:17:12+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Samsung Earphones Type-C Black",
-   "region": "",
-   "note": "",
-   "price": 2300,
-   "updated": "2026-11-11T09:51:13+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Samsung Earphones Type-C White",
-   "region": "",
-   "note": "",
-   "price": 2300,
-   "updated": "2026-11-11T09:51:13+00:00"
   },
   {
    "category": "Другое",
