@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:50+00:00",
+ "updated": "2026-11-15T20:59+00:00",
  "count": 3819,
  "stats": {
   "posts": 100,
@@ -8,6 +8,30 @@
   "without_text": 2
  },
  "items": [
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 25W Type-C Black/White",
+   "region": "",
+   "note": "",
+   "price": 1300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 45W Type-C Black/White",
+   "region": "",
+   "note": "",
+   "price": 1900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Чехлы и аксессуары",
+   "name": "Блок Samsung 45W Type-C with cable Black/White",
+   "region": "",
+   "note": "",
+   "price": 2600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
   {
    "category": "Чехлы и аксессуары",
    "name": "Adapter Apple 20 w",
@@ -431,30 +455,6 @@
    "note": "",
    "price": 4400,
    "updated": "2026-11-15T14:59:56+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Блок Samsung 25W Type-C Black/White",
-   "region": "",
-   "note": "",
-   "price": 1300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Блок Samsung 45W Type-C Black/White",
-   "region": "",
-   "note": "",
-   "price": 1900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Чехлы и аксессуары",
-   "name": "Блок Samsung 45W Type-C with cable Black/White",
-   "region": "",
-   "note": "",
-   "price": 2600,
-   "updated": "2026-11-15T14:57:02+00:00"
   },
   {
    "category": "Чехлы и аксессуары",
@@ -8498,6 +8498,702 @@
   },
   {
    "category": "Смартфоны",
+   "name": "S25 12/128 Ice Blue",
+   "region": "IN",
+   "note": "",
+   "price": 49700,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 12/128 Navy",
+   "region": "IN",
+   "note": "",
+   "price": 50000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 12/256 Blue Black",
+   "region": "IN",
+   "note": "",
+   "price": 56200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 12/256 Ice Blue",
+   "region": "CL",
+   "note": "",
+   "price": 52600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 12/256 Mint",
+   "region": "IN",
+   "note": "",
+   "price": 53300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 12/256 Navy",
+   "region": "IN",
+   "note": "",
+   "price": 52600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 12/256 Silver Shadow",
+   "region": "IN",
+   "note": "",
+   "price": 52600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 FE 8/128 Navy",
+   "region": "IN",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 FE 8/128 Jet Black",
+   "region": "IN",
+   "note": "",
+   "price": 40200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 FE 8/256 Ice Blue",
+   "region": "IN",
+   "note": "",
+   "price": 45100,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 FE 8/256 Jet Black",
+   "region": "IN",
+   "note": "",
+   "price": 45400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 FE 8/256 Navy",
+   "region": "IN",
+   "note": "",
+   "price": 45400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 FE 8/256 White",
+   "region": "IN",
+   "note": "",
+   "price": 45400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/256 Black",
+   "region": "AE",
+   "note": "",
+   "price": 69600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/256 Gray",
+   "region": "AE",
+   "note": "",
+   "price": 69600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/256 Silver Blue",
+   "region": "AE",
+   "note": "",
+   "price": 69800,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/512 Gray",
+   "region": "CL",
+   "note": "",
+   "price": 75000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/512 White Silver",
+   "region": "PY",
+   "note": "",
+   "price": 74600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/1TB Gray",
+   "region": "CL",
+   "note": "",
+   "price": 81400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/1TB Black",
+   "region": "CL",
+   "note": "",
+   "price": 81900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S25 Ultra 12/1TB White Silver",
+   "region": "CL",
+   "note": "",
+   "price": 83000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/128 Black",
+   "region": "EU",
+   "note": "",
+   "price": 60600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/128 Violet",
+   "region": "EU",
+   "note": "",
+   "price": 60600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/256 Black",
+   "region": "CL",
+   "note": "",
+   "price": 63400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/256 Pink Gold",
+   "region": "IN",
+   "note": "",
+   "price": 61800,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/256 Silver Shadow",
+   "region": "IN",
+   "note": "",
+   "price": 64900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/256 Sky Blue",
+   "region": "IN",
+   "note": "",
+   "price": 62400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/256 Violet",
+   "region": "KZ",
+   "note": "",
+   "price": 61800,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/256 White",
+   "region": "IN",
+   "note": "",
+   "price": 62200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/512 Black",
+   "region": "RU",
+   "note": "",
+   "price": 73900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/512 Sky Blue",
+   "region": "PY",
+   "note": "",
+   "price": 71900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/512 Violet",
+   "region": "KZ",
+   "note": "",
+   "price": 72100,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 12/512 White",
+   "region": "CL",
+   "note": "",
+   "price": 73900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 FE 8/128 Blueberry",
+   "region": "KZ",
+   "note": "",
+   "price": 47400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 FE 8/128 Pistachio",
+   "region": "KZ",
+   "note": "",
+   "price": 47400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 FE 8/256 Blueberry",
+   "region": "RU",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 FE 8/256 Graphite",
+   "region": "ID",
+   "note": "",
+   "price": 48000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 FE 8/256 Graphite",
+   "region": "RU",
+   "note": "",
+   "price": 48500,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 FE 8/256 Pistachio",
+   "region": "RU",
+   "note": "",
+   "price": 47300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/256 Black",
+   "region": "AE",
+   "note": "",
+   "price": 75200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/256 Sky Blue",
+   "region": "MY",
+   "note": "",
+   "price": 73500,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/256 Violet",
+   "region": "KZ",
+   "note": "",
+   "price": 74200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/256 White",
+   "region": "MY",
+   "note": "",
+   "price": 73500,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/512 Black",
+   "region": "KZ",
+   "note": "",
+   "price": 80600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/512 Pink Gold",
+   "region": "MY",
+   "note": "",
+   "price": 82400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/512 Silver",
+   "region": "ID",
+   "note": "",
+   "price": 82400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/512 Sky Blue",
+   "region": "KZ",
+   "note": "",
+   "price": 80300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/512 Violet",
+   "region": "TH",
+   "note": "",
+   "price": 80600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Plus 12/512 White",
+   "region": "AE",
+   "note": "",
+   "price": 81400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/256 Black",
+   "region": "AE",
+   "note": "",
+   "price": 81900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/256 Sky Blue",
+   "region": "AE",
+   "note": "",
+   "price": 80400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/256 Violet",
+   "region": "AE",
+   "note": "",
+   "price": 81400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/256 White",
+   "region": "MY",
+   "note": "",
+   "price": 81900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/512 Black",
+   "region": "CL",
+   "note": "",
+   "price": 96900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/512 Silver",
+   "region": "AE",
+   "note": "",
+   "price": 107300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/512 Sky Blue",
+   "region": "MY",
+   "note": "",
+   "price": 95800,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/512 Violet",
+   "region": "MY",
+   "note": "",
+   "price": 96400,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 12/512 White",
+   "region": "PA",
+   "note": "",
+   "price": 96900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 16/1TB Sky Blue",
+   "region": "CL",
+   "note": "",
+   "price": 121600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "S26 Ultra 16/1TB White",
+   "region": "AE",
+   "note": "",
+   "price": 122600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold 7 12/256 Blue",
+   "region": "AE",
+   "note": "",
+   "price": 103600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/256Gb Graphite",
+   "region": "AE",
+   "note": "",
+   "price": 71600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/256 Cream",
+   "region": "AE",
+   "note": "",
+   "price": 77300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/256 Pink",
+   "region": "AE",
+   "note": "",
+   "price": 76800,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 SM-F776B 12/256Gb Графит",
+   "region": "RU",
+   "note": "",
+   "price": 78300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 SM-F776B 12/256Gb Кремовый",
+   "region": "RU",
+   "note": "",
+   "price": 78300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/512 Graphite",
+   "region": "TH",
+   "note": "",
+   "price": 83500,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/512 Cream",
+   "region": "TH",
+   "note": "",
+   "price": 83500,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/512Gb Graphite",
+   "region": "RU",
+   "note": "",
+   "price": 92700,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Flip 8 12/512Gb Cream",
+   "region": "RU",
+   "note": "",
+   "price": 92700,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 12/256GB Cream",
+   "region": "AE",
+   "note": "",
+   "price": 121100,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 12/256GB Graphite",
+   "region": "AE",
+   "note": "",
+   "price": 121100,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 12/256GB Lavender",
+   "region": "AE",
+   "note": "",
+   "price": 121100,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 12/512GB Cream",
+   "region": "AE",
+   "note": "",
+   "price": 135000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 12/512GB Graphite",
+   "region": "AE",
+   "note": "",
+   "price": 142200,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 12/512GB Lavender",
+   "region": "AE",
+   "note": "",
+   "price": 132900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold 8 SM-F971B 12/512Gb Лавандовый",
+   "region": "RU",
+   "note": "",
+   "price": 133900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 16/1TB Cream",
+   "region": "AE",
+   "note": "",
+   "price": 181300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 16/1TB Graphite",
+   "region": "AE",
+   "note": "",
+   "price": 181300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 16/1TB Lavender",
+   "region": "AE",
+   "note": "",
+   "price": 181300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 12/256GB Black",
+   "region": "AE",
+   "note": "",
+   "price": 121600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 12/256GB Violet Shadow",
+   "region": "AE",
+   "note": "",
+   "price": 121600,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 12/512GB Cream",
+   "region": "AE",
+   "note": "",
+   "price": 142700,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 12/512GB Graphite",
+   "region": "AE",
+   "note": "",
+   "price": 164800,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 12/512GB Violet Shadow",
+   "region": "AE",
+   "note": "",
+   "price": 149900,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 16/1TB Violet Shadow",
+   "region": "AE",
+   "note": "",
+   "price": 203000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
+   "name": "Z Fold8 Ultra 16/1TB Cream",
+   "region": "AE",
+   "note": "",
+   "price": 203000,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Смартфоны",
    "name": "Google Pixel 8 8/128 Obsidian",
    "region": "CA",
    "note": "",
@@ -10143,702 +10839,6 @@
    "note": "",
    "price": 77800,
    "updated": "2026-11-15T15:12:25+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/128 Ice Blue",
-   "region": "IN",
-   "note": "",
-   "price": 49700,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/128 Navy",
-   "region": "IN",
-   "note": "",
-   "price": 50000,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/256 Blue Black",
-   "region": "IN",
-   "note": "",
-   "price": 56200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/256 Ice Blue",
-   "region": "CL",
-   "note": "",
-   "price": 52600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/256 Mint",
-   "region": "IN",
-   "note": "",
-   "price": 53300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/256 Navy",
-   "region": "IN",
-   "note": "",
-   "price": 52600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 12/256 Silver Shadow",
-   "region": "IN",
-   "note": "",
-   "price": 52600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 FE 8/128 Navy",
-   "region": "IN",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 FE 8/128 Jet Black",
-   "region": "IN",
-   "note": "",
-   "price": 40200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 FE 8/256 Ice Blue",
-   "region": "IN",
-   "note": "",
-   "price": 45100,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 FE 8/256 Jet Black",
-   "region": "IN",
-   "note": "",
-   "price": 45400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 FE 8/256 Navy",
-   "region": "IN",
-   "note": "",
-   "price": 45400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 FE 8/256 White",
-   "region": "IN",
-   "note": "",
-   "price": 45400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/256 Black",
-   "region": "AE",
-   "note": "",
-   "price": 69600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/256 Gray",
-   "region": "AE",
-   "note": "",
-   "price": 69600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/256 Silver Blue",
-   "region": "AE",
-   "note": "",
-   "price": 69800,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/512 Gray",
-   "region": "CL",
-   "note": "",
-   "price": 75000,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/512 White Silver",
-   "region": "PY",
-   "note": "",
-   "price": 74600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/1TB Gray",
-   "region": "CL",
-   "note": "",
-   "price": 81400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/1TB Black",
-   "region": "CL",
-   "note": "",
-   "price": 81900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S25 Ultra 12/1TB White Silver",
-   "region": "CL",
-   "note": "",
-   "price": 83000,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/128 Black",
-   "region": "EU",
-   "note": "",
-   "price": 60600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/128 Violet",
-   "region": "EU",
-   "note": "",
-   "price": 60600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/256 Black",
-   "region": "CL",
-   "note": "",
-   "price": 63400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/256 Pink Gold",
-   "region": "IN",
-   "note": "",
-   "price": 61800,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/256 Silver Shadow",
-   "region": "IN",
-   "note": "",
-   "price": 64900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/256 Sky Blue",
-   "region": "IN",
-   "note": "",
-   "price": 62400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/256 Violet",
-   "region": "KZ",
-   "note": "",
-   "price": 61800,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/256 White",
-   "region": "IN",
-   "note": "",
-   "price": 62200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/512 Black",
-   "region": "RU",
-   "note": "",
-   "price": 73900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/512 Sky Blue",
-   "region": "PY",
-   "note": "",
-   "price": 71900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/512 Violet",
-   "region": "KZ",
-   "note": "",
-   "price": 72100,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 12/512 White",
-   "region": "CL",
-   "note": "",
-   "price": 73900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 FE 8/128 Blueberry",
-   "region": "KZ",
-   "note": "",
-   "price": 47400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 FE 8/128 Pistachio",
-   "region": "KZ",
-   "note": "",
-   "price": 47400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 FE 8/256 Blueberry",
-   "region": "RU",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 FE 8/256 Graphite",
-   "region": "ID",
-   "note": "",
-   "price": 48000,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 FE 8/256 Graphite",
-   "region": "RU",
-   "note": "",
-   "price": 48500,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 FE 8/256 Pistachio",
-   "region": "RU",
-   "note": "",
-   "price": 47300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/256 Black",
-   "region": "AE",
-   "note": "",
-   "price": 75200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/256 Sky Blue",
-   "region": "MY",
-   "note": "",
-   "price": 73500,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/256 Violet",
-   "region": "KZ",
-   "note": "",
-   "price": 74200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/256 White",
-   "region": "MY",
-   "note": "",
-   "price": 73500,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/512 Black",
-   "region": "KZ",
-   "note": "",
-   "price": 80600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/512 Pink Gold",
-   "region": "MY",
-   "note": "",
-   "price": 82400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/512 Silver",
-   "region": "ID",
-   "note": "",
-   "price": 82400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/512 Sky Blue",
-   "region": "KZ",
-   "note": "",
-   "price": 80300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/512 Violet",
-   "region": "TH",
-   "note": "",
-   "price": 80600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Plus 12/512 White",
-   "region": "AE",
-   "note": "",
-   "price": 81400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/256 Black",
-   "region": "AE",
-   "note": "",
-   "price": 81900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/256 Sky Blue",
-   "region": "AE",
-   "note": "",
-   "price": 80400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/256 Violet",
-   "region": "AE",
-   "note": "",
-   "price": 81400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/256 White",
-   "region": "MY",
-   "note": "",
-   "price": 81900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/512 Black",
-   "region": "CL",
-   "note": "",
-   "price": 96900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/512 Silver",
-   "region": "AE",
-   "note": "",
-   "price": 107300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/512 Sky Blue",
-   "region": "MY",
-   "note": "",
-   "price": 95800,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/512 Violet",
-   "region": "MY",
-   "note": "",
-   "price": 96400,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 12/512 White",
-   "region": "PA",
-   "note": "",
-   "price": 96900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 16/1TB Sky Blue",
-   "region": "CL",
-   "note": "",
-   "price": 121600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "S26 Ultra 16/1TB White",
-   "region": "AE",
-   "note": "",
-   "price": 122600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold 7 12/256 Blue",
-   "region": "AE",
-   "note": "",
-   "price": 103600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/256Gb Graphite",
-   "region": "AE",
-   "note": "",
-   "price": 71600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/256 Cream",
-   "region": "AE",
-   "note": "",
-   "price": 77300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/256 Pink",
-   "region": "AE",
-   "note": "",
-   "price": 76800,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 SM-F776B 12/256Gb Графит",
-   "region": "RU",
-   "note": "",
-   "price": 78300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 SM-F776B 12/256Gb Кремовый",
-   "region": "RU",
-   "note": "",
-   "price": 78300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/512 Graphite",
-   "region": "TH",
-   "note": "",
-   "price": 83500,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/512 Cream",
-   "region": "TH",
-   "note": "",
-   "price": 83500,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/512Gb Graphite",
-   "region": "RU",
-   "note": "",
-   "price": 92700,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Flip 8 12/512Gb Cream",
-   "region": "RU",
-   "note": "",
-   "price": 92700,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 12/256GB Cream",
-   "region": "AE",
-   "note": "",
-   "price": 121100,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 12/256GB Graphite",
-   "region": "AE",
-   "note": "",
-   "price": 121100,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 12/256GB Lavender",
-   "region": "AE",
-   "note": "",
-   "price": 121100,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 12/512GB Cream",
-   "region": "AE",
-   "note": "",
-   "price": 135000,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 12/512GB Graphite",
-   "region": "AE",
-   "note": "",
-   "price": 142200,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 12/512GB Lavender",
-   "region": "AE",
-   "note": "",
-   "price": 132900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold 8 SM-F971B 12/512Gb Лавандовый",
-   "region": "RU",
-   "note": "",
-   "price": 133900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 16/1TB Cream",
-   "region": "AE",
-   "note": "",
-   "price": 181300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 16/1TB Graphite",
-   "region": "AE",
-   "note": "",
-   "price": 181300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 16/1TB Lavender",
-   "region": "AE",
-   "note": "",
-   "price": 181300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 12/256GB Black",
-   "region": "AE",
-   "note": "",
-   "price": 121600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 12/256GB Violet Shadow",
-   "region": "AE",
-   "note": "",
-   "price": 121600,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 12/512GB Cream",
-   "region": "AE",
-   "note": "",
-   "price": 142700,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 12/512GB Graphite",
-   "region": "AE",
-   "note": "",
-   "price": 164800,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 12/512GB Violet Shadow",
-   "region": "AE",
-   "note": "",
-   "price": 149900,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 16/1TB Violet Shadow",
-   "region": "AE",
-   "note": "",
-   "price": 203000,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Смартфоны",
-   "name": "Z Fold8 Ultra 16/1TB Cream",
-   "region": "AE",
-   "note": "",
-   "price": 203000,
-   "updated": "2026-11-15T14:57:02+00:00"
   },
   {
    "category": "Смартфоны",
@@ -29786,6 +29786,22 @@
   },
   {
    "category": "Другое",
+   "name": "Samsung Earphones Type-C Black",
+   "region": "",
+   "note": "",
+   "price": 2300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Другое",
+   "name": "Samsung Earphones Type-C White",
+   "region": "",
+   "note": "",
+   "price": 2300,
+   "updated": "2026-11-15T17:13:03+00:00"
+  },
+  {
+   "category": "Другое",
    "name": "Оригинальные блоки От 10",
    "region": "",
    "note": "",
@@ -30175,22 +30191,6 @@
    "note": "",
    "price": 37100,
    "updated": "2026-11-15T14:57:50+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Samsung Earphones Type-C Black",
-   "region": "",
-   "note": "",
-   "price": 2300,
-   "updated": "2026-11-15T14:57:02+00:00"
-  },
-  {
-   "category": "Другое",
-   "name": "Samsung Earphones Type-C White",
-   "region": "",
-   "note": "",
-   "price": 2300,
-   "updated": "2026-11-15T14:57:02+00:00"
   },
   {
    "category": "Другое",
